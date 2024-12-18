@@ -17,3 +17,33 @@ body {
   color: #cc5f4d;
   font-weight: 900;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 50s linear infinite;
+}
+
+.image{
+  animation:img 1s;
+}
+@keyframes img {
+  0%{
+    transform: translateY(-20%);
+  }
+  50%{
+    transform: translateY(10%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
