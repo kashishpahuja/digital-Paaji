@@ -12,7 +12,11 @@ module.exports = {
     extend: {
       fontFamily:{
         'bungee-inline': ['Bungee Inline', 'sans-serif'],
-      }
+      },
+      translate: {
+        'full': '100%',
+        '-full': '28%',
+      },
     },
   },
   plugins: [],
