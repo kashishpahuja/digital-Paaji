@@ -7,8 +7,6 @@
 
 
 
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -32,18 +30,46 @@ body {
   white-space: nowrap;
   animation: marquee 50s linear infinite;
 }
-
-.image{
-  animation:img 1s;
+.image {
+  position: absolute; /* Ensure the element can be moved */
+ 
+  animation: img 200ms ease-in-out 1; /* Infinite animation */
+  transform-origin: center; /* Rotate around the center */
 }
+
 @keyframes img {
-  0%{
-    transform: translateY(-20%);
+  0% {
+    transform: rotate(-8deg) translate(-10%, 0%);
   }
-  50%{
-    transform: translateY(10%);
+
+  100% {
+    transform: rotate(0deg) translate(0%, -0%);
   }
-  100%{
-    transform: translateY(0%);
+}
+
+
+@keyframes logo2 {
+  0% {
+    width: 0;
+    opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+    width: 30px;
+  }
+  100% {
+    width: 240px; /* Adjust based on your Tailwind w-60 equivalent */
+    opacity: 1;
+  }
+}
+
+
+.logo2{
+  display:block; 
+  position: absolute;
+
+  animation: logoExpand 3s ease-in 1;
+}
+.logoHide{
+  display: none;
 }

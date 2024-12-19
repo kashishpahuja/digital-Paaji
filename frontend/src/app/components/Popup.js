@@ -1,9 +1,12 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai"; // Import close icon
 
 function Popup({ handleMenu }) {
-  const [hovered, setHovered] = useState('home'); // Track which item is hovered
-
+  const [hovered, setHovered] = useState(null); // Track which item is hovered
+  const [show, setShow] = useState(null);
+  const handleMouseEnter = (elem) => setShow(elem);
+  const handleMouseLeave = () => setShow(null);
   // Image URLs for each list item
   const images = {
     Home: "/Images/popup1.webp", // Replace with your image URL for Home
@@ -14,33 +17,175 @@ function Popup({ handleMenu }) {
   };
 
   // Mouse enter and leave handlers
-  const handleMouseEnter = (item) => {
+  const handleMouseHover = (item) => {
     setHovered(item);
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseHoverLeave = () => {
     setHovered(null);
   };
 
   return (
     <div>
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-        <div className="bg-[#ede7db] p-8 rounded-lg w-[700px] h-[600px] relative">
+        <div className="p-2 bg-[#f6f6f5]">
+        <div className="  p-8 rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[800px] xl:h-[700px] relative"
+        style={{backgroundImage:"url('/Images/popupbg.webp/')"}}>
           {/* Close Icon in Top Right Corner */}
           <AiOutlineClose
             className="absolute top-4 right-4 text-2xl cursor-pointer text-gray-600"
             onClick={handleMenu} // Close the menu when clicking the icon
           />
 
-          <div>
-            <ul className="text-[70px] flex flex-col overflow-x-hidden">
+<div className="block xl:hidden">
+    <div className="">
+    <img src="/Images/logo2.webp" alt="logo" className="w-full h-auto object-cover" />
+    </div>
+      <ul className="grid grid-cols-2 my-12 gap-6 ">
+      <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("1")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "1" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "1" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/1.webp"
+                  alt="1"
+                  className={`w-full h-20 object-cover ${show === "1" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+            {/* Link 2 */}
+            <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("2")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "2" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "2" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/2.webp"
+                  alt="2"
+                  className={`w-full h-20 object-cover ${show === "2" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+            {/* Link 3 */}
+            <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("3")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "3" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "3" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/3.webp"
+                  alt="3"
+                  className={`w-full h-20 object-cover ${show === "3" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+            {/* Link 4 */}
+            <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("4")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "4" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "4" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/4.webp"
+                  alt="4"
+                  className={`w-full h-20 object-cover ${show === "4" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+            {/* Link 5 */}
+            <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("5")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "5" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "5" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/5.webp"
+                  alt="5"
+                  className={`w-full h-20 object-cover ${show === "5" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+            {/* Link 6 */}
+            <Link
+              href={"/"}
+              onMouseEnter={() => handleMouseEnter("6")}
+              onMouseLeave={handleMouseLeave}
+              className="w-24 h-auto"
+            >
+              <li
+                className={`heading text-[12px] font-bungee-inline text-center h-20 ${
+                  show === "6" ? "hidden" : "block"
+                }`}
+              >
+                Digital <br /> Marketing
+              </li>
+              <div className={`w-20 h-20  ${show === "6" ? "block" : "hidden"}`}>
+                <img
+                  src="/Images/6.webp"
+                  alt="6"
+                  className={`w-full h-20 object-cover ${show === "6" ? "block" : "hidden"}`}
+                />
+              </div>
+            </Link>
+      </ul>
+</div>
+
+
+          <div className="hidden xl:block">
+            <ul className="text-[20px] xl:text-[70px] gap-4 flex flex-col overflow-x-hidden">
               {["Home", "About", "Services", "Our Work", "Contact"].map(
                 (item, index) => (
                   <li
                     key={index}
-                    className="marque cursor-pointer"
-                    onMouseEnter={() => handleMouseEnter(item)}
-                    onMouseLeave={handleMouseLeave}
+                    className="marque cursor-pointer w-fit"
+                    onMouseEnter={() => handleMouseHover(item)}
+                    onMouseLeave={handleMouseHoverLeave}
                   >
                     {/* If item is hovered, show marquee effect */}
                     {hovered === item ? (
@@ -59,14 +204,13 @@ function Popup({ handleMenu }) {
 
           {/* Image on bottom right when any item is hovered */}
           {hovered && (
-            <div className="w-12 h-12">
               <img
                 src={images[hovered]} // Show the corresponding image based on the hovered item
                 alt={hovered}
-                className="image absolute bottom-4 right-4 w-ful h-auto object-cover"
+                className="image absolute bottom-2 right-4 w-80 h-80 object-cover"
               />
-            </div>
           )}
+        </div>
         </div>
       </div>
     </div>
