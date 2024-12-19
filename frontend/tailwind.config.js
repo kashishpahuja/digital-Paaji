@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'bungee-inline': ['Bungee Inline', 'sans-serif'],
+        'merriweather': ['Merriweather', 'serif'],
       },
       translate: {
         'full': '100%',

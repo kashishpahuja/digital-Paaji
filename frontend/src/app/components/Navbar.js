@@ -17,10 +17,10 @@ export default function ResponsiveLayout() {
   };
 
   return (
-    <div className="bg-[#ede7db]">
-      <div className="flex items-center justify-between gap-4 mx-4 xl:mx-16 h-[120px] xl:h-[180px]">
+    <div className="bg-[#ede7db] w-full overflow-hidden">
+      <div className="flex items-center justify-between gap-4 mx-4 xl:mx-16 h-[100px] xl:h-[150px] ">
         <div
-          className="relative flex items-center justify-start  xl:w-[300px]"
+          className="relative flex items-center justify-start w-fit xl:w-[300px]"
           onMouseLeave={handleMouseLeave}
         >
           {/* Static Logo */}
@@ -39,20 +39,20 @@ export default function ResponsiveLayout() {
                 : "translate-x-[10%] w-72 h-auto object-cover xl:w-0"
             }`}
           > */}
-          <div className={` w-80  h-auto object-cover   ${show === "logo2" ? ' xl:logo2' : ' xl:logoHide'}`}>
-            <img src="/Images/logo2.webp" alt="logo2" className=" w-80  h-auto object-cover  " />
+          <div className={` xl:w-80  h-auto object-cover   ${show === "logo2" ? ' xl:logo2' : ' xl:logoHide'}`}>
+            <img src="/Images/logo2.webp" alt="logo2" className="w-60 xl:w-80  h-auto object-cover  " />
           </div>
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden xl:block p-4 -ml-20">
-          <ul className="flex items-center justify-start gap-8 h-20">
+        <div className="hidden xl:block p-6 -ml-12  ">
+          <ul className="flex items-center justify-center gap-10 h-20">
             {/* Link 1 */}
             <Link
               href={"/"}
               onMouseEnter={() => handleMouseEnter("1")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
@@ -61,9 +61,9 @@ export default function ResponsiveLayout() {
               >
                 Digital <br /> Marketing
               </li>
-              <div className={`w-20 h-20  ${show === "1" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "1" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/1.webp"
+                  src="/Images/navGif/DM.gif"
                   alt="1"
                   className={`w-full h-auto ${show === "1" ? "block" : "hidden"}`}
                 />
@@ -74,18 +74,19 @@ export default function ResponsiveLayout() {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("2")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Social Media <br /> Marketing
               </li>
-              <div className={`w-20 h-20  ${show === "2" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "2" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/2.webp"
+                                    src="/Images/navGif/SMM.gif"
+
                   alt="2"
                   className={`w-full h-auto ${show === "2" ? "block" : "hidden"}`}
                 />
@@ -96,18 +97,19 @@ export default function ResponsiveLayout() {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("3")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Search Engine <br /> Optimization
               </li>
-              <div className={`w-20 h-20  ${show === "3" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "3" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/3.webp"
+                 src="/Images/navGif/SEO.gif"
+
                   alt="3"
                   className={`w-full h-auto ${show === "3" ? "block" : "hidden"}`}
                 />
@@ -118,18 +120,19 @@ export default function ResponsiveLayout() {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("4")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Video <br /> Production
               </li>
-              <div className={`w-20 h-20  ${show === "4" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "4" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/4.webp"
+                                    src="/Images/navGif/VP.gif"
+
                   alt="4"
                   className={`w-full h-auto ${show === "4" ? "block" : "hidden"}`}
                 />
@@ -140,18 +143,19 @@ export default function ResponsiveLayout() {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("5")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Website <br /> Development
               </li>
-              <div className={`w-20 h-20  ${show === "5" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "5" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/5.webp"
+                                   src="/Images/navGif/WD.gif"
+
                   alt="5"
                   className={`w-full h-auto ${show === "5" ? "block" : "hidden"}`}
                 />
@@ -162,18 +166,19 @@ export default function ResponsiveLayout() {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("6")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className=" "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Graphic <br /> Design
               </li>
-              <div className={`w-20 h-20  ${show === "6" ? "block" : "hidden"}`}>
+              <div className={`w-24 h-24  ${show === "6" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/6.webp"
+                  src="/Images/navGif/GD.gif"
+
                   alt="6"
                   className={`w-full h-auto ${show === "6" ? "block" : "hidden"}`}
                 />

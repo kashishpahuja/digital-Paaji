@@ -29,7 +29,7 @@ function Popup({ handleMenu }) {
     <div>
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
         <div className="p-2 bg-[#f6f6f5]">
-        <div className="  p-8 rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[800px] xl:h-[700px] relative"
+        <div className="  p-8 rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[700px]  relative"
         style={{backgroundImage:"url('/Images/popupbg.webp/')"}}>
           {/* Close Icon in Top Right Corner */}
           <AiOutlineClose
@@ -46,7 +46,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("1")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto "
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -57,8 +57,8 @@ function Popup({ handleMenu }) {
               </li>
               <div className={`w-20 h-20  ${show === "1" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/1.webp"
-                  alt="1"
+                src="/Images/navGif/DM.gif"
+                  alt="1ykk"
                   className={`w-full h-20 object-cover ${show === "1" ? "block" : "hidden"}`}
                 />
               </div>
@@ -75,11 +75,11 @@ function Popup({ handleMenu }) {
                   show === "2" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Social Media <br /> Marketing
               </li>
               <div className={`w-20 h-20  ${show === "2" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/2.webp"
+                   src="/Images/navGif/SMM.gif"
                   alt="2"
                   className={`w-full h-20 object-cover ${show === "2" ? "block" : "hidden"}`}
                 />
@@ -97,11 +97,12 @@ function Popup({ handleMenu }) {
                   show === "3" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Search Engine <br /> Optimization
               </li>
               <div className={`w-20 h-20  ${show === "3" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/3.webp"
+                   src="/Images/navGif/SEO.gif"
+
                   alt="3"
                   className={`w-full h-20 object-cover ${show === "3" ? "block" : "hidden"}`}
                 />
@@ -119,11 +120,11 @@ function Popup({ handleMenu }) {
                   show === "4" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Video <br /> Production
               </li>
               <div className={`w-20 h-20  ${show === "4" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/4.webp"
+                 src="/Images/navGif/VP.gif"
                   alt="4"
                   className={`w-full h-20 object-cover ${show === "4" ? "block" : "hidden"}`}
                 />
@@ -141,11 +142,11 @@ function Popup({ handleMenu }) {
                   show === "5" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+                Website <br /> Development
               </li>
               <div className={`w-20 h-20  ${show === "5" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/5.webp"
+                  src="/Images/navGif/WD.gif"
                   alt="5"
                   className={`w-full h-20 object-cover ${show === "5" ? "block" : "hidden"}`}
                 />
@@ -163,11 +164,11 @@ function Popup({ handleMenu }) {
                   show === "6" ? "hidden" : "block"
                 }`}
               >
-                Digital <br /> Marketing
+               Graphic <br /> Design
               </li>
               <div className={`w-20 h-20  ${show === "6" ? "block" : "hidden"}`}>
                 <img
-                  src="/Images/6.webp"
+                   src="/Images/navGif/GD.gif"
                   alt="6"
                   className={`w-full h-20 object-cover ${show === "6" ? "block" : "hidden"}`}
                 />
@@ -178,9 +179,10 @@ function Popup({ handleMenu }) {
 
 
           <div className="hidden xl:block">
-            <ul className="text-[20px] xl:text-[70px] gap-4 flex flex-col overflow-x-hidden">
+            <ul className="text-[20px] xl:text-[60px] gap-4 flex flex-col overflow-x-hidden">
               {["Home", "About", "Services", "Our Work", "Contact"].map(
                 (item, index) => (
+                  
                   <li
                     key={index}
                     className="marque cursor-pointer w-fit"

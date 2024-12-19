@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 
 @tailwind base;
@@ -9,6 +9,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #ede7db;
 }
 
 .heading{
@@ -72,4 +73,39 @@ body {
 }
 .logoHide{
   display: none;
+}
+
+.merriHead {
+  font-weight: 600; 
+  font-style: italic; 
+  font-family: 'Merriweather', serif; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicePara{
+  line-break: strict;
+  font-style: italic;
+  font-family: 'Merriweather', serif; 
+  text-align: justify;
+}
+
+.bungeeHead{
+  /* color: #cc5f4d; */
+  font-weight: 900;
+  font-family: 'Bungee Inline',sans-serif;
+}
+.services{
+  font-size:18px;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Bungee Inline',sans-serif;
+}
+
+.zoom{
+  transition: transform 400ms ease-in;
+  width:100%;
+  height: auto;
+}
+.zoom:hover{
+  transform: scale(1.1);
 }
