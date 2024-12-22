@@ -4,13 +4,13 @@ import React from "react";
 function Growth() {
   return (
     <div style={{backgroundImage:"url(/Images/services/bg.webp)"}} className="w-full h-auto py-24">
-    <div className="mx-12 lg:mx-32 xl:mx-60 " >
+    <div className="mx-8 xl:mx-60 " >
       <div className="text-center">
-        <h3 className="bungeeHead my-8 text-[#e6e8eb]  text-2xl xl:text-6xl">
+        <h3 className="bungeeHead my-8 text-[#e6e8eb]  text-3xl md:text-4xl lg:text-6xl">
           Digitizing your Business <br /> Growth
         </h3>
 
-        <p className="servicePara mx-auto text-[#f8f7f7] w-[600px]  text-sm xl:text-[16px]">
+        <p className="servicePara md:mx-20 text-[#f8f7f7]   text-sm xl:text-[16px]">
           With a commitment to providing top-notch services, Digital Paaji is
           always refining its tactics to keep ahead of market trends. Our team
           comprises highly qualified professionals who are enthusiastic about

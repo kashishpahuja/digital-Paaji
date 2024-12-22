@@ -1,0 +1,101 @@
+'use client';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
+import { TbFlagStar, TbStarFilled } from "react-icons/tb";
+
+function Testimonials() {
+  const testimonials = [
+    {
+      name: "John Doe",
+      text: "Digital Paaji helped our business grow tremendously. Their digital marketing strategies are top-notch!",
+      image: "/Images/testimonial1.jpg",
+    },
+    {
+      name: "Jane Smith",
+      text: "The team at Digital Paaji was exceptional. They understood our needs and delivered beyond expectations.",
+      image: "/Images/testimonial2.jpg",
+    },
+    {
+      name: "David Johnson",
+      text: "Highly recommend Digital Paaji for anyone looking to boost their online presence and attract more customers.",
+      image: "/Images/testimonial3.jpg",
+    },
+  ];
+
+  return (
+    <div className="flex flex-col lg:flex-row justify-center gap-8 items-center p-6 mx-4 md:mx-8 lg:mx-20">
+
+
+
+      <div
+        className="py-10 px-2 md:px-8 w-full lg:w-1/2 bg-cover bg-center rounded-lg relative "
+       
+      >
+        <div className="mx-auto w-[300px] h-32">
+        <img src="/Images/logo2.webp" alt="" className="w-full h-auto object-cover " />
+        </div>
+        {/* Swiper Component */}
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1} 
+          loop={true} 
+          autoplay={{ delay: 3000 ,
+            disableOnInteraction:false,
+          }}
+          pagination={{ clickable: true }} 
+          navigation={false} 
+          modules={[Autoplay]}
+        >
+          {/* Testimonial Slides */}
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex flex-col items-start justify-center border border-white p-6 rounded-lg">
+                <p className="servicePara mt-4 text-gray-500 text-lg xl:text-base">
+                  {testimonial.text}
+                </p>
+
+                {/* Customer Image & Name */}
+                <div className="flex items-center justify-between border-t border-white mt-6 w-full p-2">
+                    
+                <div className="flex items-center gap-4 justify-start mt-2 ">
+                  <p
+                    src={testimonial.image}
+                    alt="Customer"
+                    className="rounded-full bg-purple-700 text-white text-lg font-bold px-4 py-2 object-cover"
+                  >
+                    {(testimonial.name).charAt(0)}
+                  </p>
+                  <div className="">
+                  <h3 className="merriHead text-lg text-black">{testimonial.name}</h3>
+<p className="text-xs text-gray-400">2 Months Ago</p>
+                  </div>
+                </div>
+                <div className="flex items-center">
+                <p className="text-yellow-500"><TbStarFilled/></p>
+                <p className="text-yellow-500"><TbStarFilled/></p>
+                <p className="text-yellow-500"><TbStarFilled/></p>
+                <p className="text-yellow-500"><TbStarFilled/></p>
+                <p className="text-yellow-500"><TbStarFilled/></p>
+
+                </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+
+      <div className="w-full lg:w-1/2 xl:ml-16 ">
+        <img src="/Images/addOn/tetimonial.webp" alt="" />
+      </div>
+    </div>
+  );
+}
+
+export default Testimonials;

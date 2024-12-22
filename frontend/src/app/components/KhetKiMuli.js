@@ -3,10 +3,10 @@ import React from "react";
 function KhetKiMuli() {
   return (
     <div
-      className="bg-[#006E7F] text-white"
+      className="bg-[#006E7F] overflow-hidden text-white py-24 "
       style={{ backgroundImage: "url(/Images/muli/checkBg.webp)" }}
     >
-      <div className="flex items-center justify-center flex-wrap mx-20 gap-8 ">
+      <div className="flex items-center justify-center flex-wrap mx-12 md:mx-20 gap-8 ">
         <div className="w-full lg:w-[40%] ">
           <h3 className="merriHead text-xl xl:text-2xl">
             Kis Khet ki Mooli hu?
@@ -24,11 +24,14 @@ function KhetKiMuli() {
           </p>
           <h3 className="merriHead text-xl xl:text-2xl mt-6">Contact us</h3>
         </div>
-        <div className=" w-full lg:w-[40%]">
-        <img src="/Images/muli/mic.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <div className=" w-full lg:w-[40%] ">
+          <img
+            src="/Images/muli/mic.webp"
+            alt=""
+            className=" zoom w-full h-auto object-cover"
+          />
+        </div>
       </div>
-      </div>
-   
     </div>
   );
 }

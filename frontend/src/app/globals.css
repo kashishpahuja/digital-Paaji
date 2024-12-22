@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Bungee+Inline&display=swap');
 
 
 @tailwind base;
@@ -92,7 +92,7 @@ body {
 .bungeeHead{
   /* color: #cc5f4d; */
   font-weight: 900;
-  font-family: 'Bungee Inline',sans-serif;
+  font-family: "Bungee Inline", serif;
 }
 .services{
   font-size:18px;
@@ -108,4 +108,13 @@ body {
 }
 .zoom:hover{
   transform: scale(1.1);
+}
+.Numbers {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-size: xx-large;
+  background-color: white;
+
+  color: black;
+  font-style: italic;
 }

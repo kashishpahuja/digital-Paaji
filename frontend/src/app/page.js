@@ -5,6 +5,11 @@ import Services from "./components/Services";
 import KhetKiMuli from "./components/KhetKiMuli";
 import AddOn from "./components/AddOn";
 import Growth from "./components/Growth";
+import Offer from "./components/Offer";
+import Testimonials from "./components/Testimonials";
+import Reviews from "./components/Reviews";
+
+
 export default function Home() {
   return (
     <div className="">
@@ -20,6 +25,15 @@ export default function Home() {
       </div>
       <div className="my-24">
         <Growth />
+      </div>
+      <div className="my-24">
+        <Offer />
+      </div>
+      <div className="my-24">
+        <Testimonials />
+      </div>
+      <div className="my-24">
+        <Reviews />
       </div>
     </div>
   );
