@@ -25,11 +25,25 @@ body {
     transform: translateX(-100%);
   }
 }
-
+.stroke{
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  -webkit-text-stroke: 1.5px black;
+  -webkit-animation-fill-color: transparent;
+  
+  text-shadow: none;
+  color: transparent;
+}
 .animate-marquee {
   display: inline-block;
   white-space: nowrap;
+  font-weight: bolder;
+  -webkit-text-stroke: 0px black;
+
+color:black;
   animation: marquee 50s linear infinite;
+
 }
 .image {
   position: absolute; /* Ensure the element can be moved */
@@ -93,7 +107,10 @@ body {
   /* color: #cc5f4d; */
   font-weight: 900;
   font-family: "Bungee Inline", serif;
+
+
 }
+
 .services{
   font-size:18px;
   text-align: center;
@@ -118,3 +135,96 @@ body {
   color: black;
   font-style: italic;
 }
+
+/* Custom Swiper Navigation Arrows */
+.custom-swiper {
+  position: absolute;
+  padding: 0 60px; /* Add space for arrows outside */
+}
+
+.custom-swiper .swiper-button-prev,
+.custom-swiper .swiper-button-next {
+  color: black; 
+  border-radius: 50%;
+  font-weight: bolder;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  top:20px; 
+
+}
+
+.custom-swiper .swiper-button-prev {
+  left: -13px;
+}
+
+.custom-swiper .swiper-button-next {
+  right: -13px;
+}
+
+.custom-swiper .swiper-button-prev::after,
+.custom-swiper .swiper-button-next::after {
+  font-size: 20px; /* Adjust arrow icon size */
+  font-weight: bolder;
+}
+
+
+
+.testimonial-container {
+
+  height: 100%; /* Take full height of the container */
+  position: relative;
+}
+
+/* Style each individual letter */
+.flip-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: rotateX(90deg); /* Start with the letter rotated */
+  animation: flipIn 1s forwards;
+}
+
+@keyframes flipIn {
+  0% {
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(0deg); /* Flip the letter into place */
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg); /* End with the letter upright */
+  }
+}
+
+/* Trigger flipping effect when changing words */
+.flipping {
+  animation: flipOut 1s forwards;
+}
+
+@keyframes flipOut {
+  0% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  50% {
+    opacity: 0;
+    transform: rotateX(-90deg); /* Flip out the letter */
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(90deg); /* Hide the letter after it flips out */
+  }
+}
+
+.transform.rotate-6 {
+  transform: rotate(8deg); /* Adjust the degree as needed */
+}
+
+.transform.-rotate-6 {
+  transform: rotate(-8deg); /* Adjust the degree as needed */
+}
+

@@ -8,7 +8,7 @@ function Offer() {
           className="py-28 xl:py-40 p-8 "
           style={{ backgroundImage: "url(/Images/Offerbg.webp)" ,backgroundRepeat:"no-repeat",textAlign:"center"}}
         >
-            <div className=" md:mx-12 lg:mx-32">
+            <div className=" md:mx-12 lg:ml-24 lg:mr-32">
           <h3 className="merriHead text-xl xl:text-2xl text-left md:text-center lg:text-left">What We Offer</h3>
           <h3 className="block xl:hidden bungeeHead text-[#cc5f4d] mt-2  text-[30px] xl:text-[40px]   text-left ">
             Empowering Solutions for You

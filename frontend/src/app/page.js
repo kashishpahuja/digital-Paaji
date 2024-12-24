@@ -8,6 +8,10 @@ import Growth from "./components/Growth";
 import Offer from "./components/Offer";
 import Testimonials from "./components/Testimonials";
 import Reviews from "./components/Reviews";
+import Vypaar from './components/Vypaar';
+import Work from "./components/Work";
+import Footer from "./components/Footer";
+
 
 
 export default function Home() {
@@ -34,6 +38,16 @@ export default function Home() {
       </div>
       <div className="my-24">
         <Reviews />
+      </div>
+      
+      <div className="my-24">
+        <Work />
+      </div>
+      <div className="my-24">
+        <Vypaar />
+      </div>
+      <div className="my-24">
+        <Footer />
       </div>
     </div>
   );

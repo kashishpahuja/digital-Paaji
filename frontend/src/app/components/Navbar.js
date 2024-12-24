@@ -17,7 +17,7 @@ export default function ResponsiveLayout() {
   };
 
   return (
-    <div className="bg-[#ede7db] w-full overflow-hidden">
+    <div className="bg-[#ede7db] w-full overflow-hidden sticky top-0  z-[9999999] border border-b-black">
       <div className="flex items-center justify-between gap-4 mx-4 xl:mx-16 h-[100px] xl:h-[150px] ">
         <div
           className="relative flex items-center justify-start w-fit xl:w-[300px]"

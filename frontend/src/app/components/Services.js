@@ -160,7 +160,7 @@ function Services() {
             </div>
           </div><div className="border border-black ">
             <div className="border-b border-black">
-              <h3 className="services p-4 text-[#2e2d2d] text-[#2e2d2d]">Digital Marketing</h3>
+              <h3 className="services p-4 text-[#2e2d2d] ">Digital Marketing</h3>
             </div>
             <div className="flex overflow-hidden h-[260px]">
               

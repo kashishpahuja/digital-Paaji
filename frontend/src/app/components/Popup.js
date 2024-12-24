@@ -46,7 +46,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("1")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto "
+              className="w-24 h-auto mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -68,7 +68,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("2")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto  mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -90,7 +90,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("3")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -113,7 +113,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("4")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -135,7 +135,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("5")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -157,7 +157,7 @@ function Popup({ handleMenu }) {
               href={"/"}
               onMouseEnter={() => handleMouseEnter("6")}
               onMouseLeave={handleMouseLeave}
-              className="w-24 h-auto"
+              className="w-24 h-auto  mx-auto"
             >
               <li
                 className={`heading text-[12px] font-bungee-inline text-center h-20 ${
@@ -185,7 +185,7 @@ function Popup({ handleMenu }) {
                   
                   <li
                     key={index}
-                    className="marque cursor-pointer w-fit"
+                    className="stroke  cursor-pointer w-fit"
                     onMouseEnter={() => handleMouseHover(item)}
                     onMouseLeave={handleMouseHoverLeave}
                   >
