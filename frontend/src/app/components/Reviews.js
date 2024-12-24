@@ -73,13 +73,13 @@ function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index} className=" w-full ">
               <div className="flex flex-col items-start justify-center border border-white p-6 rounded-lg w-[90%] xl:w-[80%] mx-auto ">
-                <p className="servicePara mt-4 text-gray-500 text-lg xl:text-base">
+                <p className="servicePara mt-4 text-gray-500 text-lg xl:text-base text-justify">
                   {testimonial.text}
                 </p>
 
                 {/* Customer Image & Name */}
-                <div className="flex items-center justify-between border-t border-white mt-6 w-full p-2">
-                  <div className="flex items-center gap-4 justify-start mt-2 ">
+                <div className="flex items-center gap-2 md:gap-0 justify-between flex-wrap border-t border-white mt-6 w-full p-2">
+                  <div className="flex items-center gap-8 md:gap-4 justify-between md:justify-start  mt-2 ">
                     <p
                       src={testimonial.image}
                       alt="Customer"
@@ -88,13 +88,13 @@ function Testimonials() {
                       {testimonial.name.charAt(0)}
                     </p>
                     <div className="">
-                      <h3 className="merriHead text-lg text-black">
+                      <h3 className="merriHead text-sm md:text-lg text-black">
                         {testimonial.name}
                       </h3>
                       <p className="text-xs text-gray-400">2 Months Ago</p>
                     </div>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center mx-auto md:mx-0">
                     <p className="text-yellow-500">
                       <TbStarFilled />
                     </p>

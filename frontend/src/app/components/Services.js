@@ -28,7 +28,7 @@ function Services() {
       <div className=" text-center">
         <h3 className="bungeeHead my-12 text-[#cc5f4d]  text-[30px] xl:text-[40px]">OUR SERVICES</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
-          <div className="border border-black ">
+          <div className="border border-black "  data-aos="zoom-in" >
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -36,7 +36,7 @@ function Services() {
               
               <div className="mx-auto  w-[14rem] h-40">
               <Link
-                href={"/digital-marketing"}
+                href={"/"}
                 onMouseEnter={() => handleMouseEnter("5")}
                 onMouseLeave={handleMouseLeave}
                 className=""
@@ -61,7 +61,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />
@@ -72,7 +72,7 @@ function Services() {
               
             </div>
           </div>
-          <div className="border border-black ">
+          <div className="border border-black "  data-aos="zoom-in"  >
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -105,7 +105,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />
@@ -115,7 +115,7 @@ function Services() {
               </div>
               
             </div>
-          </div><div className="border border-black ">
+          </div><div className="border border-black "  data-aos="zoom-in" >
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -148,7 +148,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />
@@ -158,8 +158,9 @@ function Services() {
               </div>
               
             </div>
-          </div><div className="border border-black ">
-            <div className="border-b border-black">
+          </div>
+          <div className="border border-black "  data-aos="zoom-in" >
+            <div className="border-b border-black" >
               <h3 className="services p-4 text-[#2e2d2d] ">Digital Marketing</h3>
             </div>
             <div className="flex overflow-hidden h-[260px]">
@@ -191,7 +192,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />
@@ -201,7 +202,8 @@ function Services() {
               </div>
               
             </div>
-          </div><div className="border border-black ">
+          </div>
+          <div className="border border-black "  data-aos="zoom-in" >
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -234,7 +236,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />
@@ -244,7 +246,8 @@ function Services() {
               </div>
               
             </div>
-          </div><div className="border border-black ">
+          </div>
+          <div className="border border-black "  data-aos="zoom-in" >
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -277,7 +280,7 @@ function Services() {
                      <img
                     src="/Images/services/hand.gif"
                     alt="5"
-                    className={`absolute bottom-2 -right-16 w-16 h-16 object-cover ${
+                    className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                       show === "5" ? "block" : "hidden"
                     }`}
                   />

@@ -17,7 +17,7 @@ export default function ResponsiveLayout() {
   };
 
   return (
-    <div className="bg-[#ede7db] w-full overflow-hidden sticky top-0  z-[9999999] border border-b-black">
+    <div className="bg-[#ede7db] w-full overflow-hidden sticky top-0  z-[9999999]">
       <div className="flex items-center justify-between gap-4 mx-4 xl:mx-16 h-[100px] xl:h-[150px] ">
         <div
           className="relative flex items-center justify-start w-fit xl:w-[300px]"
@@ -32,15 +32,16 @@ export default function ResponsiveLayout() {
           </div>
 
           {/* Transitioning Logo */}
-          {/* <div
-            className={`absolute xl:top-2 left-0 xl:left-0 h-auto object-cover transition-transform duration-700 ease-in-out ${
+          <div
+            className={`absolute xl:top-2 h-auto object-cover  ${
               show === "logo2"
                 ? "translate-x-20 xl:translate-x-20 w-80 xl:w-60"
-                : "translate-x-[10%] w-72 h-auto object-cover xl:w-0"
+                : "w-60 xl:w-80  h-auto object-cover block xl:hidden"
             }`}
-          > */}
-          <div className={` xl:w-80  h-auto object-cover   ${show === "logo2" ? ' xl:logo2' : ' xl:logoHide'}`}>
-            <img src="/Images/logo2.webp" alt="logo2" className="w-60 xl:w-80  h-auto object-cover  " />
+          >
+            {/* <div className={` xl:w-80  h-auto object-cover   ${show === "logo2" ? ' xl:logo2' : ' xl:logoHide'}`}> */}
+              <img src="/Images/logo2.webp" alt="logo2" className="w-60 xl:w-80  h-auto object-cover  " />
+            {/* </div> */}
           </div>
         </div>
 

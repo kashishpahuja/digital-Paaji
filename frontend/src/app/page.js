@@ -1,3 +1,7 @@
+'use client';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 import "./globals.css";
 
 import Navbar from "./components/Navbar";
@@ -15,40 +19,44 @@ import Footer from "./components/Footer";
 
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: false, 
+    });
+  }, []);
+
   return (
-    <div className="">
-      <Navbar />
-      <div className="my-24">
-        <Services />
-      </div>
-      <div className="my-24">
-        <KhetKiMuli />
-      </div>
-      <div className="my-24">
-        <AddOn />
-      </div>
-      <div className="my-24">
-        <Growth />
-      </div>
-      <div className="my-24">
-        <Offer />
-      </div>
-      <div className="my-24">
-        <Testimonials />
-      </div>
-      <div className="my-24">
-        <Reviews />
-      </div>
-      
-      <div className="my-24">
-        <Work />
-      </div>
-      <div className="my-24">
-        <Vypaar />
-      </div>
-      <div className="my-24">
-        <Footer />
-      </div>
+    <div>
+    <div className="my-24" data-aos="fade-up">
+      <Services />
     </div>
+    <div className="my-24" data-aos="fade-up">
+      <KhetKiMuli />
+    </div>
+    <div className="my-24" data-aos="fade-up">
+      <AddOn />
+    </div>
+    <div className="my-24" >
+      <Growth />
+    </div>
+    <div className="my-24" data-aos="fade-up">
+      <Offer />
+    </div>
+    <div className="my-24" data-aos="flip-down">
+      <Testimonials />
+    </div>
+    <div className="my-24" data-aos="zoom-in-out">
+      <Reviews />
+    </div>
+    <div className="my-24" data-aos="fade-up">
+      <Work />
+    </div>
+    <div className="my-24" data-aos="fade-down">
+      <Vypaar />
+    </div>
+    
+  </div>
   );
 }

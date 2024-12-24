@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono, GeistSans } from "geist/font/sans";
 import "./globals.css";
+import Navbar from './components/Navbar'
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +14,11 @@ export default function RootLayout({ children }) {
       <body
         className={GeistSans.className}
       >
+            <Navbar />
+        
         {children}
+        <Footer/>
+
       </body>
     </html>
   );

@@ -15,7 +15,7 @@ function AddOn() {
         </h3>
         <h3 className="bungeeHead my-12 text-[#cc5f4d]  text-[30px] xl:text-[40px]">Add On (If U Want To)</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
-          <div className="border border-black ">
+          <div className="border border-black "  data-aos="zoom-out">
             <div className="p-8">
             <div className="mx-auto w-40 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
@@ -30,7 +30,7 @@ function AddOn() {
         </div>
             </div>
           </div>
-          <div className="border border-black ">
+          <div className="border border-black "  data-aos="zoom-out">
             <div className="p-8">
             <div className="mx-auto w-40 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
@@ -45,7 +45,7 @@ function AddOn() {
         </div>
             </div>
           </div>
-          <div className="border border-black ">
+          <div className="border border-black "  data-aos="zoom-out">
             <div className="p-8">
             <div className="mx-auto w-40 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>

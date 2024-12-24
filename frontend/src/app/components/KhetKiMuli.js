@@ -24,7 +24,7 @@ function KhetKiMuli() {
           </p>
           <h3 className="merriHead text-xl xl:text-2xl mt-6">Contact us</h3>
         </div>
-        <div className=" w-full lg:w-[40%] ">
+        <div className=" w-full lg:w-[40%] "  data-aos="flip-right" >
           <img
             src="/Images/muli/mic.webp"
             alt=""

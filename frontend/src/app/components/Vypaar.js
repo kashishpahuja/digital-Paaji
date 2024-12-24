@@ -34,16 +34,16 @@ function vypaar() {
   }, [currentTestimonial]);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-8 items-start p-6 mx-4 md:mx-8 lg:mx-36">
+    <div className="flex flex-col lg:flex-row justify-center gap-8 items-start p-6 mx-4 md:mx-8 xl:mx-36">
       {/* Left Side Text */}
       <div className="w-full lg:w-1/2 bg-cover bg-center rounded-lg relative">
         <div>
-          <h3 className="bungeeHead text-[#cc5f4d] text-7xl">LET'S TALK</h3>
+          <h3 className="bungeeHead text-[#cc5f4d] text-4xl lg:text-7xl">LET'S TALK</h3>
         </div>
 
-        <div className="mt-2 mb-20">
+        <div className="mt-2 mb-12">
           <div className="testimonial-container">
-            <h3 className="bungeeHead text-[#006E7F] text-7xl h-28">
+            <h3 className="bungeeHead text-[#006E7F] text-4xl lg:text-7xl h-12 lg:h-28">
               {letters.map((letter, index) => (
                 <span
                   key={index}
@@ -71,8 +71,8 @@ function vypaar() {
 
       {/* Right Side Text */}
       <div className="w-full lg:w-1/2">
-        <h3 className="bungeeHead text-[#cc5f4d] text-5xl">2 GALLAN KARIYE</h3>
-        <h3 className="bungeeHead text-[#006E7F] text-5xl mt-4">VYPAAR DIA</h3>
+        <h3 className="bungeeHead text-[#cc5f4d] text-4xl lg:text-5xl">2 GALLAN KARIYE</h3>
+        <h3 className="bungeeHead text-[#006E7F] text-4xl lg:text-5xl mt-4">VYPAAR DIA</h3>
       </div>
     </div>
   );

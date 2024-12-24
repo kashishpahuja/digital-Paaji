@@ -66,7 +66,7 @@ function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col items-start justify-center">
-                <p className="servicePara mt-4 text-gray-500 text-lg xl:text-base xl:w-[600px]">
+                <p className="servicePara mt-4 text-gray-500 text-lg xl:text-base xl:w-[600px] text-justify">
                   {testimonial.text}
                 </p>
 
