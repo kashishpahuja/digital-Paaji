@@ -6,7 +6,6 @@
 @tailwind utilities;
 
 
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #ede7db;
@@ -17,14 +16,7 @@ body {
   font-weight: 900;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 .stroke{
   font-family:  Arial, Helvetica, sans-serif;
   font-size: 60px;
@@ -34,6 +26,36 @@ body {
   
   text-shadow: none;
   color: transparent;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Marquee Container */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+/* Marquee Content */
+.marquee-content {
+  display: flex;
+  animation: marquee 50s linear infinite;
+
+
+}
+
+/* Image Styling */
+.marquee-content img {
+  flex-shrink: 0;
+  width: auto;
+  height: auto;
 }
 .animate-marquee {
   display: inline-block;
@@ -48,7 +70,7 @@ color:black;
 .image {
   position: absolute; /* Ensure the element can be moved */
  
-  animation: img 200ms ease-in-out 1; /* Infinite animation */
+  animation: img 300ms ease-in-out 1; /* Infinite animation */
   transform-origin: center; /* Rotate around the center */
 }
 

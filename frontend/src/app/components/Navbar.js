@@ -24,12 +24,14 @@ export default function ResponsiveLayout() {
           onMouseLeave={handleMouseLeave}
         >
           {/* Static Logo */}
+          <Link href={'/'}>
           <div
             className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer"
             onMouseEnter={() => handleMouseEnter("logo2")}
           >
             <img src="/Images/logo.webp" alt="logo" />
           </div>
+          </Link>
 
           {/* Transitioning Logo */}
           <div

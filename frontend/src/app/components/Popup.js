@@ -182,12 +182,16 @@ function Popup({ handleMenu }) {
             <ul className="text-[20px] xl:text-[60px] gap-4 flex flex-col overflow-x-hidden">
               {["Home", "About", "Services", "Our Work", "Contact"].map(
                 (item, index) => (
-                  
+                  <Link 
+                  href={`/${item.toLocaleLowerCase() === 'home' ? '' : item.toLocaleLowerCase() === 'our work' ? 'work' : item.toLocaleLowerCase()}`} 
+                  key={index} 
+                  onClick={handleMenu}
+                >               
                   <li
-                    key={index}
                     className="stroke  cursor-pointer w-fit"
                     onMouseEnter={() => handleMouseHover(item)}
                     onMouseLeave={handleMouseHoverLeave}
+                    
                   >
                     {/* If item is hovered, show marquee effect */}
                     {hovered === item ? (
@@ -199,6 +203,7 @@ function Popup({ handleMenu }) {
                       item // Simple text when not hovered
                     )}
                   </li>
+                  </Link>
                 )
               )}
             </ul>
