@@ -59,7 +59,7 @@ function Popup({ handleMenu }) {
                 <img
                 src="/Images/navGif/DM.gif"
                   alt="1ykk"
-                  className={`w-full h-20 object-cover ${show === "1" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "1" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>
@@ -81,7 +81,7 @@ function Popup({ handleMenu }) {
                 <img
                    src="/Images/navGif/SMM.gif"
                   alt="2"
-                  className={`w-full h-20 object-cover ${show === "2" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "2" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>
@@ -104,7 +104,7 @@ function Popup({ handleMenu }) {
                    src="/Images/navGif/SEO.gif"
 
                   alt="3"
-                  className={`w-full h-20 object-cover ${show === "3" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "3" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>
@@ -126,7 +126,7 @@ function Popup({ handleMenu }) {
                 <img
                  src="/Images/navGif/VP.gif"
                   alt="4"
-                  className={`w-full h-20 object-cover ${show === "4" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "4" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>
@@ -148,7 +148,7 @@ function Popup({ handleMenu }) {
                 <img
                   src="/Images/navGif/WD.gif"
                   alt="5"
-                  className={`w-full h-20 object-cover ${show === "5" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "5" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>
@@ -170,7 +170,7 @@ function Popup({ handleMenu }) {
                 <img
                    src="/Images/navGif/GD.gif"
                   alt="6"
-                  className={`w-full h-20 object-cover ${show === "6" ? "block" : "hidden"}`}
+                  className={`flip w-full h-20 object-cover ${show === "6" ? "block" : "hidden"}`}
                 />
               </div>
             </Link>

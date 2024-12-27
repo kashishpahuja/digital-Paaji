@@ -129,7 +129,7 @@ color:black;
 .bungeeHead{
   /* color: #cc5f4d; */
   font-weight: 900;
-  word-spacing: 10%;
+  word-spacing: 30%;
   font-family: "Bungee Inline", serif;
 
 
@@ -264,3 +264,56 @@ color:black;
   transform: rotate(-8deg); /* Adjust the degree as needed */
 }
 
+
+/* Styling for the div with a more populated zigzag shape on top */
+.zigzag-box {
+  width: 100%; /* Full width of the screen */
+  height: 50px; /* Set the height of the box */
+  background-color: #ede7db; /* Background color */
+  clip-path: polygon(
+    0% 0%, 2% 85%, 4% 0%, 6% 85%, 8% 0%, 10% 85%, 12% 0%, 14% 85%, 
+    16% 0%, 18% 85%, 20% 0%, 22% 85%, 24% 0%, 26% 85%, 28% 0%, 30% 85%, 
+    32% 0%, 34% 85%, 36% 0%, 38% 85%, 40% 0%, 42% 85%, 44% 0%, 46% 85%, 
+    48% 0%, 50% 85%, 52% 0%, 54% 85%, 56% 0%, 58% 85%, 60% 0%, 62% 85%, 
+    64% 0%, 66% 85%, 68% 0%, 70% 85%, 72% 0%, 74% 85%, 76% 0%, 78% 85%, 
+    80% 0%, 82% 85%, 84% 0%, 86% 85%, 88% 0%, 90% 85%, 92% 0%, 94% 85%, 
+    96% 0%, 98% 85%, 100% 0%
+  ); /* More populated upward-facing zigzag shape for larger screens */
+}
+
+/* More populated zigzag shape for smaller screens */
+@media (max-width: 1024px) { /* For tablets and smaller desktops */
+  .zigzag-box {
+    clip-path: polygon(
+      0% 0%, 8% 90%, 16% 0%, 24% 90%, 32% 0%, 40% 90%, 48% 0%, 56% 90%, 
+      64% 0%, 72% 90%, 80% 0%, 88% 90%, 100% 0%
+    ); /* More populated upward-facing zigzag shape */
+  }
+}
+
+.flip {
+  display: inline-block;
+  /* transform-origin: bottom; */
+  animation: flipIn 0.5s ease-in-out forwards;
+  /* transition: transform 0.5s ease-in-out; */
+  /* transform: rotateX(90deg); */
+
+}
+
+
+
+
+@keyframes flipIn {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateX(90deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
