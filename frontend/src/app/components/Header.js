@@ -8,6 +8,7 @@ function Header({title,content}) {
         <div className='text-center py-20 lg:py-32 mx-4'>
             <h3 className='bungeeHead text-3xl md:text-3xl lg:text-5xl text-white '>{title}</h3>
             <h5 className='merriHead mt-3 md:mt-6 text-white'>{content}</h5>
+            
         </div>
     </div>
   )

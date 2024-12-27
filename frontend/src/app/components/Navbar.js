@@ -52,13 +52,13 @@ export default function ResponsiveLayout() {
           <ul className="flex items-center justify-center gap-10 h-20">
             {/* Link 1 */}
             <Link
-              href={"/"}
+              href={"/digital-marketing"}
               onMouseEnter={() => handleMouseEnter("1")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
@@ -74,13 +74,13 @@ export default function ResponsiveLayout() {
             </Link>
             {/* Link 2 */}
             <Link
-              href={"/"}
+              href={"/social-media-marketing"}
               onMouseEnter={() => handleMouseEnter("2")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
@@ -97,13 +97,13 @@ export default function ResponsiveLayout() {
             </Link>
             {/* Link 3 */}
             <Link
-              href={"/"}
+              href={"/search-engine-optimization"}
               onMouseEnter={() => handleMouseEnter("3")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
@@ -120,13 +120,13 @@ export default function ResponsiveLayout() {
             </Link>
             {/* Link 4 */}
             <Link
-              href={"/"}
+              href={"/video-production"}
               onMouseEnter={() => handleMouseEnter("4")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
@@ -143,13 +143,13 @@ export default function ResponsiveLayout() {
             </Link>
             {/* Link 5 */}
             <Link
-              href={"/"}
+              href={"/web-development"}
               onMouseEnter={() => handleMouseEnter("5")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
@@ -166,13 +166,13 @@ export default function ResponsiveLayout() {
             </Link>
             {/* Link 6 */}
             <Link
-              href={"/"}
+              href={"/graphic-designing"}
               onMouseEnter={() => handleMouseEnter("6")}
               onMouseLeave={handleMouseLeave}
               className=" "
             >
               <li
-                className={`heading text-[12px] font-bungee-inline text-center ${
+                className={`heading text-[14px]  font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >

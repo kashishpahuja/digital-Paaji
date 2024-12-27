@@ -34,7 +34,7 @@ function vypaar() {
   }, [currentTestimonial]);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-8 items-start p-6 mx-4 md:mx-8 xl:mx-36">
+    <div className="flex flex-col lg:flex-row justify-center gap-8  items-start p-6 mx-4 md:mx-16 xl:mx-44">
       {/* Left Side Text */}
       <div className="w-full lg:w-1/2 bg-cover bg-center rounded-lg relative">
         <div>

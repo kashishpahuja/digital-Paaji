@@ -2,61 +2,62 @@
 import React from "react";
 
 function History() {
-  const historyData = [
-    {
-      year: "2009",
-      title: "START OUR CONTENT",
-      description: "Paaji got organized and started the journey",
-    },
-    {
-      year: "2014",
-      title: "GROW AND IMPACT",
-      description: "Paaji started catering to 114 Clients",
-    },
-    {
-      year: "2019",
-      title: "SMART SOLUTIONS",
-      description: "Paaji Incorporated IT services to Clients",
-    },
-    {
-      year: "2024",
-      title: "ALWAYS ON",
-      description: "Paaji still going on and delivering services",
-    },
-  ];
+
 
   return (
     <div className="relative w-full py-16 px-4 lg:px-16">
       {/* Header */}
       <div className="text-center mb-12">
-        <h3 className="text-lg lg:text-xl font-serif text-black">History</h3>
-        <h2 className="text-3xl lg:text-5xl text-[#cc5f4d] font-bold">
+      <h3 className="merriHead text-[#302f2f] text-xl xl:text-2xl my-6">
+         History
+        </h3>
+        <h3 className="bungeeHead text-3xl lg:text-5xl text-[#cc5f4d] font-bold">
           A History Retrospective
-        </h2>
+        </h3>
       </div>
 
       {/* Timeline */}
-      <div className="flex items-center gap-40 flex-wrap mx-56 max-w-5xl">
-        {historyData.map((item, index) => (
-          <div
-            key={index}
-            className="border border-gray-300 p-6 rounded-lg bg-white shadow-lg"
-          >
-            <h3 className="text-4xl font-bold text-black">{item.year}</h3>
-            <h4 className="text-xl text-[#cc5f4d] font-bold mt-4">
-              {item.title}
+      <div className="mt-16">
+      <div className="flex items-center justify-start gap-52 mx-32">
+            <div className="border border-black p-6 w-[300px]">
+              <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
+              <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">
+              Start our content
             </h4>
-            <p className="text-gray-700 mt-2">{item.description}</p>
+            <p className="merryWeather text-gray-500 mt-2 text-lg">Paaji got organized and started the journey</p>
+            </div>
+            <div className="border border-black p-6 w-[300px]">
+              <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
+              <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">
+              Start our content
+            </h4>
+            <p className="merryWeather text-gray-500 mt-2 text-lg">Paaji got organized and started the journey</p>
+            </div>
           </div>
-        ))}
+          <div className="flex items-center justify-end gap-56 mx-40 mt-16">
+            <div className="border border-black p-6 w-[300px]">
+              <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
+              <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">
+              Start our content
+            </h4>
+            <p className="merryWeather text-gray-500 mt-2 text-lg">Paaji got organized and started the journey</p>
+            </div>
+            <div className="border border-black p-6 w-[300px]">
+              <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
+              <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">
+              Start our content
+            </h4>
+            <p className="merryWeather text-gray-500 mt-2 text-lg">Paaji got organized and started the journey</p>
+            </div>
+          </div>
       </div>
+ 
 
       {/* Decorative Elements */}
       <div className="hidden md:block">
-        {/* Left decoration */}
-        <div className="absolute bottom-1/4 left-0 transform rotate-45 bg-red-500 h-12 w-12"></div>
-        {/* Right decoration */}
-        <div className="absolute top-1/4 right-0 bg-yellow-500 h-12 w-12"></div>
+        <div className="absolute transform bottom-0   ">
+          <img src="/Images/addOn/history.webp" alt="" />
+        </div>
       </div>
     </div>
   );

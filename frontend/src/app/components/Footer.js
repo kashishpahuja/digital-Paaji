@@ -24,7 +24,7 @@ function Footer() {
 </div>
 
     <div 
-    className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10 xl:gap-0 md:p-6 mx-4 md:mx-8 xl:mx-32  ">
+    className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10 xl:gap-0 md:p-6 mx-4 md:mx-12 xl:mx-44  ">
       {/* Column 1 */}
       <div>
         <img src="/Images/logo2.webp" alt="Logo" />
@@ -65,67 +65,67 @@ function Footer() {
       </div>
 
       {/* Column 2 */}
-      <div className="md:mx-auto px-6 xl:px-0">
+      <div className="ml-6 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">PAGE</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/">Home</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/services">Services</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/work">Our Work</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
 
       {/* Column 3 */}
-      <div className="md:mx-auto px-6 xl:px-0">
+      <div className="ml-6 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">CONTACT US</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="md:zoomLeft mt-6 flex items-center gap-2">
+          <li className="zoomLeft mt-6 flex items-center gap-2">
             <AiFillPhone className="text-[#cc5f4d]" />
             <Link href="tel:+8699640752">8699640752</Link>
           </li>
-          <li className="md:zoomLeft mt-6 flex items-center gap-2">
+          <li className="zoomLeft mt-6 flex items-center gap-2">
             <AiOutlineMail className="text-[#cc5f4d]" />
             <Link href="mailto:hello@digitalpaaji.com">
               hello@digitalpaaji.com
             </Link>
           </li>
-          <li className="md:zoomLeft mt-6 flex items-center gap-2">
+          <li className="zoomLeft mt-6 flex items-center gap-2">
             <AiFillEnvironment className="text-[#cc5f4d]" /> Patiala/Mohali
           </li>
         </ul>
       </div>
 
       {/* Column 4 */}
-      <div className="md:mx-auto px-6 xl:px-0">
+      <div className="ml-6 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">LINKS</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/team">Our Team</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/packages">Packages</Link>
           </li>
-          <li className="md:zoomLeft mt-6">
+          <li className="zoomLeft mt-6">
             <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
         </ul>

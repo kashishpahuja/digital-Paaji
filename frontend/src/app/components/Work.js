@@ -6,7 +6,7 @@ function Work() {
       <h3 className="bungeeHead my-16 text-[#cc5f4d]  text-[30px] xl:text-[50px]">
         OUR WORK
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28 mx-20 md:mx-24 xl:mx-60  " >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28 mx-20 md:mx-24 xl:mx-44  " >
         <div className=" relative group border border-black overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
