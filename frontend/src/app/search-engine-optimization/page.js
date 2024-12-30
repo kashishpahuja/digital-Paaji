@@ -7,6 +7,7 @@ import Header from "../components/seo/Header";
 import GetInTouch from '../components/seo/Why'
 import Content from '../components/seo/Content'
 import Marketing from '../components/seo/Marketing'
+import GetStarted from '../components/seo/GetStarted'
 import Benefits from '../components/seo/Benefits'
 
 import Faq from '../components/Faq'
@@ -34,6 +35,9 @@ export default function About() {
       </div>
       <div className="my-24">
         <Benefits />
+      </div>
+      <div className="my-24">
+        <GetStarted />
       </div>
       <div className="my-24">
         <Faq />
