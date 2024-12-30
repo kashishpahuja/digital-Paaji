@@ -53,13 +53,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>
@@ -123,13 +123,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>
@@ -192,13 +192,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>
@@ -261,13 +261,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>
@@ -330,13 +330,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>
@@ -399,13 +399,13 @@ function Services() {
                           show === "5" ? "block" : "hidden"
                         }`}
                       />
-                      <img
+                      {/* <img
                         src="/Images/services/hand.gif"
                         alt="5"
                         className={`absolute bottom-2 -right-9 md:-right-16 w-16 h-16 object-cover ${
                           show === "5" ? "block" : "hidden"
                         }`}
-                      />
+                      /> */}
                     </div>
                   </Link>
                 </div>

@@ -17,7 +17,7 @@ export default function About() {
   return (
     <main>
         <Header title="About Us"/>
-        <div className='my-24'>
+        <div className='mb-24'>
           <History/>
         </div>
         <div className='my-24'>
