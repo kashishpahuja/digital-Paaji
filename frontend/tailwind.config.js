@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        'wave-height': '60px', // Adjust if needed
+      },
       fontFamily:{
         'bungee-inline': ['Bungee Inline', 'sans-serif'],
         'merriweather': ['Merriweather', 'serif'],

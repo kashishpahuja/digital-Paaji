@@ -3,9 +3,12 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-import Header from "../components/Header";
-import GetInTouch from '../components/services/GetInTouch'
-import Content from '../components/services/Content'
+import Header from "../components/seo/Header";
+import GetInTouch from '../components/seo/Why'
+import Content from '../components/seo/Content'
+import Marketing from '../components/seo/Marketing'
+import Benefits from '../components/seo/Benefits'
+
 import Faq from '../components/Faq'
 
 
@@ -17,12 +20,20 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Welcome to Digital Paaji" content="Your Gateway to Online Success"/>
+        <Header title="Search Engine Optimization Agency India" 
+        button="Call Us"
+        content='“Digital Paaji: Your go-to digital marketing agency specializing in SEO, social media, and content marketing for unparalleled Online Success.”'/>
+         <div className="my-24">
+        <GetInTouch />
+      </div>
         <div className="my-24">
         <Content />
       </div>
-        <div className="my-24">
-        <GetInTouch />
+      <div className="my-24">
+        <Marketing />
+      </div>
+      <div className="my-24">
+        <Benefits />
       </div>
       <div className="my-24">
         <Faq />

@@ -18,7 +18,7 @@ export default function ResponsiveLayout() {
 
   return (
     <div className="bg-[#ede7db] w-full overflow-hidden sticky top-0  z-[9999999]">
-      <div className="flex items-center justify-between gap-4 mx-4 xl:mx-16 h-[100px] xl:h-[150px] ">
+      <div className="flex items-center justify-between gap-4  mx-4 xl:mx-12 h-[100px] xl:h-[150px] ">
         <div
           className="relative flex items-center justify-start w-fit xl:w-[300px]"
           onMouseLeave={handleMouseLeave}
@@ -48,8 +48,8 @@ export default function ResponsiveLayout() {
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden xl:block p-6 -ml-12  ">
-          <ul className="flex items-center justify-center gap-10 h-20">
+        <div className="hidden xl:block py-6 -ml-12  ">
+          <ul className="flex items-center justify-center gap-12 h-20">
             {/* Link 1 */}
             <Link
               href={"/digital-marketing"}
@@ -58,7 +58,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading p-2 text-[11px]  font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
@@ -80,7 +80,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading text-[11px]  font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
@@ -103,7 +103,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading text-[11px]  font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
@@ -126,7 +126,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading text-[11px]  font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
@@ -149,7 +149,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading text-[11px]  font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
@@ -172,7 +172,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[14px]  font-bungee-inline text-center ${
+                className={`heading text-[11px]  font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >
