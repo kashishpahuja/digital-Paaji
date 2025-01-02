@@ -8,7 +8,7 @@ function AddOn() {
     <div className=" ">
       
       
-      <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-96 ">
+      <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 ">
       <h3 className="bungeeHead  text-[#cc5f4d]  text-[30px] xl:text-[40px]">What Makes SEO Vital?</h3>
 
         <p className="servicePara text-[#252424] mt-4 text-sm xl:text-[14px] " style={{textAlign:'center'}}>
@@ -17,11 +17,11 @@ function AddOn() {
       </div>
 
 
-      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-52 my-12">
+      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-12">
       
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
           <div className="border border-black rounded-tl-3xl rounded-br-3xl"  >
-            <div className="p-8">
+            <div className="p-2 lg:p-8">
             <div className="mx-auto w-20 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>
@@ -38,7 +38,7 @@ servicePara text-gray-500 text-sm">
             </div>
           </div>
           <div className="border border-black rounded-tl-3xl rounded-br-3xl"  >
-            <div className="p-8">
+            <div className="p-2 lg:p-8">
             <div className="mx-auto w-20 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>
@@ -55,7 +55,7 @@ servicePara text-gray-500 text-sm">
             </div>
           </div>
           <div className="border border-black rounded-tl-3xl rounded-br-3xl"  >
-            <div className="p-8">
+            <div className="p-2 lg:p-8">
             <div className="mx-auto w-20 h-auto">
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>

@@ -304,7 +304,7 @@ color:black;
 /* Styling for the div with a more populated zigzag shape on top */
 .zigzag-box {
   width: 100%; /* Full width of the screen */
-  height: 50px; /* Set the height of the box */
+  height: 30px; /* Set the height of the box */
   background-color: #ede7db; /* Background color */
   clip-path: polygon(
     0% 0%, 2% 85%, 4% 0%, 6% 85%, 8% 0%, 10% 85%, 12% 0%, 14% 85%, 
@@ -330,7 +330,7 @@ color:black;
 .flip {
   display: inline-block;
   /* transform-origin: bottom; */
-  animation: flipIn 0.5s ease-in-out forwards;
+  animation: flipIn 0.9s ease-in-out forwards;
   /* transition: transform 0.5s ease-in-out; */
   /* transform: rotateX(90deg); */
 
@@ -353,3 +353,4 @@ color:black;
     opacity: 1;
   }
 }
+

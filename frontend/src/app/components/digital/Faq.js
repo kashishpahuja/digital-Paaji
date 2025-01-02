@@ -1,26 +1,18 @@
 import Link from "next/link";
-import React, { useState, useRef, useEffect } from "react";
-import { FaChevronDown, FaChevronUp, FaWhatsapp } from "react-icons/fa";
+import React, { useState, useRef } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 function Faq() {
-    const [showIcon,setShowIcon] = useState(false)
+  const [showIcon, setShowIcon] = useState(false);
   const [openIndex, setOpenIndex] = useState(null);
-  const [heights, setHeights] = useState({});
-const handleShowIcon = ()=>{
-    setShowIcon(!showIcon)
-}
   const contentRefs = useRef([]);
 
-  useEffect(() => {
-    // Measure the height of each FAQ answer
-    const measuredHeights = contentRefs.current.map(
-      (ref) => ref?.scrollHeight || 0
-    );
-    setHeights(measuredHeights);
-  }, []);
+  const handleShowIcon = () => {
+    setShowIcon(!showIcon);
+  };
 
   const toggleDropdown = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
   const faqs = [
@@ -52,33 +44,50 @@ const handleShowIcon = ()=>{
   ];
 
   return (
-    <div className="flex flex-col items-stretch gap-12 mx-4 md:mx-12 xl:mx-60">
+    <div className="flex flex-col items-stretch gap-12 mx-8 md:mx-12 xl:mx-60">
       {/* Header Section */}
       <div className="text-center border-b-2 border-black py-6">
-        <h3 className="bungeeHead text-[#cc5f4d] text-[30px] xl:text-[40px]">
-        Getting Started with Us
+        <h3 className="bungeeHead text-[#cc5f4d] text-3xl lg:text-4xl">
+          Get Started with Digital Paaji Today!
         </h3>
-        <p className="servicePara text-gray-700 text-base mt-2">
-        For companies trying to improve their online visibility, expand their audience, or hone their current tactics, Digital Paaji provides a full-featured digital marketing solution. Through an assessment of your company’s objectives and needs, our onboarding process enables them to create a personalised plan. Following a complete analysis of your present marketing initiatives, the state of the industry, and the competitors, we develop a detailed plan with precise objectives, deadlines, and deliverables.
-              </p>
-        <h3 className="h-20  w-fit mx-auto flex items-center justify-center gap-2 merriHead text-black text-xl xl:text-2xl mt-6" onMouseLeave={handleShowIcon}>
-          We are Just a {"  "}
-
+        <p className="servicePara text-sm text-gray-700 mt-4">
+          With an emphasis on getting to know each client’s particular vision,
+          objectives, and target market, Digital Paaji provides customised
+          social media marketing services for companies of all sizes. In order
+          to talk about present tactics, pinpoint areas that need work, and
+          investigate how our services might support the accomplishment of
+          marketing objectives, we even offer a free introductory consultation.
+          Selecting Digital Paaji means joining forces with a growth-oriented
+          partner to develop campaigns that have an influence on your target
+          audience and produce outcomes.
+        </p>
+        <h3
+          className="h-20 w-fit mx-auto flex items-center justify-center gap-2 merriHead text-black text-xl  mt-6"
+          onMouseLeave={handleShowIcon}
+        >
+          We are Just a{" "}
           {showIcon ? (
-              <Link
+            <Link
               href="https://wa.me/8699640752"
               target="_blank"
               rel="noopener noreferrer"
-              className=" w-16 h-16 text-green-600 transition-transform duration-500"
+              className="w-16 h-16 text-green-600 transition-transform duration-500"
             >
-             <img src="/Images/services/whIcon.gif" alt="" className="flip w-full h-auto object-cover"/>
+              <img
+                src="/Images/services/whIcon.gif"
+                alt=""
+                className="flip w-full h-auto object-cover"
+              />
             </Link>
-          ):(
-            <span className=" text-[#cc5f4d] underline " onMouseEnter={handleShowIcon}>Click</span>
-
-          )}
-
-           {" "}Away
+          ) : (
+            <span
+              className="text-[#cc5f4d] underline w-16"
+              onMouseEnter={handleShowIcon}
+            >
+              Click
+            </span>
+          )}{" "}
+          Away
         </h3>
       </div>
 
@@ -91,23 +100,24 @@ const handleShowIcon = ()=>{
               onClick={() => toggleDropdown(index)}
               className="flex justify-between items-center w-full py-4 text-left font-medium"
             >
-              <span className="bungeeHead text-[#006E7F] text-lg">{faq.question}</span>
+              <span className="bungeeHead text-[#006E7F] text-md mr-2">
+                {faq.question}
+              </span>
               {openIndex === index ? (
                 <FaChevronUp className="text-lg text-gray-600" />
               ) : (
                 <FaChevronDown className="text-lg text-gray-600" />
               )}
             </button>
+
             {/* Answer Section */}
             <div
-              className="overflow-hidden transition-all duration-300 ease-in-out"
-              style={{
-                maxHeight: openIndex === index ? `${heights[index]}px` : "0",
-                opacity: openIndex === index ? 1 : 0,
-              }}
+              className={`transition-all duration-300 ease-in-out ${
+                openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+              }`}
               ref={(el) => (contentRefs.current[index] = el)}
             >
-              <div className="servicePara text-gray-700 text-base mt-2">
+              <div className="servicePara text-gray-700 text-sm mt-2">
                 {faq.answer}
               </div>
             </div>

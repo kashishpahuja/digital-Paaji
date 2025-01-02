@@ -18,7 +18,7 @@ function History() {
 
       {/* Timeline */}
       <div className="mt-16">
-      <div className="flex items-center justify-start gap-52 mx-32">
+      <div className="flex items-center justify-start flex-col lg:flex-row gap-6 lg:gap-52 lg:mx-32">
             <div className="border border-black p-6 w-[300px]">
               <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
               <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">
@@ -34,7 +34,7 @@ function History() {
             <p className="merryWeather text-gray-500 mt-2 text-lg">Paaji got organized and started the journey</p>
             </div>
           </div>
-          <div className="flex items-center justify-end gap-56 mx-40 mt-16">
+          <div className="flex items-center justify-end flex-col lg:flex-row gap-6  lg:gap-56 lg:mx-40 mt-6 lg:mt-16">
             <div className="border border-black p-6 w-[300px]">
               <h3 className="bungeeHead text-4xl font-bold text-black">2009</h3>
               <h4 className="bungeeHead text-xl text-[#cc5f4d] font-bold mt-4">

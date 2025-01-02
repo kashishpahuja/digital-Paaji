@@ -11,7 +11,7 @@ export default function About() {
 
   return (
     <main>
-      <div className="mx-52 my-16">
+      <div className="mx-8 lg:mx-24 xl:mx-52 my-16">
         <h3 className="bungeeHead text-3xl lg:text-5xl text-[#cc5f4d] font-bold">
           Privacy Policy
         </h3>

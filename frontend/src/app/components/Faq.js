@@ -52,7 +52,7 @@ const handleShowIcon = ()=>{
   ];
 
   return (
-    <div className="flex flex-col items-stretch gap-12 mx-4 md:mx-12 xl:mx-60">
+    <div className="flex flex-col items-stretch gap-12 mx-8 md:mx-12 xl:mx-60">
       {/* Header Section */}
       <div className="text-center border-b-2 border-black py-6">
         <h3 className="bungeeHead text-[#cc5f4d] text-[30px] xl:text-[40px]">
@@ -88,7 +88,7 @@ const handleShowIcon = ()=>{
               onClick={() => toggleDropdown(index)}
               className="flex justify-between items-center w-full py-4 text-left font-medium"
             >
-              <span className="bungeeHead text-[#006E7F] text-lg">{faq.question}</span>
+              <span className="bungeeHead text-[#006E7F] text-md ">{faq.question}</span>
               {openIndex === index ? (
                 <FaChevronUp className="text-lg text-gray-600" />
               ) : (

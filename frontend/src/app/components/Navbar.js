@@ -58,7 +58,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading p-2 text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24 p-2 font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
@@ -80,7 +80,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
@@ -103,7 +103,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
@@ -126,7 +126,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
@@ -149,7 +149,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
@@ -172,7 +172,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px]  font-bungee-inline text-center ${
+                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >

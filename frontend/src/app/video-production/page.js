@@ -21,12 +21,13 @@ export default function About() {
         <Header title="VIDEO PRODUCTION AGENCY INDIA" 
         content="For you to produce captivating, audience-resonant videos, customised video editing is essential. Our customization-focused approach guarantees that every alteration captures the essence and personality of your brand. We are aware of your goals, target market, and chosen style so that we may produce a film that speaks to the people who are most important to you. Our talented editors improve your film and make sure your message is understood by using strategies like dynamic transitions and well-timed pacing."
          button="Call Us"/>
+       <div className="my-24">
+        <Why />
+      </div>
      <div className="my-24">
         <Services />
       </div>
-        <div className="my-24">
-        <Why />
-      </div>
+      
       <div className="my-24">
         <Faq />
       </div>

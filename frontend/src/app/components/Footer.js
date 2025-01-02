@@ -65,7 +65,7 @@ function Footer() {
       </div>
 
       {/* Column 2 */}
-      <div className="ml-6 md:mx-auto px-6 xl:px-0">
+      <div className="ml-2 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">PAGE</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
@@ -90,7 +90,7 @@ function Footer() {
       </div>
 
       {/* Column 3 */}
-      <div className="ml-6 md:mx-auto px-6 xl:px-0">
+      <div className="ml-2 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">CONTACT US</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
@@ -113,15 +113,15 @@ function Footer() {
       </div>
 
       {/* Column 4 */}
-      <div className="ml-6 md:mx-auto px-6 xl:px-0">
+      <div className="ml-2 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">LINKS</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="zoomLeft mt-6">
+          {/* <li className="zoomLeft mt-6">
             <Link href="/team">Our Team</Link>
-          </li>
+          </li> */}
           <li className="zoomLeft mt-6">
             <Link href="/packages">Packages</Link>
           </li>

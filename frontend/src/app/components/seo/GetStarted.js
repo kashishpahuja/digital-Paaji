@@ -6,7 +6,7 @@ import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 function AddOn() {
   return (
     <div className=" ">
-      <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-60 ">
+      <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 ">
         <h3 className="bungeeHead  text-[#cc5f4d]  text-[30px] xl:text-[40px]">
           Get Started Today
         </h3>
@@ -26,7 +26,7 @@ function AddOn() {
         </p>
       </div>
 
-      <div className="flex items-center justify-center gap-24 mx-72 my-8">
+      <div className="flex items-center justify-center flex-col gap-6 mx-8 md:flex-row lg:gap-24 lg:mx-72 my-8">
         <div className="w-[230px] h-[230px]">
           <img
             src="/Images/services/seo.webp"
@@ -34,9 +34,9 @@ function AddOn() {
             className="zoom w-full h-[100%] object-cover"
           />
         </div>
-        <div className=" p-6 md:p-8 lg:p-12 flex flex-col justify-start">
+        <div className=" w-full md:w-1/2 h-auto m-8 md:m-0 flex flex-col justify-start">
        
-          <ul className="bungeeHead  text-lg  space-y-6 md:space-y-8 lg:space-y-12">
+          <ul className="bungeeHead text-sm lg:text-lg mx-auto  space-y-6 md:space-y-8 lg:space-y-12">
             <li className=" flex items-center gap-2 md:gap-3">
               <AiFillPhone className="text-2xl md:text-3xl text-[#cc5f4d] border-b-2 border-[#cc5f4d]" />
               <Link href="tel:8699640752" className=" border-b border-[#cc5f4d]">

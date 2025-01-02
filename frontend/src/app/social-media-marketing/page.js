@@ -4,10 +4,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 import Header from "../components/video/InnerHeader";
-import GetInTouch from '../components/digital/Presence'
-import Why from '../components/digital/Why'
-
-import Content from '../components/digital/Services'
+import Welcome from '../components/smm/Welcome'
+import Why from '../components/smm/Why'
+import Approach from '../components/smm/Approach'
+import Promotion from '../components/smm/Promotion'
 import Faq from '../components/digital/Faq'
 
 
@@ -26,12 +26,15 @@ export default function About() {
 "
          button="Call Us"/>
           <div className="my-24">
-        <GetInTouch />
+        <Welcome />
       </div>
         <div className="my-24">
-        <Content />
+        <Promotion />
       </div>
-      <div className="my-24">
+      <div className="mt-24">
+        <Approach />
+      </div>
+      <div className="mb-24">
         <Why />
       </div>
        
