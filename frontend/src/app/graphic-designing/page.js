@@ -3,9 +3,13 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-import Header from "../components/Header";
-import GetInTouch from '../components/services/GetInTouch'
-import Content from '../components/services/Content'
+import Header from "../components/video/InnerHeader";
+import GetInTouch from '../components/graphic/GetStarted'
+import Services from '../components/graphic/Services'
+import Work from '../components/graphic/Work'
+import Zoom from '../components/graphic/Zoom'
+import Why from '../components/graphic/Why'
+import Process from '../components/graphic/Process'
 import Faq from '../components/Faq'
 
 
@@ -17,9 +21,21 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Welcome to Digital Paaji" content="Your Gateway to Online Success"/>
+        <Header title="Welcome to Digital Paaji" content="Your Gateway to Online Success" button="Call Us"/>
         <div className="my-24">
-        <Content />
+        <Zoom />
+      </div>
+        <div className="my-24">
+        <Services />
+      </div>
+      <div className="my-24">
+        <Why />
+      </div>
+      <div className="my-24">
+        <Process />
+      </div>
+      <div className="my-24">
+        <Work />
       </div>
         <div className="my-24">
         <GetInTouch />

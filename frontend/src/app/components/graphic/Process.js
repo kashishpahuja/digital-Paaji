@@ -3,9 +3,11 @@ import React from "react";
 function Why() {
   return (
     <div>
-      <div className=" ">
-        <div className="zigzag-box "></div>
-        <div className="py-12 bg-[#cc5f4d]">
+      <div className=""
+       style={{
+      backgroundImage: "url(/Images/services/bg.webp)"    }}
+      >
+        <div className="py-12">
           <div className="text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72">
             <h3 className="bungeeHead my-4 text-white  text-3xl ">
               Our Approach to Social Media Marketing

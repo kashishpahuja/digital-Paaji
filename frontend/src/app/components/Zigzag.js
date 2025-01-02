@@ -8,10 +8,10 @@ function Zigzag() {
   }, []);
 
   return (
-    <div className='bg-[#cc5f4d] overflow-hidden'>
+    <div className='overflow-hidden'>
         <div className='zigzag-box '>
         </div>
-        <div className='py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mx-8 lg:mx-32 xl:mx-56'>
+        <div className='bg-[#cc5f4d]  py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mx-8 lg:mx-32 xl:mx-56'>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
                     <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>
