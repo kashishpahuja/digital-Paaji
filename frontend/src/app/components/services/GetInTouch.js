@@ -10,7 +10,7 @@ function info() {
         <h3 className="bungeeHead text-2xl text-white mb-8 ">
           Get In Touch
         </h3>
-        <p className="servicePara text-white">
+        <p className="servicePara text-sm text-white">
           To assist companies improve their online visibility, boost
           interaction, and turn leads into devoted clients, Digital Paaji
           provides a thorough digital marketing strategy.

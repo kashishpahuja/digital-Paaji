@@ -7,6 +7,8 @@ import Header from "../components/web/Header";
 import GetInTouch from '../components/services/GetInTouch'
 import Services from '../components/web/Services'
 import Benefits from '../components/web/Benefits'
+import Technologies from '../components/web/Technologies'
+import Select from '../components/web/Select'
 import Faq from '../components/Faq'
 
 
@@ -26,6 +28,12 @@ export default function About() {
       </div>
       <div className="my-24">
         <Benefits />
+      </div>
+      <div className="my-24">
+        <Select />
+      </div>
+      <div className="my-24">
+        <Technologies />
       </div>
         <div className="my-24">
         <GetInTouch />

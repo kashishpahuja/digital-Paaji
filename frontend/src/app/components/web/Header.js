@@ -15,7 +15,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="absolute left-0 -bottom-[5.25rem] w-[100%] h-[15%] lg:h-[33%]">
+      <div className="absolute left-0 -bottom-1 lg:-bottom-[5.25rem] w-[100%] h-[15%] lg:h-[33%]">
         <img
           src="/Images/services/wavy.png"
           alt=""

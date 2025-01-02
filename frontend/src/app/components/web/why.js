@@ -21,7 +21,7 @@ function info() {
         <h3 className="hidden lg:block bungeeHead text-5xl text-white mb-8 ">
         Why Video <br /> Editing <br />Matters ?
         </h3>
-        <p className="servicePara text-white">
+        <p className="servicePara text-white text-sm">
         Digital Paaji focuses on providing great web development services to help your business succeed online. We aim to create attractive and effective websites that perfectly showcase your brand. Making sure you have a powerful and interesting internet presence is our goal. See our full range of web development services below, which are tailored to your requirements and can help your company expand online.
         </p>
         <div className=" mt-8">

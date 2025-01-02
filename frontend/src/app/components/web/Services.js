@@ -6,11 +6,11 @@ function info() {
   return (
     <div className="flex flex-col lg:flex-row items-stretch mx-4 md:mx-12 xl:mx-60">
         {/* Map Section */}
-      <div className="w-full lg:w-1/2 h-[500px] overflow-hidden">
+      <div className="w-full lg:w-1/2  overflow-hidden">
         <img
           src="/Images/services/web1.webp"
           alt=""
-          className="w-full h-[100%] object-cover"
+          className="w-full h-auto object-cover"
         />
       </div>
       {/* Contact Section */}
@@ -18,7 +18,7 @@ function info() {
         <h3 className="bungeeHead text-2xl lg:text-3xl text-white mb-8 ">
         Web Development Services by Digital Paaji
         </h3>
-        <p className="servicePara text-white">
+        <p className="servicePara text-white text-sm">
         Digital Paaji focuses on providing great web development services to help your business succeed online. We aim to create attractive and effective websites that perfectly showcase your brand. Making sure you have a powerful and interesting internet presence is our goal. See our full range of web development services below, which are tailored to your requirements and can help your company expand online.
         </p>
         <div className=" mt-8">

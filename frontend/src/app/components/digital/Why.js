@@ -45,7 +45,7 @@ function Why() {
            
           </div>
         </div>
-        <div className="dense-zigzag"></div>
+        <div className="dense-zigzag -mb-[4px] "></div>
       </div>
 
       {/* Content Section */}
