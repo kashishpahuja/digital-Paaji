@@ -151,18 +151,10 @@ function AddOn() {
 
       <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-36">
         <h3 className="bungeeHead text-[#cc5f4d] text-2xl xl:text-4xl">
-          Welcome to Digital Paaji - We mind your Business
+        Why Choose Us for Your Video Editing Needs?
         </h3>
         <p className="servicePara text-[#757474] mt-4 text-sm  ">
-          One of the top agencies with more than 15 years of expertise in
-          digital marketing is Digital Paaji. For expansion and success, we
-          think all companies should have access to the best marketing
-          techniques. Web development, graphic design, SEO, video production,
-          social media management, and digital marketing are all included in our
-          extensive service offering. Utilising state-of-the-art marketing
-          automation tools and professional insights, we successfully acquire
-          and convert qualified prospects. For the purpose of optimising return
-          on investment, our experts follow a data-driven strategy.
+        We add sound and effects to unprocessed video to create an engaging narrative. Throughout the editing process, you will maintain control thanks to our simple cooperation. To guarantee that the finished result satisfies your vision, we provide previews and edits. Our ability to work with a variety of video formats guarantees that your content will reach viewers without any technical issues. By staying current with the newest methods and platform specifications, our video editing guarantees that your content stays interesting and relevant.
         </p>
       </div>
 

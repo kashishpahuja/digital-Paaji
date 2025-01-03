@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 import Header from "../components/video/InnerHeader";
 import Why from '../components/video/Why'
-import Content from '../components/services/Content'
+import Work from '../components/video/Work'
 import Faq from '../components/Faq'
 import Services from '../components/video/Services';
 
@@ -27,7 +27,9 @@ export default function About() {
      <div className="my-24">
         <Services />
       </div>
-      
+      <div className="my-24">
+        <Work />
+      </div>      
       <div className="my-24">
         <Faq />
       </div>

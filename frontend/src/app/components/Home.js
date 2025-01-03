@@ -1,5 +1,6 @@
 'use client';
-
+import Banner from "./Banner";
+import BannerBottom from "./BannerBottom";
 import Services from "./Services";
 import KhetKiMuli from "./KhetKiMuli";
 import AddOn from "./AddOn";
@@ -16,6 +17,11 @@ export default function Home() {
 
   return (
     <div>
+      <Banner/>
+ 
+      <div className="mb-24" data-aos="fade-up">
+      <BannerBottom />
+    </div>
     <div className="my-24" data-aos="fade-up">
       <Services />
     </div>

@@ -10,7 +10,7 @@ function info() {
         <img
           src="/Images/services/video.webp"
           alt=""
-          className="w-full h-auto lg:h-[100%] lg:p-12 object-cover"
+          className="zoom w-full h-auto lg:h-[100%] lg:p-12 object-cover"
         />
       </div>
       {/* Contact Section */}
