@@ -53,12 +53,18 @@ function Banner() {
               className="w-full h-[100%] object-contain"
             />
           </div>
-
-          <div>
-            <p className="text-white text-xs">
-              {splitText("Lorem ipsum dolor, sit amet.")}
-            </p>
-          </div>
+          <div className="block lg:hidden">
+ <p className="text-white text-sm">
+   {splitText("Lorem ipsum dolor, sit amet.")}
+ </p>
+</div>
+         {showText && (
+ <div className="hidden lg:block">
+ <p className="text-white text-sm">
+   {splitText("Lorem ipsum dolor, sit amet.")}
+ </p>
+</div>
+         )}
 
           <div className="hidden lg:block absolute right-[30%] xl:right-[34%] top-8">
             <div className="vibrate space-x-10">
@@ -140,7 +146,23 @@ function Banner() {
 
 {/* slider */}
 
+<div className="relative flex justify-center">
+<div className="relative  border-2 border-red-800">
+  <div className="relative ">
+    <img src="/Images/banner/laptop.webp" alt="" className=" w-full h-[100%] object-cover" />
+  <div className="absolute top-0 left-12 "><img src="/Images/banner/laptopInner.webp" alt="" /></div>
 
+  </div>
+</div>
+<div className="absolute bottom-24 right-0 w-[30%]  border-2 border-red-800 p-6 text-white bg-gray-800">
+<div className="">
+  <h3 className="text-md ">Lorem ipsum dolor sit.</h3>
+  <p className="text-sm mt-4 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt. Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
+  <p className="text-sm ">LET'S TALK BUSINESS</p>
+  </div>
+</div>
+
+</div>
       
     </div>
   );

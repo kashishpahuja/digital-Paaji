@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <Banner/>
  
-      <div className="mb-24" data-aos="fade-up">
+      <div className="mb-24" >
       <BannerBottom />
     </div>
     <div className="my-24" data-aos="fade-up">
@@ -37,9 +37,9 @@ export default function Home() {
     <div className="my-24" data-aos="fade-up">
       <Offer />
     </div>
-    <div className="my-24" data-aos="flip-down">
+    {/* <div className="my-24" data-aos="flip-down">
       <Testimonials />
-    </div>
+    </div> */}
     <div className="my-24" data-aos="zoom-in-out">
       <Reviews />
     </div>
