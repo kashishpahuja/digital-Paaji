@@ -12,14 +12,14 @@ function Work() {
           <div className="relative m-4">
             <img
               src="/Images/work/2.webp"
-              alt="Viral Reels"
+              alt="Creative Creatives"
               className="w-full h-full object-cover"
             />
 
             {/* Overlay on Image */}
-            <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                VIRAL REELS
+            <div className="absolute inset-0  bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              Creative Creatives
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ function Work() {
 
             {/* Overlay on Image */}
             <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 VIRAL REELS
               </p>
             </div>
@@ -53,8 +53,8 @@ function Work() {
 
             {/* Overlay on Image */}
             <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                VIRAL REELS
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              RESULTS
               </p>
             </div>
           </div>
@@ -64,14 +64,14 @@ function Work() {
           <div className="relative m-4">
             <img
               src="/Images/work/4.gif"
-              alt="Viral Reels"
+              alt="Performing Videos"
               className="w-full h-full object-cover"
             />
 
             {/* Overlay on Image */}
             <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                VIRAL REELS
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                PERFORMING VIDEOS
               </p>
             </div>
           </div>
@@ -81,14 +81,14 @@ function Work() {
           <div className="relative m-4">
             <img
               src="/Images/work/5.webp"
-              alt="Viral Reels"
+              alt="Performing Posts"
               className="w-full h-full object-cover"
             />
 
             {/* Overlay on Image */}
             <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                VIRAL REELS
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                PERFORMING POSTS
               </p>
             </div>
           </div>
@@ -98,14 +98,14 @@ function Work() {
           <div className="relative m-4">
             <img
               src="/Images/work/6.webp"
-              alt="Viral Reels"
+              alt="SATISFIED CLIENTS"
               className="w-full h-full object-cover"
             />
 
             {/* Overlay on Image */}
             <div className="absolute inset-0 bg-black bg-opacity-0  h-0 group-hover:h-full group-hover:bg-opacity-70 flex items-center justify-center transition-all duration-500 ">
-              <p className="bungeeHead text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                VIRAL REELS
+              <p className="bungeeHead p-2 text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                SATISFIED CLIENTS
               </p>
             </div>
           </div>

@@ -14,38 +14,40 @@ function Zigzag() {
         <div className='bg-[#cc5f4d]  py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
-                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
                     <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
-                    <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p>
+                    {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-right">
                 <div>
-                    <img src="/Images/zigzag/2.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/4.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
-                    <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p>
+                    <h3 className='text-white text-2xl font-bold'>
+                    Diverse Opportunities</h3>
+                    {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
-                    <img src="/Images/zigzag/3.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/2.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
-                    <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p>
+                    <h3 className='text-white text-2xl font-bold'>
+                    Impact and Reach</h3>
+                    {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-right">
                 <div>
-                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/3.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
-                    <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p>
+                    <h3 className='text-white text-2xl font-bold'>Monetization Potential</h3>
+                    {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>
         </div>

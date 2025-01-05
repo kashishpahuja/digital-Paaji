@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 
@@ -114,9 +115,9 @@ function AddOn() {
 
         </div>
         <div className="text-center mt-12">
-          <button className="px-4 py-2 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline ">
+          <Link href="tel:+918699640752" className="px-4 py-2 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline ">
             Call Us
-          </button>
+          </Link>
         </div>
         </div>
         

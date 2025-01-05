@@ -35,7 +35,7 @@ export default function ResponsiveLayout() {
 
           {/* Transitioning Logo */}
           <div
-            className={`absolute xl:top-2 h-auto object-cover  ${
+            className={` absolute xl:top-2 h-auto object-cover  ${
               show === "logo2"
                 ? "translate-x-20 xl:translate-x-20 w-80 xl:w-60"
                 : "w-60 xl:w-80  h-auto object-cover block xl:hidden"

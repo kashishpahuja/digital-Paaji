@@ -21,7 +21,7 @@ function AddOn() {
         <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
-              <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
+              <h3 className="services p-4 text-[#2e2d2d]">Lead Generation</h3>
             </div>
             <div className="text-center">
           <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
@@ -33,10 +33,10 @@ function AddOn() {
           <div className="border border-black "  data-aos="zoom-out">
             <div className="p-2 lg:p-8">
             <div className="mx-auto w-40 h-auto">
-        <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <img src="/Images/addOn/CS.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
-              <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
+              <h3 className="services p-4 text-[#2e2d2d]">Content Strategy</h3>
             </div>
             <div className="text-center">
           <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
@@ -48,10 +48,10 @@ function AddOn() {
           <div className="border border-black "  data-aos="zoom-out">
             <div className="p-2 lg:p-8">
             <div className="mx-auto w-40 h-auto">
-        <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <img src="/Images/addOn/CM.webp" alt="" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
-              <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
+              <h3 className="services p-4 text-[#2e2d2d]">Content Marketing</h3>
             </div>
             <div className="text-center">
           <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">

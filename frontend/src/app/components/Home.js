@@ -28,15 +28,16 @@ export default function Home() {
     <div className="my-24" data-aos="fade-up">
       <KhetKiMuli />
     </div>
-    <div className="my-24" data-aos="fade-up">
+    {/* <div className="my-24" data-aos="fade-up">
       <AddOn />
+    </div> */}
+     <div className="my-24" data-aos="fade-up">
+      <Offer />
     </div>
     <div className="my-24" >
       <Growth />
     </div>
-    <div className="my-24" data-aos="fade-up">
-      <Offer />
-    </div>
+   
     {/* <div className="my-24" data-aos="flip-down">
       <Testimonials />
     </div> */}

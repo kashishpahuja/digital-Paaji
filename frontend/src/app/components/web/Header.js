@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Header() {
@@ -9,9 +10,9 @@ function Header() {
             Web Development Agency In India
           </h3>
           <div className="mt-8">
-            <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
+            <Link href="tel:+918699640752" className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
               Call Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>

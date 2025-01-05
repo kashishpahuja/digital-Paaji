@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Offer() {
@@ -21,9 +22,9 @@ function Offer() {
             interaction, and turn leads into devoted clients, Digital Paaji
             provides a thorough digital marketing strategy.
           </p>
-          <h3 className="merriHead text-xl xl:text-2xl mt-6 text-[#cc5f4d]  text-left md:text-center lg:text-left">
+          <Link href="tel:+918699640752" className="merriHead text-xl xl:text-2xl mt-6 text-[#cc5f4d]  text-left md:text-center lg:text-left">
             Contact us
-          </h3>
+          </Link>
           </div>
         </div>
         <div className="p-2 md:p-6 ml-6 mr-4 md:mx-12 lg:mx-32 xl:ml-0 xl:mr-32">
@@ -40,11 +41,9 @@ function Offer() {
               1
             </div>
             <div>
-              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">Integrity</h3>
+              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">INTEGRITY</h3>
               <p className="servicePara text-sm text-justify md:text-base  ">
-                Digital Paaji places a high value on honesty in all dealings,
-                following moral standards and accepting accountability for one’s
-                deeds.
+              Digital Paaji places a high value on honesty in all dealings, following moral standards and accepting accountability for one’s deeds.
               </p>
             </div>
           </div>
@@ -63,11 +62,9 @@ function Offer() {
               2
             </div>
             <div>
-              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">Integrity</h3>
+              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">INNOVATION</h3>
               <p className="servicePara text-sm text-justify md:text-base  ">
-                Digital Paaji places a high value on honesty in all dealings,
-                following moral standards and accepting accountability for one’s
-                deeds.
+              To stay ahead in the digital arena, Digital Paaji places a high priority on innovation in business practices and is always looking for fresh concepts and methods.
               </p>
             </div>
           </div>
@@ -86,11 +83,9 @@ function Offer() {
               3
             </div>
             <div>
-              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">Integrity</h3>
+              <h3 className="bungeeHead font-semibold text-xl md:text-2xl mb-2 text-center md:text-left">COLLABORATION</h3>
               <p className="servicePara text-sm text-justify md:text-base  ">
-                Digital Paaji places a high value on honesty in all dealings,
-                following moral standards and accepting accountability for one’s
-                deeds.
+              Understanding the needs, objectives, and difficulties of clients is the main focus of Digital Paaji’s partnership for success philosophy.
               </p>
             </div>
           </div>

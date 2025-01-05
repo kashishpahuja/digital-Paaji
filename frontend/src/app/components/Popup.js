@@ -28,8 +28,8 @@ function Popup({ handleMenu }) {
   return (
     <div>
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-        <div className="p-2 bg-[#f6f6f5]">
-        <div className="  p-8 rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[700px]  relative"
+        <div className="p-2 bg-white">
+        <div className="  p-8  bg-[#ede7db] rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[700px]  relative"
         style={{backgroundImage:"url('/Images/popupbg.webp/')"}}>
           {/* Close Icon in Top Right Corner */}
           <AiOutlineClose
@@ -43,7 +43,7 @@ function Popup({ handleMenu }) {
     </div>
       <ul className="grid grid-cols-2 my-12 gap-6 ">
       <Link
-              href={"/"}
+              href={"/digital-marketing"}
               onMouseEnter={() => handleMouseEnter("1")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
@@ -65,7 +65,7 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 2 */}
             <Link
-              href={"/"}
+              href={"/social-media-marketing"}
               onMouseEnter={() => handleMouseEnter("2")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto  mx-auto"
@@ -87,7 +87,7 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 3 */}
             <Link
-              href={"/"}
+              href={"/search-engine-optimization"}
               onMouseEnter={() => handleMouseEnter("3")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
@@ -110,7 +110,7 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 4 */}
             <Link
-              href={"/"}
+              href={"/video-prodution"}
               onMouseEnter={() => handleMouseEnter("4")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
@@ -132,7 +132,7 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 5 */}
             <Link
-              href={"/"}
+              href={"/web-development"}
               onMouseEnter={() => handleMouseEnter("5")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
@@ -154,7 +154,7 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 6 */}
             <Link
-              href={"/"}
+              href={"/graphic-designing"}
               onMouseEnter={() => handleMouseEnter("6")}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto  mx-auto"
@@ -179,16 +179,17 @@ function Popup({ handleMenu }) {
 
 
           <div className="hidden xl:block">
-            <ul className="text-[20px] xl:text-[60px] gap-4 flex flex-col overflow-x-hidden">
+            <ul className="text-[20px] xl:text-[60px] gap-4 flex flex-col overflow-x-hidden ">
               {["Home", "About", "Services", "Our Work", "Contact"].map(
                 (item, index) => (
                   <Link 
                   href={`/${item.toLocaleLowerCase() === 'home' ? '' : item.toLocaleLowerCase() === 'our work' ? 'work' : item.toLocaleLowerCase()}`} 
                   key={index} 
                   onClick={handleMenu}
+                  className=""
                 >               
                   <li
-                    className="stroke  cursor-pointer w-fit"
+                    className="stroke  cursor-pointer w-fit "
                     onMouseEnter={() => handleMouseHover(item)}
                     onMouseLeave={handleMouseHoverLeave}
                     
