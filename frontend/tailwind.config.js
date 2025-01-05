@@ -4,24 +4,32 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       spacing: {
-        'wave-height': '60px', // Adjust if needed
+        waveHeight: "60px",
       },
-      fontFamily:{
-        'bungee-inline': ['Bungee Inline', 'sans-serif'],
-        'merriweather': ['Merriweather', 'serif'],
+      fontFamily: {
+        "bungee-inline": ["Bungee Inline", "sans-serif"],
+        merriweather: ["Merriweather", "serif"],
       },
       translate: {
-        'full': '100%',
-        '-full': '28%',
+        full: "100%",
+        "-full": "28%",
+      },
+      animation: {
+        flowBg: "flowBg 10s linear infinite",
+      },
+      keyframes: {
+        flowBg: {
+          "0%": { backgroundPosition: "0% 0%" },
+          "100%": { backgroundPosition: "100% 100%" },
+          // "100%": { backgroundPosition: "0% 0%" },
+        },
       },
     },
   },
   plugins: [],
-}
+};

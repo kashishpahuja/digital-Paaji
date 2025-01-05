@@ -1,5 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { FaFacebook, FaInstagram, FaMailBulk } from "react-icons/fa";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import {
+  FaArrowLeft,
+  FaArrowRight,
+  FaFacebook,
+  FaInstagram,
+  FaMailBulk,
+} from "react-icons/fa";
 
 function Banner() {
   const [showText, setShowText] = useState(false);
@@ -37,9 +47,33 @@ function Banner() {
     ));
   };
 
+  const slides = [
+    {
+      laptopImage: "/Images/banner/laptop.webp",
+      innerImage: "/Images/banner/laptopInner.webp",
+      bgColor: "#373636",
+    },
+    {
+      laptopImage: "/Images/banner/laptop2.webp",
+      innerImage: "/Images/banner/laptopInner2.webp",
+      bgColor: "#333333",
+    },
+    {
+      laptopImage: "/Images/banner/laptop3.webp",
+      innerImage: "/Images/banner/laptopInner3.webp",
+      bgColor: "#2E2E2E",
+    },
+  ];
+
   return (
-    <div className="relative bg-black w-full min-h-screen">
-        
+    <div
+      className="relative w-full min-h-screen bg-cover bg-no-repeat bg-black animate-flowBg"
+      style={{
+        backgroundImage: `url('/Images/services/bg.webp')`,
+        animation: "flowBg 15s linear infinite",
+        backgroundSize: "200% 200%",
+      }}
+    >
       <div className="absolute top-2 h-[100px] w-full">
         <div className="relative flex justify-center items-center flex-col gap-2">
           <div
@@ -54,17 +88,17 @@ function Banner() {
             />
           </div>
           <div className="block lg:hidden">
- <p className="text-white text-sm">
-   {splitText("Lorem ipsum dolor, sit amet.")}
- </p>
-</div>
-         {showText && (
- <div className="hidden lg:block">
- <p className="text-white text-sm">
-   {splitText("Lorem ipsum dolor, sit amet.")}
- </p>
-</div>
-         )}
+            <p className="text-white text-sm">
+              {splitText("Lorem ipsum dolor, sit amet.")}
+            </p>
+          </div>
+          {showText && (
+            <div className="hidden lg:block">
+              <p className="text-white text-sm">
+                {splitText("Lorem ipsum dolor, sit amet.")}
+              </p>
+            </div>
+          )}
 
           <div className="hidden lg:block absolute right-[30%] xl:right-[34%] top-8">
             <div className="vibrate space-x-10">
@@ -113,17 +147,17 @@ function Banner() {
         </div>
       </div>
 
-      <div className=" absolute  bottom-4 lg:right-16 w-full lg:w-fit">
+      <div className=" absolute bottom-4 lg:right-16 w-full lg:w-fit">
         <div className="relative">
           <ul className="flex items-center justify-center gap-4">
             <li>
-              <FaMailBulk className="w-8  h-8  text-white" />
+              <FaMailBulk className="w-8 h-8 text-white" />
             </li>
             <li>
-              <FaFacebook className="w-8  h-8  text-white" />
+              <FaFacebook className="w-8 h-8 text-white" />
             </li>
             <li>
-              <FaInstagram className="w-8  h-8  text-white" />
+              <FaInstagram className="w-8 h-8 text-white" />
             </li>
           </ul>
         </div>
@@ -144,204 +178,54 @@ function Banner() {
         </div>
       </div>
 
-{/* slider */}
+      <Swiper
+        navigation
+        modules={[Navigation]}
+        className="swiper-container"
+      >
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className="py-32 flex items-center flex-wrap-reverse xl:flex-nowrap justify-center gap-0 xl:mx-auto">
+              <div className="relative w-full xl:w-[70%] mx-8 xl:mx-0">
+                {/* Laptop Image */}
+                <img
+                  src={slide.laptopImage}
+                  alt="Laptop"
+                  className="w-full h-full object-cover"
+                />
 
-<div className="relative flex justify-center">
-<div className="relative  border-2 border-red-800">
-  <div className="relative ">
-    <img src="/Images/banner/laptop.webp" alt="" className=" w-full h-[100%] object-cover" />
-  <div className="absolute top-0 left-12 "><img src="/Images/banner/laptopInner.webp" alt="" /></div>
+                {/* Image inside Laptop */}
+                <div className="absolute top-[14%] left-[10%] w-[80%] h-[70%]">
+                  <img
+                    src={slide.innerImage}
+                    alt="Content"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
 
-  </div>
-</div>
-<div className="absolute bottom-24 right-0 w-[30%]  border-2 border-red-800 p-6 text-white bg-gray-800">
-<div className="">
-  <h3 className="text-md ">Lorem ipsum dolor sit.</h3>
-  <p className="text-sm mt-4 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt. Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
-  <p className="text-sm ">LET'S TALK BUSINESS</p>
-  </div>
-</div>
-
-</div>
-      
-    </div>
-  );
-}
-
-export default Banner;
-
-
-
-
-
-
-
-
-
-
-// import React, { useState, useEffect } from "react";
-// import { FaFacebook, FaInstagram, FaMailBulk } from "react-icons/fa";
-
-// function Banner() {
-//   const [showText, setShowText] = useState(false);
-//   const [isSmallScreen, setIsSmallScreen] = useState(false);
-//   const [currentSlide, setCurrentSlide] = useState(0);
-
-//   const slides = [
-//     {
-//       image: "/Images/slide1.webp",
-//       title: "Being #1 is Just a Step Away",
-//       description:
-//         "Transform your digital presence. Welcome to Digital Paaji, a place where innovative strategies and cutting-edge technology meet to propel your business forward to success.",
-//       buttonText: "Let's Talk Business",
-//     },
-//     {
-//       image: "/Images/slide2.webp",
-//       title: "Empowering Your Vision",
-//       description:
-//         "At Digital Paaji, we bring your ideas to life with creative solutions and powerful tools.",
-//       buttonText: "Get Started Now",
-//     },
-//     {
-//       image: "/Images/slide3.webp",
-//       title: "Your Gateway to Success",
-//       description:
-//         "Discover innovative ways to grow your brand and make your mark in the digital world.",
-//       buttonText: "Explore Services",
-//     },
-//   ];
-
-//   const handleMouseEnter = () => setShowText(true);
-//   const handleMouseLeave = () => setShowText(false);
-
-//   const goToNextSlide = () => {
-//     setCurrentSlide((prev) => (prev + 1) % slides.length);
-//   };
-
-//   const goToPreviousSlide = () => {
-//     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-//   };
-
-//   // Check screen size to determine visibility
-//   useEffect(() => {
-//     const handleResize = () => {
-//       setIsSmallScreen(window.innerWidth < 1024); // lg breakpoint in Tailwind
-//     };
-
-//     handleResize(); // Check on component mount
-//     window.addEventListener("resize", handleResize);
-
-//     return () => {
-//       window.removeEventListener("resize", handleResize);
-//     };
-//   }, []);
-
-//   return (
-//     <div className="relative bg-black w-full min-h-screen">
-//       {/* Existing Code */}
-//       <div className="absolute top-2 h-[100px] border border-red-700 w-full">
-//         <div className="relative flex justify-center items-center flex-col gap-2">
-//           <div
-//             className="w-[220px] h-[70px] cursor-pointer"
-//             onMouseEnter={handleMouseEnter}
-//             onMouseLeave={handleMouseLeave}
-//           >
-//             <img
-//               src="/Images/banner/logoWhite.webp"
-//               alt="logoWhite"
-//               className="w-full h-[100%] object-contain"
-//             />
-//           </div>
-
-//           <div>
-//             <p className="text-white text-xs">
-//               Lorem ipsum dolor, sit amet.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-
-//       {/* Slider Section */}
-//       <div className="relative w-full h-full overflow-hidden">
-//         {slides.map((slide, index) => (
-//           <div
-//             key={index}
-//             className={`absolute top-0 left-0 w-full h-full transition-transform duration-1000 transform ${
-//               index === currentSlide
-//                 ? "translate-y-0"
-//                 : index < currentSlide
-//                 ? "-translate-y-full"
-//                 : "translate-y-full"
-//             }`}
-//           >
-//             {/* Slide Background Image */}
-//             <img
-//               src={slide.image}
-//               alt={`Slide ${index + 1}`}
-//               className="w-full h-full object-cover absolute"
-//             />
-
-//             {/* Slide Content Card */}
-//             <div className="absolute top-1/4 right-10 bg-gray-900 bg-opacity-75 text-white p-6 rounded-lg shadow-lg max-w-sm">
-//               <h2 className="text-xl font-bold mb-4">{slide.title}</h2>
-//               <p className="text-sm mb-4">{slide.description}</p>
-//               <button className="bg-red-600 px-4 py-2 rounded text-sm font-medium hover:bg-red-700">
-//                 {slide.buttonText}
-//               </button>
-
-//               {/* Navigation Arrows */}
-//               <div className="flex justify-between items-center mt-4">
-//                 <button
-//                   onClick={goToPreviousSlide}
-//                   className="text-white bg-gray-700 p-2 rounded-full hover:bg-gray-600"
-//                 >
-//                   &larr;
-//                 </button>
-//                 <button
-//                   onClick={goToNextSlide}
-//                   className="text-white bg-gray-700 p-2 rounded-full hover:bg-gray-600"
-//                 >
-//                   &rarr;
-//                 </button>
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-
-//       {/* Social Media Icons Section */}
-//       <div className="absolute bottom-4 lg:right-16 w-full lg:w-fit">
-//         <div className="relative">
-//           <ul className="flex items-center justify-center gap-4">
-//             <li>
-//               <FaMailBulk className="w-8  h-8  text-white" />
-//             </li>
-//             <li>
-//               <FaFacebook className="w-8  h-8  text-white" />
-//             </li>
-//             <li>
-//               <FaInstagram className="w-8  h-8  text-white" />
-//             </li>
-//           </ul>
-//         </div>
-//         <div className="vibrate hidden lg:block absolute right-32 bottom-6">
-//           <p
-//             className="bungeeHead relative text-gray-600 text-xs w-[150px]"
-//             style={{ fontWeight: 100 }}
-//           >
-//             Get In Touch
-//           </p>
-//           <div className="absolute bottom-6 left-16">
-//             <img
-//               src="/Images/banner/arrow3.webp"
-//               alt=""
-//               className="w-full h-[100%] object-cover"
-//             />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Banner;
+              <div
+                className="w-[70%] xl:w-[20%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999]"
+                style={{ backgroundColor: slide.bgColor }}
+              >
+                <div className="p-6 py-12">
+                  <h3
+                    className="merriHead text-sm text-white"
+                    style={{ letterSpacing: "4px" }}
+                  >
+                    <span
+                      className="text-[#cc5f4d] text-sm"
+                      style={{ letterSpacing: "2px" }}
+                    >
+                      TRANSFORM{" "}
+                    </span>
+                    YOUR DIGITAL PRESENCE
+                  </h3>
+                  <p
+                    className="servicePara text-xs text-gray-50 my-8"
+                    style={{ textAlign: "center" }}
+                  >
+                    customised digital marketing services. We create
+                    individualised plans that appeal to their target market
+                    since our experts recognize how different every company is.
+                  </p
