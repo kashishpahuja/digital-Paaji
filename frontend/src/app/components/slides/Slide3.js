@@ -7,7 +7,7 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 
-function Banner({ handleSlide, slideNumber, currentSlide }) {
+function Banner({ handleNextSlide,handlePrevSlide , slideNumber, currentSlide }) {
   const [showText, setShowText] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -44,20 +44,18 @@ function Banner({ handleSlide, slideNumber, currentSlide }) {
   };
 
   return (
-    <div className={`slide slide-${slideNumber} ${slideNumber === currentSlide ? 'active' : ''} w-full h-[800px] bg-green-800`}>
-      {/* <div
-        className="bg-flow relative w-full min-h-screen bg-no-repeat "
-        style={{
-          backgroundImage: `url('/Images/banner/slide1BG.webp')`,
-          backgroundSize: isSmallScreen ? "cover" : "", // Apply cover for small screens
-          backgroundPosition: "center",
-          backgroundRepeat: "repeat",
-        }}
-      >
-        <div className="absolute top-2 h-[100px] w-full">
+    <div className={`slide slide-${slideNumber} ${slideNumber === currentSlide ? 'active' : ''} `}
+      // style={{
+      //      backgroundImage: `url('/Images/banner/slide1BG.webp')`,
+      //      backgroundSize: isSmallScreen ? "cover" : "", // Apply cover for small screens
+      //      backgroundPosition: "center",
+      //      backgroundRepeat: "repeat",
+      //    }}
+    >
+            <div className="absolute top-2 h-[100px] w-full">
           <div className="relative flex justify-center items-center flex-col gap-2">
             <div
-              className="w-[220px] h-[70px] cursor-pointer"
+              className="w-[260px] h-[80px] cursor-pointer"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
@@ -127,7 +125,7 @@ function Banner({ handleSlide, slideNumber, currentSlide }) {
           </div>
         </div>
 
-        <div className=" absolute bottom-4 lg:right-16 w-full lg:w-fit">
+        <div className=" absolute bottom-6 md:bottom-8 lg:right-16 w-full lg:w-fit">
           <div className="relative">
             <ul className="flex items-center justify-center gap-4">
               <li>
@@ -157,32 +155,41 @@ function Banner({ handleSlide, slideNumber, currentSlide }) {
             </div>
           </div>
         </div>
+      {/* <div> */}
+  
 
-        <div className="py-20 flex items-center flex-wrap-reverse xl:flex-nowrap justify-center gap-0 xl:mx-auto">
-          <div className="relative w-full xl:w-[70%] mx-8 xl:mx-0">
+        <div 
+         
+       
+        className=" my-32 lg:my-28 relative w-full bg-no-repeat  border-2 flex items-center flex-wrap-reverse xl:flex-nowrap justify-center gap-6 xl:gap-0  xl:mx-auto">
+          <div className="relative w-full md:w-[55%] xl:w-[60%] mx-8 xl:mx-0">
+            
+            <div className="w-full h-auto">
             <img
               src="/Images/banner/laptop.webp"
               alt="Laptop"
-              className="w-full h-full object-cover"
+              className="w-full h-[100%] object-cover"
             />
+            </div>
+          
 
             <div className="absolute top-[14%] left-[10%] w-[80%] h-[70%]">
               <img
                 src="/Images/banner/laptopInner.webp"
                 alt="Content"
-                className="w-full h-full object-contain"
+                className="w-full h-[100%] object-contain"
               />
             </div>
           </div>
 
-          <div className="w-[70%] md:w-[55%] xl:w-[20%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-end justify-end">
-            <div className="p-6 py-12 bg-[#373636]">
+          <div className="w-[90%] md:w-[45%] xl:w-[20%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-end justify-end">
+            <div className="p-6 lg:py-12 bg-[#373636]">
               <h3
-                className="merriHead text-sm text-white"
+                className="merriHead text-xs md:text-sm text-white"
                 style={{ letterSpacing: "4px" }}
               >
                 <span
-                  className="text-[#cc5f4d] text-sm"
+                  className="text-[#cc5f4d] text-xs md:text-sm"
                   style={{ letterSpacing: "2px" }}
                 >
                   TRANSFORM{" "}
@@ -190,7 +197,7 @@ function Banner({ handleSlide, slideNumber, currentSlide }) {
                 YOUR DIGITAL PRESENCE
               </h3>
               <p
-                className="servicePara text-xs text-gray-50 my-8"
+                className="servicePara text-[10px] md:text-xs text-gray-50 my-4 lg:my-8"
                 style={{ textAlign: "center" }}
               >
                 customised digital marketing services. We create individualised
@@ -198,23 +205,23 @@ function Banner({ handleSlide, slideNumber, currentSlide }) {
                 recognize how different every company is.
               </p>
               <p
-                className="servicePara text-sm text-[#cc5f4d]"
+                className="servicePara text-xs md:text-sm text-[#cc5f4d]"
                 style={{ textAlign: "center" }}
               >
                 LET'S TALK BUSINESS
               </p>
             </div>
-            <div className="flex items-start xl:items-center  justify-start xl:justify-end flex-col xl:flex-row xl:w-full">
-              <button className="bg-white">
+            <div className="flex items-end xl:items-center  justify-start xl:justify-end flex-col xl:flex-row xl:w-full">
+              <button className="bg-white" onClick={handlePrevSlide}>
                 <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
               </button>
-              <button onClick={()=>{handleSlide}} className="bg-white">
+              <button onClick={handleNextSlide} className="bg-white">
                 <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
               </button>
             </div>
           </div>
         </div>
-      </div> */}
+      {/* </div> */}
     </div>
   );
 }
