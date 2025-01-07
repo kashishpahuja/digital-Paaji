@@ -71,19 +71,19 @@ function Footer() {
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/">Home</Link>
           </li>
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/services">Services</Link>
           </li>
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/work">Our Work</Link>
           </li>
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
@@ -96,17 +96,17 @@ function Footer() {
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          <li className="zoomLeft mt-6 flex items-center gap-2">
+          <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiFillPhone className="text-[#cc5f4d]" />
             <Link href="tel:+8699640752">8699640752</Link>
           </li>
-          <li className="zoomLeft mt-6 flex items-center gap-2">
+          <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiOutlineMail className="text-[#cc5f4d]" />
             <Link href="mailto:hello@digitalpaaji.com">
               hello@digitalpaaji.com
             </Link>
           </li>
-          <li className="zoomLeft mt-6 flex items-center gap-2">
+          <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiFillEnvironment className="text-[#cc5f4d]" /> Patiala/Mohali
           </li>
         </ul>
@@ -119,13 +119,13 @@ function Footer() {
           className="merriHead text-[#006E7F] text-md"
           style={{ fontWeight: "300" }}
         >
-          {/* <li className="zoomLeft mt-6">
+          {/* <li className="lg:zoomLeft mt-6">
             <Link href="/team">Our Team</Link>
           </li> */}
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/packages">Packages</Link>
           </li>
-          <li className="zoomLeft mt-6">
+          <li className="lg:zoomLeft mt-6">
             <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
         </ul>

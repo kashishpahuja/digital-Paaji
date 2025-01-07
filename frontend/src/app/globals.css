@@ -553,3 +553,50 @@ body {
     transform: translateX(100%);
   }
 }
+
+.bg-flow {
+  animation: diagonalFlow 6s linear infinite; /* Speed: 8s */
+  background-size: 150% 150%; /* Reduce zoom */
+  background-position: 100% 100%; /* Starting point */
+}
+@keyframes diagonalFlow {
+  0% {
+    background-position: 0% 0%; /* Start from bottom-right */
+  }
+  100% {
+    background-position: 100% 100%; /* Move to top-left */
+  }
+}
+
+/* banner */
+.slide-container{
+  position: relative;
+  background-color: rgb(89, 86, 84);
+}
+.slide-container .slide{
+  position: absolute;
+  transform: translateY(-100%);
+}
+.slide-container .slide:first-of-type{
+  transform: translateY(0);
+}
+.slide.active{
+  animation: slideDown .6s forwards ease-in;
+
+}
+.slide-1{
+  background-color: #cc5f4d;
+}
+.slide-2{
+  background-color: #8f4dcc;
+}.slide-3{
+  background-color: #0eb139;
+}
+@keyframes slideDown {
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}

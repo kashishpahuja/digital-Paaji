@@ -23,11 +23,7 @@ module.exports = {
         flowBg: "flowBg 10s linear infinite",
       },
       keyframes: {
-        flowBg: {
-          "0%": { backgroundPosition: "0% 0%" },
-          "100%": { backgroundPosition: "100% 100%" },
-          // "100%": { backgroundPosition: "0% 0%" },
-        },
+   
       },
     },
   },

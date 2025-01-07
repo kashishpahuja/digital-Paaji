@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Header from "../components/Header";
-import KhetKiMuli from '../components/KhetKiMuli'
+import KhetKiMuli from '../components/about/Story'
 import Offer from '../components/about/AboutOffer'
 import SocialMedia from '../components/about/SocialMedia'
 import History from '../components/about/History';

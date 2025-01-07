@@ -73,7 +73,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <div className=" mb-[100px] xl:mb-[150px]">
         <Navbar />
+        </div>
         {children}
         <Footer />
       </body>

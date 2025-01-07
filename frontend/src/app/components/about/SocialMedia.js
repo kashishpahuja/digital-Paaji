@@ -17,8 +17,8 @@ function FollowUs() {
     { name: "Facebook", icon: <FaFacebook />, link: "https://facebook.com" },
     { name: "Instagram", icon: <FaInstagram />, link: "https://instagram.com" },
     { name: "YouTube", icon: <FaYoutube />, link: "https://youtube.com" },
-    { name: "Twitter", icon: <FaTwitter />, link: "https://twitter.com" },
-    { name: "Pinterest", icon: <FaPinterest />, link: "https://pinterest.com" },
+    { name: "x.com", icon: <FaTwitter />, link: "https://twitter.com" },
+    { name: "Pintrest", icon: <FaPinterest />, link: "https://pinterest.com" },
   ];
 
   const handleMouseEnter = (index) => {
@@ -39,12 +39,12 @@ function FollowUs() {
         </div>
 
         {/* Social Media Links */}
-        <ul className="flex items-center justify-center flex-wrap gap-6  lg:gap-16">
+        <ul className="flex items-center justify-center flex-wrap gap-6 lg:gap-10">
           {socialLinks.map((social, index) => (
             <li
               key={index}
               onMouseEnter={() => handleMouseEnter(index)}
-              className={`merryWeather flex p-2 gap-2 items-center text-xl font-semibold text-white ${
+              className={`merriHead flex p-2 gap-2 items-center font-semibold text-white ${
                 activeTab === index ? "border-b-2 border-yellow-400" : ""
               }`}
             >
