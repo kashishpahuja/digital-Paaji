@@ -7,14 +7,14 @@ function Services() {
   const handleVideoPopup = () => setIsOpen(!isOpen);
 
   const servicesData = [
-    { id: 1, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 2, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 3, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 4, image: "/Images/work/8.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 5, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 2, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 3, image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
-    { id: 4, image: "/Images/work/8.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 1,name:" Tips for Stunning Shots", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 2,name:"Facts and Impacts Explained ", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 3,name:"Mysteries of the World ", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 4,name:" Creativity and Expression", image: "/Images/work/8.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 5,name:"Entrepreneurship Made Easy ", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 2,name:"Your Space on a Budget ", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 3,name:" Everything You Need to Know", image: "/Images/work/7.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
+    { id: 4,name:"From Sketch to Masterpiece: ", image: "/Images/work/8.webp", video: "https://www.youtube.com/embed/VhBl3dHT5SY?si=oqkHQm1U1USGBEZu" },
   ];
 
   return (
@@ -25,7 +25,7 @@ function Services() {
             <div key={service.id} className="flex flex-col items-center justify-center">
               <div className="border border-black" data-aos="zoom-in">
                 <div className="border-b border-black">
-                  <h3 className="services p-4 text-[#2e2d2d]">Tips for Stunning Shots</h3>
+                  <h3 className="services p-4 text-[#2e2d2d]">{service.name}</h3>
                 </div>
                 <div>
                   <img

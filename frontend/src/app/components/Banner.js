@@ -45,13 +45,13 @@ function Banner() {
         slideNumber={1}
         currentSlide={currentSlide}
       />
-      <Slide2
+      <Slide1
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={2}
         currentSlide={currentSlide}
       />
-      <Slide3
+      <Slide1
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={3}

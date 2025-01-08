@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import Header from "../components/Header";
 import Work from "../components/Work";
 import Cards from "../components/work/cards";
-import Zigzag from "../components/Zigzag";
+import Zigzag from "../components/BannerBottom";
 
 export default function About() {
     useEffect(() => {

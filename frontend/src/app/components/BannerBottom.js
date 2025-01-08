@@ -17,7 +17,7 @@ function Zigzag() {
                     <img src="/Images/zigzag/1.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
+                    <h3 className='text-white text-xl xl:text-2xl font-bold'>Creative Expression</h3>
                     {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>
@@ -26,7 +26,7 @@ function Zigzag() {
                     <img src="/Images/zigzag/4.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>
+                    <h3 className='text-white text-xl xl:text-2xl font-bold'>
                     Diverse Opportunities</h3>
                     {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
@@ -36,7 +36,7 @@ function Zigzag() {
                     <img src="/Images/zigzag/2.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>
+                    <h3 className='text-white text-xl xl:text-2xl font-bold'>
                     Impact and Reach</h3>
                     {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
@@ -46,7 +46,7 @@ function Zigzag() {
                     <img src="/Images/zigzag/3.webp" alt="" className='zoom w-28 h-24'/>
                 </div>
                 <div>
-                    <h3 className='text-white text-2xl font-bold'>Monetization Potential</h3>
+                    <h3 className='text-white text-xl xl:text-2xl font-bold'>Monetization Potential</h3>
                     {/* <p className='text-gray-300 text-sm mt-2'>Lorem ipsum dolor sit.</p> */}
                 </div>
             </div>

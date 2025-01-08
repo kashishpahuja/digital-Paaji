@@ -608,3 +608,25 @@ body {
     transform: translateY(0);
   }
 }
+
+
+/* Transition for the LogoTransition */
+.LogoTransition {
+  width: 0rem;
+  transition: width 0.4s ease-in-out, opacity 0.6s ease-in-out;
+  opacity: 0;
+}
+
+.logoBox:hover + .LogoTransition {
+  width: 20rem; /* Adjust width as needed */
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

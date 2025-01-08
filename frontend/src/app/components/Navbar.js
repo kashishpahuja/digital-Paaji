@@ -16,15 +16,23 @@ export default function ResponsiveLayout() {
     setIsMenuOpen((prev) => !prev);
   };
 
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseHover = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseHoverLeave = () => {
+    setIsHovering(false);
+  };
   return (
     <div className="bg-[#ede7db] w-full overflow-hidden fixed top-0  z-[9999999]">
       <div className="flex items-center justify-between gap-4  mx-4 xl:mx-12 h-[100px] xl:h-[150px] ">
-        <div
-          className="relative flex items-center justify-start w-fit xl:w-[300px]"
+        {/* <div
+          className=" relative flex items-center justify-start w-fit xl:w-[300px]"
           onMouseLeave={handleMouseLeave}
         >
-          {/* Static Logo */}
-          <Link href={'/'}>
+          <Link href={'/'} className="">
           <div
             className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer"
             onMouseEnter={() => handleMouseEnter("logo2")}
@@ -33,19 +41,43 @@ export default function ResponsiveLayout() {
           </div>
           </Link>
 
-          {/* Transitioning Logo */}
+  
+
+      
+        </div> */}
+        <div
+  className="relative flex items-center justify-start w-fit xl:w-[300px]"
+  onMouseEnter={handleMouseHover}
+  onMouseLeave={handleMouseHoverLeave}
+>
+<Link href={'/'}>
           <div
-            className={` absolute xl:top-2 h-auto object-cover  ${
-              show === "logo2"
-                ? "translate-x-20 xl:translate-x-20 w-80 xl:w-60"
-                : "w-60 xl:w-80  h-auto object-cover block xl:hidden"
-            }`}
+            className="block xl:hidden w-60 h-auto overflow-hidden cursor-pointer"
+            onMouseEnter={() => handleMouseEnter("logo2")}
           >
-            {/* <div className={` xl:w-80  h-auto object-cover   ${show === "logo2" ? ' xl:logo2' : ' xl:logoHide'}`}> */}
-              <img src="/Images/logo2.webp" alt="logo2" className="w-60 xl:w-80  h-auto object-cover  " />
-            {/* </div> */}
+            <img src="/Images/logo2.webp" alt="logo" />
           </div>
-        </div>
+          </Link>
+  {/* xl screen Logo */}
+  <Link href={'/'} className="">
+    <div
+      className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer transition-all duration-400"
+      onMouseEnter={() => handleMouseHover("logo2")}
+    >
+      <img src="/Images/logo.webp" alt="logo" />
+    </div>
+  </Link>
+
+  {/* Animated 2D Logo */}
+  <div
+    className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out ${
+      isHovering ? " transition-all duration-700 ease-in-out w-[15rem]" : "w-2"
+    }`}
+  >
+    <img src="/Images/logo2.webp" alt="logo2" className="w-full h-auto" />
+  </div>
+</div>
+
 
         {/* Navigation Links */}
         <div className="hidden xl:block py-6 -ml-12  ">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function KhetKiMuli() {
+function Story() {
   return (
     <div
       className="bg-[#006E7F] overflow-hidden text-white py-24 "
@@ -36,4 +36,4 @@ Our Story
   );
 }
 
-export default KhetKiMuli;
+export default Story;

@@ -70,12 +70,12 @@ function Banner({
             <img
               src="/Images/banner/logoWhite.webp"
               alt="logoWhite"
-              className="w-full h-[100%] object-contain"
+              className="w-full h-[100%] object-COVER"
             />
           </div>
           <div className="block lg:hidden">
             <p className="text-white text-sm">
-              {splitText("Lorem ipsum dolor, sit amet.")}
+              {splitText("DIGITAL PAAJI, SIRHIND ROAD, PATIALA.")}
             </p>
           </div>
           {showText && (

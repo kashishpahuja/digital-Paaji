@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import Header from "../components/Header";
 import GetInTouch from '../components/services/GetInTouch'
 import Content from '../components/services/Content'
-import Faq from '../components/Faq'
+import Faq from '../components/services/Faq'
 
 
 
