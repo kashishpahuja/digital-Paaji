@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 function AddOn() {
@@ -20,17 +21,14 @@ function AddOn() {
       <div className="relative z-10 text-center">
         <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 ">
           <h3 className="bungeeHead    text-[30px] xl:text-[40px]">
-            Selecting Digital Paaji for SEO Services Has Its Benefits
+          Selecting Digital Paaji for SEO Services Has Its Benefits
           </h3>
 
           <p
             className="servicePara mt-4 text-sm  text-justify xl:text-[14px] "
             style={{ textAlign: "center" }}
           >
-            Working with the correct agency can make all the difference when it
-            comes to SEO. We at Digital Paaji differentiate ourselves from the
-            competition with a wide range of benefits. Here are a few of the
-            main advantages of using us for your SEO requirements:
+           Working with the correct agency can make all the difference when it comes to SEO. We at Digital Paaji differentiate ourselves from the competition with a wide range of benefits. Here are a few of the main advantages of using us for your SEO requirements:
           </p>
         </div>
 
@@ -48,18 +46,15 @@ function AddOn() {
                   </div>
                   <div className="">
                     <h3 className="bungeeHead text-base ">
-                      Research on Keywords
+                      
+Skilled SEO
+Experts​
                     </h3>
                   </div>
                 </div>
                 <div className="text-center">
                   <p className="servicePara  text-sm  text-justify">
-                    The skilled experts at Digital Paaji are always abreast of
-                    the latest developments in SEO trends and best practices,
-                    guaranteeing creative and legal approaches. Because of their
-                    experience, we can tackle difficult SEO problems like
-                    recovering from Google penalties and reduce the risk
-                    associated with using antiquated tactics.
+                  The skilled experts at Digital Paaji are always abreast of the latest developments in SEO trends and best practices, guaranteeing creative and legal approaches. Because of their experience, we can tackle difficult SEO problems like recovering from Google penalties and reduce the risk associated with using antiquated tactics.
                   </p>
                 </div>
               </div>
@@ -76,18 +71,15 @@ function AddOn() {
                   </div>
                   <div className="">
                     <h3 className="bungeeHead text-base ">
-                      Research on Keywords
+                      
+Customised Business
+Strategies
                     </h3>
                   </div>
                 </div>
                 <div className="text-center">
                   <p className="servicePara  text-sm  text-justify">
-                    The skilled experts at Digital Paaji are always abreast of
-                    the latest developments in SEO trends and best practices,
-                    guaranteeing creative and legal approaches. Because of their
-                    experience, we can tackle difficult SEO problems like
-                    recovering from Google penalties and reduce the risk
-                    associated with using antiquated tactics.
+                  Working with the correct agency can make all the difference when it comes to SEO. We at Digital Paaji differentiate ourselves from the competition with a wide range of benefits. Here are a few of the main advantages of using us for your SEO requirements:
                   </p>
                 </div>
               </div>
@@ -104,18 +96,14 @@ function AddOn() {
                   </div>
                   <div className="">
                     <h3 className="bungeeHead text-base ">
-                      Research on Keywords
+                      
+Constant Assistance and Adjustment​
                     </h3>
                   </div>
                 </div>
                 <div className="text-center">
                   <p className="servicePara  text-sm  text-justify">
-                    The skilled experts at Digital Paaji are always abreast of
-                    the latest developments in SEO trends and best practices,
-                    guaranteeing creative and legal approaches. Because of their
-                    experience, we can tackle difficult SEO problems like
-                    recovering from Google penalties and reduce the risk
-                    associated with using antiquated tactics.
+                  SEO calls for ongoing observation and modification; it is not a one-time endeavor. At Digital Paaji, we offer continuous assistance to make sure your SEO plan continues to work over time. We maintain your content current and relevant, evaluate performance on a regular basis, and make modifications in response to emerging trends.
                   </p>
                 </div>
               </div>
@@ -123,9 +111,9 @@ function AddOn() {
           </div>
 
           <div className="text-center mt-12">
-            <button className="px-4 py-2 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
-              Get Started Today
-            </button>
+            <Link  href="tel:+918699640752" className="px-4 py-2 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
+              Call Us
+            </Link>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ import Clients from '../components/seo/Clients'
 
 import Benefits from '../components/seo/Benefits'
 
-import Faq from '../components/Faq'
+import Faq from '../components/seo/Faq'
 
 
 

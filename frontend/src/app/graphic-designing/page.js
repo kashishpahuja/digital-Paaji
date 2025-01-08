@@ -10,7 +10,7 @@ import Work from '../components/graphic/Work'
 import Zoom from '../components/graphic/Zoom'
 import Why from '../components/graphic/Why'
 import Process from '../components/graphic/Process'
-import Faq from '../components/Faq'
+import Faq from '../components/graphic/Faq'
 
 
 
@@ -21,7 +21,7 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Welcome to Digital Paaji" content="Your Gateway to Online Success" button="Call Us"/>
+        <Header title="Graphic Designing Agency India" content="We won’t let good design go extinct!" button="Call Us"/>
         <div className="my-24">
         <Zoom />
       </div>

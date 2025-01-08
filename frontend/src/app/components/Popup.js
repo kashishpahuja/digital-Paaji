@@ -45,6 +45,7 @@ function Popup({ handleMenu }) {
       <Link
               href={"/digital-marketing"}
               onMouseEnter={() => handleMouseEnter("1")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
             >
@@ -67,6 +68,7 @@ function Popup({ handleMenu }) {
             <Link
               href={"/social-media-marketing"}
               onMouseEnter={() => handleMouseEnter("2")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto  mx-auto"
             >
@@ -89,6 +91,7 @@ function Popup({ handleMenu }) {
             <Link
               href={"/search-engine-optimization"}
               onMouseEnter={() => handleMouseEnter("3")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
             >
@@ -110,8 +113,9 @@ function Popup({ handleMenu }) {
             </Link>
             {/* Link 4 */}
             <Link
-              href={"/video-prodution"}
+              href={"/video-production"}
               onMouseEnter={() => handleMouseEnter("4")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
             >
@@ -134,6 +138,7 @@ function Popup({ handleMenu }) {
             <Link
               href={"/web-development"}
               onMouseEnter={() => handleMouseEnter("5")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto mx-auto"
             >
@@ -156,6 +161,7 @@ function Popup({ handleMenu }) {
             <Link
               href={"/graphic-designing"}
               onMouseEnter={() => handleMouseEnter("6")}
+              onClick={handleMenu}
               onMouseLeave={handleMouseLeave}
               className="w-24 h-auto  mx-auto"
             >

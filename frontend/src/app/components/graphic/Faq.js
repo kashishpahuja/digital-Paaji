@@ -25,29 +25,29 @@ const handleShowIcon = ()=>{
 
   const faqs = [
     {
-      question: "How does Digital Paaji ensure results for its clients?",
+      question: "How do you ensure that the designs align with my brand?",
       answer:
-        "To assess companies, the market, and the competition, create customized marketing plans, and track the success of campaigns, Digital Paaji employs a data-driven methodology. We work together closely, stay transparent, and get input to improve your campaign goals. Our objective is to provide long-term corporate growth and a high return on investment.",
+        "Using consulting, market research, and preliminary thoughts, Digital Paaji places a high priority on matching designs to your brand. To ensure that designs meet and beyond your expectations and are genuinely indicative of the brand, we welcome feedback and teamwork in the refinement process.",
     },
     {
-      question: "What industries does Digital Paaji serve?",
+      question: "Can you help with rebranding?",
       answer:
-        "Digital Paaji serves a variety of industries, including technology, retail, healthcare, and more. Our strategies are tailored to meet the specific needs of each sector.",
+        "For a seamless transition that will keep your current clientele and draw in new ones, Digital Paaji provides a full rebranding service that includes evaluating your current brand identity, pinpointing opportunities for development, coming up with fresh design concepts, and establishing brand standards.",
     },
     {
-      question: "What can I expect in terms of timeline and deliverables?",
+      question: "How does the design process work at Digital Paaji?",
       answer:
-        "Our timelines and deliverables are customized to suit each project. Typically, we provide detailed plans and regular updates to ensure transparency and on-time delivery.",
+        "Research, concept creation, and feedback are all part of Digital Paaji's methodical and cooperative design process, which begins with an initial consultation. To ensure a high-quality design, files are prepared for print and digital use during the finalisation stage.",
     },
     {
-      question: "Can Digital Paaji help with branding and messaging?",
+      question: "Can you help with print production as well?",
       answer:
-        "Yes, we specialize in branding and crafting compelling messages to ensure your brand stands out and resonates with your target audience.",
+        "Print production services are provided by Digital Paaji, guaranteeing premium materials for branding and marketing. Along with selecting materials and checking proofs for accuracy, we collaborate with reputable printing providers. Creating beautiful and useful materials is their aim.",
     },
     {
-      question: "What is the cost of Digital Paaji's services?",
+      question: "What is the cost of your graphic design services?",
       answer:
-        "Our pricing is competitive and tailored to the services required. Contact us for a detailed quote based on your needs.",
+        "Competitive graphic design services catered to individual projects and levels of complexity are provided by Digital Paaji. We guarantee premium designs that raise the value of brands by offering clear pricing and a variety of packages to suit demands and budgets.",
     },
   ];
 

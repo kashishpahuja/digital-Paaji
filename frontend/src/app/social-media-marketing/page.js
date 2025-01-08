@@ -8,7 +8,7 @@ import Welcome from '../components/smm/Welcome'
 import Why from '../components/smm/Why'
 import Approach from '../components/smm/Approach'
 import Promotion from '../components/smm/Promotion'
-import Faq from '../components/digital/Faq'
+import Faq from '../components/smm/Faq'
 
 
 

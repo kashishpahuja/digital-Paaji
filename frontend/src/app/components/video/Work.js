@@ -19,7 +19,7 @@ function Work() {
       ];
 
   return (
-    <div className="work-slider-container py-24 ">
+    <div className="work-slider-container  ">
       {/* Section Header */}
       <div className="text-center mb-12">
       <h3 className="bungeeHead text-3xl lg:text-5xl text-[#cc5f4d] mb-8 ">

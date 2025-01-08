@@ -17,24 +17,24 @@ function Faq() {
 
   const faqs = [
     {
-      question: "What makes email marketing effective?",
+      question: "On social media, how frequently should I post?",
       answer:
-        "Product updates, newsletters, and promotions are just a few of the personalised and direct communications materials that our email marketers deliver right to the inboxes of thier clients. Targeting particular consumer segments, it boosts open rates and conversions, cultivates customer loyalty, and provides an exceptional return on investment because of its cost-effectiveness and automation.",
+        "The audience and platform determine the frequency of social media posts. LinkedIn posts once a week, Facebook and Instagram post three to five times a week, and Twitter demands several posts per day. A content calendar is offered by Digital Paaji to help you schedule posts at the best intervals and with the best quality to increase interaction.",
     },
     {
-      question: "What should I expect in terms of performance monitoring and reporting?",
+      question: "How can I improve engagement with my audience on social media?",
       answer:
-        "Performance tracking and reporting use important data like traffic, conversions, and engagement to measure the effectiveness of digital marketing efforts. Frequent reporting enables ongoing improvement and optimal return on investment by offering insights into effective tactics and modifications.",
+"Publish excellent material, use polls to promote conversation, and reply to comments quickly in order to increase social media engagement. Engage influencers in conversation, use storytelling strategies, and routinely review engagement numbers. With specialised tactics, Digital Paaji provides knowledgeable advice on how to increase audience engagement."
     },
     {
-      question: "Why should I choose Digital Paaji for my digital marketing needs?",
+      question: "What is the cost of social media marketing services?",
       answer:
-        "Through SEO, PPC, social media, and content marketing, Digital Paaji offers firms specialised digital marketing strategies that are data-driven and produce quantifiable outcomes. We guarantee business success online by providing continuous support, open communication, and performance tracking to maximise ROI and optimise campaigns.",
+        "The scope, platforms, and aims of social media marketing services determine the cost. Advertising, analytics reporting, account administration, and content development are all included in monthly subscriptions. With customisable packages to suit various budgets, Digital Paaji guarantees customised quotations depending on particular needs and goals.",
     },
     {
-      question: "What makes social media marketing effective for my business?",
+      question: "How can I manage my social media presence effectively?",
       answer:
-        "It improves brand awareness and customer loyalty in addition to generating leads. It is inexpensive and has millions of users, with the potential to go viral. Using data and customised advertisements to target specific groups helps position businesses as thought leaders.",
+        "Strategic planning, structure, and consistency are necessary for social media management to be effective. Make advantage of tools, schedule material, track interaction, and react quickly. Evaluate performance indicators on a weekly basis and modify strategy as necessary. All-inclusive services are provided by Digital Paaji to keep a strong internet presence.",
     },
     
   ];
@@ -44,10 +44,10 @@ function Faq() {
       {/* Header Section */}
       <div className="text-center border-b-2 border-black py-6">
         <h3 className="bungeeHead text-[#cc5f4d] text-3xl lg:text-4xl">
-        Getting Started with Us
+        Get Started with Digital Paaji Today!
         </h3>
         <p className="servicePara text-sm text-gray-700 mt-4">
-        For companies trying to improve their online visibility, expand their audience, or hone their current tactics, Digital Paaji provides a full-featured digital marketing solution. Through an assessment of your company’s objectives and needs, our onboarding process enables them to create a personalised plan. Following a complete analysis of your present marketing initiatives, the state of the industry, and the competitors, we develop a detailed plan with precise objectives, deadlines, and deliverables.
+        With an emphasis on getting to know each client’s particular vision, objectives, and target market, Digital Paaji provides customised social media marketing services for companies of all sizes. In order to talk about present tactics, pinpoint areas that need work, and investigate how our services might support the accomplishment of marketing objectives, we even offer a free introductory consultation. Selecting Digital Paaji means joining forces with a growth-oriented partner to develop campaigns that have an influence on your target audience and produce outcomes.
         </p>
         <h3
           className="h-20 w-fit mx-auto flex items-center justify-center gap-2 merriHead text-black text-xl  mt-6"

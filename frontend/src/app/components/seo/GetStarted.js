@@ -15,14 +15,8 @@ function AddOn() {
           className="servicePara text-[#252424] mt-4 text-sm  text-justify xl:text-[14px] "
           style={{ textAlign: "center" }}
         >
-          Are you prepared to increase the amount of people that see your
-          website and elevate your online presence? We at Digital Paaji are
-          ready to assist you. Our SEO services are made to be specific to your
-          demands and to produce real outcomes.
-          <br /> Contact us right now for a free consultation. Let’s discuss how
-          we may use effective SEO strategies to increase your website’s
-          visibility. Here’s where your journey to improved search engine
-          rankings and increased traffic begins!
+          Are you prepared to increase the amount of people that see your website and elevate your online presence? We at Digital Paaji are ready to assist you. Our SEO services are made to be specific to your demands and to produce real outcomes.
+          <br /> Contact us right now for a free consultation. Let’s discuss how we may use effective SEO strategies to increase your website’s visibility. Here’s where your journey to improved search engine rankings and increased traffic begins!
         </p>
       </div>
 
@@ -39,7 +33,7 @@ function AddOn() {
           <ul className="bungeeHead text-sm lg:text-lg mx-auto  space-y-6 md:space-y-8 lg:space-y-12">
             <li className=" flex items-center gap-2 md:gap-3">
               <AiFillPhone className="text-2xl md:text-3xl text-[#cc5f4d] border-b-2 border-[#cc5f4d]" />
-              <Link href="tel:8699640752" className=" border-b border-[#cc5f4d]">
+              <Link href="tel:+918699640752" className=" border-b border-[#cc5f4d]">
                 +91-8699640752
               </Link>
             </li>

@@ -25,14 +25,14 @@ const handleShowIcon = ()=>{
 
   const faqs = [
     {
-      question: "How does Digital Paaji ensure results for its clients?",
+      question: "What is the duration required to create a website?",
       answer:
-        "To assess companies, the market, and the competition, create customized marketing plans, and track the success of campaigns, Digital Paaji employs a data-driven methodology. We work together closely, stay transparent, and get input to improve your campaign goals. Our objective is to provide long-term corporate growth and a high return on investment.",
+"The complexity of the project, the features, and your particular needs all affect how long a website takes to construct. The time frame of our initiatives ranges from a few weeks to several months. More detailed information and duration for the planning phase will be sent to you as soon as we have a clearer understanding of your goals."
     },
     {
-      question: "What industries does Digital Paaji serve?",
+      question: "Do you offer continuing assistance once the website is up and running?",
       answer:
-        "Digital Paaji serves a variety of industries, including technology, retail, healthcare, and more. Our strategies are tailored to meet the specific needs of each sector.",
+"Indeed, we think that establishing enduring bonds with our customers is important. We provide real time 24*7 continuous maintenance and support, including security upgrades, performance improvements, and troubleshooting, for your website after it is live. Our goal is to keep your website operating at its best."
     },
     {
       question: "What can I expect in terms of timeline and deliverables?",
@@ -40,14 +40,14 @@ const handleShowIcon = ()=>{
         "Our timelines and deliverables are customized to suit each project. Typically, we provide detailed plans and regular updates to ensure transparency and on-time delivery.",
     },
     {
-      question: "Can Digital Paaji help with branding and messaging?",
+      question: "Is my website optimised for mobile devices?",
       answer:
-        "Yes, we specialize in branding and crafting compelling messages to ensure your brand stands out and resonates with your target audience.",
+        "Of course! Our main objective is to create responsive web designs that lets your website instantly adjust to any screen size such as smartphones, tablets and desktops. We ensure that users get the most enjoyable experience regardless of the device they choose to use.",
     },
     {
-      question: "What is the cost of Digital Paaji's services?",
+      question: "What happens if my website needs to have a certain functionality I want?",
       answer:
-        "Our pricing is competitive and tailored to the services required. Contact us for a detailed quote based on your needs.",
+        "Please feel free to share with us any and all of your requests and thoughts. Our bespoke web development services are made to provide particular characteristics that complement your company's objectives. Whether you require special features or integrations, we'll collaborate with you to realise your idea.",
     },
   ];
 

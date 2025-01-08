@@ -33,23 +33,15 @@ function Info() {
       {/* Contact Section */}
       <div className="w-full lg:w-1/2 px-6 py-12 md:px-8  lg:px-12 bg-[#cc5f4d] flex flex-col justify-start">
         <h3 className="bungeeHead text-2xl text-white mb-8 ">
-          Get In Touch
+        Why Go with Graphic Design
         </h3>
         <p className="servicePara text-white">
-          To assist companies improve their online visibility, boost
-          interaction, and turn leads into devoted clients, Digital Paaji
-          provides a thorough digital marketing strategy.
-          <br />
-          The team is committed to developing methods that are tailored to your
-          particular objectives and difficulties. The package covers graphic
-          design, video production, SEO, social media marketing, and web
-          construction. Since Digital Paaji ensures transparency and
-          collaboration, you are free to make adjustments as necessary.
+        The foundation of marketing tactics is graphic design since it aids in creating a unified visual identity that resonates with the intended audience. Websites, social media photos, branding materials, and logos are all included. Businesses stand out from rivals and gain respect with a powerful visual presence. By use visual hierarchy, color psychology, and typography to direct attention and clearly convey important messages, effective graphic design simplifies difficult concepts.
         </p>
         <div className="mt-8">
-          <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
+          <Link  href="tel:+918699640752" className="px-6 py-2 border rounded-lg border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
       {/* Map Section */}

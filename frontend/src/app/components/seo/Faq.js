@@ -25,29 +25,29 @@ const handleShowIcon = ()=>{
 
   const faqs = [
     {
-      question: "How does Digital Paaji ensure results for its clients?",
+      question: "How do you choose which keywords to focus on?",
       answer:
-        "To assess companies, the market, and the competition, create customized marketing plans, and track the success of campaigns, Digital Paaji employs a data-driven methodology. We work together closely, stay transparent, and get input to improve your campaign goals. Our objective is to provide long-term corporate growth and a high return on investment.",
+        "The SEO method employed by Digital Paaji entails scrutinising search traffic, competitiveness, user intent, and contemporary trends to ascertain the most advantageous terms for your enterprise. Long-tail or less competitive terms are preferred, whereas high-traffic terms are given priority. In order to make sure the selected keywords meet the needs of potential clients, user intent is also taken into account. Digital Paaji develops a tailored keyword strategy based on consumer behaviour, which drives relevant traffic and increases sales and engagement.",
     },
     {
-      question: "What industries does Digital Paaji serve?",
+      question: "What are the differences between on-page and off-page techniques?",
       answer:
-        "Digital Paaji serves a variety of industries, including technology, retail, healthcare, and more. Our strategies are tailored to meet the specific needs of each sector.",
+        "On-page SEO includes optimizing each page separately for specific keywords, improving internal linking, and improving metadata. It also takes into account page performance, mobile responsiveness, and website structure. Off-page SEO, on the other hand, is taking steps outside of the website to increase its relevance and authority, like social media interaction and link building. Both are essential for developing an all-encompassing SEO plan.",
     },
     {
-      question: "What can I expect in terms of timeline and deliverables?",
+      question: "How often should I change the material on my website?",
       answer:
-        "Our timelines and deliverables are customized to suit each project. Typically, we provide detailed plans and regular updates to ensure transparency and on-time delivery.",
+        "Since search engines like Google favour current, fresh material, sustaining SEO effectiveness of a website depends on regular content updates. In particular, product sites and blogs should have it evaluated and updated at least once a month. Content upgrades can be as simple as adding or updating existing out-of-date facts, new material, or improving multimedia or graphic elements.",
     },
     {
-      question: "Can Digital Paaji help with branding and messaging?",
+      question: "Can I manage SEO on my own or do I need to employ an agency?",
       answer:
-        "Yes, we specialize in branding and crafting compelling messages to ensure your brand stands out and resonates with your target audience.",
+        "Constant maintenance is necessary for long-term investments like SEO. This maintenance includes competition analysis, content optimization, and monitoring changes to search engine algorithms.. Agencies ensure your website ranks highly by providing specialist knowledge in technical SEO, link building, analytics, and keyword research. Long-term advantages like improved organic traffic and conversion rates frequently offset the cost of expert services.",
     },
     {
-      question: "What is the cost of Digital Paaji's services?",
+      question: "What is the process to begin using your SEO services?",
       answer:
-        "Our pricing is competitive and tailored to the services required. Contact us for a detailed quote based on your needs.",
+        "In order to fully grasp the aims and objectives of your company, Digital Paaji provides a free consultation before beginning any SEO work. A customised strategy is created after an SEO audit is conducted to determine areas that require development. Technical advancements, off-page strategies, content production, and on-page SEO adjustments are all included in implementation. To maintain transparency and make necessary corrections, reports and updates are given on a regular basis.",
     },
   ];
 

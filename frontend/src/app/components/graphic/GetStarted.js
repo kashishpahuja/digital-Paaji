@@ -16,21 +16,9 @@ function info() {
         <p className="servicePara text-white text-sm" style={{textAlign:'center'}}>
      
           
-          The team is committed to developing methods that are tailored to your
-          particular objectives and difficulties. The package covers graphic
-          design, video production, SEO, social media marketing, and web
-          construction. Since Digital Paaji ensures transparency and
-          collaboration, you are free to make adjustments as necessary.
+        The designers at Digital Paaji are experts at using beautiful graphic design to elevate brands. Our ability to interpret your distinct vision into visually striking content that appeals to your target audience is impressive. Among the services we offer are social media graphics, branding, and promotional goods.
           <br/>  <br/>
-          To assist companies improve their online visibility, boost
-          interaction, and turn leads into devoted clients, Digital Paaji
-          provides a thorough digital marketing strategy.
-          
-          The team is committed to developing methods that are tailored to your
-          particular objectives and difficulties. The package covers graphic
-          design, video production, SEO, social media marketing, and web
-          construction. Since Digital Paaji ensures transparency and
-          collaboration, you are free to make adjustments as necessary.
+          First, contact us via phone or on their website, and we will set up a meeting to discuss your needs, goals, and challenges. Afterwards, will lay out a personalised strategy that guarantees your participation at each turn. Meeting deadlines while upholding strict quality standards is something we take great pride in.
         </p>
         <div className=" mt-8">
           <Link href="tel:+918699640752" className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">

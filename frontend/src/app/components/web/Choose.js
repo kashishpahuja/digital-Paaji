@@ -14,29 +14,32 @@ function FollowUs() {
 
   const socialContent = [
     {
-      name: "Facebook",
-      icon: <FaFacebook />,
-      text: "Stay updated with our latest news and events by following us on Facebook. We share daily insights and updates for our community.",
+      name: "1. Proficiency and Experience:",
+      // icon: <FaFacebook />,
+      text: "Our web development team at Digital Paaji has years of experience and specialises in building unique solutions for a range of businesses. With adherence to the most recent industry standards, this experience ensures excellent results for even the most difficult projects.",
     },
     {
-      name: "Instagram",
-      icon: <FaInstagram />,
-      text: "Explore our visual journey on Instagram. Get behind-the-scenes shots and exclusive sneak peeks.",
+      name: "2. Specialised Resolutions:",
+      // icon: <FaInstagram />,
+      text: "We provide specialised web solutions since we understand that every company has different needs. Working closely with customers, we customise our approach so that each feature and design element complements their unique objectives and corporate identity.",
     },
     {
-      name: "YouTube",
-      icon: <FaYoutube />,
-      text: "Watch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.",
+      name: "3. The client-centred method:",
+      // icon: <FaYoutube />,
+      text: "We appreciate open communication and proactive client participation. To make sure we fulfil the client’s expectations at every turn, we keep feedback loops open and provide frequent updates.",
+    },
+   
+ 
+
+    {
+      name: " 4. Quick Reversal:",
+      // icon: <FaTwitter />,
+      text: "We can complete projects faster without compromising quality because of our efficient procedures and knowledgeable staff. This effectiveness lets clients quickly launch their websites and accomplish their digital objectives.",
     },
     {
-      name: "Twitter",
-      icon: <FaTwitter />,
-      text: "Follow us on Twitter for real-time updates, announcements, and quick news bitesWatch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content..",
-    },
-    {
-      name: "Pinterest",
-      icon: <FaPinterest />,
-      text: "Discover creative ideas, inspirations, and visual content on our Pinterest boarWatch our videos on YouTube for tutorials, updates, and entertainment content.Watch our videos on YouTube for tutorials, updates, and entertainment content.ds.",
+      name: "5. Constant Assistance:",
+      // icon: <FaPinterest />,
+      text: "We provide continuous maintenance and support following launch as part of our dedication to long-term partnerships. This keeps your website safe and optimised with security updates, performance improvements, and troubleshooting.",
     },
   ];
 
@@ -63,11 +66,11 @@ function FollowUs() {
             <li
               key={index}
               onMouseEnter={() => handleMouseEnter(index)}
-              className={`merryWeather flex p-2 gap-2 items-center text-xl font-semibold text-white cursor-pointer ${
+              className={`merriHead flex p-2 gap-2 items-center text-xl font-semibold text-white cursor-pointer ${
                 activeTab === index ? "border-b-2 border-yellow-400" : ""
               }`}
             >
-              {social.icon}
+              {/* {social.icon} */}
               <span>{social.name}</span>
             </li>
           ))}

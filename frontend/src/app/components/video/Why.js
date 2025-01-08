@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch gap-16 mx-4 md:mx-12 xl:mx-72">
+    <div className="flex flex-col lg:flex-row items-stretch lg:gap-16 mx-4 md:mx-12 xl:mx-72">
          {/* Map Section */}
-      <div className="w-full lg:w-1/2 h-[300px] md:h-[500px] overflow-hidden">
+      <div className="w-[60%] mx-auto lg:w-1/2 h-[230px] md:h-[500px] overflow-hidden">
         <img
           src="/Images/services/video.webp"
           alt=""
-          className="zoom w-full h-auto lg:h-[100%] lg:p-12 object-cover"
+          className="zoom w-full h-[100%] lg:p-12 object-cover"
         />
       </div>
       {/* Contact Section */}
@@ -25,9 +25,9 @@ function info() {
         Video editing is an essential step that turns unprocessed material into a polished, captivating end result. It helps tell the tale, improves the images, and holds the audience’s interest. To ensure clarity, compellingness, and brand alignment, content is refined using tools including colour correction, sound editing, and effects.
         </p>
         <div className=" mt-8">
-          <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
+          <Link href="tel:+918699640752" className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
      
