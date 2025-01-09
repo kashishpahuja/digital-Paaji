@@ -157,100 +157,89 @@ function Banner({
           </div>
         </div>
       </div>
-      {/* <div> */}
 
-      <div className=" my-32 py-4 xl:py-0 xl:my-24 relative w-full bg-no-repeat   flex items-center flex-wrap-reverse   xl:flex-nowrap md:justify-center  gap-4 xl:gap-0  xl:mx-auto">
-      <div className="relative border-2 h-[500px] w-[700px] md:w-[90%] xl:w-[60%] overflow-hidden ">
-  {/* iPhone Section */}
-  <div className="absolute top-0 left-10 md:left-20">
-    <div className="relative w-[180px]">
-      <img
-        src="/Images/banner/iphone.webp"
-        alt="iPhone"
-        className="w-full h-full object-cover"
-      />
-      <div className="absolute top-[15%] left-[20%] w-[144px] h-[144px]">
-        <img
-          src="/Images/banner/iPhoneGif.gif"
-          alt="iPhone GIF"
-          className="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  </div>
+      <div className="my-32 py-4 xl:py-0 flex items-center justify-center flex-wrap-reverse gap-8 xl:gap-0 xl:flex-nowrap xl:mx-56 ">
+        <div className="w-[700px] md:w-[90%] xl:w-[70%] overflow-hidden">
+          <div className="flex items-center justify-center ">
+            
+            <div className="relative">
+            <div className="relative ">
+              <div className="w-[200px]  h-[210px] md:w-[260px] md:h-[300px] lg:w-[320px] lg:h-[340px] xl:w-[450px] xl:h-[550px]">
+                <img
+                  src="/Images/banner/ipad.webp"
+                  alt=""
+                  className="w-full h-[100%]"
+                />
+              </div>
+              <div className="absolute top-[16%] left-[16%] w-[68%] h-[70%]">
+                <img
+                  src="/Images/banner/iPadImg.webp"
+                  alt=""
+                  className="w-full h-[100%] object-cover"
+                />
+              </div>
+            </div>
+            <div className="absolute -left-8 xl:-left-[8rem] top-5 md:top-[5.25rem] lg:top-[7rem] xl:top-[8rem] w-[120px] h-[60px] xl:w-[243px] xl:h-[400px]">
+              <div className="relative">
+                <div className="xl:w-full xl:h-auto">
+                  <img
+                    src="/Images/banner/iphone.webp"
+                    alt=""
+                    className="w-full h-[100%]"
+                  />
+                </div>
+                <div className="absolute top-[13%] left-[16%] w-[68%] h-[73%]">
+                  <img
+                    src="/Images/banner/iPhoneGif.gif"
+                    alt=""
+                    className="w-full h-[100%] object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            </div>
 
-  {/* iPad Section */}
-  <div className="relative w-[500px] mt-4 mx-auto">
-    <img
-      src="/Images/banner/ipad.webp"
-      alt="iPad"
-      className="w-full h-full object-cover"
-    />
-    <div className="absolute top-[15%] left-2 w-[120px] h-[120px]">
-      <img
-        src="/Images/banner/iPadImg.webp"
-        alt="iPad Image"
-        className="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-
-  {/* Overlapping iPhone on iPad */}
-  <div className="absolute top-0 left-0 w-[300px]">
-    <img
-      src="/Images/banner/iphone.webp"
-      alt="iPhone over iPad"
-      className="w-full object-cover"
-    />
-    <img
-      src="/Images/banner/iPhoneGif.gif"
-      alt="iPhone GIF over iPad"
-      className="absolute top-4 left-[15%] w-[120px] h-[120px] object-cover"
-    />
-  </div>
-</div>
-
-
-        <div className="ml-6 md:ml-0 w-[90%] md:w-[45%] xl:w-[20%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end">
-          <div className="py-4 px-2 lg:py-12 bg-[#373636]">
-            <h3
-              className="merriHead text-[10px] md:text-sm text-white"
-              style={{ letterSpacing: "4px" }}
-            >
-              <span
-                className="text-[#cc5f4d] text-[10px] md:text-sm"
-                style={{ letterSpacing: "2px" }}
-              >
-                TRANSFORM{" "}
-              </span>
-              YOUR DIGITAL PRESENCE
-            </h3>
-            <p
-              className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:my-8"
-              style={{ textAlign: "center" }}
-            >
-              customised digital marketing services. We create individualised
-              plans that appeal to their target market since our experts
-              recognize how different every company is.
-            </p>
-            <p
-              className="servicePara text-xs md:text-sm text-[#cc5f4d]"
-              style={{ textAlign: "center" }}
-            >
-              LET'S TALK BUSINESS
-            </p>
-          </div>
-          <div className="flex items-center  justify-end flex-col xl:flex-row xl:w-full">
-            <button className="bg-white" onClick={handlePrevSlide}>
-              <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
-            </button>
-            <button onClick={handleNextSlide} className="bg-white">
-              <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
-            </button>
           </div>
         </div>
+        <div className="ml-6 md:ml-0 w-[80%] md:w-[45%]  xl:w-[30%] xl:-ml-44 md:-mb-6 xl:mb-0  text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end">
+                    <div className="py-4 px-2 lg:py-12 bg-[#373636]">
+                      <h3
+                        className="merriHead text-[10px] md:text-sm text-white"
+                        style={{ letterSpacing: "4px" }}
+                      >
+                        <span
+                          className="text-[#cc5f4d] text-[10px] md:text-sm"
+                          style={{ letterSpacing: "2px" }}
+                        >
+                          TRANSFORM{" "}
+                        </span>
+                        YOUR DIGITAL PRESENCE
+                      </h3>
+                      <p
+                        className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:my-8"
+                        style={{ textAlign: "center" }}
+                      >
+                        customised digital marketing services. We create individualised
+                        plans that appeal to their target market since our experts
+                        recognize how different every company is.
+                      </p>
+                      <p
+                        className="servicePara text-xs md:text-sm text-[#cc5f4d]"
+                        style={{ textAlign: "center" }}
+                      >
+                        LET'S TALK BUSINESS
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-1 justify-end flex-col xl:flex-row xl:w-full">
+                      <button className="bg-white   " onClick={handlePrevSlide}>
+                        <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-10 xl:h-10 p-3 xl:p-4" />
+                      </button>
+                      <button onClick={handleNextSlide} className="bg-white   ">
+                        <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-10 xl:h-10 p-3 xl:p-4" />
+                      </button>
+                    </div>
+        </div>
       </div>
-      {/* </div> */}
     </div>
   );
 }

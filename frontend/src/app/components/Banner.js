@@ -38,20 +38,20 @@ function Banner() {
   };
 
   return (
-    <div className="slide-container h-[560px] md:h-[704px] lg:h-[900px] xl:h-[840px] w-full">
-      <Slide1
+    <div className="slide-container h-[640px] md:h-[704px] lg:h-[900px] xl:h-[840px] w-full">
+      <Slide3
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={1}
         currentSlide={currentSlide}
       />
-      <Slide1
+      <Slide3
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={2}
         currentSlide={currentSlide}
       />
-      <Slide1
+      <Slide3
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={3}
