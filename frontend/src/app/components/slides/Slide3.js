@@ -71,7 +71,7 @@ function Banner({
             <img
               src="/Images/banner/logoWhite.webp"
               alt="logoWhite"
-              className="w-full h-[100%] object-COVER"
+              className="w-full h-[100%] object-contain"
             />
           </div>
           <div className="block lg:hidden">
@@ -168,7 +168,7 @@ function Banner({
 
       <div className=" my-32 py-4 xl:py-20 xl:my-20 relative w-full bg-no-repeat flex items-center flex-wrap-reverse   xl:flex-nowrap md:justify-center  gap-4 xl:gap-20  xl:mx-auto">
         <div className="hidden xl:block h-[400px] border-2  w-[700px] md:w-[90%] md:-mt-36 xl:mt-0 xl:w-[40%] " 
-        onMouseEnter={handleLight} onMouseLeave={}
+        // onMouseEnter={handleLight} onMouseLeave={}
         >
          <div className="w-32 h-16 absolute top-[30%] left-56">
 <img src="/Images/banner/slide3Arrow.webp" alt="" className="w-full h-[100%]"/>

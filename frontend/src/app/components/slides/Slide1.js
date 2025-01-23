@@ -70,7 +70,7 @@ function Banner({
             <img
               src="/Images/banner/logoWhite.webp"
               alt="logoWhite"
-              className="w-full h-[100%] object-COVER"
+              className="w-full h-[100%] object-contain"
             />
           </div>
           <div className="block lg:hidden">
@@ -79,7 +79,7 @@ function Banner({
             </p>
           </div>
           {showText && (
-            <div className="">
+            <div className="hidden lg:block">
               <p className="text-white text-sm">
                 {splitText("Lorem ipsum dolor, sit amet.")}
               </p>
