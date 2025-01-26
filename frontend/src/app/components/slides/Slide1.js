@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaFacebook,
-  FaInstagram,
-  FaMailBulk,
-} from "react-icons/fa";
+
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 function Banner({
   handleNextSlide,
@@ -49,17 +48,18 @@ function Banner({
   };
 
   return (
-    <div
-      className={`slide slide-${slideNumber} ${
-        slideNumber === currentSlide ? "active bg-flow" : ""
-      } `}
-      style={{
-        backgroundImage: `url('/Images/banner/slide1BG.webp')`,
-        backgroundSize: isSmallScreen ? "cover" : "", // Apply cover for small screens
-        backgroundPosition: "center",
-        backgroundRepeat: "repeat",
-      }}
-    >
+      <div
+  className={`slide slide-${slideNumber} ${
+    slideNumber === currentSlide ? "active bg-flow" : ""
+  } `}
+  style={{
+    backgroundImage: `url('/Images/banner/slide1BG.webp')`,
+    backgroundSize: "150% 150%", // Match `.bg-flow`
+    animation: "diagonalFlow 7s linear infinite", // Ensure animation is applied
+  }}
+>
+
+
       <div className="absolute top-2 h-[100px] w-full">
         <div className="relative flex justify-center items-center flex-col gap-2">
           <div
@@ -133,21 +133,27 @@ function Banner({
         </div>
       </div>
 
-      <div className=" absolute bottom-3 md:bottom-8 lg:right-16 w-full lg:w-fit">
+      <div className="absolute bottom-3 md:bottom-8 lg:right-16 w-full lg:w-fit">
         <div className="relative">
           <ul className="flex items-center justify-center gap-4">
             <li>
-              <FaMailBulk className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="mailto:your-email@example.com">
+                <MdOutlineEmail className="w-6 h-6  text-white" />
+              </Link>
             </li>
             <li>
-              <FaFacebook className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="https://www.facebook.com/your-profile">
+                <FaFacebookF className="w-6  h-6  text-white" />
+              </Link>
             </li>
             <li>
-              <FaInstagram className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="https://www.instagram.com/your-profile">
+                <FaInstagram className="w-6  h-6  text-white" />
+              </Link>
             </li>
           </ul>
         </div>
-        <div className="vibrate hidden lg:block absolute right-32 bottom-6">
+        <div className="vibrate hidden lg:block absolute right-24 bottom-2">
           <p
             className="merriHead relative text-gray-800 text-xs w-[150px]"
             style={{ fontWeight: 100 }}
@@ -163,10 +169,15 @@ function Banner({
           </div>
         </div>
       </div>
+
       {/* <div> */}
 
       <div className=" my-32 py-4 xl:py-0 xl:my-20 relative w-full bg-no-repeat   flex items-center flex-wrap-reverse   xl:flex-nowrap md:justify-center  gap-4 xl:gap-0  xl:mx-auto">
-        <div className="relative  w-[700px] md:w-[90%] md:-mt-36 xl:mt-0 xl:w-[60%] ">
+       
+       
+        <div className={`relative  w-[700px] md:w-[90%] md:-mt-36 xl:mt-0 xl:w-[60%] 
+           ${slideNumber === currentSlide ? "zoomInEffect" : ""} 
+          `}>
           <div className=" w-full h-auto">
             <img
               src="/Images/banner/laptop.webp"
@@ -184,7 +195,10 @@ function Banner({
           </div>
         </div>
 
-        <div className="ml-6 md:ml-0 w-[90%] md:w-[45%] xl:w-[20%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end">
+        <div 
+        className={`ml-6 md:ml-0 w-[90%] md:w-[45%] xl:w-[16%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end 
+         ${slideNumber === currentSlide ? "text-slide-grow" : ""}
+        `}>
           <div className="py-4 px-2 lg:py-12 bg-[#373636]">
             <h3
               className="merriHead text-[10px] md:text-sm text-white"
@@ -213,12 +227,18 @@ function Banner({
               LET'S TALK BUSINESS
             </p>
           </div>
-          <div className="flex items-center  justify-end flex-col xl:flex-row xl:w-full">
-            <button className="bg-white" onClick={handlePrevSlide}>
-              <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
+          <div className="flex items-center gap-[.5px]  justify-end flex-col xl:flex-row xl:w-full">
+            <button
+              className={`bg-white hover:bg-gray-800 ${ slideNumber === currentSlide ? "text-button-grow" : ""}`}
+              onClick={handlePrevSlide}
+            >
+              <IoIosArrowBack className="text-gray-500 hover:text-white w-9 h-9 xl:w-8 xl:h-10 p-3 xl:p-2" />
             </button>
-            <button onClick={handleNextSlide} className="bg-white">
-              <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
+            <button
+              onClick={handleNextSlide}
+              className={`bg-white hover:bg-gray-800 ${ slideNumber === currentSlide ? "text-button-grow" : ""}`}
+            >
+              <IoIosArrowForward className="text-gray-500 hover:text-white w-9 h-9 xl:w-8 xl:h-10 p-3 xl:p-2" />
             </button>
           </div>
         </div>

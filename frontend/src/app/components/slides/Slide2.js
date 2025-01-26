@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaFacebook,
-  FaInstagram,
-  FaMailBulk,
-} from "react-icons/fa";
+
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 function Banner({
   handleNextSlide,
@@ -127,21 +126,27 @@ function Banner({
         </div>
       </div>
 
-      <div className=" absolute bottom-3 md:bottom-8 lg:right-16 w-full lg:w-fit">
+      <div className="absolute bottom-3 md:bottom-8 lg:right-16 w-full lg:w-fit">
         <div className="relative">
           <ul className="flex items-center justify-center gap-4">
             <li>
-              <FaMailBulk className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="mailto:your-email@example.com">
+                <MdOutlineEmail className="w-6 h-6  text-white" />
+              </Link>
             </li>
             <li>
-              <FaFacebook className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="https://www.facebook.com/your-profile">
+                <FaFacebookF className="w-6  h-6  text-white" />
+              </Link>
             </li>
             <li>
-              <FaInstagram className="w-6 md:w-8 h-6 md:h-8 text-white" />
+              <Link href="https://www.instagram.com/your-profile">
+                <FaInstagram className="w-6  h-6  text-white" />
+              </Link>
             </li>
           </ul>
         </div>
-        <div className="vibrate hidden lg:block absolute right-32 bottom-6">
+        <div className="vibrate hidden lg:block absolute right-24 bottom-2">
           <p
             className="merriHead relative text-gray-800 text-xs w-[150px]"
             style={{ fontWeight: 100 }}
@@ -163,7 +168,10 @@ function Banner({
           <div className="flex items-center justify-center ">
             
             <div className="relative">
-            <div className="relative ">
+            <div className={`relative 
+            ${ slideNumber === currentSlide ? "zoomInEffectSlide2" : ""}
+              
+              `}>
               <div className="w-[200px]  h-[210px] md:w-[260px] md:h-[300px] lg:w-[320px] lg:h-[340px] xl:w-[450px] xl:h-[550px]">
                 <img
                   src="/Images/banner/ipad.webp"
@@ -179,7 +187,9 @@ function Banner({
                 />
               </div>
             </div>
-            <div className="absolute -left-8 xl:-left-[8rem] top-5 md:top-[5.25rem] lg:top-[7rem] xl:top-[8rem] w-[120px] h-[60px] xl:w-[243px] xl:h-[400px]">
+            <div className={`absolute -left-8 xl:-left-[8rem] top-5 md:top-[5.25rem] lg:top-[7rem] xl:top-[8rem] w-[120px] h-[60px] xl:w-[243px] xl:h-[400px]
+              ${ slideNumber === currentSlide ? "arrow-iphone " : "" }
+              `}>
               <div className="relative">
                 <div className="xl:w-full xl:h-auto">
                   <img
@@ -201,7 +211,20 @@ function Banner({
 
           </div>
         </div>
-        <div className="ml-6 md:ml-0 w-[80%] md:w-[45%]  xl:w-[30%] xl:-ml-44 md:-mb-6 xl:mb-0  text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end">
+  
+  
+  
+  
+  
+  
+        <div
+  className={`ml-6 md:ml-0 w-[80%] md:w-[45%] xl:w-[24%] xl:-ml-44 md:-mb-6 xl:mb-16 text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end ${
+    slideNumber === currentSlide ? "text-slide-grow" : ""
+  }`}
+  
+>
+
+
                     <div className="py-4 px-2 lg:py-12 bg-[#373636]">
                       <h3
                         className="merriHead text-[10px] md:text-sm text-white"
@@ -230,14 +253,20 @@ function Banner({
                         LET'S TALK BUSINESS
                       </p>
                     </div>
-                    <div className="flex items-center justify-end flex-col xl:flex-row xl:w-full">
-                      <button className="bg-white   " onClick={handlePrevSlide}>
-                        <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
-                      </button>
-                      <button onClick={handleNextSlide} className="bg-white   ">
-                        <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
-                      </button>
-                    </div>
+                  <div className="flex items-center gap-[.5px]  justify-end flex-col xl:flex-row xl:w-full">
+                             <button
+                               className={`bg-white hover:bg-gray-800 ${ slideNumber === currentSlide ? "text-button-grow" : ""}`}
+                               onClick={handlePrevSlide}
+                             >
+                               <IoIosArrowBack className="text-gray-500 hover:text-white w-9 h-9 xl:w-8 xl:h-10 p-3 xl:p-2" />
+                             </button>
+                             <button
+                               onClick={handleNextSlide}
+                               className={`bg-white hover:bg-gray-800 ${ slideNumber === currentSlide ? "text-button-grow" : ""}`}
+                             >
+                               <IoIosArrowForward className="text-gray-500 hover:text-white w-9 h-9 xl:w-8 xl:h-10 p-3 xl:p-2" />
+                             </button>
+                           </div>
         </div>
       </div>
     </div>
