@@ -82,7 +82,7 @@ function Banner({
           {showText && (
             <div className="">
               <p className="text-white text-sm">
-                {splitText("Lorem ipsum dolor, sit amet.")}
+                {splitText("DIGITAL PAAJI, SIRHIND ROAD, PATIALA.")}
               </p>
             </div>
           )}
@@ -167,7 +167,7 @@ function Banner({
       {/* <div> */}
 
       <div className=" my-32 py-4 xl:py-20 xl:my-20 relative w-full bg-no-repeat flex items-center flex-wrap-reverse   xl:flex-nowrap md:justify-center  gap-4 xl:gap-20  xl:mx-auto">
-        <div className="hidden xl:block h-[400px] border-2  w-[700px] md:w-[90%] md:-mt-36 xl:mt-0 xl:w-[40%] " 
+        <div className="hidden xl:block h-[400px]  w-[700px] md:w-[90%] md:-mt-36 xl:mt-0 xl:w-[40%] " 
         // onMouseEnter={handleLight} onMouseLeave={}
         >
          <div className="w-32 h-16 absolute top-[30%] left-56">

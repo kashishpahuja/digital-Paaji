@@ -230,12 +230,12 @@ function Banner({
                         LET'S TALK BUSINESS
                       </p>
                     </div>
-                    <div className="flex items-center gap-1 justify-end flex-col xl:flex-row xl:w-full">
+                    <div className="flex items-center justify-end flex-col xl:flex-row xl:w-full">
                       <button className="bg-white   " onClick={handlePrevSlide}>
-                        <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-10 xl:h-10 p-3 xl:p-4" />
+                        <FaArrowLeft className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
                       </button>
                       <button onClick={handleNextSlide} className="bg-white   ">
-                        <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-10 xl:h-10 p-3 xl:p-4" />
+                        <FaArrowRight className="text-gray-500 w-9 h-9 xl:w-12 xl:h-12 p-3 xl:p-4" />
                       </button>
                     </div>
         </div>

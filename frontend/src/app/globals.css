@@ -585,12 +585,12 @@ body {
   transform: translateY(0);
 }
 .slide.active{
-  animation: slideDown .7s forwards ease-in;
+  animation: slideDown 1s forwards ease-in;
 
 }
 .slide.bg-flow{
   animation: diagonalFlow 6s linear infinite; /* Speed: 8s */
-  background-size: 150% 150%; /* Reduce zoom */
+  background-size: 120% 150%; /* Reduce zoom */
   background-position: 100% 100%; /* Starting point */
 }
 

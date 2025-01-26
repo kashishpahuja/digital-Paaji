@@ -11,10 +11,10 @@ function Banner() {
     // Only set an interval if no manual change is happening
     if (!manualChange) {
       const interval = setInterval(() => {
-        setCurrentSlide(2
+        setCurrentSlide(3
           // (prev) => (prev < 3 ? prev + 1 : 1)
         );
-      }, 2000);
+      }, 4000);
 
       // Cleanup the interval when the component unmounts
       return () => clearInterval(interval);
@@ -26,7 +26,7 @@ function Banner() {
     setCurrentSlide((prev) => (prev < 3 ? prev + 1 : 1));
 
     // Re-enable automatic transitions after a delay
-    setTimeout(() => setManualChange(false), 2000);
+    setTimeout(() => setManualChange(false), 4000);
   };
 
   const handlePrevSlide = () => {
@@ -34,7 +34,7 @@ function Banner() {
     setCurrentSlide((prev) => (prev > 1 ? prev - 1 : 3));
 
     // Re-enable automatic transitions after a delay
-    setTimeout(() => setManualChange(false), 2000);
+    setTimeout(() => setManualChange(false), 4000);
   };
 
   return (
@@ -45,13 +45,13 @@ function Banner() {
         slideNumber={1}
         currentSlide={currentSlide}
       />
-      <Slide1
+      <Slide2
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={2}
         currentSlide={currentSlide}
       />
-      <Slide1
+      <Slide3
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}
         slideNumber={3}

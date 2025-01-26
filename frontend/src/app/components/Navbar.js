@@ -70,8 +70,8 @@ export default function ResponsiveLayout() {
 
   {/* Animated 2D Logo */}
   <div
-    className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out ${
-      isHovering ? " transition-all duration-1000 ease-in-out w-[15rem]" : "w-1"
+    className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out -ml-1 ${
+      isHovering ? " transition-all duration-1000 ease-in-out w-[12rem]" : "w-1"
     }`}
   >
     <img src="/Images/logo2.webp" alt="logo2" className="w-full h-auto" />

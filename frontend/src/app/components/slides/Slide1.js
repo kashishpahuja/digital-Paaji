@@ -51,7 +51,7 @@ function Banner({
   return (
     <div
       className={`slide slide-${slideNumber} ${
-        slideNumber === currentSlide ? "active" : ""
+        slideNumber === currentSlide ? "active bg-flow" : ""
       } `}
       style={{
         backgroundImage: `url('/Images/banner/slide1BG.webp')`,
