@@ -397,9 +397,6 @@ body {
 
 }
 
-
-
-
 @keyframes flipIn {
   0% {
     transform: rotateX(0deg);
