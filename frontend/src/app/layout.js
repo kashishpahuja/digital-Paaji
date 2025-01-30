@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     // Simulate loading time
-    const loadingTimeout = setTimeout(() => setIsLoading(false), 300); // Set loading to false after 1 second
+    const loadingTimeout = setTimeout(() => setIsLoading(false), 200); // Set loading to false after 1 second
 
     return () => clearTimeout(loadingTimeout);
   }, []);
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
       } else {
         setIsPageVisible(true);
         setTitleIndex(0);
-        updateFavicon("/Images/logo.webp");
+        updateFavicon("/Images/favicon.png");
       }
     };
 
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
   };
 
   useEffect(() => {
-    updateFavicon("/Images/logo.webp");
+    updateFavicon("/Images/favicon.png");
   }, []);
 
   return (
