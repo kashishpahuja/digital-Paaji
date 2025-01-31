@@ -36,7 +36,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/1.webp"
+                        src="/Images/DM.webp"
                         alt=""
                         className="w-full h-auto object-cover"
                       />
@@ -47,7 +47,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/navGif/SMM.gif"
+                        src="/Images/navGif/DM.gif"
                         alt="1"
                         className={`w-full h-auto object-cover ${
                           show === "1" ? "block" : "hidden"
@@ -96,8 +96,8 @@ function Services() {
           <div className="border border-black " data-aos="zoom-in">
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">
-              Social Media marketing
-                </h3>
+                Social Media marketing
+              </h3>
             </div>
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
@@ -144,7 +144,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                In order to engage consumers and increase company visibility, Digital Paaji specialises in developing dynamic social media marketing campaigns. Creating personalised content and fostering sincere connections, we oversee profiles on social media sites including Facebook, Instagram, Twitter, and LinkedIn. To achieve the best outcomes, our experts conduct audience behaviour and engagement metrics analysis while implementing tailored advertising campaigns.
+                  In order to engage consumers and increase company visibility,
+                  Digital Paaji specialises in developing dynamic social media
+                  marketing campaigns. Creating personalised content and
+                  fostering sincere connections, we oversee profiles on social
+                  media sites including Facebook, Instagram, Twitter, and
+                  LinkedIn. To achieve the best outcomes, our experts conduct
+                  audience behaviour and engagement metrics analysis while
+                  implementing tailored advertising campaigns.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -182,7 +189,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/1.webp"
+                        src="/Images/GD.webp"
                         alt=""
                         className="w-full h-auto object-cover"
                       />
@@ -193,7 +200,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/navGif/SMM.gif"
+                        src="/Images/navGif/GD.gif"
                         alt="3"
                         className={`w-full h-auto object-cover ${
                           show === "3" ? "block" : "hidden"
@@ -212,7 +219,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                Digital Paaji provides graphic design services that can help you convey the personality, values, and message of your company. Digital graphics, marketing materials, brand identities, and logos are all custom-designed by our creative designers. We guarantee that each design component is consistent with your vision and makes an impact. We assist companies improve brand awareness by applying contemporary design ideas.
+                  Digital Paaji provides graphic design services that can help
+                  you convey the personality, values, and message of your
+                  company. Digital graphics, marketing materials, brand
+                  identities, and logos are all custom-designed by our creative
+                  designers. We guarantee that each design component is
+                  consistent with your vision and makes an impact. We assist
+                  companies improve brand awareness by applying contemporary
+                  design ideas.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -250,7 +264,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/1.webp"
+                        src="/Images/SEO.webp"
                         alt=""
                         className="w-full h-auto object-cover"
                       />
@@ -261,7 +275,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/navGif/SMM.gif"
+                        src="/Images/navGif/SEO.gif"
                         alt="4"
                         className={`w-full h-auto object-cover ${
                           show === "4" ? "block" : "hidden"
@@ -280,7 +294,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                SEO services are provided by Digital Paaji to increase a website’s exposure and natural traffic. Our all-encompassing strategy involves studying site structure and performance, optimizing on-page features, and doing keyword research. Additionally, we concentrate on link-building, creating solid backlinks from reliable sites. Continuous monitoring is made possible by our data-driven strategy, which also offers insights and suggestions for additional optimization.
+                  SEO services are provided by Digital Paaji to increase a
+                  website’s exposure and natural traffic. Our all-encompassing
+                  strategy involves studying site structure and performance,
+                  optimizing on-page features, and doing keyword research.
+                  Additionally, we concentrate on link-building, creating solid
+                  backlinks from reliable sites. Continuous monitoring is made
+                  possible by our data-driven strategy, which also offers
+                  insights and suggestions for additional optimization.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -318,7 +339,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/1.webp"
+                        src="/Images/VE.webp"
                         alt=""
                         className="w-full h-auto object-cover"
                       />
@@ -329,7 +350,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/navGif/SMM.gif"
+                        src="/Images/navGif/VP.gif"
                         alt="5"
                         className={`w-full h-auto object-cover ${
                           show === "5" ? "block" : "hidden"
@@ -348,7 +369,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                With an emphasis on concept creation and post-production, Digital Paaji provides video production services to assist brands in telling their story. To draw viewers in and provide captivating content, our experts employ top-notch graphics in business presentations, explainer animations, social media clips, and promotional films. Equipped with cutting-edge equipment and editing tools, we collaborate with customers to understand their goals, brand identity, and target audience.
+                  With an emphasis on concept creation and post-production,
+                  Digital Paaji provides video production services to assist
+                  brands in telling their story. To draw viewers in and provide
+                  captivating content, our experts employ top-notch graphics in
+                  business presentations, explainer animations, social media
+                  clips, and promotional films. Equipped with cutting-edge
+                  equipment and editing tools, we collaborate with customers to
+                  understand their goals, brand identity, and target audience.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -369,8 +397,7 @@ function Services() {
           </div>
           <div className="border border-black " data-aos="zoom-in">
             <div className="border-b border-black">
-              <h3 className="services p-4 text-[#2e2d2d]">Web development
-              </h3>
+              <h3 className="services p-4 text-[#2e2d2d]">Web development</h3>
             </div>
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
@@ -417,7 +444,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                E-commerce solutions, content management systems, and custom website design are our specialties. Our team of talented developers works with clients to comprehend their unique needs and objectives. We put strong security measures in place and give priority to responsive design, speed, and performance. To guarantee that your website is current and functional, our experts also provide continuing support and maintenance services.
+                  E-commerce solutions, content management systems, and custom
+                  website design are our specialties. Our team of talented
+                  developers works with clients to comprehend their unique needs
+                  and objectives. We put strong security measures in place and
+                  give priority to responsive design, speed, and performance. To
+                  guarantee that your website is current and functional, our
+                  experts also provide continuing support and maintenance
+                  services.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -438,7 +472,8 @@ function Services() {
           </div>
           <div className="border border-black " data-aos="zoom-in">
             <div className="border-b border-black">
-              <h3 className="services p-4 text-[#2e2d2d]">Software Development
+              <h3 className="services p-4 text-[#2e2d2d]">
+                Software Development
               </h3>
             </div>
             <div className="my-4">
@@ -486,7 +521,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                In order to realise innovative business concepts through specialised, reliable solutions, Digital Paaji provides software development services. Building secure, scalable, and effective software for a range of sectors is our team’s area of expertise and specialty. Our thorough software development process, which includes project understanding, planning, development, testing, and deployment, guarantees that the finished product will meet your goals.
+                  In order to realise innovative business concepts through
+                  specialised, reliable solutions, Digital Paaji provides
+                  software development services. Building secure, scalable, and
+                  effective software for a range of sectors is our team’s area
+                  of expertise and specialty. Our thorough software development
+                  process, which includes project understanding, planning,
+                  development, testing, and deployment, guarantees that the
+                  finished product will meet your goals.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -554,7 +596,14 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                Digital Paaji provides web and mobile app development services with an emphasis on brand experiences and user engagement. For the iOS and Android platforms, we design user-friendly, intuitive apps while assisting clients with concept, wireframing, development, and launch. Our experts incorporate contemporary elements that make your app stand out in the crowded digital market, such as in-app purchases and real-time updates.
+                  Digital Paaji provides web and mobile app development services
+                  with an emphasis on brand experiences and user engagement. For
+                  the iOS and Android platforms, we design user-friendly,
+                  intuitive apps while assisting clients with concept,
+                  wireframing, development, and launch. Our experts incorporate
+                  contemporary elements that make your app stand out in the
+                  crowded digital market, such as in-app purchases and real-time
+                  updates.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
@@ -575,8 +624,7 @@ function Services() {
           </div>
           <div className="border border-black " data-aos="zoom-in">
             <div className="border-b border-black">
-              <h3 className="services p-4 text-[#2e2d2d]">Google Ads
-              </h3>
+              <h3 className="services p-4 text-[#2e2d2d]">Google Ads</h3>
             </div>
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
@@ -593,7 +641,7 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/1.webp"
+                        src="/Images/AD.webp"
                         alt=""
                         className="w-full h-auto object-cover"
                       />
@@ -604,9 +652,9 @@ function Services() {
                       }`}
                     >
                       <img
-                        src="/Images/navGif/SMM.gif"
+                        src="/Images/AD.webp"
                         alt="9"
-                        className={`w-full h-auto object-cover ${
+                        className={`zoom w-full h-auto object-cover ${
                           show === "9" ? "block" : "hidden"
                         }`}
                       />
@@ -623,7 +671,13 @@ function Services() {
               </div>
               <div className="mt-4">
                 <p className="merriHead text-gray-500 text-justify px-4">
-                To boost targeted traffic and conversions, Digital Paaji provides Google Ads management services. Our qualified experts develop and refine campaigns, optimising return on investment through data-driven tactics, attractive ad text, and accurate targeting. We carry out in-depth keyword research, create unique ad creatives, and track results frequently to modify bids and tactics.
+                  To boost targeted traffic and conversions, Digital Paaji
+                  provides Google Ads management services. Our qualified experts
+                  develop and refine campaigns, optimising return on investment
+                  through data-driven tactics, attractive ad text, and accurate
+                  targeting. We carry out in-depth keyword research, create
+                  unique ad creatives, and track results frequently to modify
+                  bids and tactics.
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">

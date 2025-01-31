@@ -64,7 +64,7 @@ function KhetKiMuli() {
   
           {/* Call to Action Button */}
           <div className="text-center mt-12">
-            <button className="px-4 py-2 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline">
+            <button className="px-4 py-4 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline">
               Click Here
             </button>
           </div>

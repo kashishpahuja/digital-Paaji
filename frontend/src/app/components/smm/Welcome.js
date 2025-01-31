@@ -25,7 +25,7 @@ function info() {
         Enhancing businesses’ online presence and engagement is the primary goal of Digital Paaji, a social media marketing company. We develop specialised plans with a group of professionals to increase brand recognition, increase website traffic, and strengthen customer relationships. Our experts guarantee that campaigns are in line with the client’s vision by focusing on comprehending certain aims and objectives. With the goal of setting companies up for success in the digital sphere, Digital Paaji develops strategies that have an impact and yield quantifiable outcomes.
         </p>
         <div className="">
-          <Link href="tel:+918699640752" className="px-6 py-2 border-2 underline rounded-xl xl:mx-28 border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-md ">
+          <Link href="tel:+918699640752" className="px-6 py-4 border-2 underline rounded-xl xl:mx-28 border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-md ">
             Contact Us
           </Link>
         </div>

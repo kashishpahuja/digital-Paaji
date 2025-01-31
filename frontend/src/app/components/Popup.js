@@ -9,11 +9,11 @@ function Popup({ handleMenu }) {
   const handleMouseLeave = () => setShow(null);
   // Image URLs for each list item
   const images = {
-    Home: "/Images/popup1.webp", // Replace with your image URL for Home
-    About: "/Images/popup2.webp", // Replace with your image URL for About
-    Services: "/Images/popup1.webp", // Replace with your image URL for Services
-    "Our Work": "/Images/popup1.webp", // Replace with your image URL for Our Work
-    Contact: "/Images/popup1.webp", // Replace with your image URL for Contact
+    Home: "/Images/popup/2.webp", // Replace with your image URL for Home
+    About: "/Images/popup/3.webp", // Replace with your image URL for About
+    Services: "/Images/popup/1.webp", // Replace with your image URL for Services
+    "Our Work": "/Images/popup/4.webp", // Replace with your image URL for Our Work
+    Contact: "/Images/popup/5.webp", // Replace with your image URL for Contact
   };
 
   // Mouse enter and leave handlers

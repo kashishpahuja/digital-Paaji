@@ -40,6 +40,8 @@ function Banner({
         className={`letter ${showText || isSmallScreen ? "" : "hide"}`}
         style={{
           animationDelay: `${index * 0.05}s`, // Delay the animation for each letter
+          display: letter === " " ? "inline-block" : "inline", // Ensure spaces are visible
+          whiteSpace: "pre", // Preserve spaces
         }}
       >
         {letter}
@@ -68,13 +70,13 @@ function Banner({
           </div>
           <div className="block lg:hidden">
             <p className="text-white text-sm">
-              {splitText("Lorem ipsum dolor, sit amet.")}
+              {splitText("DIGITAL PAAJI, SIRHIND ROAD, PATIALA.")}
             </p>
           </div>
           {showText && (
             <div className="hidden lg:block">
               <p className="text-white text-sm">
-                {splitText("Lorem ipsum dolor, sit amet.")}
+                {splitText("DIGITAL PAAJI, SIRHIND ROAD, PATIALA.")}
               </p>
             </div>
           )}
@@ -230,27 +232,30 @@ function Banner({
                         className="merriHead text-[10px] md:text-sm text-white"
                         style={{ letterSpacing: "4px" }}
                       >
+                       
+NOW DEAL WITH A TEAM OF
+
                         <span
                           className="text-[#cc5f4d] text-[10px] md:text-sm"
                           style={{ letterSpacing: "2px" }}
                         >
-                          TRANSFORM{" "}
+                        {" "}    EXPERTS
+                       
                         </span>
-                        YOUR DIGITAL PRESENCE
+                  
                       </h3>
                       <p
                         className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:my-8"
                         style={{ textAlign: "center" }}
                       >
-                        customised digital marketing services. We create individualised
-                        plans that appeal to their target market since our experts
-                        recognize how different every company is.
+                       Digital Paaji is not just a digital Marketing Agency; we are your companions in the journey of online success. We offer comprehensive digital marketing solutions tailored to your needs.
+
                       </p>
                       <p
                         className="servicePara text-xs md:text-sm text-[#cc5f4d]"
                         style={{ textAlign: "center" }}
                       >
-                        LET'S TALK BUSINESS
+                      GROW WITH US
                       </p>
                     </div>
                   <div className="flex items-center gap-[.5px]  justify-end flex-col xl:flex-row xl:w-full">

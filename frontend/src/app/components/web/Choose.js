@@ -83,7 +83,7 @@ function FollowUs() {
 
         {/* Call to Action Button */}
         <div className="text-center mt-12">
-          <Link href="tel:+918699640752" className="px-4 py-2 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base">
+          <Link href="tel:+918699640752" className="px-4 py-4 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base">
             Call Us
           </Link>
         </div>

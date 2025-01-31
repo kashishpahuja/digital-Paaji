@@ -64,7 +64,7 @@ Experts​
                 <div className="p-4 flex items-center justify-start gap-3">
                   <div className="mx-auto w-32 h-auto">
                     <img
-                      src="/Images/services/benefits1.webp"
+                      src="/Images/services/benefits3.webp"
                       alt=""
                       className="zoom w-full h-auto object-cover"
                     />
@@ -89,7 +89,7 @@ Strategies
                 <div className="p-4 flex items-center justify-start gap-3">
                   <div className="mx-auto w-32 h-auto">
                     <img
-                      src="/Images/services/benefits1.webp"
+                      src="/Images/services/benefits2.webp"
                       alt=""
                       className="zoom w-full h-auto object-cover"
                     />
@@ -111,7 +111,7 @@ Constant Assistance and Adjustment​
           </div>
 
           <div className="text-center mt-12">
-            <Link  href="tel:+918699640752" className="px-4 py-2 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
+            <Link  href="tel:+918699640752" className="px-4 py-4 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
               Call Us
             </Link>
           </div>

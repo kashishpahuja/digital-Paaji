@@ -21,7 +21,7 @@ function info() {
           First, contact us via phone or on their website, and we will set up a meeting to discuss your needs, goals, and challenges. Afterwards, will lay out a personalised strategy that guarantees your participation at each turn. Meeting deadlines while upholding strict quality standards is something we take great pride in.
         </p>
         <div className=" mt-8">
-          <Link href="tel:+918699640752" className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
+          <Link href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
             Call Us
           </Link>
         </div>

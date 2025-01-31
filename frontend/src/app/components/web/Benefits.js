@@ -14,7 +14,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/vp/4.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -35,7 +35,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/smm.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -57,7 +57,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/vp/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -79,7 +79,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/seo/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -100,7 +100,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/dm/2.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -121,7 +121,7 @@ function AddOn() {
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/dm/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -143,7 +143,7 @@ function AddOn() {
         <div className="text-center mt-6">
           <Link
             href="tel:+918699640752"
-            className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
+            className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
           >
             Call Us 
           </Link>

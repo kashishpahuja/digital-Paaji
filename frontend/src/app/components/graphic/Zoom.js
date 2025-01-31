@@ -22,7 +22,7 @@ function Why() {
         Offering a variety of graphic design services, Digital Paaji specialises in creating visual narratives that represent a company’s identity and core principles. Their talented designers are committed to producing engaging, captivating material that successfully conveys your company message, guaranteeing firms a strong online presence.
         </p>
         <div className="">
-          <Link href="tel:+918699640752" className="zoom px-6 py-2 border rounded-xl border-white text-white font-medium text-lg underline " style={{width:'fit-content'}} >
+          <Link href="tel:+918699640752" className="zoom px-6 py-4 border rounded-xl border-white text-white font-medium text-lg underline " style={{width:'fit-content'}} >
             Call Us
           </Link>
         </div>

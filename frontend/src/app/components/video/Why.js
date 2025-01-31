@@ -25,7 +25,7 @@ function info() {
         Video editing is an essential step that turns unprocessed material into a polished, captivating end result. It helps tell the tale, improves the images, and holds the audience’s interest. To ensure clarity, compellingness, and brand alignment, content is refined using tools including colour correction, sound editing, and effects.
         </p>
         <div className=" mt-8">
-          <Link href="tel:+918699640752" className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
+          <Link href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
             Contact Us
           </Link>
         </div>

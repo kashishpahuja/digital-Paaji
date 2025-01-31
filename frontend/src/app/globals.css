@@ -489,6 +489,10 @@ body {
   }
 }
 
+
+
+
+
 /* Container setup */
 .logo-container {
   position: relative;
@@ -599,10 +603,10 @@ body {
 }
 
 .slide-2{
-  background-color: #5dcfad;
+  background-color: #6db19b;
 }
 .slide-3{
-  background-color: #0eb139;
+  background-color: #000000;
 }
 @keyframes slideDown {
   from{
@@ -630,6 +634,25 @@ body {
   overflow: hidden; /* Ensure content is hidden while growing */
   max-height: 0; /* Initial height */
 }
+
+@keyframes growRight {
+  from {
+    max-width: 0;
+    opacity: 0;
+  }
+  to {
+    max-width: 12rem;
+    opacity: 1;
+  }
+}
+
+.logo-grow {
+  animation: growRight 1s ease-in-out forwards;
+  overflow: hidden;
+  max-width: 0;
+}
+
+
 
 .text-button-grow{
   animation: growDown 1s ease-in forwards;

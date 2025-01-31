@@ -37,7 +37,7 @@ function AddOn() {
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-28 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/dm/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -79,7 +79,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-28 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/dm/2.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -102,7 +102,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-28 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/vp/1.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -123,7 +123,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-28 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/vp/2.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -144,7 +144,7 @@ function AddOn() {
           <div className="text-center mt-12">
             <Link
               href="tel:+918699640752"
-              className="px-4 py-2 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline "
+              className="px-4 py-4 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline "
             >
               Call Us
             </Link>

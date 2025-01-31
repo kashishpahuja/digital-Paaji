@@ -33,7 +33,7 @@ function AddOn() {
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-20 h-auto">
                 <img
-                  src="/Images/addOn/LG.webp"
+                  src="/Images/seo/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
                 />
@@ -54,7 +54,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/seo/1.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -75,7 +75,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/seo/2.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -98,7 +98,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/seo/1.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -119,7 +119,7 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
                   <img
-                    src="/Images/addOn/LG.webp"
+                    src="/Images/seo/3.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
                   />
@@ -138,7 +138,7 @@ function AddOn() {
             </div>
           </div>
           <div className="text-center mt-12">
-            <Link  href="tel:+918699640752" className="px-4 py-2 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
+            <Link  href="tel:+918699640752" className="px-4 py-4 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
               Get Started Today
             </Link>
           </div>

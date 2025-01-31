@@ -39,7 +39,7 @@ function Info() {
         The foundation of marketing tactics is graphic design since it aids in creating a unified visual identity that resonates with the intended audience. Websites, social media photos, branding materials, and logos are all included. Businesses stand out from rivals and gain respect with a powerful visual presence. By use visual hierarchy, color psychology, and typography to direct attention and clearly convey important messages, effective graphic design simplifies difficult concepts.
         </p>
         <div className="mt-8">
-          <Link  href="tel:+918699640752" className="px-6 py-2 border rounded-lg border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
+          <Link  href="tel:+918699640752" className="px-6 py-4 border rounded-lg border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
             Contact Us
           </Link>
         </div>

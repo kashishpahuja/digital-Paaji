@@ -30,7 +30,7 @@ function Footer() {
         <img src="/Images/logo2.webp" alt="Logo" />
         <ul className="mt-6 gap-2 flex items-center justify-center">
           <li>
-            <Link href="https://www.instagram.com" target="_blank">
+            <Link href="https://www.instagram.com/digital.paajii/" target="_blank">
               <TbBrandInstagram
                 className="zoom text-blue-900"
                 style={{ width: "120%", height: "120%" }}
@@ -38,7 +38,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.facebook.com" target="_blank">
+            <Link href="https://www.facebook.com/digital.paajii" target="_blank">
               <FaFacebook
                 className="zoom text-blue-900"
                 style={{ width: "120%", height: "120%" }}
@@ -46,7 +46,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com" target="_blank">
+            <Link href="https://www.youtube.com/@digital.paajii" target="_blank">
               <TbBrandYoutubeFilled
                 className="zoom text-blue-900"
                 style={{ width: "120%", height: "120%" }}
@@ -54,7 +54,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.twitter.com" target="_blank">
+            <Link href="https://x.com/i/flow/login?redirect_after_login=%2Fdigitalpaajii" target="_blank">
               <TbBrandTwitterFilled
                 className="zoom text-blue-900"
                 style={{ width: "120%", height: "120%" }}

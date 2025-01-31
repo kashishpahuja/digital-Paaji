@@ -39,7 +39,8 @@ function Banner({
         key={index}
         className={`letter ${showText || isSmallScreen ? "" : "hide"}`}
         style={{
-          animationDelay: `${index * 0.05}s`, // Delay the animation for each letter
+          animationDelay: `${index * 0.05}s`, // Delay the animation for each letter  display: letter === " " ? "inline-block" : "inline", // Ensure spaces are visible
+          whiteSpace: "pre", // Preserve spaces
         }}
       >
         {letter}
@@ -233,26 +234,28 @@ function Banner({
               style={{ letterSpacing: "4px" }}
             >
               <span
-                className="text-[#cc5f4d] text-[10px] md:text-sm"
+                className="text-gray-400 text-[10px] md:text-sm"
                 style={{ letterSpacing: "2px" }}
               >
-                TRANSFORM{" "}
+                
+READY TO SHINE <br />
+{" "}
               </span>
-              YOUR DIGITAL PRESENCE
+              IN THE DIGITAL WORLD?
             </h3>
             <p
-              className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:my-8"
+              className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:mb-8 lg:mt-4"
               style={{ textAlign: "center" }}
             >
-              customised digital marketing services. We create individualised
-              plans that appeal to their target market since our experts
-              recognize how different every company is.
+              Innovative Solutions for You  <br /> <br />
+              From social media management to SEO strategies, we have the expertise to elevate your brand&#39;s presence in the digital realm
+              .
             </p>
             <p
               className="servicePara text-xs md:text-sm text-[#cc5f4d]"
               style={{ textAlign: "center" }}
             >
-              LET'S TALK BUSINESS
+       CLICK TO LIGHT UP YOUR JOURNEY
             </p>
           </div>
        <div className="flex items-center gap-[.5px]  justify-end flex-col xl:flex-row xl:w-full">

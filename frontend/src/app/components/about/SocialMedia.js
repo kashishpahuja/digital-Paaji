@@ -14,11 +14,11 @@ function FollowUs() {
   const [activeTab, setActiveTab] = useState(0);
 
   const socialLinks = [
-    { name: "Facebook", icon: <FaFacebook />, link: "https://facebook.com" },
-    { name: "Instagram", icon: <FaInstagram />, link: "https://instagram.com" },
-    { name: "YouTube", icon: <FaYoutube />, link: "https://youtube.com" },
-    { name: "x.com", icon: <FaTwitter />, link: "https://twitter.com" },
-    { name: "Pintrest", icon: <FaPinterest />, link: "https://pinterest.com" },
+    { name: "Facebook", icon: <FaFacebook />, link: "https://www.facebook.com/digital.paajii" },
+    { name: "Instagram", icon: <FaInstagram />, link: "https://www.instagram.com/digital.paajii/" },
+    { name: "YouTube", icon: <FaYoutube />, link: "https://www.youtube.com/@digital.paajii" },
+    { name: "x.com", icon: <FaTwitter />, link: "https://x.com/i/flow/login?redirect_after_login=%2Fdigitalpaajii" },
+    { name: "Pintrest", icon: <FaPinterest />, link: "https://www.pinterest.com/digitalpaaji/" },
   ];
 
   const handleMouseEnter = (index) => {
@@ -49,16 +49,18 @@ function FollowUs() {
               }`}
             >
               {social.icon}
-              <span className="">
-                {social.name}
-              </span>
+              <span className="">{social.name}</span>
             </li>
           ))}
         </ul>
 
         {/* Follow Us Link */}
-        <div className="servicePara text-white underline mt-12 text-lg font-bold text-center">
-          <Link href={socialLinks[activeTab].link} target="_blank" className="mx-28 lg:ml-[530px]">
+        <div className="merriHead text-white underline mt-12 text-lg font-bold text-center">
+          <Link
+            href={socialLinks[activeTab].link}
+            target="_blank"
+            className=""
+          >
             Follow Us
           </Link>
         </div>

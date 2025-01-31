@@ -71,7 +71,7 @@ export default function ResponsiveLayout() {
   {/* Animated 2D Logo */}
   <div
     className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out -ml-1 ${
-      isHovering ? " transition-all duration-1000 ease-in-out w-[12rem]" : "w-1"
+      isHovering ? " transition-all duration-1000 ease-in-out w-[12rem]" : "w-0 opacity-0"
     }`}
   >
     <img src="/Images/logo2.webp" alt="logo2" className="w-full h-auto" />
@@ -90,7 +90,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24 p-2 font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24 p-2 font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
@@ -112,7 +112,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
@@ -135,7 +135,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
@@ -158,7 +158,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
@@ -181,7 +181,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
@@ -204,7 +204,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[11px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >

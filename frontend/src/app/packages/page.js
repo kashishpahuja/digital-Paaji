@@ -8,6 +8,7 @@ import GetInTouch from '../components/services/GetInTouch'
 import Content from '../components/services/Content'
 import Faq from '../components/Faq'
 import Basic from '../components/package/Basic';
+import Progress from '../components/Progress'
 
 
 
@@ -19,10 +20,10 @@ export default function About() {
   return (
     <main>
         <Header title="Packages" content="Find the Perfect Plan to Elevate Your Brand!" />
-        <div className="my-24 mx-56">
+        {/* <div className="my-24 mx-56">
         <Basic />
-      </div>
-     
+      </div> */}
+     <Progress/>
     </main>
   );
 }

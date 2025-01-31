@@ -24,7 +24,7 @@ function AddOn() {
               <h3 className="services p-4 text-[#2e2d2d]">Lead Generation</h3>
             </div>
             <div className="text-center">
-          <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
+          <button className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
             Get Addon
           </button>
         </div>
@@ -39,7 +39,7 @@ function AddOn() {
               <h3 className="services p-4 text-[#2e2d2d]">Content Strategy</h3>
             </div>
             <div className="text-center">
-          <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
+          <button className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
             Get Addon
           </button>
         </div>
@@ -54,7 +54,7 @@ function AddOn() {
               <h3 className="services p-4 text-[#2e2d2d]">Content Marketing</h3>
             </div>
             <div className="text-center">
-          <button className="px-6 py-2 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
+          <button className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#006e7f] text-black hover:text-white font-medium text-lg ">
             Get Addon
           </button>
         </div>

@@ -40,6 +40,8 @@ function Banner({
         className={`letter ${showText || isSmallScreen ? "" : "hide"}`}
         style={{
           animationDelay: `${index * 0.05}s`, // Delay the animation for each letter
+          display: letter === " " ? "inline-block" : "inline", // Ensure spaces are visible
+          whiteSpace: "pre", // Preserve spaces
         }}
       >
         {letter}
@@ -81,7 +83,7 @@ function Banner({
           {showText && (
             <div className="hidden lg:block">
               <p className="text-white text-sm">
-                {splitText("Lorem ipsum dolor, sit amet.")}
+                {splitText("DIGITAL PAAJI, SIRHIND ROAD, PATIALA.")}
               </p>
             </div>
           )}
@@ -224,7 +226,7 @@ function Banner({
               className="servicePara text-xs md:text-sm text-[#cc5f4d]"
               style={{ textAlign: "center" }}
             >
-              LET'S TALK BUSINESS
+              LET&#39;S TALK BUSINESS
             </p>
           </div>
           <div className="flex items-center gap-[.5px]  justify-end flex-col xl:flex-row xl:w-full">

@@ -56,7 +56,7 @@ function Why() {
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
                       <img
-                        src="/Images/services/benefits1.webp"
+                        src="/Images/services/benefits2.webp"
                         alt=""
                         className="zoom w-full h-auto object-cover"
                       />
@@ -80,7 +80,7 @@ Custom Development
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
                       <img
-                        src="/Images/services/benefits1.webp"
+                        src="/Images/services/benefits3.webp"
                         alt=""
                         className="zoom w-full h-auto object-cover"
                       />
