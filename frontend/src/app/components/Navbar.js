@@ -81,7 +81,7 @@ export default function ResponsiveLayout() {
 
         {/* Navigation Links */}
         <div className="hidden xl:block py-6 -ml-12  ">
-          <ul className="flex items-center justify-center gap-12 h-20">
+          <ul className="flex items-center justify-center gap-8 h-20">
             {/* Link 1 */}
             <Link
               href={"/digital-marketing"}
@@ -90,13 +90,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24 p-2 font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28 p-2 font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
                 Digital <br /> Marketing
               </li>
-              <div className={`w-24 h-24  ${show === "1" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "1" ? "block" : "hidden"}`}>
                 <img
                   src="/Images/navGif/DM.gif"
                   alt="1"
@@ -112,13 +112,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28  font-bungee-inline text-center ${
                   show === "2" ? "hidden" : "block"
                 }`}
               >
                 Social Media <br /> Marketing
               </li>
-              <div className={`w-24 h-24  ${show === "2" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "2" ? "block" : "hidden"}`}>
                 <img
                                     src="/Images/navGif/SMM.gif"
 
@@ -135,13 +135,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28  font-bungee-inline text-center ${
                   show === "3" ? "hidden" : "block"
                 }`}
               >
                 Search Engine <br /> Optimization
               </li>
-              <div className={`w-24 h-24  ${show === "3" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "3" ? "block" : "hidden"}`}>
                 <img
                  src="/Images/navGif/SEO.gif"
 
@@ -158,13 +158,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28  font-bungee-inline text-center ${
                   show === "4" ? "hidden" : "block"
                 }`}
               >
                 Video <br /> Production
               </li>
-              <div className={`w-24 h-24  ${show === "4" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "4" ? "block" : "hidden"}`}>
                 <img
                                     src="/Images/navGif/VP.gif"
 
@@ -181,13 +181,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28  font-bungee-inline text-center ${
                   show === "5" ? "hidden" : "block"
                 }`}
               >
                 Website <br /> Development
               </li>
-              <div className={`w-24 h-24  ${show === "5" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "5" ? "block" : "hidden"}`}>
                 <img
                                    src="/Images/navGif/WD.gif"
 
@@ -204,13 +204,13 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-24  font-bungee-inline text-center ${
+                className={`heading text-[12px] w-28  font-bungee-inline text-center ${
                   show === "6" ? "hidden" : "block"
                 }`}
               >
                 Graphic <br /> Design
               </li>
-              <div className={`w-24 h-24  ${show === "6" ? "block" : "hidden"}`}>
+              <div className={`w-28 h-24  ${show === "6" ? "block" : "hidden"}`}>
                 <img
                   src="/Images/navGif/GD.gif"
 

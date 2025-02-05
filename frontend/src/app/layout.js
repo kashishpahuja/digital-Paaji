@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   const [isPageVisible, setIsPageVisible] = useState(true);
   const [isLoading, setIsLoading] = useState(true); // State to track loading
   const titles = [
-    "DigitalPaaji - No.1 Digital Marketing",
+    "DigitalPaaji - No.1 Digital Marketing Design Development Agency",
     "Please come back!",
     "I am feeling lonely :-(",
     "Don't you love me anymore?",
