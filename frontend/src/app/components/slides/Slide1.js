@@ -198,7 +198,7 @@ function Banner({
         </div>
 
         <div 
-        className={`ml-6 md:ml-0 w-[90%] md:w-[45%] xl:w-[16%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end 
+        className={`ml-20 md:ml-0 w-[60%] md:w-[45%] xl:w-[16%] md:-mb-6 xl:mb-0 text-center xl:-ml-56 z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end 
          ${slideNumber === currentSlide ? "text-slide-grow" : ""}
         `}>
           <div className="py-4 px-2 lg:py-12 bg-[#373636]">

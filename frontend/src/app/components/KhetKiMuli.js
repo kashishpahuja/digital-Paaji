@@ -12,7 +12,7 @@ function KhetKiMuli() {
           <h3 className="merriHead text-xl xl:text-2xl">
             Kis Khet ki Mooli hu?
           </h3>
-          <h3 className="bungeeHead mt-2  text-[30px] xl:text-[40px]">
+          <h3 className="bungeeHead mt-2  text-[25px] md:text-[30px] xl:text-[40px]">
             The Team You Want <br /> On Your Project
           </h3>
           <p className="servicePara mt-[40px]  text-sm xl:text-[16px] mb-8">

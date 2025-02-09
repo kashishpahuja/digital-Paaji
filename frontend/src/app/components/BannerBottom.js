@@ -13,8 +13,8 @@ function Zigzag() {
        
         <div className='bg-[#cc5f4d]  py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
             <div className='flex items-center justify-center gap-2'>
-                <div>
-                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-28 h-24'/>
+                <div className='w-20 h-20'>
+                    <img src="/Images/zigzag/1.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>Creative Expression</h3>
@@ -22,8 +22,8 @@ function Zigzag() {
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2'>
-                <div>
-                    <img src="/Images/zigzag/4.webp" alt="" className='zoom w-28 h-24'/>
+                <div className='w-20 h-20'>
+                    <img src="/Images/zigzag/4.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>
@@ -32,8 +32,8 @@ function Zigzag() {
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2'>
-                <div>
-                    <img src="/Images/zigzag/2.webp" alt="" className='zoom w-28 h-24'/>
+                <div className='w-20 h-20'>
+                    <img src="/Images/zigzag/2.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>
@@ -42,8 +42,8 @@ function Zigzag() {
                 </div>
             </div>
             <div className='flex items-center justify-center gap-2'>
-                <div>
-                    <img src="/Images/zigzag/3.webp" alt="" className='zoom w-28 h-24'/>
+                <div className='w-20 h-20'>
+                    <img src="/Images/zigzag/3.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>Monetization Potential</h3>

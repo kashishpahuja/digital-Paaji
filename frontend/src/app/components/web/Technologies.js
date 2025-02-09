@@ -151,7 +151,7 @@ function AddOn() {
           </div>
         </div>
       </div>
-      <h3 className="bungeeHead  text-[#cc5f4d]  text-xl text-center">
+      <h3 className="bungeeHead  text-[#cc5f4d]  text-xl text-center mx-4 md:mx-12 lg:mx-32 xl:mx-40">
       Our online solutions are optimized for speed and user experience, while yet being powerful, thanks to the careful combination of several technologies.
         </h3>
     </div>

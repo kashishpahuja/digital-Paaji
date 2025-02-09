@@ -11,7 +11,7 @@ function Offer() {
         >
             <div className=" md:mx-12 lg:ml-24 lg:mr-32">
           <h3 className="merriHead text-xl xl:text-2xl text-left md:text-center lg:text-left">What We Offer</h3>
-          <h3 className="block xl:hidden bungeeHead text-[#cc5f4d] mt-2  text-[30px] xl:text-[40px]   text-left ">
+          <h3 className="block xl:hidden bungeeHead text-[#cc5f4d] mt-2  text-[25px] md:text-[30px] xl:text-[40px]   text-left ">
             Empowering Solutions for You
           </h3>
           <h3 className="hidden xl:block bungeeHead text-left text-[#cc5f4d] mt-2  text-[30px] xl:text-[40px]">

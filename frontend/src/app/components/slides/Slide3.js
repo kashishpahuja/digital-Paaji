@@ -225,7 +225,7 @@ function Banner({
         </div>
 
         {/* Slide Controls */}
-        <div className={`mx-auto xl:mx-0 mt-16 xl:mt-0 w-[70%] md:w-[45%] xl:w-[16%] md:-mb-6 xl:mb-0 text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end
+        <div className={`mx-auto xl:mx-0 mt-16 xl:mt-0 w-[60%] md:w-[45%] xl:w-[16%] md:-mb-6 xl:mb-0 text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end
              ${ slideNumber === currentSlide ? "text-slide-grow" : ""}
           `}>
           <div className="py-4 px-2 lg:py-12 bg-[#373636]">
@@ -244,10 +244,10 @@ READY TO SHINE <br />
               IN THE DIGITAL WORLD?
             </h3>
             <p
-              className="servicePara text-[8px] md:text-xs text-gray-50 my-4 lg:mb-8 lg:mt-4"
+              className="servicePara text-[9px] md:text-xs text-gray-50 my-4 lg:mb-8 lg:mt-4"
               style={{ textAlign: "center" }}
             >
-              Innovative Solutions for You  <br /> <br />
+              Innovative Solutions for You  <br />
               From social media management to SEO strategies, we have the expertise to elevate your brand&#39;s presence in the digital realm
               .
             </p>

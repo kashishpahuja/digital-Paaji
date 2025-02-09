@@ -9,7 +9,7 @@ function KhetKiMuli() {
     const slides = [
       {
         alt: "logo 2",
-        src: "https://digitalpaaji.com/wp-content/uploads/2024/07/logo-2.png",
+        src: "/Images/logo2.webp",
       },
       {
         alt: "GR LOGO",

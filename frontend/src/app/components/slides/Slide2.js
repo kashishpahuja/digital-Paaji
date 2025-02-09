@@ -220,7 +220,7 @@ function Banner({
   
   
         <div
-  className={`ml-6 md:ml-0 w-[80%] md:w-[45%] xl:w-[24%] xl:-ml-44 md:-mb-6 xl:mb-16 text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end ${
+  className={`ml-6 md:ml-0 w-[60%] md:w-[45%] xl:w-[24%] xl:-ml-44 md:-mb-6 xl:mb-16 text-center z-[999] flex flex-row xl:flex-col items-start xl:items-end justify-end ${
     slideNumber === currentSlide ? "text-slide-grow" : ""
   }`}
   
