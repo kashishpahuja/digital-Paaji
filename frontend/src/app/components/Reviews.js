@@ -42,13 +42,13 @@ function Testimonials() {
       author_name: "Sunny Sharma",
       relative_time_description: "2 weeks ago",
       rating: 5,
-      text: "I felt very comfortable with Digital Paaji team and their thought leadership in the industry. They seemed honest, direct and didn&apos;t try to upsell services. Higher Visibility did exactly what we asked for and did it quickly. Friendly environment. Highly impressed with their work and communication level. Best of luck!",
+      text: "I felt very comfortable with Digital Paaji team and their thought leadership in the industry. They seemed honest, direct and didn't try to upsell services. Higher Visibility did exactly what we asked for and did it quickly. Friendly environment. Highly impressed with their work and communication level. Best of luck!",
     },
     {
       author_name: "Prashant Kumar",
       relative_time_description: "1 month ago",
       rating: 4,
-      text: "I&apos;ve had the pleasure of working with Digital Paaji for one incredible year. The team&apos;s expertise, passion, and dedication to delivering top-notch digital marketing solutions are truly impressive. I&apos;m grateful for the opportunities I&apos;ve had while working at Digital Paaji and I highly recommend them to anyone seeking a reliable, results-driven digital marketing partner. Five stars, without a doubt!",
+      text: "I've had the pleasure of working with Digital Paaji for one incredible year. The team's expertise, passion, and dedication to delivering top-notch digital marketing solutions are truly impressive. I'm grateful for the opportunities I've had while working at Digital Paaji and I highly recommend them to anyone seeking a reliable, results-driven digital marketing partner. Five stars, without a doubt!",
     },
     {
       author_name: "Lakhvinder Singh",
