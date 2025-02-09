@@ -39,24 +39,49 @@ function Testimonials() {
   // Dummy data for reviews (replacing the fetched data)
   const dummyReviews = [
     {
-      author_name: "John Doe",
+      author_name: "Sunny Sharma",
       relative_time_description: "2 weeks ago",
       rating: 5,
-      text: "Great service, I am really satisfied with the product. Highly recommend!",
+      text: "I felt very comfortable with Digital Paaji team and their thought leadership in the industry. They seemed honest, direct and didn&apos;t try to upsell services. Higher Visibility did exactly what we asked for and did it quickly. Friendly environment. Highly impressed with their work and communication level. Best of luck!",
     },
     {
-      author_name: "Jane Smith",
+      author_name: "Prashant Kumar",
       relative_time_description: "1 month ago",
       rating: 4,
-      text: "Good quality, but the delivery was a bit late. Overall, I'm happy with my purchase.",
+      text: "I&apos;ve had the pleasure of working with Digital Paaji for one incredible year. The team&apos;s expertise, passion, and dedication to delivering top-notch digital marketing solutions are truly impressive. I&apos;m grateful for the opportunities I&apos;ve had while working at Digital Paaji and I highly recommend them to anyone seeking a reliable, results-driven digital marketing partner. Five stars, without a doubt!",
     },
     {
-      author_name: "Alice Johnson",
+      author_name: "Lakhvinder Singh",
       relative_time_description: "3 months ago",
       rating: 5,
-      text: "Excellent experience! The customer support was very helpful and responsive.",
+      text: "I recently visited Digital Paaji office in Patiala, and I had an excellent experience. The team is highly professional and knowledgeable, offering insightful digital marketing solutions. The office itself is modern and well-organized, providing a creative and productive environment. Their expertise in digital strategies is truly impressive. Highly recommend Digital Paaji for anyone looking to boost their online presence!",
     },
-  ];
+    {
+      author_name: "Raman Nagpal",
+      relative_time_description: "3 weeks ago",
+      rating: 5,
+      text: "I have been with Rishi for a long time. All I can say is that he is a dedicated person, communicative, prompt and makes every attempt to provide solutions at a reasonable cost. Fully reliable. I highly recommend his services.",
+    },
+    {
+      author_name: "Parminder Singh",
+      relative_time_description: "1 week ago",
+      rating: 5,
+      text: "Good experience with the team in digital marketing, maintained by well-experienced man Rishiraj Singh. Best of luck to the Digital Paaji team.",
+    },
+    {
+      author_name: "Kamal Dhiman",
+      relative_time_description: "5 days ago",
+      rating: 5,
+      text: "I have a very good experience with the Digital Paaji team. They also provide digital marketing classes. Must visit!",
+    },
+    {
+      author_name: "Karanbir Singh",
+      relative_time_description: "4 months ago",
+      rating: 5,
+      text: "Very good service, highly recommended.",
+    },
+];
+
 
   // Set the dummy data as reviews
   useEffect(() => {

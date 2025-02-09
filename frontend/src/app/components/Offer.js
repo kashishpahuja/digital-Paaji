@@ -51,7 +51,7 @@ function Offer() {
           </div>
           </div>
 
-          <div className="border-b-8 border-r-8 border-black bg-black mt-8 "  data-aos="zoom-out" data-aos-delay='200'>
+          <div className="border-b-8 border-r-8 border-black bg-black mt-8 "  data-aos="zoom-out" data-aos-delay='300'>
           <div className=" bg-[#cc5f4d] text-white flex flex-col md:flex-row  items-center justify-center gap-3 md:gap-7 p-4 md:p-8 -ml-4  ">
             
             <div
@@ -72,7 +72,7 @@ function Offer() {
           </div>
           </div>
 
-          <div className="border-b-8 border-r-8 border-black bg-black mt-8"  data-aos="zoom-out" data-aos-delay='400'>
+          <div className="border-b-8 border-r-8 border-black bg-black mt-8"  data-aos="zoom-out" data-aos-delay='600'>
           <div className=" bg-yellow-400  text-black flex flex-col md:flex-row  items-center justify-center gap-3 md:gap-7 p-4 md:p-8 -ml-4  ">
             
             <div

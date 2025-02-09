@@ -132,17 +132,17 @@ function Banner({
         <div className="relative">
           <ul className="flex items-center justify-center gap-4">
             <li>
-              <Link href="mailto:your-email@example.com">
+              <Link href="mailto:hello@digitalpaaji.com">
                 <MdOutlineEmail className="w-6 h-6  text-white" />
               </Link>
             </li>
             <li>
-              <Link href="https://www.facebook.com/your-profile">
+              <Link href="https://www.facebook.com/digital.paajii">
                 <FaFacebookF className="w-6  h-6  text-white" />
               </Link>
             </li>
             <li>
-              <Link href="https://www.instagram.com/your-profile">
+              <Link href="https://www.instagram.com/digital.paajii/">
                 <FaInstagram className="w-6  h-6  text-white" />
               </Link>
             </li>
