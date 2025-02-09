@@ -5,6 +5,8 @@ import { useTitle } from "react-use";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./globals.css";
+import Link from "next/link";
+import { IoChatbubbleEllipses } from "react-icons/io5";
 
 export default function RootLayout({ children }) {
   const [isPageVisible, setIsPageVisible] = useState(true);
@@ -93,6 +95,13 @@ export default function RootLayout({ children }) {
             </div>
             {children}
             <Footer />
+               {/* Floating Contact Icon */}
+               <Link
+              href="https://wa.me/8699640752"
+              className="fixed  bottom-4 right-4 bg-blue-500 animate-pulse text-white p-4 rounded-full shadow-lg flex items-center justify-center hover:bg-blue-700 transition duration-300"
+            >
+              <IoChatbubbleEllipses  size={24} className=""/>
+            </Link>
           </>
         )}
       </body>

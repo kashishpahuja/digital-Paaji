@@ -48,7 +48,7 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:5000/send-mail', {
+      const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

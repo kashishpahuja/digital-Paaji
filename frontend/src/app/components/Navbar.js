@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { TbMenu4 } from "react-icons/tb";
-import Popup from './Popup'
+import Popup from "./Popup";
 
 export default function ResponsiveLayout() {
   const [show, setShow] = useState(null);
@@ -46,38 +46,43 @@ export default function ResponsiveLayout() {
       
         </div> */}
         <div
-  className="relative flex items-center justify-start w-fit xl:w-[300px]"
-  onMouseEnter={handleMouseHover}
-  onMouseLeave={handleMouseHoverLeave}
->
-<Link href={'/'}>
-          <div
-            className="block xl:hidden w-60 h-auto overflow-hidden cursor-pointer"
-            onMouseEnter={() => handleMouseEnter("logo2")}
-          >
-            <img src="/Images/logo2.webp" alt="logo" />
-          </div>
+          className="relative flex items-center justify-start w-fit xl:w-[300px]"
+          onMouseEnter={handleMouseHover}
+          onMouseLeave={handleMouseHoverLeave}
+        >
+          <Link href={"/"}>
+            <div
+              className="block xl:hidden w-60 h-auto overflow-hidden cursor-pointer"
+              onMouseEnter={() => handleMouseEnter("logo2")}
+            >
+              <img src="/Images/logo2.webp" alt="logo" />
+            </div>
           </Link>
-  {/* xl screen Logo */}
-  <Link href={'/'} className="">
-    <div
-      className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer transition-all duration-400"
-      onMouseEnter={() => handleMouseHover("logo2")}
-    >
-      <img src="/Images/logo.webp" alt="logo" />
-    </div>
-  </Link>
+          {/* xl screen Logo */}
+          <Link href={"/"} className="">
+            <div
+              className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer transition-all duration-400"
+              onMouseEnter={() => handleMouseHover("logo2")}
+            >
+              <img src="/Images/logo.webp" alt="logo" />
+            </div>
+          </Link>
 
-  {/* Animated 2D Logo */}
-  <div
-    className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out -ml-1 ${
-      isHovering ? " transition-all duration-1000 ease-in-out w-[12rem]" : "w-0 opacity-0"
-    }`}
-  >
-    <img src="/Images/logo2.webp" alt="logo2" className="w-full h-auto" />
-  </div>
-</div>
-
+          {/* Animated 2D Logo */}
+          <div
+            className={` hidden xl:flex items-center justify-center overflow-hidden transition-all duration-1000 ease-in-out -ml-1 ${
+              isHovering
+                ? " transition-all duration-1000 ease-in-out w-[12rem]"
+                : "w-[6rem] opacity-0"
+            }`}
+          >
+            <img
+              src="/Images/logo2.webp"
+              alt="logo2"
+              className=" w-full h-auto"
+            />
+          </div>
+        </div>
 
         {/* Navigation Links */}
         <div className="hidden xl:block py-6 -ml-12  ">
@@ -96,11 +101,15 @@ export default function ResponsiveLayout() {
               >
                 Digital <br /> Marketing
               </li>
-              <div className={`w-28 h-24  ${show === "1" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "1" ? "block" : "hidden"}`}
+              >
                 <img
                   src="/Images/navGif/DM.gif"
                   alt="1"
-                  className={` flip w-full h-auto ${show === "1" ? "block" : "hidden"}`}
+                  className={` flip w-full h-auto ${
+                    show === "1" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -118,12 +127,15 @@ export default function ResponsiveLayout() {
               >
                 Social Media <br /> Marketing
               </li>
-              <div className={`w-28 h-24  ${show === "2" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "2" ? "block" : "hidden"}`}
+              >
                 <img
-                                    src="/Images/navGif/SMM.gif"
-
+                  src="/Images/navGif/SMM.gif"
                   alt="2"
-                  className={`flip w-full h-auto ${show === "2" ? "block" : "hidden"}`}
+                  className={`flip w-full h-auto ${
+                    show === "2" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -141,12 +153,15 @@ export default function ResponsiveLayout() {
               >
                 Search Engine <br /> Optimization
               </li>
-              <div className={`w-28 h-24  ${show === "3" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "3" ? "block" : "hidden"}`}
+              >
                 <img
-                 src="/Images/navGif/SEO.gif"
-
+                  src="/Images/navGif/SEO.gif"
                   alt="3"
-                  className={`flip w-full h-auto ${show === "3" ? "block" : "hidden"}`}
+                  className={`flip w-full h-auto ${
+                    show === "3" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -164,12 +179,15 @@ export default function ResponsiveLayout() {
               >
                 Video <br /> Production
               </li>
-              <div className={`w-28 h-24  ${show === "4" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "4" ? "block" : "hidden"}`}
+              >
                 <img
-                                    src="/Images/navGif/VP.gif"
-
+                  src="/Images/navGif/VP.gif"
                   alt="4"
-                  className={`flip w-full h-auto ${show === "4" ? "block" : "hidden"}`}
+                  className={`flip w-full h-auto ${
+                    show === "4" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -187,12 +205,15 @@ export default function ResponsiveLayout() {
               >
                 Website <br /> Development
               </li>
-              <div className={`w-28 h-24  ${show === "5" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "5" ? "block" : "hidden"}`}
+              >
                 <img
-                                   src="/Images/navGif/WD.gif"
-
+                  src="/Images/navGif/WD.gif"
                   alt="5"
-                  className={`flip w-full h-auto ${show === "5" ? "block" : "hidden"}`}
+                  className={`flip w-full h-auto ${
+                    show === "5" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -210,12 +231,15 @@ export default function ResponsiveLayout() {
               >
                 Graphic <br /> Design
               </li>
-              <div className={`w-28 h-24  ${show === "6" ? "block" : "hidden"}`}>
+              <div
+                className={`w-28 h-24  ${show === "6" ? "block" : "hidden"}`}
+              >
                 <img
                   src="/Images/navGif/GD.gif"
-
                   alt="6"
-                  className={`flip w-full h-auto ${show === "6" ? "block" : "hidden"}`}
+                  className={`flip w-full h-auto ${
+                    show === "6" ? "block" : "hidden"
+                  }`}
                 />
               </div>
             </Link>
@@ -232,9 +256,7 @@ export default function ResponsiveLayout() {
       </div>
 
       {/* Popup Menu - visible when isMenuOpen is true */}
-      {isMenuOpen && (
-        <Popup handleMenu={handleMenu}/>
-      )}
+      {isMenuOpen && <Popup handleMenu={handleMenu} />}
     </div>
   );
 }
