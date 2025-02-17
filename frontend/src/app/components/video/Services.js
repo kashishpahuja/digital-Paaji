@@ -189,14 +189,14 @@ function AddOn() {
             </div>
           </div>
         </div>
-        <div className="text-center mt-6">
+        {/* <div className="text-center mt-6">
           <Link
             href="tel:+918699640752"
             className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
           >
             Call Us Now
           </Link>
-        </div>
+        </div> */}
       </div>
 
       <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-36">
@@ -217,7 +217,7 @@ function AddOn() {
 
       <div
         style={{ backgroundImage: "url(/Images/services/bg.webp)" }}
-        className="w-full h-auto my-24 py-24"
+        className="w-full h-auto my-16 py-16"
       >
         <div className="mx-8 xl:mx-60 " data-aos="zoom-in">
           <div className="text-center">
@@ -236,14 +236,14 @@ function AddOn() {
             </p>
           </div>
           <div className=" text-center">
-            <div className="text-center mt-12">
+            {/* <div className="text-center mt-12">
               <Link
                 href="tel:+918699640752"
                 className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
               >
                 Call Us
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

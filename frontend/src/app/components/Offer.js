@@ -30,7 +30,7 @@ function Offer() {
           </div>
         </div>
         <div className="p-2 md:p-6 ml-6 mr-4 md:mx-12 lg:mx-32 xl:ml-0 xl:mr-32">
-        <div className="border-b-8 border-r-8 border-black bg-black "  data-aos="zoom-out"  >
+        <div className="border-b-8 border-r-8 border-black bg-black "  data-aos="zoom-in"  >
           <div className=" bg-[#006E7F] text-white flex flex-col md:flex-row  items-center justify-center gap-3 md:gap-7 p-4 md:p-8 -ml-4 mb ">
             
             <div
@@ -51,7 +51,7 @@ function Offer() {
           </div>
           </div>
 
-          <div className="border-b-8 border-r-8 border-black bg-black mt-8 "  data-aos="zoom-out" data-aos-delay='300'>
+          <div className="border-b-8 border-r-8 border-black bg-black mt-8 "  data-aos="zoom-in" data-aos-delay={'300'}>
           <div className=" bg-[#cc5f4d] text-white flex flex-col md:flex-row  items-center justify-center gap-3 md:gap-7 p-4 md:p-8 -ml-4  ">
             
             <div
@@ -72,7 +72,7 @@ function Offer() {
           </div>
           </div>
 
-          <div className="border-b-8 border-r-8 border-black bg-black mt-8"  data-aos="zoom-out" data-aos-delay='600'>
+          <div className="border-b-8 border-r-8 border-black bg-black mt-8"  data-aos="zoom-in" data-aos-delay={'600'}>
           <div className=" bg-yellow-400  text-black flex flex-col md:flex-row  items-center justify-center gap-3 md:gap-7 p-4 md:p-8 -ml-4  ">
             
             <div

@@ -20,7 +20,7 @@ export default function About() {
   return (
     <main>
         <Header title="Packages" content="Find the Perfect Plan to Elevate Your Brand!" />
-        {/* <div className="my-24 mx-56">
+        {/* <div className="my-16 mx-56">
         <Basic />
       </div> */}
      <Progress/>

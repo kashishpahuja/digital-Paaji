@@ -28,7 +28,7 @@ function FollowUs() {
   return (
     <div
       style={{ backgroundImage: "url(/Images/services/bg.webp)" }}
-      className="w-full h-auto py-24"
+      className="w-full h-auto py-16"
     >
       <div className="mx-8 xl:mx-60" data-aos="zoom-in">
         {/* Header Section */}

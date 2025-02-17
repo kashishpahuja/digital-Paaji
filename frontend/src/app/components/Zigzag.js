@@ -11,7 +11,7 @@ function Zigzag() {
     <div className='overflow-hidden'>
         <div className='zigzag-box '>
         </div>
-        <div className='bg-[#cc5f4d]  py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
+        <div className='bg-[#cc5f4d]  py-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
                     <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>

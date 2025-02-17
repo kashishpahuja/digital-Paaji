@@ -13,7 +13,7 @@ function Why() {
         }}
         className="w-full h-auto  "
       >
-        <div className=" py-24">
+        <div className=" py-16">
           <div className="text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72">
             <h3 className="bungeeHead  text-[#e6e8eb]  text-4xl">
               Why Choose Digital Paaji?
@@ -88,14 +88,14 @@ function Why() {
                 </div>
               </div>
             </div>
-            <div className="text-center ">
+            {/* <div className="text-center ">
               <Link
                 href="tel:+918699640752"
                 className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
               >
                 Call Us Now
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

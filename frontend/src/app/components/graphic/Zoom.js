@@ -18,10 +18,10 @@ function Why() {
         <h3 className="bungeeHead text-3xl text-white  ">
         Graphic Designing Services
         </h3>
-        <p className="servicePara text-sm text-white my-4">
+        <p className="servicePara text-sm text-white mt-4">
         Offering a variety of graphic design services, Digital Paaji specialises in creating visual narratives that represent a company’s identity and core principles. Their talented designers are committed to producing engaging, captivating material that successfully conveys your company message, guaranteeing firms a strong online presence.
         </p>
-        <div className="">
+        <div className="mt-6">
           <Link href="tel:+918699640752" className="zoom px-6 py-4 border rounded-xl border-white text-white font-medium text-lg underline " style={{width:'fit-content'}} >
             Call Us
           </Link>

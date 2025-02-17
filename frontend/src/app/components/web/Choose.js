@@ -50,7 +50,7 @@ function FollowUs() {
   return (
     <div
       style={{ backgroundImage: "url(/Images/services/bg.webp)" }}
-      className="w-full h-auto py-24 overflow-hidden"
+      className="w-full h-auto py-16 overflow-hidden"
     >
       <div className="mx-8 xl:mx-60" data-aos="zoom-in">
         {/* Header Section */}
@@ -82,11 +82,11 @@ function FollowUs() {
         </div>
 
         {/* Call to Action Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link href="tel:+918699640752" className="px-4 py-4 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base">
             Call Us
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

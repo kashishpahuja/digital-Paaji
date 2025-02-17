@@ -8,7 +8,7 @@ function info() {
       {/* Contact Section */}
       <div className="zigzag-box"></div>
 
-      <div className="w-full text-center px-6 py-24 md:px-16  lg:px-72 bg-[#cc5f4d]  flex flex-col justify-start">
+      <div className="w-full text-center px-6 py-16 md:px-16  lg:px-72 bg-[#cc5f4d]  flex flex-col justify-start">
 
         <h3 className="bungeeHead text-3xl lg:text-5xl text-white mb-8 ">
           GET STARTED TODAY

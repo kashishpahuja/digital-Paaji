@@ -31,7 +31,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay={'200'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -53,7 +53,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay={'400'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -75,7 +75,7 @@ function AddOn() {
             </div>
           </div>
 
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay={'500'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -96,7 +96,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay={'800'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -117,7 +117,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay={'1000'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img

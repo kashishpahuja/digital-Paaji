@@ -96,11 +96,11 @@ servicePara text-gray-500 text-sm"
             </div>
           </div>
         </div>
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link href="tel:+918699640752" className="px-6 py-4 border-2 rounded-xl border-black bg-[#cc5f4d] hover:bg-[#006E7F] text-white font-medium text-base underline ">
             Contact Us
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

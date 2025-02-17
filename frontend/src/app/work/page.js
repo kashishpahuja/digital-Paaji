@@ -20,13 +20,13 @@ export default function About() {
         content="2 Gallan Kariye Vypaar Dia – Let’s Talk Business"
       />
 
-      <div className="my-24">
+      <div className="my-16">
         <Work />
       </div>
-      <div className="my-24">
+      <div className="my-16">
         <Zigzag />
       </div>
-      <div className="my-24">
+      <div className="my-16">
         <Cards />
       </div>
     </main>

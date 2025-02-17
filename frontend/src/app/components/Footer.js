@@ -27,7 +27,7 @@ function Footer() {
     className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10 xl:gap-0 md:p-6 mx-4 md:mx-12 xl:mx-44  ">
       {/* Column 1 */}
       <div>
-        <img src="/Images/logo2.webp" alt="Logo" />
+        <Link href={'/'}><img src="/Images/logo2.webp" alt="Logo" /></Link>
         <ul className="mt-6 gap-2 flex items-center justify-center">
           <li>
             <Link href="https://www.instagram.com/digital.paajii/" target="_blank">
@@ -98,7 +98,7 @@ function Footer() {
         >
           <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiFillPhone className="text-[#cc5f4d]" />
-            <Link href="tel:+8699640752">8699640752</Link>
+            <Link href="tel:8699640752">+91 86996 40752</Link>
           </li>
           <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiOutlineMail className="text-[#cc5f4d]" />

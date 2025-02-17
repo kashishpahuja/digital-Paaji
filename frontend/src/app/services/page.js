@@ -18,13 +18,13 @@ export default function About() {
   return (
     <main>
         <Header title="Welcome to Digital Paaji" content="Your Gateway to Online Success"/>
-        <div className="my-24">
+        <div className="my-16">
         <Content />
       </div>
-        <div className="my-24">
+        <div className="my-16">
         <GetInTouch />
       </div>
-      <div className="my-24">
+      <div className="my-16">
         <Faq />
       </div>
     </main>

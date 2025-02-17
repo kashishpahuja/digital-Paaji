@@ -1,48 +1,87 @@
-'use client';
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+"use client";
 
-import Header from "../components/video/InnerHeader";
-import GetInTouch from '../components/graphic/GetStarted'
-import Services from '../components/graphic/Services'
-import Work from '../components/graphic/Work'
-import Zoom from '../components/graphic/Zoom'
-import Why from '../components/graphic/Why'
-import Process from '../components/graphic/Process'
-import Faq from '../components/graphic/Faq'
+import { useEffect, useState } from "react";
+import Head from "next/head";
+import Home from "../components/GD";
 
+export default function Page() {
+  const [isPageVisible, setIsPageVisible] = useState(true);
+  const [titleIndex, setTitleIndex] = useState(0);
 
+  const titles = [
+    "DigitalPaaji is the No.1 Digital Marketing, Design, and Development Agency.",
+    "Please come back!",
+    "I am feeling lonely :-(",
+    "Don't you love me anymore?",
+  ];
 
-export default function About() {
+  const descriptions = [
+    "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
+    "We miss you! Come back to see our latest updates.",
+    "Feeling lonely? Visit us again for amazing content!",
+    "We still love you! Don't leave us alone 😢",
+  ];
+
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false}); // Initialize AOS with desired settings
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        setIsPageVisible(false);
+        setTitleIndex(1);
+      } else {
+        setIsPageVisible(true);
+        setTitleIndex(0);
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
   }, []);
 
+  useEffect(() => {
+    if (!isPageVisible) {
+      const interval = setInterval(() => {
+        setTitleIndex((prevIndex) =>
+          prevIndex >= titles.length - 1 ? 1 : prevIndex + 1
+        );
+      }, 2000);
+
+      return () => clearInterval(interval);
+    } else {
+      setTitleIndex(0);
+    }
+  }, [isPageVisible]);
+
+  useEffect(() => {
+    document.title = titles[titleIndex];
+
+    // **Dynamically update meta description**
+    const metaDescription = document.querySelector("meta[name='description']");
+    if (metaDescription) {
+      metaDescription.setAttribute("content", descriptions[titleIndex]);
+    } else {
+      // **If meta tag doesn't exist, create one**
+      const newMetaTag = document.createElement("meta");
+      newMetaTag.name = "description";
+      newMetaTag.content = descriptions[titleIndex];
+      document.head.appendChild(newMetaTag);
+    }
+  }, [titleIndex]);
+
   return (
-    <main>
-        <Header title="Graphic Designing Agency India" content="We won’t let good design go extinct!" button="Call Us"/>
-        <div className="my-24">
-        <Zoom />
-      </div>
-        <div className="my-24">
-        <Services />
-      </div>
-      <div className="my-24">
-        <Why />
-      </div>
-      <div className="my-24">
-        <Process />
-      </div>
-      <div className="my-24">
-        <Work />
-      </div>
-        <div className="my-24">
-        <GetInTouch />
-      </div>
-      <div className="my-24">
-        <Faq />
-      </div>
-    </main>
+    <>
+      <Head>
+        <title>{titles[titleIndex]}</title>
+        <meta name="description" content={descriptions[0]} />
+        <meta name="keywords" content="Digital Marketing, Web Design, SEO, Branding" />
+        <meta name="author" content="DigitalPaaji" />
+        <link rel="icon" href="/Images/favicon.png" />
+      </Head>
+      <main>
+        <Home />
+      </main>
+    </>
   );
 }

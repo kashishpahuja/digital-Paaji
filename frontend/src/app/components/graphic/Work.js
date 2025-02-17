@@ -138,11 +138,11 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Link href="tel:+918699640752"  className="px-4 py-4 border-2 rounded-xl border-black bg-[#006E7F] hover:bg-[#cc5f4d] text-white font-medium text-base underline ">
               Contact Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

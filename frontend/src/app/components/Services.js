@@ -30,7 +30,7 @@ function Services() {
           OUR SERVICES
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up">
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">DIGITAL MARKETING</h3>
             </div>
@@ -75,7 +75,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up" data-aos-delay={'200'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">
                 SOCIAL MEDIA MARKETING
@@ -122,7 +122,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up" data-aos-delay={'400'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">GRAPHIC DESIGNING</h3>
             </div>
@@ -167,7 +167,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up" data-aos-delay={'400'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d] ">SEO</h3>
             </div>
@@ -212,7 +212,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up" data-aos-delay={'600'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">VIDEO PRODUCTION</h3>
             </div>
@@ -257,7 +257,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="fade-up" data-aos-delay={'800'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">WEB DEVELOPMENT</h3>
             </div>
@@ -303,14 +303,14 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link
             href="tel:+918699640752"
             className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
           >
             Call Us Now
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -23,11 +23,11 @@ function info() {
         With a focus on email campaigns, content creation, social media marketing, and search engine optimization, Digital Paaji offers businesses of all sizes customised digital marketing services. We create individualised plans that appeal to their target market since our experts recognize how different every company is.
        
         </p>
-        <div className="">
+        {/* <div className="">
           <Link  href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-lg ">
             Contact Us
           </Link>
-        </div>
+        </div> */}
       </div>
      
     </div>

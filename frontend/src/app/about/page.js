@@ -17,16 +17,16 @@ export default function About() {
   return (
     <main>
         <Header title="About Us"/>
-        <div className='mb-24'>
+        <div className='mb-16'>
           <History/>
         </div>
-        <div className='my-24'>
+        <div className='my-16'>
           <KhetKiMuli/>
         </div>
-        <div className='my-24'>
+        <div className='my-16'>
           <Offer/>
         </div>
-        <div className='my-24'>
+        <div className='my-16'>
           <SocialMedia/>
         </div>
     </main>

@@ -4,7 +4,7 @@ import React from "react";
 function KhetKiMuli() {
   return (
     <div
-      className="bg-[#006E7F] overflow-hidden text-white py-24 "
+      className="bg-[#006E7F] overflow-hidden text-white py-12 "
       style={{ backgroundImage: "url(/Images/muli/checkBg.webp)" }}
     >
       <div className="flex items-center justify-center flex-wrap mx-12 md:mx-20 gap-8 ">
@@ -16,7 +16,7 @@ function KhetKiMuli() {
             The Team You Want <br /> On Your Project
           </h3>
           <p className="servicePara mt-[40px]  text-sm xl:text-[16px] mb-8">
-          For more than 15 years, we’ve stood as a leading Digital marketing agency, dedicated to serving small- and mid-sized companies. Our innovative digital marketing strategies have successfully captured and converted countless qualified leads. With our unique blend of marketing automation tools and expert insights, we guarantee the transition of leads into loyal customers.
+          For more than 15 years, we&apos;ve stood as a leading Digital marketing agency, dedicated to serving small- and mid-sized companies. Our innovative digital marketing strategies have successfully captured and converted countless qualified leads. With our unique blend of marketing automation tools and expert insights, we guarantee the transition of leads into loyal customers.
           </p>
           <Link href={'/contact'} className="merriHead text-xl xl:text-2xl ">
   Contact us

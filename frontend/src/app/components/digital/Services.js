@@ -18,9 +18,9 @@ function AddOn() {
         </p>
       </div>
 
-      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-24">
+      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-16">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" >
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -41,7 +41,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay='300'>
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -62,7 +62,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay='500'>
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -84,7 +84,7 @@ function AddOn() {
             </div>
           </div>
 
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay='700'>
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -105,7 +105,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay='900'>
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -126,7 +126,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up">
+          <div className="" data-aos="slide-up" data-aos-delay='1000'>
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-24 h-auto">
                 <img
@@ -148,14 +148,14 @@ function AddOn() {
             </div>
           </div>
         </div>
-        <div className="text-center ">
+        {/* <div className="text-center ">
           <Link
             href="tel:+918699640752"
             className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg "
           >
             Call Us Now
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

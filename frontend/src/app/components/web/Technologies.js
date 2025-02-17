@@ -141,14 +141,14 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Link
               href="tel:+918699640752"
               className="px-4 py-4 border-2 rounded-xl border-black bg-yellow-400 hover:bg-[#cc5f4d] text-black hover:text-white font-medium text-base underline "
             >
               Call Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <h3 className="bungeeHead  text-[#cc5f4d]  text-xl text-center mx-4 md:mx-12 lg:mx-32 xl:mx-40">

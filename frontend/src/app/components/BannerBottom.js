@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Image from 'next/image';
 
 function Zigzag() {
   useEffect(() => {
@@ -11,10 +12,10 @@ function Zigzag() {
     
     <div className='overflow-hidden'>
        
-        <div className='bg-[#cc5f4d]  py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
+        <div className='bg-[#cc5f4d]  py-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
             <div className='flex items-center justify-center gap-2'>
                 <div className='w-20 h-20'>
-                    <img src="/Images/zigzag/1.webp" alt="" className='w-full h-[100%] object-cover'/>
+                    <Image width={200} height={200} src="/Images/zigzag/1.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>Creative Expression</h3>
@@ -23,7 +24,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2'>
                 <div className='w-20 h-20'>
-                    <img src="/Images/zigzag/4.webp" alt="" className='w-full h-[100%] object-cover'/>
+                    <Image width={200} height={200} src="/Images/zigzag/4.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>
@@ -33,7 +34,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2'>
                 <div className='w-20 h-20'>
-                    <img src="/Images/zigzag/2.webp" alt="" className='w-full h-[100%] object-cover'/>
+                    <Image width={200} height={200} src="/Images/zigzag/2.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>
@@ -43,7 +44,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2'>
                 <div className='w-20 h-20'>
-                    <img src="/Images/zigzag/3.webp" alt="" className='w-full h-[100%] object-cover'/>
+                    <Image width={200} height={200} src="/Images/zigzag/3.webp" alt="" className='w-full h-[100%] object-cover'/>
                 </div>
                 <div>
                     <h3 className='text-white text-xl xl:text-2xl font-bold'>Monetization Potential</h3>

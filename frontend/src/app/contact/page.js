@@ -18,11 +18,11 @@ export default function About() {
     <main >
       <Header title="Contact Us" content="2 Gallan Kariye Vypaar Dia – Let’s Talk Business" />
 
-      <div className="my-24  ">
+      <div className="my-16  ">
       <Form/>
 
       </div>
-      <div className="my-24  "  data-aos="fade-down">
+      <div className="my-16  "  data-aos="fade-down">
       <Info/>
 
       </div>

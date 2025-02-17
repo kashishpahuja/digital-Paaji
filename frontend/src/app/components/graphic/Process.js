@@ -141,11 +141,11 @@ function Why() {
                 </div>
               </div>
             </div>
-            <div className="text-center ">
+            {/* <div className="text-center ">
               <Link   href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
                 Call Us
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

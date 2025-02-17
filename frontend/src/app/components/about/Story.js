@@ -4,7 +4,7 @@ import React from "react";
 function Story() {
   return (
     <div
-      className="bg-[#006E7F] overflow-hidden text-white py-24 "
+      className="bg-[#006E7F] overflow-hidden text-white py-16 "
       style={{ backgroundImage: "url(/Images/muli/checkBg.webp)" }}
     >
       <div className="flex items-center justify-center flex-wrap mx-12 md:mx-20 gap-8 ">
