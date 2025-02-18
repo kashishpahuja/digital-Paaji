@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaArrowUp, FaTimes } from "react-icons/fa";
+import { FaArrowUp, FaTimes, FaWhatsapp } from "react-icons/fa";
 
 function Icons() {
   const [showModal, setShowModal] = useState(false);
@@ -52,38 +52,46 @@ function Icons() {
           {showModal && (
             <div
               className="absolute bottom-4 right-14 bg-white shadow-lg rounded-lg w-52 lg:w-[300px]  text-black z-[9999]"
-       style={{ backgroundImage: "url(/Images/bg.webp)" }}
-
+              style={{ backgroundImage: "url(/Images/bg.webp)" }}
               onMouseLeave={() => setShowModal(false)}
             >
-    <div className="flex items-center justify-start gap-4 border-b border-gray-300 p-4 rounded-t-lg bg-[#226d32]">
-            <div className="w-12 h-12 rounded-full bg-white">
-              <img src="/Images/favicon.png" alt="" className="w-full h-[100%] object-cover" />
-            </div>
-            <div>
-            <h3 className="merriHead text-md text-[#cc5f4d]">
-         Digital Paaji
-        </h3>
-            </div>
-      </div>  
-      <Link className="" href="https://wa.me/6280317308"
-      >
-      <h3
-                
-                 className="merriHead text-md text-white text-center my-12  bg-[#56c056] py-2 mx-2 rounded-b-xl rounded-r-xl">
-Chat With Us
-        </h3>
-      </Link>
-      <div className="border-t border-gray-300 py-2">
-            
- 
-            <h3 className="merriHead text-sm text-[#cc5f4d] text-center">
-In a hurry? Call Us at <br /> <Link href={'tel:8699640752'} className="">+91 86996 40752</Link>
-        </h3>
+              <div className="flex items-end justify-start gap-2 p-4 rounded-t-lg bg-[#48ac48]">
+                <div className="w-fit h-12">
+                  <img
+                    src="/Images/favicon.png"
+                    alt=""
+                    className="w-full h-[100%] object-contain rounded-full "
+                  />
+                </div>
+                <div className="w-fit h-14 ">
+                  <img
+                    src="/Images/banner/logoWhite.webp"
+                    alt=""
+                    className="w-full h-[100%] object-contain "
+                  />
+                </div>
+              </div>
+              <div className="py-4">
+              <h3 className=" text-md text-gray-800 m-2 p-2 bg-[#eeede5] w-fit rounded-b-2xl rounded-r-2xl ">
+                  Hi There  <br />
+                  How Can I Help You?
+                </h3>
+              <Link className="flex items-center justify-center mt-6" href="https://wa.me/6280317308" >
+                <h3 className="merriHead flex items-center gap-2 text-md text-white  bg-[#48ac48] px-6 py-3 w-fit  rounded-3xl ">
+                 <FaWhatsapp className="w-6 h-6"/> Chat With Us
+                </h3>
+              </Link>
+              </div>
+          
+              {/* <div className="border-t border-gray-300 py-2">
+                <h3 className="merriHead text-sm text-[#cc5f4d] text-center">
+                  In a hurry? Call Us at <br />{" "}
+                  <Link href={"tel:8699640752"} className="">
+                    +91 8699 640 752
+                  </Link>
+                </h3>
+              </div> */}
 
-      </div>  
-      
-      
               {/* <div className="flex justify-between items-center border-b pb-2">
                 <h3 className="text-lg font-semibold">Chat with us</h3>
                 <button
