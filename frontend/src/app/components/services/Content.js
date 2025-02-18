@@ -25,7 +25,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/digital-marketing"}
                     onMouseEnter={() => handleMouseEnter("1")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -79,13 +79,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/digital-marketing"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/digital-marketing"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -103,7 +103,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/social-media-marketing"}
                     onMouseEnter={() => handleMouseEnter("2")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -156,13 +156,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/social-media-marketing"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/social-media-marketing"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -178,7 +178,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/graphic-designing"}
                     onMouseEnter={() => handleMouseEnter("3")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -231,13 +231,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/graphic-designing"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/graphic-designing"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -253,7 +253,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/search-engine-optimization"}
                     onMouseEnter={() => handleMouseEnter("4")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -306,13 +306,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/search-engine-optimization"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/search-engine-optimization"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -328,7 +328,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/video-production"}
                     onMouseEnter={() => handleMouseEnter("5")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -381,13 +381,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/video-production"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/video-production"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -403,7 +403,7 @@ function Services() {
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
                   <Link
-                    href={"/"}
+                    href={"/web-development"}
                     onMouseEnter={() => handleMouseEnter("6")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -456,13 +456,13 @@ function Services() {
               </div>
               <div className=" flex items-center justify-center mt-8">
                 <Link
-                  href={"/"}
+                  href={"/web-development"}
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"/web-development"}
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
@@ -479,8 +479,8 @@ function Services() {
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
-                  <Link
-                    href={"/"}
+                  <div
+                    
                     onMouseEnter={() => handleMouseEnter("7")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -516,7 +516,7 @@ function Services() {
                         }`}
                       /> */}
                     </div>
-                  </Link>
+                  </div>
                 </div>
               </div>
               <div className="mt-4">
@@ -532,18 +532,18 @@ function Services() {
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
-                <Link
-                  href={"/"}
+                <div
+                  
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
-                </Link>
-                <Link
-                  href={"/"}
+                </div>
+                <div
+                  
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
-                </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -554,8 +554,8 @@ function Services() {
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
-                  <Link
-                    href={"/"}
+                  <div
+                    
                     onMouseEnter={() => handleMouseEnter("8")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -591,7 +591,7 @@ function Services() {
                         }`}
                       /> */}
                     </div>
-                  </Link>
+                  </div>
                 </div>
               </div>
               <div className="mt-4">
@@ -607,18 +607,18 @@ function Services() {
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
-                <Link
-                  href={"/"}
+                <div
+                  
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
-                </Link>
-                <Link
-                  href={"/"}
+                </div>
+                <div
+                  
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
-                </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -629,8 +629,8 @@ function Services() {
             <div className="my-4">
               <div className="flex overflow-hidden h-[260px]">
                 <div className="mx-auto  w-[14rem] h-40">
-                  <Link
-                    href={"/"}
+                  <div
+                    
                     onMouseEnter={() => handleMouseEnter("9")}
                     onMouseLeave={handleMouseLeave}
                     className=""
@@ -666,7 +666,7 @@ function Services() {
                         }`}
                       /> */}
                     </div>
-                  </Link>
+                  </div>
                 </div>
               </div>
               <div className="mt-4">
@@ -681,18 +681,18 @@ function Services() {
                 </p>
               </div>
               <div className=" flex items-center justify-center mt-8">
-                <Link
-                  href={"/"}
+                <div
+                  
                   className="px-6 py-2 border-l-2 rounded-l-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#006E7F]  text-lg "
                 >
                   Get Service
-                </Link>
-                <Link
-                  href={"/"}
+                </div>
+                <div
+                  
                   className="px-6 py-2 border-r-2 rounded-r-full text-white font-semibold hover:bg-[#f8cb2e] hover:text-black bg-[#cc5f4d]  text-lg "
                 >
                   Learn More
-                </Link>
+                </div>
               </div>
             </div>
           </div>

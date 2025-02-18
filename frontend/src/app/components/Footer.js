@@ -86,11 +86,48 @@ function Footer() {
           <li className="lg:zoomLeft mt-6">
             <Link href="/contact">Contact Us</Link>
           </li>
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+          </li>
         </ul>
       </div>
 
-      {/* Column 3 */}
+  
+
+      {/* Column 4 */}
       <div className="ml-2 md:mx-auto px-6 xl:px-0">
+        <h3 className="bungeeHead text-2xl text-[#cc5f4d]">SERVICES</h3>
+        <ul
+          className="merriHead text-[#006E7F] text-md"
+          style={{ fontWeight: "300" }}
+        >
+          {/* <li className="lg:zoomLeft mt-6">
+            <Link href="/team">Our Team</Link>
+          </li> */}
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/digital-marketing">Digital Marketing</Link>
+          </li>
+        
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/video-production">Video Production</Link>
+          </li>
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/graphic-designing">Graphic Designing</Link>
+          </li>
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/web-development">Website Development</Link>
+          </li>
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/social-media-marketing">Social Media Marketing</Link>
+          </li>
+          <li className="lg:zoomLeft mt-6">
+            <Link href="/search-engine-optimization">Search Engine Optimization</Link>
+          </li>
+        </ul>
+      </div>
+
+    {/* Column 3 */}
+    <div className="ml-2 md:mx-auto px-6 xl:px-0">
         <h3 className="bungeeHead text-2xl text-[#cc5f4d]">CONTACT US</h3>
         <ul
           className="merriHead text-[#006E7F] text-md"
@@ -108,25 +145,6 @@ function Footer() {
           </li>
           <li className="lg:zoomLeft mt-6 flex items-center gap-2">
             <AiFillEnvironment className="text-[#cc5f4d]" /> Patiala/Mohali
-          </li>
-        </ul>
-      </div>
-
-      {/* Column 4 */}
-      <div className="ml-2 md:mx-auto px-6 xl:px-0">
-        <h3 className="bungeeHead text-2xl text-[#cc5f4d]">LINKS</h3>
-        <ul
-          className="merriHead text-[#006E7F] text-md"
-          style={{ fontWeight: "300" }}
-        >
-          {/* <li className="lg:zoomLeft mt-6">
-            <Link href="/team">Our Team</Link>
-          </li> */}
-          <li className="lg:zoomLeft mt-6">
-            <Link href="/packages">Packages</Link>
-          </li>
-          <li className="lg:zoomLeft mt-6">
-            <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
         </ul>
       </div>

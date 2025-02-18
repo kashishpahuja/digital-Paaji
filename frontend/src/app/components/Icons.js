@@ -31,14 +31,9 @@ function Icons() {
         {/* WhatsApp Icon with Modal Trigger */}
         <div
           onMouseEnter={() => setShowModal(true)}
-          // onMouseLeave={() => setShowModal(false)}
           className="relative"
         >
-          <Link
-            href={"/"}
-            //  href="https://wa.me/6280317308"
-            // className="text-white flex items-center justify-center"
-          >
+          <Link href={"/"}>
             <Image
               src={"/Images/services/whIcon.gif"}
               width={200}
@@ -51,66 +46,51 @@ function Icons() {
           {/* Modal Popup */}
           {showModal && (
             <div
-              className="absolute bottom-4 right-14 bg-white shadow-lg rounded-lg w-52 lg:w-[300px]  text-black z-[9999]"
+              className="absolute bottom-4 right-14 bg-white shadow-lg rounded-lg w-60 lg:w-[300px] text-black z-[9999]"
               style={{ backgroundImage: "url(/Images/bg.webp)" }}
-              onMouseLeave={() => setShowModal(false)}
             >
-              <div className="flex items-end justify-start gap-2 p-4 rounded-t-lg bg-[#48ac48]">
-                <div className="w-fit h-12">
-                  <img
-                    src="/Images/favicon.png"
-                    alt=""
-                    className="w-full h-[100%] object-contain rounded-full "
-                  />
+              {/* Header Section with Close Icon */}
+              <div className="flex items-center justify-between p-4 bg-[#48ac48] rounded-t-lg">
+                <div className="flex items-center gap-2">
+                  <div className="w-fit h-12 rounded-full">
+                    <img
+                      src="/Images/favicon.png"
+                      alt=""
+                      className="w-full h-[100%] object-contain"
+                    />
+                  </div>
+                  <div className="w-fit h-14">
+                    <img
+                      src="/Images/banner/logoWhite.webp"
+                      alt=""
+                      className="w-full h-[100%] object-contain"
+                    />
+                  </div>
                 </div>
-                <div className="w-fit h-14 ">
-                  <img
-                    src="/Images/banner/logoWhite.webp"
-                    alt=""
-                    className="w-full h-[100%] object-contain "
-                  />
-                </div>
-              </div>
-              <div className="py-4">
-              <h3 className=" text-md text-gray-800 m-2 p-2 bg-[#eeede5] w-fit rounded-b-2xl rounded-r-2xl ">
-                  Hi There  <br />
-                  How Can I Help You?
-                </h3>
-              <Link className="flex items-center justify-center mt-6" href="https://wa.me/6280317308" >
-                <h3 className="merriHead flex items-center gap-2 text-md text-white  bg-[#48ac48] px-6 py-3 w-fit  rounded-3xl ">
-                 <FaWhatsapp className="w-6 h-6"/> Chat With Us
-                </h3>
-              </Link>
-              </div>
-          
-              {/* <div className="border-t border-gray-300 py-2">
-                <h3 className="merriHead text-sm text-[#cc5f4d] text-center">
-                  In a hurry? Call Us at <br />{" "}
-                  <Link href={"tel:8699640752"} className="">
-                    +91 8699 640 752
-                  </Link>
-                </h3>
-              </div> */}
-
-              {/* <div className="flex justify-between items-center border-b pb-2">
-                <h3 className="text-lg font-semibold">Chat with us</h3>
                 <button
                   onClick={() => setShowModal(false)}
-                  className="text-gray-500 hover:text-black"
+                  className="text-white hover:text-gray-200"
                 >
-                  <FaTimes />
+                  <FaTimes className="w-5 h-5" />
                 </button>
               </div>
-              <p className="text-sm mt-2">
-                Need help? Click below to start a chat.
-              </p>
-              <Link
-                // href="https://wa.me/6280317308"
-                href={"/"}
-                className="mt-3 inline-block bg-green-500 text-white py-2 px-4 rounded-lg w-full text-center"
-              >
-                Start Chat
-              </Link> */}
+<div className="py-4">
+              <div className="w-fit bg-[#eeede5]  m-2 p-2 rounded-b-2xl rounded-r-2xl">
+                <h3 className="flex items-center gap-2 justify-start text-md text-gray-800 ">
+                  Hi There <Image width={50} height={50} src={'/Images/hi.webp'} className="w-5 h-5"/>
+           
+                </h3>
+                <h3 className=" text-md text-gray-800  ">
+
+                  How Can I Help You?
+                </h3>
+                </div>
+                <Link className="flex items-center justify-center mt-16" href="https://wa.me/6280317308?text=Hello,%20I%20am%20interested%20in%20your%20services!">
+                  <h3 className="merriHead flex items-center gap-2 text-md text-white bg-[#48ac48] px-6 py-3 w-fit rounded-3xl">
+                    <FaWhatsapp className="w-6 h-6" /> Chat With Us
+                  </h3>
+                </Link>
+              </div>
             </div>
           )}
         </div>
@@ -120,6 +100,7 @@ function Icons() {
 }
 
 export default Icons;
+
 
 // import Image from 'next/image';
 // import Link from 'next/link';
