@@ -5,12 +5,12 @@ import React from "react";
 function AddOn() {
   return (
     <div className=" ">
-      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72">
+      <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 mt-[440px] lg:mt-0">
         <h3 className="bungeeHead my-12 text-[#cc5f4d]  text-[30px] xl:text-[40px]">
         Services Benefit you will get
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-16 ">
-          <div className="" data-aos="slide-up">
+          <div className="" >
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -31,7 +31,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up" data-aos-delay={'200'}>
+          <div className=""  data-aos-delay={'200'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -53,7 +53,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up" data-aos-delay={'400'}>
+          <div className=""  data-aos-delay={'400'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -75,7 +75,7 @@ function AddOn() {
             </div>
           </div>
 
-          <div className="" data-aos="slide-up" data-aos-delay={'500'}>
+          <div className=""  data-aos-delay={'500'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -96,7 +96,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up" data-aos-delay={'800'}>
+          <div className=""  data-aos-delay={'800'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img
@@ -117,7 +117,7 @@ function AddOn() {
               </div>
             </div>
           </div>
-          <div className="" data-aos="slide-up" data-aos-delay={'1000'}>
+          <div className=""  data-aos-delay={'1000'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
                 <img

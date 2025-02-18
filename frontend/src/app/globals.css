@@ -175,8 +175,8 @@ body {
 
 .zoom{
   transition: transform 400ms ease-in;
-  width:100%;
-  height: auto;
+  /* width:100%; */
+  /* height: auto; */
 }
 .zoom:hover{
   transform: scale(1.1);

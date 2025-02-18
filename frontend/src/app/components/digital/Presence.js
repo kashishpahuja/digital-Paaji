@@ -4,14 +4,14 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col xl:flex-row items-start  mx-8 md:mx-12 xl:mx-72">
+    <div className="flex flex-col lg:flex-row items-center  mx-8 md:mx-12 xl:mx-72 ">
          {/* Map Section */}
-      <div className=" w-full xl:w-1/2">
+      <div className=" w-full xl:w-1/2 h-auto ">
         <img
           src="/Images/services/presence.webp"
           alt=""
-          className="zoom w-full h-[100%]  object-cover"
-          style={{height:'400px'}}
+          className="zoom w-full h-[100%]   object-cover"
+ 
         />
       </div>
       {/* Contact Section */}

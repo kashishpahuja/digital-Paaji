@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function Why() {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch  mx-4 md:mx-12 xl:mx-72">
+    <div className="flex flex-col lg:flex-row items-center  mx-4 md:mx-12 xl:mx-72">
          {/* Map Section */}
-      <div className=" w-[60%] mx-auto lg:w-1/2">
+      <div className=" w-[60%] lg:w-1/2">
         <img
           src="/Images/navGif/GD.gif"
           alt=""
-          className="zoom "
+          className="zoom  object-cover"
         />
       </div>
       {/* Contact Section */}

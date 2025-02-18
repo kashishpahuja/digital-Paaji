@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch lg:gap-16 mx-4 md:mx-12 xl:mx-72">
+    <div className="flex flex-col lg:flex-row items-center lg:gap-16 mx-4 md:mx-12 xl:mx-72 h-[500px]  overflow-hidden">
          {/* Map Section */}
       <div className="w-[60%] mx-auto lg:w-1/2 h-[230px] md:h-[500px] overflow-hidden">
         <img
           src="/Images/services/video.webp"
           alt=""
-          className="zoom w-full h-[100%] lg:p-12 object-cover"
+          className="zoom w-full h-[100%] lg:p-12 object-contain"
         />
       </div>
       {/* Contact Section */}
@@ -24,11 +24,11 @@ function info() {
         <p className="servicePara text-sm text-white">
         Video editing is an essential step that turns unprocessed material into a polished, captivating end result. It helps tell the tale, improves the images, and holds the audience’s interest. To ensure clarity, compellingness, and brand alignment, content is refined using tools including colour correction, sound editing, and effects.
         </p>
-        {/* <div className=" mt-8">
+        <div className=" mt-8">
           <Link href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
             Contact Us
           </Link>
-        </div> */}
+        </div>
       </div>
      
     </div>

@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch mx-4 md:mx-12 xl:mx-60">
+    <div className="flex flex-col lg:flex-row items-center mx-4 md:mx-12 h-[430px] xl:mx-60 my-24">
         {/* Map Section */}
-      <div className="w-full lg:w-1/2  overflow-hidden">
+      <div className="w-full lg:w-1/2 h-[430px]  ">
         <img
           src="/Images/services/web1.webp"
           alt=""
-          className="w-full h-auto object-cover"
+          className="w-full h-[100%] object-cover "
         />
       </div>
       {/* Contact Section */}

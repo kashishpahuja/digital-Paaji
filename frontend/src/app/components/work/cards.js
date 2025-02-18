@@ -23,7 +23,7 @@ function Services() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {servicesData.map((service) => (
             <div key={service.id} className="flex flex-col items-center justify-center">
-              <div className="border border-black" data-aos="zoom-in">
+              <div className="border border-black" data-aos="slide-up" data-aos-delay={'200'}>
                 <div className="border-b border-black">
                   <h3 className="services p-4 text-[#2e2d2d]">{service.name}</h3>
                 </div>

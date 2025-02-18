@@ -17,7 +17,7 @@ function Services() {
           Crafting Compelling Content
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'100'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Digital Marketing</h3>
             </div>
@@ -93,7 +93,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'200'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">
                 Social Media marketing
@@ -170,7 +170,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'300'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Graphic designing</h3>
             </div>
@@ -245,7 +245,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'400'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">SEO</h3>
             </div>
@@ -320,7 +320,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'500'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Video Production</h3>
             </div>
@@ -395,7 +395,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'600'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Web development</h3>
             </div>
@@ -470,7 +470,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'700'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">
                 Software Development
@@ -547,7 +547,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'800'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">App Development</h3>
             </div>
@@ -622,7 +622,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="border border-black " data-aos="zoom-in">
+          <div className="border border-black " data-aos="slide-up" data-aos-delay={'900'}>
             <div className="border-b border-black">
               <h3 className="services p-4 text-[#2e2d2d]">Google Ads</h3>
             </div>

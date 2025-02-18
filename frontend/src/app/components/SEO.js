@@ -18,7 +18,7 @@ import Faq from '../components/seo/Faq'
 
 export default function About() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false}); // Initialize AOS with desired settings
+    AOS.init({ duration: 1000, once: true}); // Initialize AOS with desired settings
   }, []);
 
   return (

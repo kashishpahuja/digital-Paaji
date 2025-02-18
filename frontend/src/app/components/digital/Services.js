@@ -34,7 +34,7 @@ function AddOn() {
                 Email Marketing
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                  One effective tactic for retaining clients and nurturing leads is email marketing. With an emphasis on enticing clients with insightful content, we offer customised campaigns, drip campaigns, and promotional newsletters. To convert prospective clients into devoted followers, we increase open and click-through rates, cultivate solid connections, and employ A/B testing and segmentation techniques.
                 </p>
@@ -55,7 +55,7 @@ function AddOn() {
                 Content Marketing
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                 With a focus on content marketing, Digital Paaji produces excellent, pertinent material that meets audience demands and performs highly in search results. Businesses utilize case studies, videos, and blog posts to build their brand, increase leads, become recognized as thought leaders in the field, and improve brand engagement for better future communications.
                 </p>
@@ -76,7 +76,7 @@ function AddOn() {
                 Video Marketing
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                 With a focus on creating captivating brand narratives, product showcases, and service explanations, Digital Paaji is a leading provider of video content for digital marketing. We manage the entire process from concept to production, making sure that videos are made with SEO in mind and are meant to elicit strong platform engagement and a closer audience bond.
                 </p>
@@ -98,7 +98,7 @@ function AddOn() {
                 Performance Monitoring and Analytics
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                 Using tools like Google Analytics and social media insights, Digital Paaji provides thorough analytics data for all marketing initiatives, including SEO, PPC, and social media. This information aids in improving campaigns, modifying strategy, and enhancing outcomes. Customers are able to observe how their marketing budget is contributing to the accomplishment of their business goals through clear data and frequent updates.
                 </p>
@@ -119,7 +119,7 @@ function AddOn() {
                 Website Development and Optimization
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                 The creation of aesthetically pleasing, navigable, and conversion-focused websites is Digital Paaji’s area of expertise. For both new and old websites, our experts guarantee responsiveness, quick loading times, and SEO optimization. We create websites that offer an outstanding user experience, increasing engagement, client retention, and conversion rates by utilising the newest technology and best practices.
                 </p>
@@ -140,7 +140,7 @@ function AddOn() {
                 Graphic Design and Branding
                 </h3>
               </div>
-              <div className="text-center">
+              <div className="text-justify">
                 <p className="merriHead text-sm text-gray-500">
                 Professional graphic design services, such as infographics, social media graphics, and logo creation, are offered by Digital Paaji to strengthen the visual identity of your company. Developing a unified brand identity that appeals to your target market is our aim. This will guarantee that your images successfully draw in viewers and communicate your message, increasing the visibility of your business.
                 </p>
