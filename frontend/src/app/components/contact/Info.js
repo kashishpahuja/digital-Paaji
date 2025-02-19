@@ -26,7 +26,7 @@ function info() {
           <ul className="merriHead text-white text-lg md:text-xl space-y-6 md:space-y-8 lg:space-y-12">
             <li className=" flex items-center gap-2 md:gap-3">
               <AiFillPhone className="text-2xl md:text-3xl text-white" />
-              <Link href="tel:+8699640752" className="hover:underline">+91 8699640752</Link>
+              <Link href="tel:8699640752" className="hover:underline">+91 8699 640 752</Link>
             </li>
             <li className=" flex items-center gap-2 md:gap-3">
               <AiOutlineMail className="text-2xl md:text-3xl text-white" />

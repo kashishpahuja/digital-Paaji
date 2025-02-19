@@ -15,14 +15,14 @@ function Header({ title, content, button }) {
           <h5 className="merriHead mt-3 md:mt-6 text-white mx-6 text-center md:mx-16 xl:mx-52 text-sm ">
             {content}
           </h5>
-          <div className=" mt-8">
+          {/* <div className=" mt-8">
             <Link href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg ">
               {button}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="absolute left-0 -bottom-1 w-[100%] h-[15%] lg:h-[33%] ">
+      <div className="absolute left-0 bottom-0 lg:-bottom-[15%] w-[100%] h-[15%] lg:h-[33%] ">
         <img
           src="/Images/services/wavy.png"
           alt=""

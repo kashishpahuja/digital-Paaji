@@ -1,7 +1,9 @@
 'use client';
+import Image from 'next/image';
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -10,10 +12,12 @@ export default function ContactForm() {
     phone: '',
     email: '',
     message: '',
+    recaptchaToken: '', 
   });
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isFormTouched, setIsFormTouched] = useState(false);
 
   // Handle input changes
   const handleChange = (e) => {
@@ -34,6 +38,7 @@ export default function ContactForm() {
     else if (!/\S+@\S+\.\S+/.test(formData.email))
       tempErrors.email = 'Email is invalid';
     if (!formData.message) tempErrors.message = 'Message is required';
+    if (!formData.recaptchaToken) tempErrors.recaptchaToken = 'Please complete the reCAPTCHA';
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -42,6 +47,8 @@ export default function ContactForm() {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsFormTouched(true);
+
     const isValid = validate();
     if (!isValid) return;
 
@@ -73,7 +80,9 @@ export default function ContactForm() {
           phone: '',
           email: '',
           message: '',
-        }); // Reset form
+          recaptchaToken: '', 
+        });
+        setIsFormTouched(false);
       } else {
         toast.error(data.error || 'Something went wrong!', {
           position: 'top-right',
@@ -105,7 +114,7 @@ export default function ContactForm() {
     <div className="mx-4 md:mx-12 xl:mx-60">
       <ToastContainer style={{ zIndex: 999999999 }} />
       <h3 className="bungeeHead mb-10 text-[30px] text-[#cc5f4d] xl:text-[40px]">
-        Let’s get in touch
+        Let&apos;s get in touch
       </h3>
 
       <form
@@ -123,8 +132,9 @@ export default function ContactForm() {
             placeholder="Enter your first name"
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           />
-          {errors.fname && <p className="text-red-500 text-sm">{errors.fname}</p>}
+          {isFormTouched && errors.fname && <p className="text-red-500 text-sm">{errors.fname}</p>}
         </div>
+
         {/* Last Name */}
         <div>
           <label className="bungeeHead block lg:text-lg mb-2">LAST NAME *</label>
@@ -136,8 +146,9 @@ export default function ContactForm() {
             placeholder="Enter your last name"
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           />
-          {errors.lname && <p className="text-red-500 text-sm">{errors.lname}</p>}
+          {isFormTouched && errors.lname && <p className="text-red-500 text-sm">{errors.lname}</p>}
         </div>
+
         {/* Phone */}
         <div>
           <label className="bungeeHead block lg:text-lg mb-2">YOUR PHONE *</label>
@@ -149,8 +160,9 @@ export default function ContactForm() {
             placeholder="+91 2929 29xxx"
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           />
-          {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+          {isFormTouched && errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
         </div>
+
         {/* Email */}
         <div>
           <label className="bungeeHead block lg:text-lg mb-2">YOUR EMAIL *</label>
@@ -162,8 +174,9 @@ export default function ContactForm() {
             placeholder="youremail@domain.com"
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           />
-          {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+          {isFormTouched && errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
+
         {/* Message */}
         <div className="md:col-span-2">
           <label className="bungeeHead block lg:text-lg mb-2">MESSAGE *</label>
@@ -175,29 +188,36 @@ export default function ContactForm() {
             rows={4}
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           ></textarea>
-          {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
+          {isFormTouched && errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
         </div>
+
+        {/* reCAPTCHA */}
+        <div>
+          <ReCAPTCHA
+            sitekey='6Lejx9wqAAAAAAOqYt7u8gsEcF2n-al0jKm8SGb8'
+            theme='light'
+            onChange={(token) => setFormData({ ...formData, recaptchaToken: token })}
+          />
+          {isFormTouched && errors.recaptchaToken && (
+            <p className="text-red-500 text-sm">{errors.recaptchaToken}</p>
+          )}
+        </div>
+
         {/* Submit Button */}
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 mx-auto flex flex-col gap-4 items-center">
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`merriHead flex items-center justify-center gap-2 w-full md:w-auto bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-4 rounded-md transition duration-300 ${
-              isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
-            }`}
+            className="merriHead w-full md:w-fit bg-yellow-400 text-black px-6 py-4 rounded-md hover:bg-yellow-500 transition duration-300"
           >
-            <span>{isSubmitting ? 'Sending...' : 'Send message'}</span>
-            <img
-              src="/Images/addOn/ContactIcon.webp"
-              className="w-4 h-4"
-              alt=""
-            />
+            <span>{isSubmitting ? 'Sending...' : 'Submit'}</span>
           </button>
         </div>
       </form>
     </div>
   );
 }
+
 
 
 

@@ -4,7 +4,7 @@ import React from "react";
 
 function Growth() {
   return (
-    <div style={{backgroundImage:"url(/Images/services/bg.webp)"}} className="w-full h-auto py-16">
+    <div style={{backgroundImage:"url(/Images/services/bg.webp)"}} className="w-full h-auto py-24">
     <div className="mx-8 lg:mx-24 xl:mx-60 " data-aos="zoom-in">
       <div className="text-center">
         <h3 className="bungeeHead my-8 text-[#e6e8eb]  text-3xl md:text-4xl lg:text-5xl xl:text-6xl">

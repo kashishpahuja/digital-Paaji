@@ -17,7 +17,7 @@ export default function Page() {
 
   const descriptions = [
     "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
-    "We miss you! Come back to see our latest updates.",
+    // "We miss you! Come back to see our latest updates.",
     "Feeling lonely? Visit us again for amazing content!",
     "We still love you! Don't leave us alone 😢",
   ];

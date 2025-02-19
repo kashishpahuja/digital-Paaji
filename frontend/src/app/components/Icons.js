@@ -77,7 +77,7 @@ function Icons() {
 <div className="py-4">
               <div className="w-fit bg-[#eeede5]  m-2 p-2 rounded-b-2xl rounded-r-2xl">
                 <h3 className="flex items-center gap-2 justify-start text-md text-gray-800 ">
-                  Hi There <Image width={50} height={50} src={'/Images/hi.webp'} className="w-5 h-5"/>
+                  Hi There <Image width={50} alt="" height={50} src={'/Images/hi.webp'} className="w-5 h-5"/>
            
                 </h3>
                 <h3 className=" text-md text-gray-800  ">

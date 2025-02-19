@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row items-center mx-4 md:mx-12 h-[430px] xl:mx-60 my-24">
+    <div className="flex flex-col lg:flex-row items-center mx-4 md:mx-12 xl:h-[480px]  xl:mx-56 my-24 ">
         {/* Map Section */}
-      <div className="w-full lg:w-1/2 h-[430px]  ">
+      <div className="w-full lg:w-1/2 h-[100%]  ">
         <img
           src="/Images/services/web1.webp"
           alt=""
@@ -14,7 +14,7 @@ function info() {
         />
       </div>
       {/* Contact Section */}
-      <div className="w-full lg:w-1/2 px-6 py-12 md:px-8  lg:px-12 bg-[#cc5f4d] flex flex-col justify-start">
+      <div className="w-full lg:w-1/2 px-6 py-12 md:px-8  lg:px-12 bg-[#cc5f4d] h-[100%] flex flex-col justify-start ">
         <h3 className="bungeeHead text-2xl lg:text-3xl text-white mb-8 ">
         Web Development Services by Digital Paaji
         </h3>
