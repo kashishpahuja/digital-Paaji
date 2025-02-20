@@ -20,7 +20,7 @@ function AddOn() {
 
       <div className="relative text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-6 ">
         <div
-          className="absolute inset-0  opacity-50"
+          className="absolute inset-0  opacity-20"
           style={{
             backgroundImage: "url(/Images/services/checkBG.webp)",
             backgroundSize: "cover",
@@ -45,7 +45,7 @@ function AddOn() {
               </div>
               <div className="text-center">
                 <p className="servicePara text-gray-500 text-sm  text-justify">
-                Finding potential clients’ search queries through keyword research is essential for SEO strategy. Digital Paaji employs a methodical technique, scrutinising search traffic, rivalry, and user intention to generate precise keywords. To target high-volume searches and specialist queries, we divide keywords into two categories: short-tail and long-tail. A well-rounded strategy guarantees both volume and high-quality traffic. Competitive analysis supports the preservation of industrial competitiveness by pointing up disparities in competitors’ rankings.{" "}
+                Finding potential client&apos;s search queries through keyword research is essential for SEO strategy. Digital Paaji employs a methodical technique, scrutinising search traffic, rivalry, and user intention to generate precise keywords. To target high-volume searches and specialist queries, we divide keywords into two categories: short-tail and long-tail. A well-rounded strategy guarantees both volume and high-quality traffic. Competitive analysis supports the preservation of industrial competitiveness by pointing up disparities in competitors&apos; rankings.{" "}
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ function AddOn() {
                 </div>
                 <div className="text-center">
                   <p className="merriHead text-gray-500 text-sm  text-justify">
-                  The practice of improving a webpage’s content, title tags, meta descriptions, and internal links is known as on-page SEO. A well-organised internal linking system, keyword-rich title tags, and pertinent, high-quality material are all components of Digital Paaji’s content optimization strategy. These components contribute to increased traffic and conversions by enhancing user experience, search engine rankings, and total website traffic.{" "}
+                  The practice of improving a webpage&apos;s content, title tags, meta descriptions, and internal links is known as on-page SEO. A well-organised internal linking system, keyword-rich title tags, and pertinent, high-quality material are all components of Digital Paaji&apos;s content optimization strategy. These components contribute to increased traffic and conversions by enhancing user experience, search engine rankings, and total website traffic.{" "}
                   </p>
                 </div>
               </div>
@@ -87,7 +87,7 @@ function AddOn() {
                 </div>
                 <div className="text-center">
                   <p className="merriHead text-gray-500 text-sm  text-justify">
-                  Enhancing a website’s crawlability and indexability is a critical procedure that is achieved through technical SEO. It entails using schema markup, mobile optimization, and site speed optimization. Search engines favour and provide a better user experience on pages that load quickly. Schema markup increases search engine visibility and comprehension, while mobile optimization guarantees smooth operation across all devices.{" "}
+                  Enhancing a website&apos;s crawlability and indexability is a critical procedure that is achieved through technical SEO. It entails using schema markup, mobile optimization, and site speed optimization. Search engines favour and provide a better user experience on pages that load quickly. Schema markup increases search engine visibility and comprehension, while mobile optimization guarantees smooth operation across all devices.{" "}
                   </p>
                 </div>
               </div>

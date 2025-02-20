@@ -46,7 +46,7 @@ function Faq() {
         <h3 className="bungeeHead text-[#cc5f4d] text-3xl lg:text-4xl">
         Getting Started with Us
         </h3>
-        <p className="servicePara text-sm text-gray-700 mt-4">
+        <p className="merriHead text-sm text-gray-700 mt-4">
         For companies trying to improve their online visibility, expand their audience, or hone their current tactics, Digital Paaji provides a full-featured digital marketing solution. Through an assessment of your company’s objectives and needs, our onboarding process enables them to create a personalised plan. Following a complete analysis of your present marketing initiatives, the state of the industry, and the competitors, we develop a detailed plan with precise objectives, deadlines, and deliverables.
         </p>
         <h3

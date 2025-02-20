@@ -9,7 +9,7 @@ function AddOn() {
      
     >
        <div
-    className="absolute inset-0  opacity-50"
+    className="absolute inset-0  opacity-30"
     style={{
       backgroundImage: "url(/Images/services/benefitsBG.webp)",
       backgroundAttachment: "fixed",
@@ -45,11 +45,10 @@ function AddOn() {
                     />
                   </div>
                   <div className="">
-                    <h3 className="bungeeHead text-base ">
+                    <h3 className="bungeeHead-400 text-base ">
                       
 Skilled SEO
-Experts​
-                    </h3>
+Experts                    </h3>
                   </div>
                 </div>
                 <div className="text-center">
@@ -70,7 +69,7 @@ Experts​
                     />
                   </div>
                   <div className="">
-                    <h3 className="bungeeHead text-base ">
+                    <h3 className="bungeeHead-400 text-base ">
                       
 Customised Business
 Strategies
@@ -95,7 +94,7 @@ Strategies
                     />
                   </div>
                   <div className="">
-                    <h3 className="bungeeHead text-base ">
+                    <h3 className="bungeeHead-400 text-base ">
                       
 Constant Assistance and Adjustment​
                     </h3>

@@ -203,7 +203,7 @@ function AddOn() {
         <h3 className="bungeeHead text-[#cc5f4d] text-2xl xl:text-4xl">
           Why Choose Us for Your Video Editing Needs?
         </h3>
-        <p className="servicePara text-[#757474] mt-4 text-sm  ">
+        <p className="merriHead text-[#757474] mt-4 text-sm  ">
           We add sound and effects to unprocessed video to create an engaging
           narrative. Throughout the editing process, you will maintain control
           thanks to our simple cooperation. To guarantee that the finished
@@ -217,15 +217,15 @@ function AddOn() {
 
       <div
         style={{ backgroundImage: "url(/Images/services/bg.webp)" }}
-        className="w-full h-auto my-16 py-16"
+        className="w-full h-auto my-16 py-24"
       >
         <div className="mx-8 xl:mx-60 " data-aos="zoom-in">
-          <div className="text-justify">
+          <div className="text-center">
             <h3 className="bungeeHead my-8 text-[#e6e8eb]  text-3xl md:text-4xl lg:text-4xl">
               Ready to Take Your Videos to the Next Level?
             </h3>
 
-            <p className="servicePara md:mx-20 text-[#f8f7f7]   text-sm ">
+            <p className="merriHead md:mx-20 text-[#f8f7f7]   text-sm ">
               By improving the sound and images and incorporating original
               touches, our skilled editors can turn unpolished video into an
               engrossing narrative. We collaborate closely with our customers to

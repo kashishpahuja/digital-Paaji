@@ -4,18 +4,18 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row items-center  mx-8 md:mx-12 xl:mx-72 ">
+    <div className="flex flex-col lg:flex-row items-center h-[400px] mx-8 md:mx-12 xl:mx-72 ">
          {/* Map Section */}
-      <div className=" w-full xl:w-1/2 h-auto ">
+      <div className=" w-full xl:w-1/2 h-[100%] ">
         <img
-          src="/Images/services/presence.webp"
+          src="/Images/dm/dm1.gif"
           alt=""
-          className="zoom w-full h-[100%]   object-cover"
+          className=" w-full h-[100%]   object-contain"
  
         />
       </div>
       {/* Contact Section */}
-      <div className="z-[999] w-full xl:w-1/2 p-6 md:p-8  xl:p-12 bg-[#cc5f4d] ">
+      <div className="z-[999] w-full xl:w-1/2 p-6 md:p-8  xl:p-12 bg-[#cc5f4d] h-[100%] ">
         <h3 className="bungeeHead text-xl md:text-2xl text-white  ">
         Maximise Your Online Presence with Comprehensive Digital Marketing
         </h3>

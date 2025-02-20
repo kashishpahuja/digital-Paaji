@@ -215,7 +215,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[12px] w-32  p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:

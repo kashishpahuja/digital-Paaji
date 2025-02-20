@@ -49,12 +49,11 @@ function KhetKiMuli() {
             >
               {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
-                  <div className="mx-auto flex justify-center items-center">
+                  <div className="mx-auto flex justify-center items-center h-auto w-full">
                     <img
-                      className="swiper-slide-image"
+                      className="swiper-slide-image lg:ml-6"
                       src={slide.src}
                       alt={slide.alt}
-                      style={{ maxWidth: "160px" }}
                     />
                   </div>
                 </SwiperSlide>

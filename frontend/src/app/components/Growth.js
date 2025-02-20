@@ -11,7 +11,7 @@ function Growth() {
           Digitizing your Business <br className="hidden lg:block "/> Growth
         </h3>
 
-        <p className="servicePara  text-[#f8f7f7]   text-sm xl:text-[16px]">
+        <p className="merriHead  text-[#f8f7f7]   text-sm xl:text-[16px]">
         With a commitment to providing top-notch services, Digital Paaji is always refining its tactics to keep ahead of market trends. Our team comprises highly qualified professionals who are enthusiastic about their work and prioritize meticulous planning, outcomes, and attention to detail.
         </p>
       </div>

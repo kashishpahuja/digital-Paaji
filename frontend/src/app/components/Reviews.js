@@ -180,7 +180,7 @@ function Testimonials() {
 
       {/* Right Section */}
       <div className="w-full xl:w-1/2 xl:ml-16">
-        <img src="/Images/addOn/tetimonial.webp" alt="" className="mx-auto" />
+        <img src="/Images/addOn/tetimonial.webp" alt="" className="mx-auto  " />
       </div>
     </div>
   );

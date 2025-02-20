@@ -13,7 +13,7 @@ function Services() {
         <h3 className="merriHead text-[#302f2f] text-xl xl:text-2xl">
           Welcome to Digital Paaji - We mind your Business
         </h3>
-        <p className="servicePara text-[#757474] mt-4 text-sm xl:text-[16px] ">
+        <p className="merriHead text-[#757474] mt-4 text-sm xl:text-[16px] ">
           One of the top agencies with more than 15 years of expertise in
           digital marketing is Digital Paaji. For expansion and success, we
           think all companies should have access to the best marketing

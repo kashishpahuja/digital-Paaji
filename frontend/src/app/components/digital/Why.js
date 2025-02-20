@@ -33,11 +33,11 @@ function Why() {
             </h3>
             {/* GIF placed on the title */}
             <div
-              className="absolute w-20 lg:w-24 h-20 lg:h-24  md:-left-40 "
+              className="absolute w-20 lg:w-28 h-28 lg:h-24  md:-left-40 "
               style={{
-                top: `-10%`, // Center vertically on text
+                top: `-24%`, // Center vertically on text
                 transform: `translate(-60%, -60%) translateX(${
-                  scrollY * 0.2
+                  scrollY * 0.3
                 }px)`, // Parallax effect for left-right movement
                 transition: "transform 0.2s ease-out",
               }}

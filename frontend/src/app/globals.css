@@ -13,7 +13,7 @@ body {
 
 .heading{
   color: #cc5f4d;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 
@@ -159,12 +159,23 @@ body {
 
 .bungeeHead{
   /* color: #cc5f4d; */
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
   font-family: "Bungee Inline", serif;
 
 
 }
+
+
+.bungeeHead-400{
+  /* color: #cc5f4d; */
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Bungee Inline", serif;
+
+
+}
+
 
 .services{
   font-size:18px;
