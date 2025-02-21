@@ -18,8 +18,8 @@ function Footer() {
 
 <div className="marquee-container absolute  overflow-hidden whitespace-nowrap">
   <div className="marquee-content animate-footerBg flex mt-[1100px] md:mt-[700px] xl:mt-[100px]">
-    <img src="/Images/addOn/footerBg.webp" alt="Background" className="opacity-15" />
-    <img src="/Images/addOn/footerBg.webp" alt="Background" className="opacity-15" />
+    <img src="/Images/addOn/footerBG.webp" alt="Background" className="opacity-15" />
+    <img src="/Images/addOn/footerBG.webp" alt="Background" className="opacity-15" />
   </div>
 </div>
 
