@@ -56,6 +56,8 @@ export default function ContactForm() {
 
     try {
       const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
+      // const response = await fetch('http://localhost:5000/send-mail', {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -194,7 +196,7 @@ export default function ContactForm() {
         {/* reCAPTCHA */}
         <div>
           <ReCAPTCHA
-            sitekey='6Lejx9wqAAAAAAOqYt7u8gsEcF2n-al0jKm8SGb8'
+            sitekey='6LfoGd8qAAAAANWvQKJiISV63MNjHqqRy54ORMJ-'
             theme='light'
             onChange={(token) => setFormData({ ...formData, recaptchaToken: token })}
           />
