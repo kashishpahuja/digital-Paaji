@@ -24,27 +24,27 @@ app.post("/send-mail", async (req, res) => {
 
 
 
-  // const secretKey = process.env.RECAPTCHA_SECRET_KEY;
-  // const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
+  const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+  const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
 
-  // try {
-  //   const recaptchaResponse = await fetch(recaptchaUrl, {
-  //     method: "POST",
-  //   });
-  //   const recaptchaData = await recaptchaResponse.json();
-  //   const { success } = recaptchaData;
+  try {
+    const recaptchaResponse = await fetch(recaptchaUrl, {
+      method: "POST",
+    });
+    const recaptchaData = await recaptchaResponse.json();
+    const { success } = recaptchaData;
 
-  //   if (!success) {
-  //     return res.status(400).json({
-  //       error: "reCAPTCHA verification failed. Please try again.",
-  //     });
-  //   }
-  // } catch (error) {
-  //   // console.log("reCAPTCHA Response:", recaptchaData);
+    if (!success) {
+      return res.status(400).json({
+        error: "reCAPTCHA verification failed. Please try again.",
+      });
+    }
+  } catch (error) {
+    // console.log("reCAPTCHA Response:", recaptchaData);
 
-  //   console.error("reCAPTCHA verification error:", error);
-  //   return res.status(500).json({ error: "Failed to verify reCAPTCHA." });
-  // }
+    console.error("reCAPTCHA verification error:", error);
+    return res.status(500).json({ error: "Failed to verify reCAPTCHA." });
+  }
 
 
 
