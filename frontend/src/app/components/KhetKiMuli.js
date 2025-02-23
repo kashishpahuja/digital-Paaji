@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -24,7 +25,9 @@ function KhetKiMuli() {
 
         </div>
         <div className=" w-full lg:w-[40%] "  data-aos="flip-right" >
-          <img
+          <Image
+               width={20}
+               height={20}
             src="/Images/muli/mic.webp"
             alt=""
             className=" zoom w-full h-auto object-cover"

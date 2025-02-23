@@ -4,6 +4,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 function Banner({
   handleNextSlide,
@@ -69,7 +70,9 @@ function Banner({
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/banner/logoWhite.webp"
               alt="logoWhite"
               className="w-full h-[100%] object-contain"
@@ -94,7 +97,9 @@ function Banner({
           <div className="hidden lg:block absolute right-[30%] xl:right-[37%] top-8">
             <div className="vibrate space-x-10">
               <div className="w-[43px] h-[12px]">
-                <img
+                <Image
+                     width={20}
+                    height={20}
                   src="/Images/banner/arrow1.webp"
                   alt=""
                   className="w-full h-[100%] object-cover"
@@ -122,7 +127,9 @@ function Banner({
       >
         <div className="vibrate flex flex-col justify-center items-center cursor-pointer">
           <div className="w-[43px] h-[80px]">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/banner/arrow2.webp"
               alt=""
               className="w-full h-[100%] object-cover"
@@ -167,7 +174,9 @@ function Banner({
             Get In Touch
           </p>
           <div className="absolute bottom-6 left-16 ">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/banner/arrow3.webp"
               alt=""
               className="w-full h-[100%] object-cover"
@@ -188,7 +197,9 @@ function Banner({
           {/* LightOn Image */}
           {showLightImage && (
             <div className="flicker absolute left-16 -top-64  inset-0  w-[600px] h-[1000px]  transition-opacity duration-500 pointer-events-none">
-              <img
+              <Image
+                   width={20}
+                    height={20}
                 src="/Images/banner/lighton.webp"
                 alt="Light On"
                 className="w-full h-[100%] object-cover"
@@ -203,7 +214,9 @@ function Banner({
               showLightImage ? "opacity-0" : "opacity-100"
             } arrow-move`}
           >
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/banner/slide3Arrow.webp"
               alt="Left Arrow"
               className="w-full h-full"
@@ -216,7 +229,9 @@ function Banner({
               showLightImage ? "opacity-0" : "opacity-100"
             } arrow-move-right`}
           >
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/banner/slide3Arrow.webp"
               alt="Right Arrow"
               className="w-full h-full"

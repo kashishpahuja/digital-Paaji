@@ -13,7 +13,7 @@ import Growth from "./Growth";
 import Offer from "./Offer";
 import Testimonials from "./Testimonials";
 import Reviews from "./Reviews";
-import Vypaar from './Vypaar';
+import Vypaar from './Vypaar.jsx';
 import Work from "./Work";
 
 

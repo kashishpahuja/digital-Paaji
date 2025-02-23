@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Work() {
@@ -10,7 +11,9 @@ function Work() {
         <div className=" relative group border border-black overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/2.webp"
               alt="Creative Creatives"
               className="w-full h-full object-cover"
@@ -28,7 +31,9 @@ function Work() {
         <div className="relative group border border-black overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/1.gif"
               alt="Viral Reels"
               className="w-full h-full object-cover"
@@ -45,7 +50,9 @@ function Work() {
         <div className="relative group border border-black overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/3.webp"
               alt="Viral Reels"
               className="w-full h-full object-cover"
@@ -62,7 +69,9 @@ function Work() {
         <div className="relative group border border-black overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/4.gif"
               alt="Performing Videos"
               className="w-full h-full object-cover"
@@ -79,7 +88,9 @@ function Work() {
         <div className="relative group border border-black overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/5.webp"
               alt="Performing Posts"
               className="w-full h-full object-cover"
@@ -96,7 +107,9 @@ function Work() {
         <div className="relative group border border-black overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
           {/* Image with Overlay */}
           <div className="relative m-4">
-            <img
+            <Image
+                 width={20}
+                    height={20}
               src="/Images/work/6.webp"
               alt="SATISFIED CLIENTS"
               className="w-full h-full object-cover"

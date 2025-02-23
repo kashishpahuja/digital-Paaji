@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Services() {
   const [show, setShow] = useState("5");
@@ -47,7 +48,9 @@ function Services() {
                       show === "1" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/DM.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -56,14 +59,18 @@ function Services() {
                   <div
                     className={` relative ${show === "1" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/DM.gif"
                       alt="1"
                       className={`w-full h-auto object-cover ${
                         show === "1" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="1"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover ${
@@ -94,7 +101,9 @@ function Services() {
                       show === "2" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/1.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -103,14 +112,18 @@ function Services() {
                   <div
                     className={` relative ${show === "2" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/SMM.gif"
                       alt="2"
                       className={`w-full h-auto object-cover ${
                         show === "2" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="2"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover${
@@ -139,7 +152,9 @@ function Services() {
                       show === "3" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/GD.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -148,14 +163,18 @@ function Services() {
                   <div
                     className={` relative ${show === "3" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/GD.gif"
                       alt="3"
                       className={`w-full h-auto object-cover ${
                         show === "3" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="3"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover${
@@ -184,7 +203,9 @@ function Services() {
                       show === "4" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/SEO.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -193,14 +214,18 @@ function Services() {
                   <div
                     className={` relative ${show === "4" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/SEO.gif"
                       alt="4"
                       className={`w-full h-auto object-cover ${
                         show === "4" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="4"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover${
@@ -229,7 +254,9 @@ function Services() {
                       show === "5" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/VE.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -238,14 +265,18 @@ function Services() {
                   <div
                     className={` relative ${show === "5" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/VP.gif"
                       alt="5"
                       className={`w-full h-auto object-cover ${
                         show === "5" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="5"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover ${
@@ -274,7 +305,9 @@ function Services() {
                       show === "6" ? "hidden" : "block"
                     }`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/WD.webp"
                       alt=""
                       className="w-full h-auto object-cover"
@@ -283,14 +316,18 @@ function Services() {
                   <div
                     className={` relative ${show === "6" ? "block" : "hidden"}`}
                   >
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/navGif/WD.gif"
                       alt="6"
                       className={`w-full h-auto object-cover ${
                         show === "6" ? "block" : "hidden"
                       }`}
                     />
-                    <img
+                    <Image
+                         width={20}
+                    height={20}
                       src="/Images/services/hand.gif"
                       alt="6"
                       className={`absolute bottom-2 -right-9 md:-right-16 lg:-right-12 w-16 h-16 object-cover ${

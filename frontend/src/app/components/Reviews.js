@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { TbStarFilled } from "react-icons/tb";
+import Image from "next/image";
 
 function Testimonials() {
   // State for reviews and ratings
@@ -92,14 +93,16 @@ function Testimonials() {
   }, []);
 
   return (
-    <div className="flex justify-center gap-8 items-center flex-wrap-reverse xl:flex-nowrap mx-4 xl:mx-20">
+    <div className="flex justify-center gap-8 items-center flex-wrap-reverse lg:flex-nowrap mx-4 xl:mx-20">
       {/* Left Section */}
-      <div className="py-10 px-2 w-full xl:w-1/2 bg-cover bg-center rounded-lg relative">
-        <div className="mx-auto w-[300px] h-auto">
-          <img
+      <div className="py-10 px-2 w-full lg:w-1/2 bg-cover bg-center rounded-lg relative">
+        <div className="mx-auto w-[300px] h-20">
+          <Image
+               width={20}
+               height={20}
             src="/Images/logo2.webp"
             alt=""
-            className="w-full h-auto object-cover"
+            className="w-full h-[100%] object-contain"
           />
         </div>
         <div className="flex items-center justify-center gap-2 py-8">
@@ -179,8 +182,9 @@ function Testimonials() {
       </div>
 
       {/* Right Section */}
-      <div className="w-full xl:w-1/2 xl:ml-16">
-        <img src="/Images/addOn/tetimonial.webp" alt="" className="mx-auto  " />
+      <div className="w-full md:w-[70%] lg:w-1/2 xl:ml-16">
+        <Image      width={20}
+                    height={20} src="/Images/addOn/tetimonial.webp" alt="" className="w-full h-[100%] mx-auto  px-8 xl:px-16" />
       </div>
     </div>
   );

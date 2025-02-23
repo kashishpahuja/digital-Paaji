@@ -5,6 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 function Banner({
   handleNextSlide,
@@ -69,7 +70,9 @@ function Banner({
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
+            width={200}
+            height={100}
               src="/Images/banner/logoWhite.webp"
               alt="logoWhite"
               className="w-full h-[100%] object-contain"
@@ -91,7 +94,9 @@ function Banner({
           <div className="hidden lg:block absolute right-[30%] xl:right-[37%] top-8">
             <div className="vibrate space-x-10">
               <div className="w-[43px] h-[12px]">
-                <img
+                <Image
+                width={20}
+                height={20}
                   src="/Images/banner/arrow1.webp"
                   alt=""
                   className="w-full h-[100%] object-cover"
@@ -118,7 +123,9 @@ function Banner({
       >
         <div className="vibrate flex flex-col justify-center items-center cursor-pointer">
           <div className="w-[43px] h-[80px]">
-            <img
+            <Image
+            width={20}
+            height={20}
               src="/Images/banner/arrow2.webp"
               alt=""
               className="w-full h-[100%] object-cover"
@@ -163,7 +170,9 @@ function Banner({
             Get In Touch
           </p>
           <div className="absolute bottom-6 left-16 ">
-            <img
+            <Image
+            width={20}
+            height={20}
               src="/Images/banner/arrow3.webp"
               alt=""
               className="w-full h-[100%] object-cover"
@@ -181,7 +190,10 @@ function Banner({
            ${slideNumber === currentSlide ? "zoomInEffect" : ""} 
           `}>
           <div className=" w-full h-auto">
-            <img
+            <Image
+            width={20}
+            height={20}
+            priority
               src="/Images/banner/laptop.webp"
               alt="Laptop"
               className="w-full h-[100%] object-cover"
@@ -189,7 +201,10 @@ function Banner({
           </div>
 
           <div className="absolute top-[14%] left-[10%] w-[80%] h-[70%]">
-            <img
+            <Image
+            width={20}
+            height={20}
+            priority
               src="/Images/banner/laptopInner.webp"
               alt="Content"
               className="w-full h-[100%] object-contain"
