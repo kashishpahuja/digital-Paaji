@@ -89,7 +89,7 @@ app.post("/send-mail", async (req, res) => {
     const whatsappPayload = {
       country_code: "91",
       mobile: phone, // Send message to the provided phone number
-      wid: "6307",
+      wid: "6325",
       type: "text",
       bodyValues: {
         "1": fname // Use "1" to target the first variable in your template
