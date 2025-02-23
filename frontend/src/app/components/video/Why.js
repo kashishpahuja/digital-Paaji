@@ -1,13 +1,16 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function info() {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:gap-16 mx-4 md:mx-12 xl:mx-72 h-[500px]  overflow-hidden">
          {/* Map Section */}
       <div className="w-[60%] mx-auto lg:w-1/2 h-[230px] md:h-[500px] overflow-hidden">
-        <img
+        <Image
+        width={200}
+        height={200}
           src="/Images/services/video.webp"
           alt=""
           className="zoom w-full h-[100%] lg:p-12 object-contain"

@@ -1,13 +1,16 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function info() {
   return (
     <div className="flex flex-col lg:flex-row items-center h-[400px] mx-8 md:mx-12 xl:mx-72 ">
          {/* Map Section */}
       <div className=" w-full xl:w-1/2 h-[100%] ">
-        <img
+        <Image
+        width={200}
+        height={200}
           src="/Images/dm/DmF.gif"
           alt=""
           className=" w-full h-[100%]   object-contain"

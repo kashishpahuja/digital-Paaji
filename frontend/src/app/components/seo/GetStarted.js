@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
@@ -22,7 +23,9 @@ function AddOn() {
 
       <div className="flex items-center justify-center flex-col gap-6 mx-8 md:flex-row lg:gap-24 lg:mx-72 my-8">
         <div className="w-[230px] h-[230px]">
-          <img
+          <Image
+                  width={200}
+                  height={200}
             src="/Images/services/seo.webp"
             alt=""
             className="zoom w-full h-[100%] object-cover"

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -38,7 +39,9 @@ function AddOn() {
               <div className="p-2 lg:p-8">
                 <div className="p-4 flex items-center justify-start gap-3">
                   <div className="mx-auto w-32 h-auto">
-                    <img
+                    <Image
+                            width={200}
+        height={200}
                       src="/Images/services/benefits1.webp"
                       alt=""
                       className="zoom w-full h-auto object-cover"
@@ -62,7 +65,9 @@ Experts                    </h3>
               <div className="p-2 lg:p-8">
                 <div className="p-4 flex items-center justify-start gap-3">
                   <div className="mx-auto w-32 h-auto">
-                    <img
+                    <Image
+                            width={200}
+        height={200}
                       src="/Images/services/benefits3.webp"
                       alt=""
                       className="zoom w-full h-auto object-cover"
@@ -87,7 +92,9 @@ Strategies
               <div className="p-2 lg:p-8">
                 <div className="p-4 flex items-center justify-start gap-3">
                   <div className="mx-auto w-32 h-auto">
-                    <img
+                    <Image
+                            width={200}
+        height={200}
                       src="/Images/services/benefits2.webp"
                       alt=""
                       className="zoom w-full h-auto object-cover"

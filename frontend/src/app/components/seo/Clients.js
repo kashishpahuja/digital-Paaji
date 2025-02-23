@@ -4,6 +4,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules"; // Add Autopl
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/navigation"; // Import Navigation module styles
 import "swiper/css/pagination"; // Import Pagination module styles
+import Image from "next/image";
 
 function KhetKiMuli() {
     const slides = [
@@ -50,8 +51,10 @@ function KhetKiMuli() {
               {slides.map((slide, index) => (
                 <SwiperSlide key={index}>
                   <div className="mx-auto flex justify-center items-center h-auto w-full">
-                    <img
-                      className="swiper-slide-image lg:ml-6"
+                    <Image
+                            width={200}
+                            height={200}
+                      className="swiper-slide-image lg:ml-6 w-full h-[100%] object-cover lg:mt-12"
                       src={slide.src}
                       alt={slide.alt}
                     />

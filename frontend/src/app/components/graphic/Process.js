@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -22,7 +23,9 @@ function Why() {
             <div className="grid grid-cols-1 md:grid-cols-2  gap-12 ">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/consultation.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -42,7 +45,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/research.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -62,7 +67,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/concept.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -82,7 +89,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/revision.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -102,7 +111,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/finalize.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -122,7 +133,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/gd/delivery.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"

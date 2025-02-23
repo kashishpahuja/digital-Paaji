@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -42,7 +43,7 @@ function Why() {
                 transition: "transform 0.2s ease-out",
               }}
             >
-              <img src="/Images/services/run.gif" alt="Animated GIF" />
+              <Image width={200} height={200} className="w-full h-[100%] object-cover" src="/Images/services/run.gif" alt="Animated GIF" />
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Why() {
@@ -19,7 +20,9 @@ function Why() {
             <div className="grid grid-cols-1 md:grid-cols-2  gap-12 ">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm/1.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -39,7 +42,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm/2.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -59,7 +64,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm/3.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"
@@ -79,7 +86,9 @@ function Why() {
               </div>
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-40 h-24">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm/4.webp"
                     alt=""
                     className=" w-full h-[100%] object-contain"

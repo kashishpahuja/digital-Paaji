@@ -6,6 +6,7 @@ import { Pagination, Autoplay } from "swiper/modules"; // Add Autoplay and Pagin
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/pagination"; // Import Pagination module styles
 import { PiPlayLight  } from "react-icons/pi";
+import Image from "next/image";
 
 function Work() {
       const [isOpen, setIsOpen] = useState(false);
@@ -83,7 +84,9 @@ function Work() {
             <SwiperSlide key={index}>
               <div className="flex justify-center items-center">
                 <div className="relative  md:w-[400px] h-[180px] ">
-                  <img
+                  <Image
+                          width={200}
+                          height={200}
                     className="w-full h-[100%] object-cover rounded shadow-lg "
                     src={slide.image}
                     alt='img'

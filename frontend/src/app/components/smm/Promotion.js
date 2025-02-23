@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -19,7 +20,9 @@ function AddOn() {
           <div className="grid grid-cols-1 gap-12 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className=" p-8">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/smm/raise.webp"
                   alt=""
                   className="w-full h-[100%] object-cover"
@@ -27,7 +30,9 @@ function AddOn() {
               </div>
               <div className="">
                 <div className="mx-auto w-16 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm.webp"
                     alt=""
                     className="zoom w-full h-[100%] object-cover"
@@ -48,7 +53,9 @@ function AddOn() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="">
                 <div className="mx-auto w-16 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
@@ -66,7 +73,9 @@ function AddOn() {
                 </div>
               </div>
               <div className=" p-8">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/smm/Engage.webp"
                   alt=""
                   className="w-full h-[100%] object-cover"
@@ -75,7 +84,9 @@ function AddOn() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className=" p-8">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/smm/Cost-Effective.webp"
                   alt=""
                   className="w-full h-[100%] object-cover"
@@ -83,7 +94,9 @@ function AddOn() {
               </div>
               <div className="">
                 <div className="mx-auto w-16 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/smm.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"

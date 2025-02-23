@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function Info() {
   const imgRef = useRef(null);
@@ -46,7 +47,9 @@ function Info() {
       </div>
       {/* Map Section */}
       <div className="Scroll-zoom w-full lg:w-1/2 h-auto">
-        <img
+        <Image
+                width={200}
+                height={200}
           ref={imgRef}
           src="/Images/services/gdWhy.png"
           alt=""

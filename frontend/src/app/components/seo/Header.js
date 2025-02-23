@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -23,7 +24,9 @@ function Header({ title, content, button }) {
         </div>
       </div>
       <div className="absolute left-0 bottom-0 lg:-bottom-[15%] w-[100%] h-[15%] lg:h-[33%] ">
-        <img
+        <Image
+                width={200}
+                height={200}
           src="/Images/services/wavy.png"
           alt=""
           className="w-full h-[100%] object-cover"

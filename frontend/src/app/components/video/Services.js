@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,7 +14,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -42,7 +45,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/2.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -63,7 +68,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -84,7 +91,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/4.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -107,7 +116,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -128,7 +139,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/2.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -149,7 +162,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -170,7 +185,9 @@ function AddOn() {
           <div className="" data-aos="slide-up">
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/4.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"

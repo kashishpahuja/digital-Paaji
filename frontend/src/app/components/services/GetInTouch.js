@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function info() {
   return (
@@ -29,7 +30,9 @@ function info() {
       </div>
       {/* Map Section */}
       <div className="w-full lg:w-1/2 h-[400px] overflow-hidden ">
-        <img
+        <Image
+                width={200}
+                height={200}
           src="/Images/services/girl.webp"
           alt=""
           className="w-full h-[100%] object-contain "

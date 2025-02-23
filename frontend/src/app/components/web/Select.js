@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Why() {
@@ -28,7 +29,9 @@ function Why() {
                 <div className="p-2 lg:p-8">
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
-                      <img
+                      <Image
+                              width={200}
+        height={200}
                         src="/Images/services/benefits1.webp"
                         alt=""
                         className="zoom w-full h-[100%] object-cover"
@@ -55,7 +58,9 @@ function Why() {
                 <div className="p-2 lg:p-8">
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
-                      <img
+                      <Image
+                              width={200}
+        height={200}
                         src="/Images/services/benefits2.webp"
                         alt=""
                         className="zoom w-full h-auto object-cover"
@@ -79,7 +84,9 @@ Custom Development
                 <div className="p-2 lg:p-8">
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
-                      <img
+                      <Image
+                              width={200}
+        height={200}
                         src="/Images/services/benefits3.webp"
                         alt=""
                         className="zoom w-full h-auto object-cover"
@@ -103,7 +110,9 @@ Exploration and Planning
                 <div className="p-2 lg:p-8">
                   <div className="p-4 flex items-center justify-start gap-3">
                     <div className="mx-auto w-32 h-auto">
-                      <img
+                      <Image
+                              width={200}
+        height={200}
                         src="/Images/services/benefits1.webp"
                         alt=""
                         className="zoom w-full h-auto object-cover"
@@ -118,7 +127,7 @@ Design and Prototyping
                   </div>
                   <div className="text-center">
                     <p className="servicePara  text-sm  text-justify">
-                    We create wireframes for a website’s structure and layout during the discovery phase and then concentrate on graphic design to improve user experience. Prototypes that are interactive are made to make sure they match your concept and to solicit feedback.
+                    We create wireframes for a website&apos;s structure and layout during the discovery phase and then concentrate on graphic design to improve user experience. Prototypes that are interactive are made to make sure they match your concept and to solicit feedback.
                     </p>
                   </div>
                 </div>

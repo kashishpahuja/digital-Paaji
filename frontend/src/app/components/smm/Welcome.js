@@ -1,13 +1,16 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function info() {
   return (
     <div className="flex flex-col xl:flex-row items-center  mx-8 md:mx-12 xl:mx-72">
          {/* Map Section */}
       <div className=" w-full xl:w-1/2 ">
-        <img
+        <Image
+                width={200}
+                height={200}
           src="/Images/smm/smm.webp"
           alt=""
           className="zoom w-full h-[100%]  object-cover p-4  "

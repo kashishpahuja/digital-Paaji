@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,7 +14,9 @@ function AddOn() {
           <div className="" >
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/4.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -34,7 +37,9 @@ function AddOn() {
           <div className=""  data-aos-delay={'200'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/smm.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -56,7 +61,9 @@ function AddOn() {
           <div className=""  data-aos-delay={'400'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/vp/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -78,7 +85,9 @@ function AddOn() {
           <div className=""  data-aos-delay={'500'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/seo/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -99,7 +108,9 @@ function AddOn() {
           <div className=""  data-aos-delay={'800'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/dm/2.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -120,7 +131,9 @@ function AddOn() {
           <div className=""  data-aos-delay={'1000'}>
             <div className="">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/dm/1.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -32,7 +33,9 @@ function AddOn() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  ">
             <div className="p-2 lg:p-8">
               <div className="mx-auto w-20 h-auto">
-                <img
+                <Image
+                        width={200}
+        height={200}
                   src="/Images/seo/3.webp"
                   alt=""
                   className="zoom w-full h-auto object-cover"
@@ -53,7 +56,9 @@ function AddOn() {
             <div className="">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/seo/1.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
@@ -74,7 +79,9 @@ function AddOn() {
             <div className="">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/seo/2.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
@@ -97,7 +104,9 @@ function AddOn() {
             <div className="">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/seo/1.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"
@@ -118,7 +127,9 @@ function AddOn() {
             <div className="">
               <div className="p-2 lg:p-8">
                 <div className="mx-auto w-20 h-auto">
-                  <img
+                  <Image
+                          width={200}
+        height={200}
                     src="/Images/seo/3.webp"
                     alt=""
                     className="zoom w-full h-auto object-cover"

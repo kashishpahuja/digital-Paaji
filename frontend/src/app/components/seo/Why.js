@@ -1,13 +1,16 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function Why() {
   return (
     <div className="flex flex-col xl:flex-row items-center    mx-4 md:mx-12  xl:mx-72">
          {/* Map Section */}
       <div className=" w-full xl:w-1/2  ">
-        <img
+        <Image
+                width={200}
+                height={200}
           src="/Images/seo/SEO1.webp"
           alt=""
           className="w-full h-[100%] object-contain "
