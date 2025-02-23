@@ -16,13 +16,13 @@ function AddOn() {
 
       <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-12">
         <div className=" ">
-          <div className="grid grid-cols-1 gap-6 ">
+          <div className="grid grid-cols-1 gap-12 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className=" p-4">
+              <div className=" p-8">
                 <img
-                  src="/Images/services/img.webp"
+                  src="/Images/smm/raise.webp"
                   alt=""
-                  className="w-full h-[100%]"
+                  className="w-full h-[100%] object-cover"
                 />
               </div>
               <div className="">
@@ -30,7 +30,7 @@ function AddOn() {
                   <img
                     src="/Images/smm.webp"
                     alt=""
-                    className="zoom w-full h-auto object-cover"
+                    className="zoom w-full h-[100%] object-cover"
                   />
                 </div>
                 <div className="my-2">
@@ -65,20 +65,20 @@ function AddOn() {
                   </p>
                 </div>
               </div>
-              <div className=" p-4">
+              <div className=" p-8">
                 <img
-                  src="/Images/services/img.webp"
+                  src="/Images/smm/Engage.webp"
                   alt=""
-                  className="w-full h-[100%]"
+                  className="w-full h-[100%] object-cover"
                 />
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className=" p-4">
+              <div className=" p-8">
                 <img
-                  src="/Images/services/img.webp"
+                  src="/Images/smm/Cost-Effective.webp"
                   alt=""
-                  className="w-full h-[100%]"
+                  className="w-full h-[100%] object-cover"
                 />
               </div>
               <div className="">

@@ -4,17 +4,17 @@ import Link from "next/link";
 
 function Why() {
   return (
-    <div className="flex flex-col lg:flex-row items-center  mx-4 md:mx-12 xl:mx-72">
+    <div className="flex flex-col lg:flex-row items-center justify-center  mx-4 md:mx-12 xl:mx-72 ">
          {/* Map Section */}
-      <div className=" w-[60%] lg:w-1/2">
+      <div className=" w-full lg:w-1/2 ">
         <img
-          src="/Images/navGif/GD.gif"
+          src="/Images/gd/Graphic.webp"
           alt=""
-          className="zoom  object-cover"
+          className="zoom  object-cover lg:object-contain h-[100%]"
         />
       </div>
       {/* Contact Section */}
-      <div className="w-full lg:w-1/2 px-6 py-12 md:px-8  lg:px-12 bg-[#cc5f4d] flex flex-col justify-start">
+      <div className="w-full lg:w-1/2 px-6 h-fit py-12 md:px-8  lg:px-12 bg-[#cc5f4d] flex flex-col justify-start ">
         <h3 className="bungeeHead text-3xl text-white  ">
         Graphic Designing Services
         </h3>

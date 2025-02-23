@@ -8,7 +8,7 @@ function info() {
          {/* Map Section */}
       <div className=" w-full xl:w-1/2 h-[100%] ">
         <img
-          src="/Images/dm/dm1.gif"
+          src="/Images/dm/DmF.gif"
           alt=""
           className=" w-full h-[100%]   object-contain"
  

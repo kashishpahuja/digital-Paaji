@@ -4,17 +4,17 @@ import Link from "next/link";
 
 function Why() {
   return (
-    <div className="flex flex-col xl:flex-row items-center  xl:h-[500px]  mx-4 md:mx-12  xl:mx-72">
+    <div className="flex flex-col xl:flex-row items-center    mx-4 md:mx-12  xl:mx-72">
          {/* Map Section */}
-      <div className="zoom w-full xl:w-1/2 h-[100%] ">
+      <div className=" w-full xl:w-1/2  ">
         <img
-          src="/Images/services/presence.webp"
+          src="/Images/seo/SEO1.webp"
           alt=""
-          className="w-full h-[100%] object-cover "
+          className="w-full h-[100%] object-contain "
         />
       </div>
       {/* Contact Section */}
-      <div className="w-full xl:w-1/2 px-6 py-12 md:px-8 h-[100%] lg:px-12 bg-[#cc5f4d] flex flex-col justify-start ">
+      <div className="w-full xl:w-1/2 px-6 h-fit py-12 md:px-8 ` lg:px-12 bg-[#cc5f4d] flex flex-col justify-start ">
         <h3 className="bungeeHead text-4xl text-white  ">
         Why paaji best in SEO?
         </h3>

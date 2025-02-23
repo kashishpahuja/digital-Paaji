@@ -21,11 +21,11 @@ function Why() {
           <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72">
             <div className="grid grid-cols-1 md:grid-cols-2  gap-12 ">
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/consultation.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3
@@ -41,11 +41,11 @@ function Why() {
                 </div>
               </div>
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/research.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3
@@ -61,11 +61,11 @@ function Why() {
                 </div>
               </div>
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/concept.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3
@@ -81,11 +81,11 @@ function Why() {
                 </div>
               </div>
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/revision.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3
@@ -101,11 +101,11 @@ function Why() {
                 </div>
               </div>
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/finalize.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3
@@ -121,11 +121,11 @@ function Why() {
                 </div>
               </div>
               <div className="p-2 lg:p-8">
-                <div className="mx-auto w-40 h-auto">
+                <div className="mx-auto w-40 h-24">
                   <img
-                    src="/Images/services/img.webp"
+                    src="/Images/gd/delivery.webp"
                     alt=""
-                    className=" w-full h-auto object-cover"
+                    className=" w-full h-[100%] object-contain"
                   />
                 </div>
                 <h3

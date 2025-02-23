@@ -30,7 +30,8 @@ function Popup({ handleMenu }) {
       <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
         <div className="p-2 bg-white">
         <div className="  p-8  bg-[#ede7db] rounded-lg w-[300px] h-[500px] md:w-[500px] md:h-[600px] xl:w-[700px]  relative"
-        style={{backgroundImage:"url('/Images/popupbg.webp/')"}}>
+        // style={{backgroundImage:"url('/Images/popupbg.webp')"}}
+        >
           {/* Close Icon in Top Right Corner */}
           <AiOutlineClose
             className="absolute top-4 right-4 text-2xl cursor-pointer text-gray-600"

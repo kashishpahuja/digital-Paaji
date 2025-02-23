@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-12 mx-4 md:mx-12 xl:mx-60 ">
+    <div className="flex flex-col lg:flex-row justify-center items-center  mx-4 md:mx-12 xl:mx-60 ">
       {/* Contact Section */}
       <div className="w-full lg:w-1/2 px-6 py-12 md:px-8  lg:px-12 bg-[#cc5f4d] ">
         <h3 className="bungeeHead text-2xl text-white mb-8 ">
@@ -32,7 +32,7 @@ function info() {
         <img
           src="/Images/services/girl.webp"
           alt=""
-          className="w-full h-[100%] object-cover "
+          className="w-full h-[100%] object-contain "
         />
       </div>
     </div>

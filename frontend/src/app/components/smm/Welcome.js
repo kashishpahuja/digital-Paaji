@@ -4,13 +4,13 @@ import Link from "next/link";
 
 function info() {
   return (
-    <div className="flex flex-col xl:flex-row items-stretch  mx-8 md:mx-12 xl:mx-72">
+    <div className="flex flex-col xl:flex-row items-center  mx-8 md:mx-12 xl:mx-72">
          {/* Map Section */}
       <div className=" w-full xl:w-1/2 ">
         <img
-          src="/Images/services/smm.webp"
+          src="/Images/smm/smm.webp"
           alt=""
-          className="zoom w-full h-[100%]  object-cover p-4 border border-black hover:border-transparent"
+          className="zoom w-full h-[100%]  object-cover p-4  "
         />
       </div>
       {/* Contact Section */}

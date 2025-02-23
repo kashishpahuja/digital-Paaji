@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const fetch = require("node-fetch"); // <-- Import node-fetch
@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
 
 // Email sending route
 app.post("/send-mail", async (req, res) => {
@@ -24,25 +24,27 @@ app.post("/send-mail", async (req, res) => {
 
 
 
-  const secretKey = process.env.RECAPTCHA_SECRET_KEY;
-  const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
+  // const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+  // const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
 
-  try {
-    const recaptchaResponse = await fetch(recaptchaUrl, {
-      method: "POST",
-    });
-    const recaptchaData = await recaptchaResponse.json();
-    const { success } = recaptchaData;
+  // try {
+  //   const recaptchaResponse = await fetch(recaptchaUrl, {
+  //     method: "POST",
+  //   });
+  //   const recaptchaData = await recaptchaResponse.json();
+  //   const { success } = recaptchaData;
 
-    if (!success) {
-      return res.status(400).json({
-        error: "reCAPTCHA verification failed. Please try again.",
-      });
-    }
-  } catch (error) {
-    console.error("reCAPTCHA verification error:", error);
-    return res.status(500).json({ error: "Failed to verify reCAPTCHA." });
-  }
+  //   if (!success) {
+  //     return res.status(400).json({
+  //       error: "reCAPTCHA verification failed. Please try again.",
+  //     });
+  //   }
+  // } catch (error) {
+  //   // console.log("reCAPTCHA Response:", recaptchaData);
+
+  //   console.error("reCAPTCHA verification error:", error);
+  //   return res.status(500).json({ error: "Failed to verify reCAPTCHA." });
+  // }
 
 
 
