@@ -1,87 +1,78 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Head from "next/head";
+// app/digital-marketing/page.js
 import Home from "../components/DM";
+import { Fragment } from "react";
+
+export const metadata = {
+  title: "Digital Marketing Agency Services - Digital Paaji Consulting Services",
+  description:
+    "Digital Paaji is a top digital marketing agency offering best-in-class online marketing services. Amplify your online reach with our digital marketing consulting services.",
+  alternates: {
+    canonical: "https://digitalpaaji.com/digital-marketing/",
+  },
+  openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "https://digitalpaaji.com/digital-marketing/",
+    title: "Digital Marketing Agency Services - Digital Paaji Consulting Services",
+    description:
+      "Digital Paaji is a top digital marketing agency offering best-in-class online marketing services. Amplify your online reach with our digital marketing consulting services.",
+    siteName: "Digital Paaji",
+    images: [
+      {
+        url: "https://digitalpaaji.com/Images/dm/DmF.gif",
+        width: 4710,
+        height: 706,
+        alt: "Digital Marketing Agency Services",
+        type: "image/gif",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@digitalpaajii",
+    title: "Digital Marketing Agency Services - Digital Paaji Consulting Services",
+    description:
+      "Digital Paaji is a top digital marketing agency offering best-in-class online marketing services. Amplify your online reach with our digital marketing consulting services.",
+    images: ["https://digitalpaaji.com/Images/dm/DmF.gif"],
+  },
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What digital marketing services do you offer?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer comprehensive digital marketing services including SEO, social media marketing, PPC, content marketing, and more.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can digital marketing benefit my business?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Digital marketing helps increase online visibility, drive traffic, and enhance customer engagement, leading to higher conversions.",
+      },
+    },
+  ],
+};
 
 export default function Page() {
-  const [isPageVisible, setIsPageVisible] = useState(true);
-  const [titleIndex, setTitleIndex] = useState(0);
-
-  const titles = [
-    "DigitalPaaji is the No.1 Digital Marketing, Design, and Development Agency.",
-    "Please come back!",
-    "I am feeling lonely :-(",
-    "Don't you love me anymore?",
-  ];
-
-  const descriptions = [
-    "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
-    "We miss you! Come back to see our latest updates.",
-    "Feeling lonely? Visit us again for amazing content!",
-    "We still love you! Don't leave us alone 😢",
-  ];
-
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        setIsPageVisible(false);
-        setTitleIndex(1);
-      } else {
-        setIsPageVisible(true);
-        setTitleIndex(0);
-      }
-    };
-
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!isPageVisible) {
-      const interval = setInterval(() => {
-        setTitleIndex((prevIndex) =>
-          prevIndex >= titles.length - 1 ? 1 : prevIndex + 1
-        );
-      }, 2000);
-
-      return () => clearInterval(interval);
-    } else {
-      setTitleIndex(0);
-    }
-  }, [isPageVisible]);
-
-  useEffect(() => {
-    document.title = titles[titleIndex];
-
-    // **Dynamically update meta description**
-    const metaDescription = document.querySelector("meta[name='description']");
-    if (metaDescription) {
-      metaDescription.setAttribute("content", descriptions[titleIndex]);
-    } else {
-      // **If meta tag doesn't exist, create one**
-      const newMetaTag = document.createElement("meta");
-      newMetaTag.name = "description";
-      newMetaTag.content = descriptions[titleIndex];
-      document.head.appendChild(newMetaTag);
-    }
-  }, [titleIndex]);
-
   return (
-    <>
-      <Head>
-        <title>{titles[titleIndex]}</title>
-        <meta name="description" content={descriptions[0]} />
-        <meta name="keywords" content="Digital Marketing, Web Design, SEO, Branding" />
-        <meta name="author" content="DigitalPaaji" />
-        <link rel="icon" href="/Images/favicon.png" />
-      </Head>
+    <Fragment>
+      {/* JSON-LD Schema.org */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
       <main>
         <Home />
       </main>
-    </>
+    </Fragment>
   );
 }

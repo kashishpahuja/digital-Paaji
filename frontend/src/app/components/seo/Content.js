@@ -30,7 +30,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/seo/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -57,7 +57,7 @@ servicePara text-gray-500 text-sm"
                         width={200}
         height={200}
                   src="/Images/seo/2.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -83,7 +83,7 @@ servicePara text-gray-500 text-sm"
                         width={200}
         height={200}
                   src="/Images/seo/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>

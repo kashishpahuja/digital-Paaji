@@ -61,7 +61,7 @@ function History() {
       {/* Decorative Elements */}
       <div className="">
         <div className="absolute transform top-4 md:bottom-0    ">
-          <img src="/Images/addOn/history.webp" alt="" />
+          <img src="/Images/addOn/history.webp" alt="img" />
         </div>
       </div>
     </div>

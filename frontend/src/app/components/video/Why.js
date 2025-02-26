@@ -12,7 +12,7 @@ function info() {
         width={200}
         height={200}
           src="/Images/services/video.webp"
-          alt=""
+          alt="img"
           className="zoom w-full h-[100%] lg:p-12 object-contain"
         />
       </div>

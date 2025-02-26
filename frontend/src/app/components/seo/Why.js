@@ -12,7 +12,7 @@ function Why() {
                 width={200}
                 height={200}
           src="/Images/seo/SEO1.webp"
-          alt=""
+          alt="img"
           className="w-full h-[100%] object-contain "
         />
       </div>

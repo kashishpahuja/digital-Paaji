@@ -7,9 +7,9 @@ function Header() {
     <div className="relative">
       <div className="header-background w-full h-auto">
         <div className="py-16 w-1/2 xl:w-[500px] mx-4 md:mx-8 xl:ml-40">
-          <h3 className="bungeeHead text-3xl md:text-4xl lg:text-8xl text-white">
+          <h1 className="bungeeHead text-3xl md:text-4xl lg:text-8xl text-white">
             Web Development Agency In India
-          </h3>
+          </h1>
           <div className="mt-8">
             <Link href="tel:+918699640752" className="px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
               Call Us
@@ -22,7 +22,7 @@ function Header() {
                 width={200}
                 height={200}
           src="/Images/services/wavy.png"
-          alt=""
+          alt="img"
           className="w-full h-[100%] object-cover"
         />
       </div>

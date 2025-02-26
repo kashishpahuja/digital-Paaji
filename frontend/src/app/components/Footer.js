@@ -4,6 +4,7 @@ import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
 import {
@@ -55,7 +56,15 @@ function Footer() {
           </li>
           <li>
             <Link href="https://x.com/i/flow/login?redirect_after_login=%2Fdigitalpaajii" target="_blank">
-              <TbBrandTwitterFilled
+              <FaXTwitter 
+                className="zoom text-blue-900"
+                style={{ width: "120%", height: "120%" }}
+              />
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/company/digital-paaji2" target="_blank">
+              <FaLinkedin  
                 className="zoom text-blue-900"
                 style={{ width: "120%", height: "120%" }}
               />

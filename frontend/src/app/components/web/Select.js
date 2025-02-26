@@ -8,13 +8,13 @@ function Why() {
         <div className="zigzag-box "></div>
         <div className="py-16 bg-[#cc5f4d]">
           <div className="text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72">
-            <h3
+            <h2
               className="bungeeHead my-4 text-white  text-3xl lg:text-5xl"
               style={{ fontWeight: "500" }}
             >
               Selecting Digital Paaji for web development Services Has Its
               Benefits
-            </h3>
+            </h2>
             <h3 className="merriHead  text-white text-sm my-4 mx-4 lg:mx-12 ">
               Working with the correct agency can make all the difference when
               it comes to SEO. We at Digital Paaji differentiate ourselves from
@@ -33,7 +33,7 @@ function Why() {
                               width={200}
         height={200}
                         src="/Images/services/benefits1.webp"
-                        alt=""
+                        alt="img"
                         className="zoom w-full h-[100%] object-cover"
                       />
                     </div>
@@ -62,7 +62,7 @@ function Why() {
                               width={200}
         height={200}
                         src="/Images/services/benefits2.webp"
-                        alt=""
+                        alt="img"
                         className="zoom w-full h-auto object-cover"
                       />
                     </div>
@@ -88,7 +88,7 @@ Custom Development
                               width={200}
         height={200}
                         src="/Images/services/benefits3.webp"
-                        alt=""
+                        alt="img"
                         className="zoom w-full h-auto object-cover"
                       />
                     </div>
@@ -114,7 +114,7 @@ Exploration and Planning
                               width={200}
         height={200}
                         src="/Images/services/benefits1.webp"
-                        alt=""
+                        alt="img"
                         className="zoom w-full h-auto object-cover"
                       />
                     </div>

@@ -101,7 +101,7 @@ function Testimonials() {
                width={20}
                height={20}
             src="/Images/logo2.webp"
-            alt=""
+            alt="img"
             className="w-full h-[100%] object-contain"
           />
         </div>
@@ -184,7 +184,7 @@ function Testimonials() {
       {/* Right Section */}
       <div className="w-full md:w-[70%] lg:w-1/2 xl:ml-16">
         <Image      width={20}
-                    height={20} src="/Images/addOn/tetimonial.webp" alt="" className="w-full h-[100%] mx-auto  px-8 xl:px-16" />
+                    height={20} src="/Images/addOn/tetimonial.webp" alt="img" className="w-full h-[100%] mx-auto  px-8 xl:px-16" />
       </div>
     </div>
   );
@@ -244,7 +244,7 @@ export default Testimonials;
 //         <div className="mx-auto w-[300px] h-auto">
 //           <img
 //             src="/Images/logo2.webp"
-//             alt=""
+//             alt="img"
 //             className="w-full h-auto object-cover"
 //           />
 //         </div>
@@ -327,7 +327,7 @@ export default Testimonials;
 
 //       {/* Right Section */}
 //       <div className="w-full xl:w-1/2 xl:ml-16">
-//         <img src="/Images/addOn/tetimonial.webp" alt="" className="mx-auto" />
+//         <img src="/Images/addOn/tetimonial.webp" alt="img" className="mx-auto" />
 //       </div>
 //     </div>
 //   );

@@ -18,7 +18,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -49,7 +49,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/2.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -72,7 +72,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -95,7 +95,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/4.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -120,7 +120,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -143,7 +143,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/2.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -166,7 +166,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -189,7 +189,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/vp/4.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -217,9 +217,9 @@ function AddOn() {
       </div>
 
       <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-36">
-        <h3 className="bungeeHead text-[#cc5f4d] text-2xl xl:text-4xl">
+        <h2 className="bungeeHead text-[#cc5f4d] text-2xl xl:text-4xl">
           Why Choose Us for Your Video Editing Needs?
-        </h3>
+        </h2>
         <p className="merriHead text-[#757474] mt-4 text-sm  ">
           We add sound and effects to unprocessed video to create an engaging
           narrative. Throughout the editing process, you will maintain control

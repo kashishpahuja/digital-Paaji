@@ -14,7 +14,7 @@ function Zigzag() {
         <div className='bg-[#cc5f4d]  py-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-8 lg:px-32 xl:px-56'>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
-                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/1.webp" alt="img" className='zoom w-32 h-24'/>
                 </div>
                 <div>
                     <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
@@ -23,7 +23,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-right">
                 <div>
-                    <img src="/Images/zigzag/2.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/2.webp" alt="img" className='zoom w-32 h-24'/>
                 </div>
                 <div>
                     <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
@@ -32,7 +32,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-left">
                 <div>
-                    <img src="/Images/zigzag/3.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/3.webp" alt="img" className='zoom w-32 h-24'/>
                 </div>
                 <div>
                     <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>
@@ -41,7 +41,7 @@ function Zigzag() {
             </div>
             <div className='flex items-center justify-center gap-2' data-aos="fade-right">
                 <div>
-                    <img src="/Images/zigzag/1.webp" alt="" className='zoom w-32 h-24'/>
+                    <img src="/Images/zigzag/1.webp" alt="img" className='zoom w-32 h-24'/>
                 </div>
                 <div>
                     <h3 className='text-white text-2xl font-bold'>Creative Expression</h3>

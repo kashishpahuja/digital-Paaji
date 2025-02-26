@@ -12,7 +12,7 @@ function info() {
                 width={200}
                 height={200}
           src="/Images/smm/smm.webp"
-          alt=""
+          alt="img"
           className="zoom w-full h-[100%]  object-cover p-4  "
         />
       </div>

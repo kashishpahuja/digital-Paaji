@@ -19,8 +19,8 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Digital Marketing Agency India" 
-        content="Our business model is really simple: When we grow your business, you keep us around, we’re all happy. Honestly, it’s as straight forward as that.
+        <Header title="Digital Marketing Agency In India" 
+        content="Our business model is really simple: When we grow your business, you keep us around, we&apos;re all happy. Honestly, it’s as straight forward as that.
 
 "
          button="Call Us"/>

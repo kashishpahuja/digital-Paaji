@@ -23,7 +23,7 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Search Engine Optimization Agency India" 
+        <Header title="Search Engine Optimization Agency In India" 
         button="Call Us"
         content='“Digital Paaji: Your go-to digital marketing agency specializing in SEO, social media, and content marketing for unparalleled Online Success.”'/>
          <div className="my-16">

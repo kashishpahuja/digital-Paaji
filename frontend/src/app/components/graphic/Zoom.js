@@ -9,7 +9,7 @@ function Why() {
       <div className=" w-full lg:w-1/2 ">
         <img
           src="/Images/gd/Graphic.webp"
-          alt=""
+          alt="img"
           className="zoom  object-cover lg:object-contain h-[100%]"
         />
       </div>

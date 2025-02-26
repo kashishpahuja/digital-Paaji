@@ -24,7 +24,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/smm/1.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -46,7 +46,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/smm/2.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -68,7 +68,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/smm/3.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -90,7 +90,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/smm/4.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>

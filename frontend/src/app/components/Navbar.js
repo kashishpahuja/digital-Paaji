@@ -101,7 +101,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -119,7 +119,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -132,7 +132,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/DM.gif" alt="1" className="w-full h-auto" />
+    <img src="/Images/navGif/DM.gif" alt="1" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -144,7 +144,7 @@ export default function ResponsiveLayout() {
               className=" "
             >
               <li
-                className={`heading text-[12px] w-28 p-2 font-bungee-inline text-center ${
+                className={`heading text-[14px] w-32 p-2 font-bungee-inline text-center ${
                   show === "1" ? "hidden" : "block"
                 }`}
               >
@@ -156,7 +156,7 @@ export default function ResponsiveLayout() {
                 <img
                   src="/Images/navGif/DM.gif"
                   alt="1"
-                  className={` flip w-full h-auto ${
+                  className={` flip w-full h-[100%] ${
                     show === "1" ? "block" : "hidden"
                   }`}
                 />
@@ -171,7 +171,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -189,7 +189,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -202,7 +202,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/SMM.gif" alt="2" className="w-full h-auto" />
+    <img src="/Images/navGif/SMM.gif" alt="2" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -215,7 +215,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-32  p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-40  p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -233,7 +233,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -246,7 +246,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/SEO.gif" alt="3" className="w-full h-auto" />
+    <img src="/Images/navGif/SEO.gif" alt="3" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -259,7 +259,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -277,7 +277,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -290,7 +290,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/VP.gif" alt="4" className="w-full h-auto" />
+    <img src="/Images/navGif/VP.gif" alt="4" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -303,7 +303,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -321,7 +321,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -334,7 +334,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/WD.gif" alt="5" className="w-full h-auto" />
+    <img src="/Images/navGif/WD.gif" alt="5" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -347,7 +347,7 @@ export default function ResponsiveLayout() {
 >
   {/* Text - Moves Up and Hides */}
   <li
-    className={`heading  text-[12px] w-28 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
+    className={`heading  text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500`}
     style={{
       top: "50%",
       transform:
@@ -365,7 +365,7 @@ export default function ResponsiveLayout() {
 
   {/* GIF - Moves Up and Appears */}
   <div
-    className={`absolute top-0 left-0 w-24 h-20 transition-all duration-500 `}
+    className={`absolute top-0 left-0 w-24 h-24 transition-all duration-500 `}
     style={{
       top: "50%",
       left: "50%",
@@ -378,7 +378,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/GD.gif" alt="6" className="w-full h-auto" />
+    <img src="/Images/navGif/GD.gif" alt="6" className="w-full h-[100%]" />
   </div>
 </Link>
 

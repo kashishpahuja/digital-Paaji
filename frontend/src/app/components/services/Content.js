@@ -37,7 +37,7 @@ function Services() {
                     >
                       <img
                         src="/Images/DM.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -115,7 +115,7 @@ function Services() {
                     >
                       <img
                         src="/Images/1.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -190,7 +190,7 @@ function Services() {
                     >
                       <img
                         src="/Images/GD.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -265,7 +265,7 @@ function Services() {
                     >
                       <img
                         src="/Images/SEO.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -340,7 +340,7 @@ function Services() {
                     >
                       <img
                         src="/Images/VE.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -415,7 +415,7 @@ function Services() {
                     >
                       <img
                         src="/Images/1.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -492,7 +492,7 @@ function Services() {
                     >
                       <img
                         src="/Images/1.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -567,7 +567,7 @@ function Services() {
                     >
                       <img
                         src="/Images/1.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>
@@ -642,7 +642,7 @@ function Services() {
                     >
                       <img
                         src="/Images/AD.webp"
-                        alt=""
+                        alt="img"
                         className="w-full h-auto object-cover"
                       />
                     </li>

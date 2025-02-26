@@ -27,7 +27,7 @@ Our Story
         <div className=" w-full lg:w-[40%] "  data-aos="flip-right" >
           <img
             src="/Images/muli/mic.webp"
-            alt=""
+            alt="img"
             className=" zoom w-full h-auto object-cover"
           />
         </div>

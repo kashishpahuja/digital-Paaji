@@ -7,9 +7,9 @@ function AddOn() {
   return (
     <div className=" ">
       <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 ">
-        <h3 className="bungeeHead  text-[#cc5f4d]  text-[30px] xl:text-[35px]">
+        <h2 className="bungeeHead  text-[#cc5f4d]  text-[30px] xl:text-[35px]">
           Our Internet Marketing Solutions
-        </h3>
+        </h2>
 
         <p
           className="servicePara text-[#252424] mt-4 text-sm  text-justify xl:text-[14px] "
@@ -37,7 +37,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/seo/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -60,7 +60,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/seo/1.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -83,7 +83,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/seo/2.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -108,7 +108,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/seo/1.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -131,7 +131,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/seo/3.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>

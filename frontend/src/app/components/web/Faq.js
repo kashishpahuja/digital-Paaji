@@ -68,7 +68,7 @@ const handleShowIcon = ()=>{
               rel="noopener noreferrer"
               className=" w-16 h-16 text-green-600 transition-transform duration-500"
             >
-             <img src="/Images/services/whIcon.gif" alt="" className="flip w-full h-auto object-cover"/>
+             <img src="/Images/services/whIcon.gif" alt="img" className="flip w-full h-auto object-cover"/>
             </Link>
           ):(
             <span className=" text-[#cc5f4d] underline " onMouseEnter={handleShowIcon}>Click</span>

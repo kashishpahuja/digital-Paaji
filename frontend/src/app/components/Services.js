@@ -11,9 +11,9 @@ function Services() {
   return (
     <div className="mx-12 lg:mx-24 xl:mx-60 ">
       <div className="text-center">
-        <h3 className="merriHead text-[#302f2f] text-xl xl:text-2xl">
+        <h1 className="merriHead text-[#302f2f] text-xl xl:text-2xl">
           Welcome to Digital Paaji - We mind your Business
-        </h3>
+        </h1>
         <p className="merriHead text-[#757474] mt-4 text-sm xl:text-[16px] ">
           One of the top agencies with more than 15 years of expertise in
           digital marketing is Digital Paaji. For expansion and success, we
@@ -27,9 +27,9 @@ function Services() {
         </p>
       </div>
       <div className=" text-center">
-        <h3 className="bungeeHead my-12 text-[#cc5f4d]  text-[30px] xl:text-[40px]">
+        <h2 className="bungeeHead my-12 text-[#cc5f4d]  text-[30px] xl:text-[40px]">
           OUR SERVICES
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 ">
           <div className="border border-black " data-aos="fade-up">
             <div className="border-b border-black">
@@ -52,7 +52,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/DM.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>
@@ -105,7 +105,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/1.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>
@@ -156,7 +156,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/GD.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>
@@ -207,7 +207,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/SEO.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>
@@ -258,7 +258,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/VE.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>
@@ -309,7 +309,7 @@ function Services() {
                          width={20}
                     height={20}
                       src="/Images/WD.webp"
-                      alt=""
+                      alt="img"
                       className="w-full h-auto object-cover"
                     />
                   </li>

@@ -27,7 +27,7 @@ function AddOn() {
                   width={200}
                   height={200}
             src="/Images/services/seo.webp"
-            alt=""
+            alt="img"
             className="zoom w-full h-[100%] object-cover"
           />
         </div>

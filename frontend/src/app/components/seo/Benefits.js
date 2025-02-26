@@ -21,9 +21,9 @@ function AddOn() {
   ></div>
       <div className="relative z-10 text-center">
         <div className="text-center mt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 ">
-          <h3 className="bungeeHead    text-[30px] xl:text-[40px]">
+          <h2 className="bungeeHead    text-[30px] xl:text-[40px]">
           Selecting Digital Paaji for SEO Services Has Its Benefits
-          </h3>
+          </h2>
 
           <p
             className="servicePara mt-4 text-sm  text-justify xl:text-[14px] "
@@ -43,7 +43,7 @@ function AddOn() {
                             width={200}
         height={200}
                       src="/Images/services/benefits1.webp"
-                      alt=""
+                      alt="img"
                       className="zoom w-full h-auto object-cover"
                     />
                   </div>
@@ -69,7 +69,7 @@ Experts                    </h3>
                             width={200}
         height={200}
                       src="/Images/services/benefits3.webp"
-                      alt=""
+                      alt="img"
                       className="zoom w-full h-auto object-cover"
                     />
                   </div>
@@ -96,7 +96,7 @@ Strategies
                             width={200}
         height={200}
                       src="/Images/services/benefits2.webp"
-                      alt=""
+                      alt="img"
                       className="zoom w-full h-auto object-cover"
                     />
                   </div>

@@ -7,9 +7,9 @@ function Growth() {
     <div style={{backgroundImage:"url(/Images/services/bg.webp)"}} className="w-full h-auto py-24">
     <div className="mx-8 lg:mx-24 xl:mx-60 " data-aos="zoom-in">
       <div className="text-center">
-        <h3 className="bungeeHead my-8 text-[#e6e8eb]  text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+        <h2 className="bungeeHead my-8 text-[#e6e8eb]  text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           Digitizing your Business <br className="hidden lg:block "/> Growth
-        </h3>
+        </h2>
 
         <p className="merriHead  text-[#f8f7f7]   text-sm xl:text-[16px]">
         With a commitment to providing top-notch services, Digital Paaji is always refining its tactics to keep ahead of market trends. Our team comprises highly qualified professionals who are enthusiastic about their work and prioritize meticulous planning, outcomes, and attention to detail.

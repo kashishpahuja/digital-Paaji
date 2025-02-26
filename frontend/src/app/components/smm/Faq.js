@@ -66,7 +66,7 @@ function Faq() {
                       width={200}
                       height={200}
                 src="/Images/services/whIcon.gif"
-                alt=""
+                alt="img"
                 className="flip w-full h-auto object-cover"
               />
             </Link>

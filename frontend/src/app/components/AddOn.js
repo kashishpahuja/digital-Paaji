@@ -18,7 +18,7 @@ function AddOn() {
           <div className="border border-black "  data-aos="zoom-out">
             <div className="p-2 lg:p-8">
             <div className="mx-auto w-40 h-auto">
-        <img src="/Images/addOn/LG.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <img src="/Images/addOn/LG.webp" alt="img" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
               <h3 className="services p-4 text-[#2e2d2d]">Lead Generation</h3>
@@ -33,7 +33,7 @@ function AddOn() {
           <div className="border border-black "  data-aos="zoom-out">
             <div className="p-2 lg:p-8">
             <div className="mx-auto w-40 h-auto">
-        <img src="/Images/addOn/CS.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <img src="/Images/addOn/CS.webp" alt="img" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
               <h3 className="services p-4 text-[#2e2d2d]">Content Strategy</h3>
@@ -48,7 +48,7 @@ function AddOn() {
           <div className="border border-black "  data-aos="zoom-out">
             <div className="p-2 lg:p-8">
             <div className="mx-auto w-40 h-auto">
-        <img src="/Images/addOn/CM.webp" alt="" className="zoom w-full h-auto object-cover"/>
+        <img src="/Images/addOn/CM.webp" alt="img" className="zoom w-full h-auto object-cover"/>
       </div>
             <div className="my-6">
               <h3 className="services p-4 text-[#2e2d2d]">Content Marketing</h3>

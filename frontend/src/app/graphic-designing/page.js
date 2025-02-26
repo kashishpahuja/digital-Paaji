@@ -1,87 +1,113 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Head from "next/head";
+// app/graphic-designing/page.js
 import Home from "../components/GD";
+import { Fragment } from "react";
+
+export const metadata = {
+  title: "Graphic Design Services - Digital Paaji Graphic Design Agency",
+  description:
+    "Looking for the best graphic design agency? Digital Paaji offers a broad range of graphic design services to improve your business's visual identity. Contact us now.",
+  alternates: {
+    canonical: "https://digitalpaaji.com/graphic-designing/",
+  },
+  openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "https://digitalpaaji.com/graphic-designing/",
+    title: "Graphic Design Services - Digital Paaji Graphic Design Agency",
+    description:
+      "Looking for the best graphic design agency? Digital Paaji offers a broad range of graphic design services to improve your business's visual identity. Contact us now.",
+    siteName: "Digital Paaji",
+    images: [
+      {
+        url: "https://digitalpaaji.com/Images/gd/Graphic.webp",
+        width: 800,
+        height: 600,
+        alt: "Graphic Design Services - Digital Paaji",
+        type: "image/webp",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@digitalpaajii",
+    title: "Graphic Design Services - Digital Paaji Graphic Design Agency",
+    description:
+      "Looking for the best graphic design agency? Digital Paaji offers a broad range of graphic design services to improve your business's visual identity. Contact us now.",
+    images: ["https://digitalpaaji.com/Images/gd/Graphic.webp"],
+  },
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://digitalpaaji.com/graphic-designing/#FAQPage",
+  headline: "Graphic Design Services - Digital Paaji Graphic Design Agency",
+  datePublished: "2024-10-17T10:01:28+00:00",
+  dateModified: "2024-10-28T08:37:23+00:00",
+  dateCreated: "2024-10-17T10:01:28+00:00",
+  author: {
+    "@type": "Person",
+    name: "Palwinder Singh",
+    url: "https://digitalpaaji.com/author/palvinder/",
+    image: {
+      "@type": "ImageObject",
+      url: "https://secure.gravatar.com/avatar/639ad0015a8fdb125f1131dd0de67b07?s=96&d=mm&r=g",
+      height: 96,
+      width: 96,
+    },
+  },
+  image: [
+    {
+      "@type": "ImageObject",
+      url: "https://digitalpaaji.com/Images/gd/Graphic.webp",
+      width: 472,
+      height: 472,
+      caption: "Graphic.webp",
+    },
+    {
+      "@type": "ImageObject",
+      url: "https://digitalpaaji.com/Images/gd/1.webp",
+      width: 472,
+      height: 472,
+      caption: "1.webp",
+    },
+    {
+      "@type": "ImageObject",
+      url: "https://digitalpaaji.com/Images/gd/2.webp",
+      width: 472,
+      height: 472,
+      caption: "2.webp",
+    },
+    {
+      "@type": "ImageObject",
+      url: "https://digitalpaaji.com/Images/gd/3.webp",
+      width: 472,
+      height: 472,
+      caption: "3.webp",
+    },
+    {
+      "@type": "ImageObject",
+      url: "https://digitalpaaji.com/Images/gd/4.webp",
+      width: 472,
+      height: 472,
+      caption: "4.webp",
+    },
+  ],
+};
 
 export default function Page() {
-  const [isPageVisible, setIsPageVisible] = useState(true);
-  const [titleIndex, setTitleIndex] = useState(0);
-
-  const titles = [
-    "DigitalPaaji is the No.1 Digital Marketing, Design, and Development Agency.",
-    "Please come back!",
-    "I am feeling lonely :-(",
-    "Don't you love me anymore?",
-  ];
-
-  const descriptions = [
-    "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
-    "We miss you! Come back to see our latest updates.",
-    "Feeling lonely? Visit us again for amazing content!",
-    "We still love you! Don't leave us alone 😢",
-  ];
-
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        setIsPageVisible(false);
-        setTitleIndex(1);
-      } else {
-        setIsPageVisible(true);
-        setTitleIndex(0);
-      }
-    };
-
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!isPageVisible) {
-      const interval = setInterval(() => {
-        setTitleIndex((prevIndex) =>
-          prevIndex >= titles.length - 1 ? 1 : prevIndex + 1
-        );
-      }, 2000);
-
-      return () => clearInterval(interval);
-    } else {
-      setTitleIndex(0);
-    }
-  }, [isPageVisible]);
-
-  useEffect(() => {
-    document.title = titles[titleIndex];
-
-    // **Dynamically update meta description**
-    const metaDescription = document.querySelector("meta[name='description']");
-    if (metaDescription) {
-      metaDescription.setAttribute("content", descriptions[titleIndex]);
-    } else {
-      // **If meta tag doesn't exist, create one**
-      const newMetaTag = document.createElement("meta");
-      newMetaTag.name = "description";
-      newMetaTag.content = descriptions[titleIndex];
-      document.head.appendChild(newMetaTag);
-    }
-  }, [titleIndex]);
-
   return (
-    <>
-      <Head>
-        <title>{titles[titleIndex]}</title>
-        <meta name="description" content={descriptions[0]} />
-        <meta name="keywords" content="Digital Marketing, Web Design, SEO, Branding" />
-        <meta name="author" content="DigitalPaaji" />
-        <link rel="icon" href="/Images/favicon.png" />
-      </Head>
+    <Fragment>
+      {/* JSON-LD Schema.org */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
       <main>
         <Home />
       </main>
-    </>
+    </Fragment>
   );
 }

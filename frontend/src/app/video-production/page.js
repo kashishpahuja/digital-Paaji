@@ -1,87 +1,129 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Head from "next/head";
+// app/video-production/page.js
 import Home from "../components/VP";
+import { Fragment } from "react";
+
+export const metadata = {
+  title: "Video Production Services - Video Production Agency In India",
+  description:
+    "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+  alternates: {
+    canonical: "https://digitalpaaji.com/video-production/",
+  },
+  openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "https://digitalpaaji.com/video-production/",
+    title: "Video Production Services - Video Production Agency In India",
+    description:
+      "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+    siteName: "Digital Paaji",
+    images: [
+      {
+        url: "https://digitalpaaji.com/Images/services/video.webp",
+        width: 450,
+        height: 472,
+        alt: "Video Production Services",
+        type: "image/webp",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@digitalpaajii",
+    title: "Video Production Services - Video Production Agency In India",
+    description:
+      "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+    images: ["https://digitalpaaji.com/Images/services/video.webp"],
+  },
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What are your video production services?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We offer a wide range of video production services including corporate videos, promotional videos, and event coverage.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can video production help my business?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Video production helps in enhancing brand visibility, audience engagement, and overall marketing effectiveness.",
+      },
+    },
+  ],
+};
 
 export default function Page() {
-  const [isPageVisible, setIsPageVisible] = useState(true);
-  const [titleIndex, setTitleIndex] = useState(0);
-
-  const titles = [
-    "DigitalPaaji is the No.1 Digital Marketing, Design, and Development Agency.",
-    "Please come back!",
-    "I am feeling lonely :-(",
-    "Don't you love me anymore?",
-  ];
-
-  const descriptions = [
-    "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
-    "We miss you! Come back to see our latest updates.",
-    "Feeling lonely? Visit us again for amazing content!",
-    "We still love you! Don't leave us alone 😢",
-  ];
-
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        setIsPageVisible(false);
-        setTitleIndex(1);
-      } else {
-        setIsPageVisible(true);
-        setTitleIndex(0);
-      }
-    };
-
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!isPageVisible) {
-      const interval = setInterval(() => {
-        setTitleIndex((prevIndex) =>
-          prevIndex >= titles.length - 1 ? 1 : prevIndex + 1
-        );
-      }, 2000);
-
-      return () => clearInterval(interval);
-    } else {
-      setTitleIndex(0);
-    }
-  }, [isPageVisible]);
-
-  useEffect(() => {
-    document.title = titles[titleIndex];
-
-    // **Dynamically update meta description**
-    const metaDescription = document.querySelector("meta[name='description']");
-    if (metaDescription) {
-      metaDescription.setAttribute("content", descriptions[titleIndex]);
-    } else {
-      // **If meta tag doesn't exist, create one**
-      const newMetaTag = document.createElement("meta");
-      newMetaTag.name = "description";
-      newMetaTag.content = descriptions[titleIndex];
-      document.head.appendChild(newMetaTag);
-    }
-  }, [titleIndex]);
-
   return (
-    <>
-      <Head>
-        <title>{titles[titleIndex]}</title>
-        <meta name="description" content={descriptions[0]} />
-        <meta name="keywords" content="Digital Marketing, Web Design, SEO, Branding" />
-        <meta name="author" content="DigitalPaaji" />
-        <link rel="icon" href="/Images/favicon.png" />
-      </Head>
+    <Fragment>
+      {/* JSON-LD Schema.org */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
       <main>
         <Home />
       </main>
-    </>
+    </Fragment>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// // app/video-production/page.js
+
+// import Home from "../components/VP";
+
+// export const metadata = {
+//   title: "Video Production Services - Video Production Agency In India",
+//   description: "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+//   openGraph: {
+//     type: "article",
+//     locale: "en_US",
+//     url: "https://digitalpaaji.com/video-production/",
+//     siteName: "Digital Paaji",
+//     title: "Video Production Services - Video Production Agency In India",
+//     description: "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+//     images: [
+//       {
+//         url: "https://digitalpaaji.com/Images/services/video.webp",
+//         width: 1200,
+//         height: 630,
+//         alt: "Video Production Services"
+//       }
+//     ]
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     site: "@digitalpaajii",
+//     title: "Video Production Services - Video Production Agency In India",
+//     description: "Looking for the best video production agency? Digital Paaji offers top-notch video production services to improve your business's visual identity. Contact us now.",
+//     images: ["https://digitalpaaji.com/Images/services/video.webp"]
+//   }
+// };
+
+// export default function Page() {
+//   return (
+//     <main>
+//       <Home />
+//     </main>
+//   );
+// }

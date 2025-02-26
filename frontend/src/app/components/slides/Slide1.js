@@ -98,7 +98,7 @@ function Banner({
                 width={20}
                 height={20}
                   src="/Images/banner/arrow1.webp"
-                  alt=""
+                  alt="img"
                   className="w-full h-[100%] object-cover"
                 />
               </div>
@@ -127,7 +127,7 @@ function Banner({
             width={20}
             height={20}
               src="/Images/banner/arrow2.webp"
-              alt=""
+              alt="img"
               className="w-full h-[100%] object-cover"
             />
           </div>
@@ -174,7 +174,7 @@ function Banner({
             width={20}
             height={20}
               src="/Images/banner/arrow3.webp"
-              alt=""
+              alt="img"
               className="w-full h-[100%] object-cover"
             />
           </div>

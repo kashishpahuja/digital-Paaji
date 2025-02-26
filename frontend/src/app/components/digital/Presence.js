@@ -12,7 +12,7 @@ function info() {
         width={200}
         height={200}
           src="/Images/dm/DmF.gif"
-          alt=""
+          alt="img"
           className=" w-full h-[100%]   object-contain"
  
         />

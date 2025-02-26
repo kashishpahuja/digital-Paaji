@@ -7,12 +7,12 @@ function AddOn() {
   return (
     <div className=" ">
       <div className="text-center pt-24 mx-4 md:mx-12 lg:mx-32 xl:mx-72 border-t-2 border-black">
-        <h3
+        <h2
           className="bungeeHead text-[#cc5f4d] text-xl md:text-2xl xl:text-4xl "
           style={{ letterSpacing: "0px" }}
         >
           Justifications for Thinking About Social Media Promotion
-        </h3>
+        </h2>
       </div>
 
       <div className=" text-center mx-4 md:mx-12 lg:mx-32 xl:mx-72 my-12">
@@ -24,7 +24,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/smm/raise.webp"
-                  alt=""
+                  alt="img"
                   className="w-full h-[100%] object-cover"
                 />
               </div>
@@ -34,7 +34,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/smm.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-[100%] object-cover"
                   />
                 </div>
@@ -57,7 +57,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/smm.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -77,7 +77,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/smm/Engage.webp"
-                  alt=""
+                  alt="img"
                   className="w-full h-[100%] object-cover"
                 />
               </div>
@@ -88,7 +88,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/smm/Cost-Effective.webp"
-                  alt=""
+                  alt="img"
                   className="w-full h-[100%] object-cover"
                 />
               </div>
@@ -98,7 +98,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/smm.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>

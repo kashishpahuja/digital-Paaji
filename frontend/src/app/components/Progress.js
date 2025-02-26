@@ -15,7 +15,7 @@ export default function AlbumPage() {
      
 
 {/* <div className="w-full h-auto">
-    <img src="/Images/progress.webp" alt="" className="w-full h-[100%] object-cover"/>
+    <img src="/Images/progress.webp" alt="img" className="w-full h-[100%] object-cover"/>
 </div> */}
 <div className="bg-[#cc5f4d] h-[500px] flex flex-col  items-center justify-center ">
     <h3 className="merriHead text-2xl lg:text-6xl text-white text-center mb-12">UNDER CONSTRUCTION</h3>

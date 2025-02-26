@@ -7,9 +7,9 @@ function AddOn() {
   return (
     <div className=" ">
       <div className="text-center mt-24 mx-8 md:mx-12 lg:mx-32 xl:mx-72">
-        <h3 className="merriHead text-[#252424] text-md ">
+        <h2 className="merriHead text-[#252424] text-md ">
           Digital Paaji Marketing Consulting Services in India
-        </h3>
+        </h2>
         <p className="servicePara text-[#252424] mt-4 text-sm  ">
           We make certain that your brand engages potential clients by utilising
           the newest trends and technologies. Our specialised team is committed
@@ -28,7 +28,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -51,7 +51,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/2.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -74,7 +74,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -98,7 +98,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -121,7 +121,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/2.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -144,7 +144,7 @@ function AddOn() {
                 width={200}
                 height={200}
                   src="/Images/dm/3.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>

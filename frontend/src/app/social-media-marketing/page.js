@@ -1,87 +1,94 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Head from "next/head";
+// app/social-media-marketing/page.js
 import Home from "../components/SMM";
+import { Fragment } from "react";
+
+export const metadata = {
+  title: "Social Media Marketing Agency In India - Digital Paaji Consulting Services",
+  description:
+    "Searching for the best Social Media Marketing agency in India? Digital Paaji provides elite SMM services to help boost brand awareness and grow online presence.",
+  alternates: {
+    canonical: "https://digitalpaaji.com/social-media-marketing/",
+  },
+  openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "https://digitalpaaji.com/social-media-marketing/",
+    title: "Social Media Marketing Agency In India - Digital Paaji Consulting Services",
+    description:
+      "Searching for the best Social Media Marketing agency in India? Digital Paaji provides elite SMM services to help boost brand awareness and grow online presence.",
+    siteName: "Digital Paaji",
+    images: [
+      {
+        url: "https://digitalpaaji.com/Images/smm/smm.webp",
+        width: 800,
+        height: 600,
+        alt: "Social Media Marketing Agency",
+        type: "image/webp",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@digitalpaajii",
+    title: "Social Media Marketing Agency In India - Digital Paaji Consulting Services",
+    description:
+      "Searching for the best Social Media Marketing agency in India? Digital Paaji provides elite SMM services to help boost brand awareness and grow online presence.",
+    images: ["https://digitalpaaji.com/Images/smm/smm.webp"],
+  },
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "On social media, how frequently should I post?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The audience and platform determine the frequency of social media posts. LinkedIn posts once a week, Facebook and Instagram post three to five times a week, and Twitter demands several posts per day. A content calendar is offered by Digital Paaji to help you schedule posts at the best intervals and with the best quality to increase interaction.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can I improve engagement with my audience on social media?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Publish excellent material, use polls to promote conversation, and reply to comments quickly in order to increase social media engagement. Engage influencers in conversation, use storytelling strategies, and routinely review engagement numbers. With specialised tactics, Digital Paaji provides knowledgeable advice on how to increase audience engagement.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the cost of social media marketing services?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The scope, platforms, and aims of social media marketing services determine the cost. Advertising, analytics reporting, account administration, and content development are all included in monthly subscriptions. With customisable packages to suit various budgets, Digital Paaji guarantees customised quotations depending on particular needs and goals.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can I manage my social media presence effectively?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Strategic planning, structure, and consistency are necessary for social media management to be effective. Make advantage of tools, schedule material, track interaction, and react quickly. Evaluate performance indicators on a weekly basis and modify strategy as necessary. All-inclusive services are provided by Digital Paaji to keep a strong internet presence.",
+      },
+    },
+  ],
+};
 
 export default function Page() {
-  const [isPageVisible, setIsPageVisible] = useState(true);
-  const [titleIndex, setTitleIndex] = useState(0);
-
-  const titles = [
-    "DigitalPaaji is the No.1 Digital Marketing, Design, and Development Agency.",
-    "Please come back!",
-    "I am feeling lonely :-(",
-    "Don't you love me anymore?",
-  ];
-
-  const descriptions = [
-    "DigitalPaaji is the best Digital Marketing, Design, and Development Agency.",
-    "We miss you! Come back to see our latest updates.",
-    "Feeling lonely? Visit us again for amazing content!",
-    "We still love you! Don't leave us alone 😢",
-  ];
-
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        setIsPageVisible(false);
-        setTitleIndex(1);
-      } else {
-        setIsPageVisible(true);
-        setTitleIndex(0);
-      }
-    };
-
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!isPageVisible) {
-      const interval = setInterval(() => {
-        setTitleIndex((prevIndex) =>
-          prevIndex >= titles.length - 1 ? 1 : prevIndex + 1
-        );
-      }, 2000);
-
-      return () => clearInterval(interval);
-    } else {
-      setTitleIndex(0);
-    }
-  }, [isPageVisible]);
-
-  useEffect(() => {
-    document.title = titles[titleIndex];
-
-    // **Dynamically update meta description**
-    const metaDescription = document.querySelector("meta[name='description']");
-    if (metaDescription) {
-      metaDescription.setAttribute("content", descriptions[titleIndex]);
-    } else {
-      // **If meta tag doesn't exist, create one**
-      const newMetaTag = document.createElement("meta");
-      newMetaTag.name = "description";
-      newMetaTag.content = descriptions[titleIndex];
-      document.head.appendChild(newMetaTag);
-    }
-  }, [titleIndex]);
-
   return (
-    <>
-      <Head>
-        <title>{titles[titleIndex]}</title>
-        <meta name="description" content={descriptions[0]} />
-        <meta name="keywords" content="Digital Marketing, Web Design, SEO, Branding" />
-        <meta name="author" content="DigitalPaaji" />
-        <link rel="icon" href="/Images/favicon.png" />
-      </Head>
+    <Fragment>
+      {/* JSON-LD Schema.org */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
       <main>
         <Home />
       </main>
-    </>
+    </Fragment>
   );
 }

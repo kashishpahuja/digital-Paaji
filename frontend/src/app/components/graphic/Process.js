@@ -27,7 +27,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/consultation.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -49,7 +49,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/research.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -71,7 +71,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/concept.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -93,7 +93,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/revision.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -115,7 +115,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/finalize.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>
@@ -137,7 +137,7 @@ function Why() {
                           width={200}
         height={200}
                     src="/Images/gd/delivery.webp"
-                    alt=""
+                    alt="img"
                     className=" w-full h-[100%] object-contain"
                   />
                 </div>

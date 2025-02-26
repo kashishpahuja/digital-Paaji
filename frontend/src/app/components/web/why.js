@@ -9,7 +9,7 @@ function info() {
       <div className="w-full lg:w-1/2 h-[300px] md:h-[500px] overflow-hidden">
         <img
           src="/Images/services/web.webp"
-          alt=""
+          alt="img"
           className="w-full h-auto lg:h-[100%] lg:p-12 object-cover"
         />
       </div>

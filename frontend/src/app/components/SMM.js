@@ -19,7 +19,7 @@ export default function About() {
 
   return (
     <main>
-        <Header title="Social Media Marketing Agency India
+        <Header title="Social Media Marketing Agency In India
 " 
         content="Drive Engagement, Build Community, and Achieve Your Business Goals
 

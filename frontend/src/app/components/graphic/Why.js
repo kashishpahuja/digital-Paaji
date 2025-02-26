@@ -52,7 +52,7 @@ function Info() {
                 height={200}
           ref={imgRef}
           src="/Images/services/gdWhy.png"
-          alt=""
+          alt="img"
           className=" w-full h-auto object-cover"
         />
       </div>

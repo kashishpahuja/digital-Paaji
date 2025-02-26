@@ -38,7 +38,7 @@ function Offer() {
         <div className="w-full lg:w-1/2 ">
           <img
             src="/Images/addOn/about.webp"
-            alt=""
+            alt="img"
             className="w-full h-auto object-cover"
           />
         </div>

@@ -41,7 +41,7 @@ function AddOn() {
                         width={200}
         height={200}
                   src="/Images/dm/1.webp"
-                  alt=""
+                  alt="img"
                   className="zoom w-full h-auto object-cover"
                 />
               </div>
@@ -64,7 +64,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/addOn/LG.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -87,7 +87,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/dm/2.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -112,7 +112,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/vp/1.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
@@ -135,7 +135,7 @@ function AddOn() {
                           width={200}
         height={200}
                     src="/Images/vp/2.webp"
-                    alt=""
+                    alt="img"
                     className="zoom w-full h-auto object-cover"
                   />
                 </div>
