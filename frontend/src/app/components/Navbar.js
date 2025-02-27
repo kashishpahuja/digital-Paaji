@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { TbMenu4 } from "react-icons/tb";
 import Popup from "./Popup";
+import Image from "next/image";
 
 export default function ResponsiveLayout() {
   const [show, setShow] = useState(null);
@@ -37,7 +38,7 @@ export default function ResponsiveLayout() {
             className="hidden xl:block w-20 h-auto overflow-hidden cursor-pointer"
             onMouseEnter={() => handleMouseEnter("logo2")}
           >
-            <img src="/Images/logo.webp" alt="logo" />
+            <Image width={200} height={200} src="/Images/logo.webp" alt="logo" />
           </div>
           </Link>
 
@@ -55,7 +56,7 @@ export default function ResponsiveLayout() {
               className="block xl:hidden w-60 h-auto overflow-hidden cursor-pointer"
               onMouseEnter={() => handleMouseEnter("logo2")}
             >
-              <img src="/Images/logo2.webp" alt="logo" />
+              <Image width={200} height={200} src="/Images/logo2.webp" alt="logo" />
             </div>
           </Link>
           {/* xl screen Logo */}
@@ -64,7 +65,7 @@ export default function ResponsiveLayout() {
               className="hidden xl:block w-16 h-auto overflow-hidden cursor-pointer transition-all duration-400"
               onMouseEnter={() => handleMouseHover("logo2")}
             >
-              <img src="/Images/logo.webp" alt="logo" />
+              <Image width={200} height={200} src="/Images/logo.webp" alt="logo" />
             </div>
           </Link>
 
@@ -81,7 +82,7 @@ export default function ResponsiveLayout() {
               isHovering ? "w-[12rem]" : "w-[0rem]"
             }`}
           >
-            <img
+            <Image width={200} height={200}
               src="/Images/logo2.webp"
               alt="logo2"
               className=" w-full h-[100%]"
@@ -132,7 +133,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/DM.gif" alt="1" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/DM.gif" alt="1" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -153,7 +154,7 @@ export default function ResponsiveLayout() {
               <div
                 className={`w-28 h-24  ${show === "1" ? "block" : "hidden"}`}
               >
-                <img
+                <Image width={200} height={200}
                   src="/Images/navGif/DM.gif"
                   alt="1"
                   className={` flip w-full h-[100%] ${
@@ -202,7 +203,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/SMM.gif" alt="2" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/SMM.gif" alt="2" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -246,7 +247,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/SEO.gif" alt="3" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/SEO.gif" alt="3" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -290,7 +291,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/VP.gif" alt="4" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/VP.gif" alt="4" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -334,7 +335,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/WD.gif" alt="5" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/WD.gif" alt="5" className="w-full h-[100%]" />
   </div>
 </Link>
 
@@ -378,7 +379,7 @@ export default function ResponsiveLayout() {
       transition: "transform 0.5s ease-in-out, opacity 0.3s ease-in-out",
     }}
   >
-    <img src="/Images/navGif/GD.gif" alt="6" className="w-full h-[100%]" />
+    <Image width={200} height={200} src="/Images/navGif/GD.gif" alt="6" className="w-full h-[100%]" />
   </div>
 </Link>
 

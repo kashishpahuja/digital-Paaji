@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,7 +26,8 @@ Our Story
 
         </div>
         <div className=" w-full lg:w-[40%] "  data-aos="flip-right" >
-          <img
+          <Image
+          width={200} height={200}
             src="/Images/muli/mic.webp"
             alt="img"
             className=" zoom w-full h-auto object-cover"

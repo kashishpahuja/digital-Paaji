@@ -41,9 +41,9 @@ export default function About() {
       <div className="my-16">
         <GetStarted />
       </div>
-      <div className="my-16">
+      {/* <div className="my-16">
         <Clients />
-      </div>
+      </div> */}
       <div className="my-16">
         <Faq />
       </div>

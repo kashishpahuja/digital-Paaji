@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useRef } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
@@ -61,7 +62,8 @@ function Faq() {
               rel="noopener noreferrer"
               className="w-16 h-16 text-green-600 transition-transform duration-500"
             >
-              <img
+              <Image
+              width={200} height={200}
                 src="/Images/services/whIcon.gif"
                 alt="img"
                 className="flip w-full h-auto object-cover"

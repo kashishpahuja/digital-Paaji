@@ -1,16 +1,18 @@
 import React from "react";
 import { AiFillEnvironment, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 function Why() {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center  mx-4 md:mx-12 xl:mx-72 ">
          {/* Map Section */}
       <div className=" w-full lg:w-1/2 ">
-        <img
+        <Image
+        width={200} height={200}
           src="/Images/gd/Graphic.webp"
           alt="img"
-          className="zoom  object-cover lg:object-contain h-[100%]"
+          className="zoom w-full h-auto object-cover lg:object-contain h-[100%]"
         />
       </div>
       {/* Contact Section */}

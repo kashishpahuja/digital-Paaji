@@ -16,7 +16,7 @@ function Icons() {
   return (
     <div>
       {/* Floating Icons */}
-      <div className="flex flex-col items-center justify-center gap-2 fixed bottom-4 right-4">
+      <div className="flex flex-col items-center justify-center gap-2 fixed bottom-4 right-4 z-[99999999]">
         {/* Scroll to Top Icon */}
         <div
           onClick={(e) => {
@@ -53,14 +53,16 @@ function Icons() {
               <div className="flex items-center justify-between p-4 bg-[#48ac48] rounded-t-lg">
                 <div className="flex items-center gap-2">
                   <div className="w-fit h-12 rounded-full">
-                    <img
+                    <Image
+                    width={200} height={200}
                       src="/Images/favicon.png"
                       alt="img"
                       className="w-full h-[100%] object-contain"
                     />
                   </div>
                   <div className="w-fit h-14">
-                    <img
+                    <Image
+                    width={200} height={200}
                       src="/Images/banner/logoWhite.webp"
                       alt="img"
                       className="w-full h-[100%] object-contain"

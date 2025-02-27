@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Offer() {
@@ -36,7 +37,8 @@ function Offer() {
           </div>
         </div>
         <div className="w-full lg:w-1/2 ">
-          <img
+          <Image
+          width={200} height={200}
             src="/Images/addOn/about.webp"
             alt="img"
             className="w-full h-auto object-cover"

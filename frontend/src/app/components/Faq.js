@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { FaChevronDown, FaChevronUp, FaWhatsapp } from "react-icons/fa";
@@ -68,7 +69,7 @@ const handleShowIcon = ()=>{
               rel="noopener noreferrer"
               className=" w-16 h-16 text-green-600 transition-transform duration-500"
             >
-             <img src="/Images/services/whIcon.gif" alt="img" className="flip w-full h-auto object-cover"/>
+             <Image width={200} height={200} src="/Images/services/whIcon.gif" alt="img" className="flip w-full h-auto object-cover"/>
             </Link>
           ):(
             <span className=" text-[#cc5f4d] underline " onMouseEnter={handleShowIcon}>Click</span>

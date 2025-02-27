@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai"; // Import close icon
@@ -40,7 +41,8 @@ function Popup({ handleMenu }) {
 
 <div className="block xl:hidden">
     <div className="">
-    <img src="/Images/logo2.webp" alt="logo" className="w-full h-auto object-cover" />
+    <Image
+    width={200} height={200} src="/Images/logo2.webp" alt="logo" className="w-full h-auto object-cover" />
     </div>
       <ul className="grid grid-cols-2 my-12 gap-6 ">
       <Link
@@ -58,7 +60,8 @@ function Popup({ handleMenu }) {
                 Digital <br /> Marketing
               </li>
               <div className={`w-20 h-20  ${show === "1" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                 src="/Images/navGif/DM.gif"
                   alt="1ykk"
                   className={`flip w-full h-20 object-cover ${show === "1" ? "block" : "hidden"}`}
@@ -81,7 +84,8 @@ function Popup({ handleMenu }) {
                 Social Media <br /> Marketing
               </li>
               <div className={`w-20 h-20  ${show === "2" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                    src="/Images/navGif/SMM.gif"
                   alt="2"
                   className={`flip w-full h-20 object-cover ${show === "2" ? "block" : "hidden"}`}
@@ -104,7 +108,8 @@ function Popup({ handleMenu }) {
                 Search Engine <br /> Optimization
               </li>
               <div className={`w-20 h-20  ${show === "3" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                    src="/Images/navGif/SEO.gif"
 
                   alt="3"
@@ -128,7 +133,8 @@ function Popup({ handleMenu }) {
                 Video <br /> Production
               </li>
               <div className={`w-20 h-20  ${show === "4" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                  src="/Images/navGif/VP.gif"
                   alt="4"
                   className={`flip w-full h-20 object-cover ${show === "4" ? "block" : "hidden"}`}
@@ -151,7 +157,8 @@ function Popup({ handleMenu }) {
                 Website <br /> Development
               </li>
               <div className={`w-20 h-20  ${show === "5" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                   src="/Images/navGif/WD.gif"
                   alt="5"
                   className={`flip w-full h-20 object-cover ${show === "5" ? "block" : "hidden"}`}
@@ -174,7 +181,8 @@ function Popup({ handleMenu }) {
                Graphic <br /> Design
               </li>
               <div className={`w-20 h-20  ${show === "6" ? "block" : "hidden"}`}>
-                <img
+                <Image
+                width={200} height={200}
                    src="/Images/navGif/GD.gif"
                   alt="6"
                   className={`flip w-full h-20 object-cover ${show === "6" ? "block" : "hidden"}`}
@@ -219,7 +227,8 @@ function Popup({ handleMenu }) {
 
           {/* Image on bottom right when any item is hovered */}
           {hovered && (
-              <img
+              <Image
+              width={200} height={200}
                 src={images[hovered]} // Show the corresponding image based on the hovered item
                 alt={hovered}
                 className="image absolute bottom-2 right-4 w-80 h-80 object-cover"

@@ -1,4 +1,9 @@
+# *
 User-agent: *
-Disallow: 
+Allow: /
 
-Sitemap: https://digitalpaaji.com/sitemap.xml
+# Host
+Host: https://yourwebsite.com
+
+# Sitemaps
+Sitemap: https://yourwebsite.com/sitemap.xml

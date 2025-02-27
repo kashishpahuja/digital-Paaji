@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Why() {
   return (
-    <div className="flex flex-col xl:flex-row items-center    mx-4 md:mx-12  xl:mx-72">
+    <div className="flex flex-col xl:flex-row items-center  h-fit  mx-4 md:mx-12  xl:mx-72">
          {/* Map Section */}
       <div className=" w-full xl:w-1/2  ">
         <Image
@@ -13,7 +13,7 @@ function Why() {
                 height={200}
           src="/Images/seo/SEO1.webp"
           alt="img"
-          className="w-full h-[100%] object-contain "
+          className="w-full h-[100%] object-cover "
         />
       </div>
       {/* Contact Section */}

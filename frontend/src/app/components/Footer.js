@@ -12,6 +12,7 @@ import {
   TbBrandTwitterFilled,
   TbBrandYoutubeFilled,
 } from "react-icons/tb";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -19,8 +20,8 @@ function Footer() {
 
 <div className="marquee-container absolute  overflow-hidden whitespace-nowrap">
   <div className="marquee-content animate-footerBg flex mt-[1100px] md:mt-[700px] xl:mt-[100px]">
-    <img src="/Images/addOn/footerBG.webp" alt="Background" className="opacity-15" />
-    <img src="/Images/addOn/footerBG.webp" alt="Background" className="opacity-15" />
+     <Image  width={200} height={200} src="/Images/addOn/footerBG.webp" alt="Background" className="w-full h-auto opacity-15" />
+     <Image  width={200} height={200} src="/Images/addOn/footerBG.webp" alt="Background" className="w-full h-auto opacity-15" />
   </div>
 </div>
 
@@ -28,7 +29,7 @@ function Footer() {
     className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10 xl:gap-0 md:p-6 mx-4 md:mx-12 xl:mx-44  ">
       {/* Column 1 */}
       <div>
-        <Link href={'/'}><img src="/Images/logo2.webp" alt="Logo" /></Link>
+        <Link href={'/'}><Image width={200} height={200} src="/Images/logo2.webp" alt="Logo" className="w-full h-auto object-cover"/></Link>
         <ul className="mt-6 gap-2 flex items-center justify-center">
           <li>
             <Link href="https://www.instagram.com/digital.paajii/" target="_blank">

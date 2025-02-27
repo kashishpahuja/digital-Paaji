@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 function History() {
@@ -61,7 +62,7 @@ function History() {
       {/* Decorative Elements */}
       <div className="">
         <div className="absolute transform top-4 md:bottom-0    ">
-          <img src="/Images/addOn/history.webp" alt="img" />
+          <Image width={200} height={200} src="/Images/addOn/history.webp" alt="img" className="w-full h-auto object-cover"/>
         </div>
       </div>
     </div>

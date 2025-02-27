@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -28,7 +29,7 @@ function Services() {
                   <h3 className="services p-4 text-[#2e2d2d]">{service.name}</h3>
                 </div>
                 <div >
-                  <img
+                  <Image width={200} height={200}
                     src={service.image}
                     alt="Service"
                     className="zoom w-full h-[100%] object-cover p-6"
@@ -40,7 +41,7 @@ function Services() {
                   onClick={handleVideoPopup}
                   className="flex items-center justify-center gap-2 px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg"
                 >
-                  <img
+                  <Image width={200} height={200}
                     src="/Images/addOn/videoIcon.webp"
                     className="w-7 h-7"
                     alt="Video Icon"
