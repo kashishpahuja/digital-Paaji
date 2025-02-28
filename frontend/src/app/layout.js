@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       }
     };
 
-    updateFavicon("/Images/favicon.png");
+    updateFavicon("/favicon.png");
   }, []);
 
   return (
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Your Page Title</title>
         <meta name="description" content="Your Page Description" />
-        <link rel="icon" href="/Images/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       {/* Meta Pixel Code */}
