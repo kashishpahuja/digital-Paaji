@@ -38,7 +38,7 @@ function Banner() {
   };
 
   return (
-    <div className="slide-container h-[640px] md:h-[704px] lg:h-[900px] xl:h-[840px] w-full">
+    <div className="slide-container h-[640px] md:h-[704px] lg:h-[900px] xl:h-[840px] w-full overflow-hidden">
       <Slide1
         handleNextSlide={handleNextSlide}
         handlePrevSlide={handlePrevSlide}

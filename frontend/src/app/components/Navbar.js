@@ -27,7 +27,7 @@ export default function ResponsiveLayout() {
     setIsHovering(false);
   };
   return (
-    <div className="bg-[#ede7db] w-full overflow-hidden sticky top-0  z-[9999999]">
+    <div className="bg-[#ede7db] w-full overflow-hidden ">
       <div className="flex items-center justify-between gap-4  mx-4 xl:mx-12 h-[100px] xl:h-[130px] ">
         {/* <div
           className=" relative flex items-center justify-start w-fit xl:w-[300px]"
