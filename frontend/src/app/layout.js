@@ -10,12 +10,12 @@ import Script from "next/script";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const loadingTimeout = setTimeout(() => setIsLoading(false), 1000);
-    return () => clearTimeout(loadingTimeout);
-  }, []);
+  // useEffect(() => {
+  //   const loadingTimeout = setTimeout(() => setIsLoading(false), 1000);
+  //   return () => clearTimeout(loadingTimeout);
+  // }, []);
 
   useEffect(() => {
     const updateFavicon = (href) => {
@@ -30,15 +30,14 @@ export default function RootLayout({ children }) {
       }
     };
 
-    updateFavicon("/favicon.png");
+    updateFavicon("/Images/favicon.ico");
   }, []);
 
   return (
     <html lang="en">
       <Head>
-        <title>Your Page Title</title>
-        <meta name="description" content="Your Page Description" />
-        <link rel="icon" href="/favicon.png" />
+       
+        <link rel="icon" href="/Images/favicon.ico" />
       </Head>
 
       {/* Meta Pixel Code */}
@@ -104,7 +103,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        {isLoading ? (
+        {/* {isLoading ? (
           <div className="flex items-center justify-center h-screen">
             <Image
               width={200}
@@ -113,14 +112,14 @@ export default function RootLayout({ children }) {
               alt="Loading..."
             />
           </div>
-        ) : (
+        ) : ( */}
           <>
             <Navbar />
             <main>{children}</main>
             <Footer />
             <Icons />
           </>
-        )}
+        {/* )} */}
       </body>
     </html>
   );
