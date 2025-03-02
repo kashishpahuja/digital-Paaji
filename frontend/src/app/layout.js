@@ -17,27 +17,12 @@ export default function RootLayout({ children }) {
   //   return () => clearTimeout(loadingTimeout);
   // }, []);
 
-  useEffect(() => {
-    const updateFavicon = (href) => {
-      const existingLink = document.querySelector("link[rel='icon']");
-      if (existingLink) {
-        existingLink.href = href;
-      } else {
-        const newLink = document.createElement("link");
-        newLink.rel = "icon";
-        newLink.href = href;
-        document.head.appendChild(newLink);
-      }
-    };
-
-    updateFavicon("/Images/favicon.ico");
-  }, []);
 
   return (
     <html lang="en">
       <Head>
        
-        <link rel="icon" href="/Images/favicon.ico" />
+        <link rel="icon" href="/Images/favicon.ico?v=2" />
       </Head>
 
       {/* Meta Pixel Code */}
