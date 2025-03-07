@@ -36,8 +36,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-       
-        <link rel="icon" href="/Images/favicon.ico?v=2" />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" type="image/png" href="/favicon.png" />
+
       </Head>
 
       {/* Meta Pixel Code */}

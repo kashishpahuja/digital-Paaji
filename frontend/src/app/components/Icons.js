@@ -55,7 +55,7 @@ function Icons() {
                   <div className="w-fit h-12 rounded-full">
                     <Image
                     width={200} height={200}
-                      src="/Images/favicon.png"
+                      src="/favicon.ico"
                       alt="img"
                       className="w-full h-[100%] object-contain"
                     />
