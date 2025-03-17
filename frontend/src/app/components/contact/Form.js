@@ -11,6 +11,7 @@ export default function ContactForm() {
     lname: '',
     phone: '',
     email: '',
+    company:'',
     message: '',
     recaptchaToken: '', 
   });
@@ -38,6 +39,8 @@ export default function ContactForm() {
     else if (!/\S+@\S+\.\S+/.test(formData.email))
       tempErrors.email = 'Email is invalid';
     if (!formData.message) tempErrors.message = 'Message is required';
+    if (!formData.company) tempErrors.company = 'Company Name is required';
+
     if (!formData.recaptchaToken) tempErrors.recaptchaToken = 'Please complete the reCAPTCHA';
 
     setErrors(tempErrors);
@@ -179,9 +182,26 @@ export default function ContactForm() {
           {isFormTouched && errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
 
+   {/* company */}
+   <div className="md:col-span-2">
+          <label className="bungeeHead block lg:text-lg mb-2">
+          Please tell us how we can help you? *</label>
+          <textarea
+            name="company"
+            value={formData.company}
+            onChange={handleChange}
+            placeholder="Enter Your Company Name"
+            rows={4}
+            className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
+          ></textarea>
+          {isFormTouched && errors.company && <p className="text-red-500 text-sm">{errors.company}</p>}
+        </div>
+
+
         {/* Message */}
         <div className="md:col-span-2">
-          <label className="bungeeHead block lg:text-lg mb-2">MESSAGE *</label>
+          <label className="bungeeHead block lg:text-lg mb-2">
+          Please tell us how we can help you? *</label>
           <textarea
             name="message"
             value={formData.message}
