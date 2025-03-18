@@ -87,8 +87,8 @@ const handleCheckoxChange = (service)=>{
     setIsSubmitting(true);
 
     try {
-      // const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
-      const response = await fetch('http://localhost:8000/send-mail', {
+      const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
+      // const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
         headers: {
@@ -179,7 +179,7 @@ const handleCheckoxChange = (service)=>{
 
         {/* Last Name */}
         <div>
-          <label className="bungeeHead block lg:text-lg mb-2">LAST NAME *</label>
+          <label className="bungeeHead block lg:text-lg mb-2">LAST NAME</label>
           <input
             type="text"
             name="lname"
