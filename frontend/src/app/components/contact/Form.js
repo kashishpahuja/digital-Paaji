@@ -6,19 +6,42 @@ import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function ContactForm() {
+
+  const Services = [
+    "Website Development",
+    "SEO (Search Engine Optimization)",
+    "PPC/Google Ads",
+    "Social Media Marketing",
+    "Content Marketing",
+    "Graphic Designing",
+    "App Development",
+    "Other",
+  ]
+
+
   const [formData, setFormData] = useState({
     fname: '',
     lname: '',
     phone: '',
     email: '',
     company:'',
+    website:'',
+    business:'',
+    service:[],
     message: '',
-    recaptchaToken: '', 
+    recaptchaToken: '',
   });
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isFormTouched, setIsFormTouched] = useState(false);
+  const [selectedServices, setSelectedServices] = useState([]);
+
+const handleCheckoxChange = (service)=>{
+  setSelectedServices((prev)=>
+  prev.includes(service) ? prev.filter((s)=>s!==service) : [...prev, service]
+);
+};
 
   // Handle input changes
   const handleChange = (e) => {
@@ -31,16 +54,17 @@ export default function ContactForm() {
     const tempErrors = {};
 
     if (!formData.fname) tempErrors.fname = 'First name is required';
-    if (!formData.lname) tempErrors.lname = 'Last name is required';
+    // if (!formData.lname) tempErrors.lname = 'Last name is required';
     if (!formData.phone) tempErrors.phone = 'Phone number is required';
     else if (!/^\+?\d{10,15}$/.test(formData.phone))
       tempErrors.phone = 'Phone number must be valid (e.g., +1234567890)';
     if (!formData.email) tempErrors.email = 'Email is required';
     else if (!/\S+@\S+\.\S+/.test(formData.email))
       tempErrors.email = 'Email is invalid';
+    if (formData.website && !/^(https?:\/\/)?([\w-]+\.)+[\w-]{2,}(\/\S*)?$/.test(formData.website))
+      tempErrors.website = 'Please enter a valid website URL (e.g., https://example.com)';
     if (!formData.message) tempErrors.message = 'Message is required';
-    if (!formData.company) tempErrors.company = 'Company Name is required';
-
+    if (selectedServices.length === 0) tempErrors.service = 'Please select at least one service.';
     if (!formData.recaptchaToken) tempErrors.recaptchaToken = 'Please complete the reCAPTCHA';
 
     setErrors(tempErrors);
@@ -52,14 +76,19 @@ export default function ContactForm() {
     e.preventDefault();
     setIsFormTouched(true);
 
+  // Ensure selectedServices is included in formData
+  const updatedFormData = { ...formData, service: selectedServices };
+
+  setFormData(updatedFormData); // Update state
+
     const isValid = validate();
     if (!isValid) return;
 
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
-      // const response = await fetch('http://localhost:8000/send-mail', {
+      // const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
+      const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
         headers: {
@@ -80,14 +109,22 @@ export default function ContactForm() {
           progress: undefined,
         });
         setFormData({
-          fname: '',
-          lname: '',
-          phone: '',
-          email: '',
-          message: '',
-          recaptchaToken: '', 
+          
+            fname: '',
+            lname: '',
+            phone: '',
+            email: '',
+            company:'',
+            website:'',
+            business:'',
+            service:[],
+            message: '',
+            recaptchaToken: '',
+          
         });
         setIsFormTouched(false);
+        setSelectedServices([]);
+
       } else {
         toast.error(data.error || 'Something went wrong!', {
           position: 'top-right',
@@ -151,7 +188,7 @@ export default function ContactForm() {
             placeholder="Enter your last name"
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           />
-          {isFormTouched && errors.lname && <p className="text-red-500 text-sm">{errors.lname}</p>}
+          {/* {isFormTouched && errors.lname && <p className="text-red-500 text-sm">{errors.lname}</p>} */}
         </div>
 
         {/* Phone */}
@@ -183,18 +220,65 @@ export default function ContactForm() {
         </div>
 
    {/* company */}
-   <div className="md:col-span-2">
+   <div className="">
           <label className="bungeeHead block lg:text-lg mb-2">
-          Please tell us how we can help you? *</label>
+          What is the name of your company? </label>
           <textarea
             name="company"
             value={formData.company}
             onChange={handleChange}
             placeholder="Enter Your Company Name"
-            rows={4}
+            rows={1}
             className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
           ></textarea>
-          {isFormTouched && errors.company && <p className="text-red-500 text-sm">{errors.company}</p>}
+          {/* {isFormTouched && errors.company && <p className="text-red-500 text-sm">{errors.company}</p>} */}
+        </div>
+           {/* website */}
+   <div className="">
+          <label className="bungeeHead block lg:text-lg mb-2">
+          Website URL (if available)</label>
+          <textarea
+            name="website"
+            value={formData.website}
+            onChange={handleChange}
+            placeholder="Enter Your website Name"
+            rows={1}
+            className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
+          ></textarea>
+          {isFormTouched && errors.website && <p className="text-red-500 text-sm">{errors.website}</p>}
+        </div>
+                           {/* website */}
+   <div className="">
+          <label className="bungeeHead block lg:text-lg mb-2">
+          What services are you interested in ? *</label>
+          
+          {Services.map((service)=>(
+            <div className='flex items-center mb-2' key={service}>
+ <input type='checkbox' id={service} name={service} value={service}
+          checked={selectedServices.includes(service)}
+          onChange={()=>handleCheckoxChange(service)}
+          className='mr-2 h-5 w-5 text-gray-700 border-gray-300 rounded '
+          />
+          <label htmlFor={service} className='text-gray-700'>{service}</label>
+
+            </div>
+          ))}
+         
+          {isFormTouched && errors.service && <p className="text-red-500 text-sm">{errors.service}</p>}
+        </div>
+                   {/* business */}
+   <div className="md:col-span-2">
+          <label className="bungeeHead block lg:text-lg mb-2">
+          Business Industry :</label>
+          <textarea
+            name="business"
+            value={formData.business}
+            onChange={handleChange}
+            placeholder="Enter Your business Name"
+            rows={1}
+            className="bg-[#ede7db] w-full border px-4 py-2 focus:outline-none border-black"
+          ></textarea>
+          {/* {isFormTouched && errors.business && <p className="text-red-500 text-sm">{errors.business}</p>} */}
         </div>
 
 
