@@ -124,7 +124,7 @@ const mailOptions = {
     console.log("Email sent successfully!");
 
     // WhatsApp API Trigger
-    const whatsappUrl = "http://157.245.105.3/restapi/requestjson.php";
+    const whatsappUrl = "https://157.245.105.3/restapi/requestjson.php";
     // const whatsappPayload = {
     //   country_code: "91",
     //   mobile: phone, // Send message to the provided phone number
