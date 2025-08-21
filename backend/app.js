@@ -122,7 +122,7 @@ const mailOptions = {
     // Send the email
     await transporter.sendMail(mailOptions);
     console.log("Email sent successfully!");
-
+     res.status(200).json({ message: "Your message has been sent successfully!" });
     // WhatsApp API Trigger
     const whatsappUrl = "https://157.245.105.3/restapi/requestjson.php";
     // const whatsappPayload = {
