@@ -92,7 +92,8 @@ export default function ServiceCityContent({ serviceName, cityName }) {
             ]
           }
         ]
-      },
+      }
+      ,
         {
           id: 2,
           title: "Difference Between Car Washing and Car Detailing",
@@ -405,6 +406,609 @@ export default function ServiceCityContent({ serviceName, cityName }) {
   ]
 },
       ];
+
+
+
+
+
+
+
+
+      // Services
+// const services = [
+//   "Digital Marketing",
+//   "Social Media Marketing",
+//   "Search Engine Optimization",
+//   "Video Production",
+//   "Website Development",
+//   "Graphic Design",
+// ];
+
+// // Cities
+// const cities = [
+//   "Patiala",
+//   "Chandigarh",
+//   "Mohali",
+//   "Ludhiana",
+//   "Nabha",
+//   "Rajpura",
+//   "Samana",
+//   "Bathinda",
+//   "Panchkula",
+// ];
+
+// // FAQs
+// const serviceFaqs = {
+//   "Digital Marketing": {
+//     Patiala: [
+//       {
+//         question: "How can Digital Marketing help Patiala businesses?",
+//         answer: "We help local Patiala businesses attract more customers through SEO, social media, and targeted ads.",
+//       },
+//       {
+//         question: "Do you offer affordable plans for startups?",
+//         answer: "Yes, we provide flexible packages tailored for startups and small businesses in Patiala.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "What is the benefit of Digital Marketing in Chandigarh?",
+//         answer: "We create custom campaigns for Chandigarh’s competitive market to boost visibility and leads.",
+//       },
+//       {
+//         question: "Do you provide paid ads management?",
+//         answer: "Yes, we manage Google Ads, Facebook Ads, and Instagram Ads for businesses in Chandigarh.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you work with Mohali IT companies?",
+//         answer: "Yes, we specialize in campaigns for IT firms, startups, and service providers in Mohali.",
+//       },
+//       {
+//         question: "Can you help increase website traffic?",
+//         answer: "Absolutely, our SEO and ad strategies are designed to bring more visitors to Mohali businesses.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Do you run campaigns for Ludhiana industries?",
+//         answer: "Yes, we work with textile, manufacturing, and retail businesses in Ludhiana.",
+//       },
+//       {
+//         question: "Can you improve online branding?",
+//         answer: "Yes, we enhance brand image through social media and creative marketing campaigns.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "How does Digital Marketing benefit Nabha businesses?",
+//         answer: "We help small-town businesses in Nabha reach wider audiences through online platforms.",
+//       },
+//       {
+//         question: "Do you offer lead generation services?",
+//         answer: "Yes, we create targeted campaigns to generate quality leads for Nabha-based companies.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Do you handle digital campaigns for Rajpura businesses?",
+//         answer: "Yes, we manage marketing for local shops, institutes, and service providers in Rajpura.",
+//       },
+//       {
+//         question: "Is reporting included in campaigns?",
+//         answer: "Yes, we provide monthly performance reports to track ROI for Rajpura clients.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Can you promote Samana-based shops?",
+//         answer: "Yes, we create campaigns for retail stores and small businesses in Samana.",
+//       },
+//       {
+//         question: "Do you help with Facebook promotions?",
+//         answer: "Yes, we run engaging ad campaigns targeting Samana’s local audience.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you offer campaigns for Bathinda industries?",
+//         answer: "Yes, we serve Bathinda’s growing industries with SEO, ads, and brand awareness strategies.",
+//       },
+//       {
+//         question: "Do you provide local SEO?",
+//         answer: "Yes, we optimize Google Maps and local search for Bathinda businesses.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you serve Panchkula startups?",
+//         answer: "Yes, we help Panchkula startups gain online visibility with custom strategies.",
+//       },
+//       {
+//         question: "Do you provide website audits?",
+//         answer: "Yes, we analyze websites and suggest improvements for Panchkula clients.",
+//       },
+//     ],
+//   },
+
+//   "Social Media Marketing": {
+//     Patiala: [
+//       {
+//         question: "Which platforms do you cover in Patiala?",
+//         answer: "We manage Facebook, Instagram, LinkedIn, and YouTube for Patiala-based businesses.",
+//       },
+//       {
+//         question: "Do you create local content?",
+//         answer: "Yes, we design posts and reels specific to the Patiala audience.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "Do you run Instagram Ads in Chandigarh?",
+//         answer: "Yes, we manage ad campaigns to reach Chandigarh’s competitive market.",
+//       },
+//       {
+//         question: "Can you increase brand awareness?",
+//         answer: "Yes, our strategies focus on boosting reach and engagement in Chandigarh.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you handle influencer marketing?",
+//         answer: "Yes, we collaborate with local influencers in Mohali for brand promotions.",
+//       },
+//       {
+//         question: "Do you create video content?",
+//         answer: "Yes, we produce engaging reels and shorts for Mohali clients.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Can you manage e-commerce social pages?",
+//         answer: "Yes, we create campaigns for Ludhiana’s online clothing and retail stores.",
+//       },
+//       {
+//         question: "Do you create festival campaigns?",
+//         answer: "Yes, we design special festive posts for Ludhiana businesses.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "Do you provide low-budget social media ads?",
+//         answer: "Yes, we run budget-friendly campaigns for Nabha clients.",
+//       },
+//       {
+//         question: "Do you manage daily posting?",
+//         answer: "Yes, we schedule and manage consistent posts for Nabha businesses.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Can you manage Rajpura business profiles?",
+//         answer: "Yes, we create and manage social profiles for shops and services.",
+//       },
+//       {
+//         question: "Do you help in running offers?",
+//         answer: "Yes, we design creative offers and promote them online.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Do you create promotional reels?",
+//         answer: "Yes, we produce reels and videos for Samana businesses.",
+//       },
+//       {
+//         question: "Can you boost local followers?",
+//         answer: "Yes, we target Samana’s local audience for organic follower growth.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you manage business accounts?",
+//         answer: "Yes, we provide full-page management for Bathinda brands.",
+//       },
+//       {
+//         question: "Do you handle ad campaigns?",
+//         answer: "Yes, we optimize ad spending to reach Bathinda customers.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you create LinkedIn campaigns?",
+//         answer: "Yes, we design campaigns for B2B clients in Panchkula.",
+//       },
+//       {
+//         question: "Do you help with page optimization?",
+//         answer: "Yes, we optimize bio, highlights, and content for Panchkula businesses.",
+//       },
+//     ],
+//   },
+
+//   "Search Engine Optimization": {
+//     Patiala: [
+//       {
+//         question: "Do you offer local SEO in Patiala?",
+//         answer: "Yes, we optimize Google Maps and keywords for Patiala businesses.",
+//       },
+//       {
+//         question: "How long before results appear?",
+//         answer: "Generally, it takes 3–6 months depending on competition.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "Do you track keyword rankings?",
+//         answer: "Yes, we provide detailed keyword ranking reports for Chandigarh clients.",
+//       },
+//       {
+//         question: "Do you work on e-commerce SEO?",
+//         answer: "Yes, we help optimize Chandigarh-based e-commerce websites.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you provide technical SEO?",
+//         answer: "Yes, we fix errors, speed, and indexing issues for Mohali businesses.",
+//       },
+//       {
+//         question: "Do you provide backlinks?",
+//         answer: "Yes, we build quality backlinks to improve rankings.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Do you offer SEO for industries?",
+//         answer: "Yes, we handle SEO for Ludhiana’s manufacturing and textile businesses.",
+//       },
+//       {
+//         question: "Do you provide competitor analysis?",
+//         answer: "Yes, we research and beat competitors for better rankings.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "Do you provide local keyword targeting?",
+//         answer: "Yes, we optimize Nabha-based keywords for better visibility.",
+//       },
+//       {
+//         question: "Do you provide content writing?",
+//         answer: "Yes, we create SEO-optimized blogs and website content.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Do you help with local search ranking?",
+//         answer: "Yes, we improve Rajpura businesses’ visibility in Google searches.",
+//       },
+//       {
+//         question: "Do you offer SEO audits?",
+//         answer: "Yes, we provide website SEO audits with suggestions.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Do you handle small businesses’ SEO?",
+//         answer: "Yes, we create affordable SEO plans for Samana shops and services.",
+//       },
+//       {
+//         question: "Do you optimize websites for mobile?",
+//         answer: "Yes, we ensure Samana business sites rank on mobile searches.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you provide SEO for schools and colleges?",
+//         answer: "Yes, we optimize educational institutes’ websites in Bathinda.",
+//       },
+//       {
+//         question: "Do you work on local maps SEO?",
+//         answer: "Yes, we help Bathinda businesses rank in Google Maps.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you work on B2B SEO?",
+//         answer: "Yes, we create SEO plans for Panchkula’s corporate businesses.",
+//       },
+//       {
+//         question: "Do you optimize for lead generation?",
+//         answer: "Yes, we target high-intent keywords for Panchkula clients.",
+//       },
+//     ],
+//   },
+
+//   "Video Production": {
+//     Patiala: [
+//       {
+//         question: "Do you make promotional videos?",
+//         answer: "Yes, we create ad videos, explainers, and reels for Patiala businesses.",
+//       },
+//       {
+//         question: "Do you offer corporate video shoots?",
+//         answer: "Yes, we produce professional corporate videos.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "Do you create YouTube content?",
+//         answer: "Yes, we produce engaging YouTube videos for Chandigarh clients.",
+//       },
+//       {
+//         question: "Do you provide animation videos?",
+//         answer: "Yes, we design 2D/3D animated videos.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you make startup pitch videos?",
+//         answer: "Yes, we create high-quality pitch videos for Mohali startups.",
+//       },
+//       {
+//         question: "Do you edit existing footage?",
+//         answer: "Yes, we provide professional video editing services.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Do you make product showcase videos?",
+//         answer: "Yes, we produce promotional videos for Ludhiana industries.",
+//       },
+//       {
+//         question: "Do you provide event coverage?",
+//         answer: "Yes, we shoot and edit events in Ludhiana.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "Do you create reels for shops?",
+//         answer: "Yes, we make creative reels for Nabha retailers.",
+//       },
+//       {
+//         question: "Do you provide video ads?",
+//         answer: "Yes, we design local ad videos for Nabha clients.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Do you create explainer videos?",
+//         answer: "Yes, we produce animated explainers for Rajpura businesses.",
+//       },
+//       {
+//         question: "Do you handle voiceovers?",
+//         answer: "Yes, we provide professional voiceovers in English, Hindi, and Punjabi.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Do you make business intro videos?",
+//         answer: "Yes, we create intro videos for Samana shops and services.",
+//       },
+//       {
+//         question: "Do you make reels?",
+//         answer: "Yes, we create engaging reels for Samana businesses.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you shoot TV ads?",
+//         answer: "Yes, we provide ad production services for Bathinda companies.",
+//       },
+//       {
+//         question: "Do you provide editing services?",
+//         answer: "Yes, we edit and enhance client-provided videos.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you provide corporate video production?",
+//         answer: "Yes, we shoot and edit videos for Panchkula companies.",
+//       },
+//       {
+//         question: "Do you create animated promos?",
+//         answer: "Yes, we design animated promotional videos.",
+//       },
+//     ],
+//   },
+
+//   "Website Development": {
+//     Patiala: [
+//       {
+//         question: "Do you build e-commerce websites?",
+//         answer: "Yes, we design e-commerce platforms with payment gateways.",
+//       },
+//       {
+//         question: "Do you make responsive designs?",
+//         answer: "Yes, all our websites are mobile-friendly.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "Do you create custom websites?",
+//         answer: "Yes, we develop custom solutions for Chandigarh clients.",
+//       },
+//       {
+//         question: "Do you provide hosting support?",
+//         answer: "Yes, we assist with hosting and domain setup.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you create portals for startups?",
+//         answer: "Yes, we build startup-friendly platforms.",
+//       },
+//       {
+//         question: "Do you provide maintenance?",
+//         answer: "Yes, we offer website maintenance services.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Do you create websites for industries?",
+//         answer: "Yes, we build sites for Ludhiana’s industrial sector.",
+//       },
+//       {
+//         question: "Do you integrate CRMs?",
+//         answer: "Yes, we integrate CRM and ERP solutions.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "Do you make websites for small shops?",
+//         answer: "Yes, we build simple sites for Nabha businesses.",
+//       },
+//       {
+//         question: "Do you create landing pages?",
+//         answer: "Yes, we design landing pages for ads and offers.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Do you build educational websites?",
+//         answer: "Yes, we create portals for schools and colleges.",
+//       },
+//       {
+//         question: "Do you provide analytics setup?",
+//         answer: "Yes, we integrate Google Analytics for tracking.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Do you create websites for services?",
+//         answer: "Yes, we build service-based websites for Samana.",
+//       },
+//       {
+//         question: "Do you provide SSL certificates?",
+//         answer: "Yes, we ensure all sites are secure with SSL.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you make real estate websites?",
+//         answer: "Yes, we build portals for Bathinda’s property market.",
+//       },
+//       {
+//         question: "Do you optimize websites for speed?",
+//         answer: "Yes, we ensure fast-loading websites.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you create business websites?",
+//         answer: "Yes, we build corporate websites for Panchkula clients.",
+//       },
+//       {
+//         question: "Do you provide redesign services?",
+//         answer: "Yes, we redesign outdated websites.",
+//       },
+//     ],
+//   },
+
+//   "Graphic Design": {
+//     Patiala: [
+//       {
+//         question: "Do you create logos?",
+//         answer: "Yes, we design unique logos for Patiala clients.",
+//       },
+//       {
+//         question: "Do you make brochures?",
+//         answer: "Yes, we design brochures and catalogs.",
+//       },
+//     ],
+//     Chandigarh: [
+//       {
+//         question: "Do you create branding kits?",
+//         answer: "Yes, we provide logo, color palette, and brand guidelines.",
+//       },
+//       {
+//         question: "Do you design social media posts?",
+//         answer: "Yes, we design creatives for Facebook and Instagram.",
+//       },
+//     ],
+//     Mohali: [
+//       {
+//         question: "Do you provide packaging design?",
+//         answer: "Yes, we design product packaging for Mohali clients.",
+//       },
+//       {
+//         question: "Do you design infographics?",
+//         answer: "Yes, we create marketing infographics.",
+//       },
+//     ],
+//     Ludhiana: [
+//       {
+//         question: "Do you design posters?",
+//         answer: "Yes, we create posters for Ludhiana businesses.",
+//       },
+//       {
+//         question: "Do you design banners?",
+//         answer: "Yes, we provide offline and online banner designs.",
+//       },
+//     ],
+//     Nabha: [
+//       {
+//         question: "Do you create menu designs?",
+//         answer: "Yes, we design menus for restaurants and cafes.",
+//       },
+//       {
+//         question: "Do you make flyers?",
+//         answer: "Yes, we design flyers for local businesses.",
+//       },
+//     ],
+//     Rajpura: [
+//       {
+//         question: "Do you create business cards?",
+//         answer: "Yes, we design professional visiting cards.",
+//       },
+//       {
+//         question: "Do you design branding material?",
+//         answer: "Yes, we create stationery and identity kits.",
+//       },
+//     ],
+//     Samana: [
+//       {
+//         question: "Do you make digital ads?",
+//         answer: "Yes, we design creatives for Samana’s businesses.",
+//       },
+//       {
+//         question: "Do you design posters for shops?",
+//         answer: "Yes, we provide shop promotional designs.",
+//       },
+//     ],
+//     Bathinda: [
+//       {
+//         question: "Do you design event materials?",
+//         answer: "Yes, we design invitations and posters for Bathinda events.",
+//       },
+//       {
+//         question: "Do you create magazine designs?",
+//         answer: "Yes, we design print layouts for magazines.",
+//       },
+//     ],
+//     Panchkula: [
+//       {
+//         question: "Do you create presentation designs?",
+//         answer: "Yes, we design pitch decks and PPTs.",
+//       },
+//       {
+//         question: "Do you make digital branding creatives?",
+//         answer: "Yes, we design social and ad creatives.",
+//       },
+//     ],
+//   },
+// };
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   const serviceFaqs = {
