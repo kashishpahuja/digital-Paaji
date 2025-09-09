@@ -4,10 +4,33 @@ import { useState } from "react";
 import { TbMenu4 } from "react-icons/tb";
 import Popup from "./Popup";
 import Image from "next/image";
+import { hrefFor } from "../lib/slug";
 
 export default function ResponsiveLayout() {
   const [show, setShow] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to track popup visibility
+  const [openService, setOpenService] = useState(null);
+
+  const services = [
+    "Digital Marketing",
+    "Social Media Marketing",
+    "Search Engine Optimization",
+    "Video Production",
+    "Website Development",
+    "Graphic Design",
+  ];
+
+  const cities = [
+    "Patiala",
+    "Chandigarh",
+    "Mohali",
+    "Ludhiana",
+    "Nabha",
+    "Rajpura",
+    "Samana",
+    "Bathinda",
+    "Panchkula",
+  ];
 
   const handleMouseEnter = (elem) => setShow(elem);
   const handleMouseLeave = () => setShow(null);
@@ -27,7 +50,7 @@ export default function ResponsiveLayout() {
     setIsHovering(false);
   };
   return (
-    <div className="bg-[#ede7db] w-full overflow-hidden ">
+    <div className="bg-[#ede7db] w-full  ">
       <div className="flex items-center justify-between gap-4  mx-4 xl:mx-12 h-[100px] xl:h-[130px] ">
         {/* <div
           className=" relative flex items-center justify-start w-fit xl:w-[300px]"
@@ -363,6 +386,7 @@ export default function ResponsiveLayout() {
   >
     Graphic <br /> Design
   </li>
+  
 
   {/* GIF - Moves Up and Appears */}
   <div
@@ -382,6 +406,63 @@ export default function ResponsiveLayout() {
     <Image width={200} height={200} src="/Images/navGif/GD.gif" alt="6" className="w-full h-[100%]" />
   </div>
 </Link>
+
+{/* Link 7 */}
+<div className="relative inline-block group z-[9999]">
+      {/* Main Button */}
+      <button className="relative block w-28 h-24 perspective-1000"
+        onMouseEnter={() => setOpenService('all')} // open all dropdown
+      >
+        <li
+          className="heading text-[14px] w-32 p-2 font-bungee-inline text-center absolute left-0 flex items-center justify-center transition-all duration-500"
+          style={{
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%) rotateX(0deg)",
+          }}
+        >
+          Service <br /> Areas
+        </li>
+      </button>
+
+      {/* First Dropdown */}
+      <ul
+        className="absolute left-0   mt-2 w-56  bg-[#363534]    
+                   opacity-0 group-hover:opacity-100 group-hover:translate-y-0 
+                   transition-all duration-300 translate-y-2 z-[999999]"
+      >
+        {services.map((service, idx) => (
+          <li
+            key={idx}
+            className="relative px-4 py-2  font-semibold text-[#ede7db] hover:bg-[#ede7db] hover:text-[#363534] cursor-pointer group/item"
+            onMouseEnter={() => setOpenService(idx)}
+            onMouseLeave={() => setOpenService(null)}
+          >
+            {service}
+
+            {/* Second Dropdown (Cities) */}
+            {openService === idx && (
+              <div className="absolute left-full top-0 w-44  ">
+              <ul className=" bg-[#ede7db]  ">
+                {cities.map((city, cidx) => (
+                  <Link key={cidx} 
+                  href={hrefFor(service, city)}
+                  >
+                  <li
+                    
+                    className="px-4 py-2 bg-[#ede7db] text-[#363534] hover:text-[#ede7db]  hover:bg-[#363534] cursor-pointer"
+                  >
+                    {city}
+                  </li>
+                  </Link>
+                ))}
+              </ul>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
 
           </ul>
         </div>
