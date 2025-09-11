@@ -1,6 +1,6 @@
-import { SERVICES, CITIES } from "../../lib/constants";
-import { serviceSlug, pageSlug } from "../../lib/slug";
-import ServiceCityContent from "../../components/ServiceCityContent"; // client component (below)
+import { SERVICES, CITIES } from "../../../../public/lib/constants";
+import { serviceSlug, pageSlug } from "../../../../public/lib/slug";
+import ServiceCityContent from "../../components/ServiceCities"; // client component (below)
 
 // Pre-generate all combinations at build time (SSG)
 export async function generateStaticParams() {
@@ -37,10 +37,11 @@ export default function Page({ params }) {
   const citySlug = page.replace(`${service}-agency-`, "");
 
   const toTitle = (slug) =>
-    slug.split("-").map(w => w[0]?.toUpperCase() + w.slice(1)).join(" ");
+    slug.split("-").map((w) => w[0]?.toUpperCase() + w.slice(1)).join(" ");
 
-  const serviceName = toTitle(service);
-  const cityName = toTitle(citySlug);
+  const serviceName = service.toLowerCase(); // normalize
+  const cityName = citySlug.toLowerCase();   // normalize
 
-  return <ServiceCityContent serviceSlug={service} serviceName={serviceName} cityName={cityName} />;
+  return <ServiceCityContent serviceName={serviceName} cityName={cityName} />;
 }
+

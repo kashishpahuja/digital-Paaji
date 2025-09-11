@@ -8,6 +8,7 @@ export const SERVICES = [
   "Graphic Design",
 ];
 
+
 export const CITIES = [
   "Patiala",
   "Chandigarh",
@@ -17,5 +18,5 @@ export const CITIES = [
   "Rajpura",
   "Samana",
   "Bathinda",
-  "Panchkula",
+  "Panchkula"
 ];
