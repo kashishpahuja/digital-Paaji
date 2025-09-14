@@ -427,7 +427,7 @@ export default function ResponsiveLayout() {
 
       {/* First Dropdown */}
       <ul
-        className="absolute left-0   mt-2 w-56  bg-[#363534]   border-2  border-[#363534af] 
+        className="absolute -left-32 2xl:left-0  mt-2 w-56  bg-[#363534]   border-2  border-[#363534af] 
                    opacity-0 group-hover:opacity-100 group-hover:translate-y-0 
                    transition-all duration-300 translate-y-2 z-[999999]"
       >

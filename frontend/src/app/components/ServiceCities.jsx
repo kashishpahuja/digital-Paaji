@@ -46,17 +46,17 @@ export default function ServiceCityContent({ serviceName, cityName }) {
           </p>
           <p className="text-md text-gray-700">{blog.description}</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 h-80">
-            {blog.images.map((img, i) => (
+          <div className="grid grid-cols-1 mt-4 h-80">
+            {/* {blog.images.map((img, i) => ( */}
               <Image
-                key={i}
-                src={img}
+                // key={i}
+                src={'/Images/services.webp'}
                 alt="blog"
                 width={220}
                 height={220}
                 className="w-full h-[100%] object-cover"
               />
-            ))}
+            {/* ))} */}
           </div>
 
           <div className="mt-8 space-y-8">
