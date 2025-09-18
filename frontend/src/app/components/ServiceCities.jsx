@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { BLOGS, FAQS } from "../../../public/lib/content"; // import data
+import { BLOGS } from "../../../public/lib/content"; // import data
 
 export default function ServiceCityContent({ serviceName, cityName }) {
   const [selectedBlog, setSelectedBlog] = useState(0);
@@ -34,7 +34,7 @@ export default function ServiceCityContent({ serviceName, cityName }) {
   };
 
   return (
-    <div className="px-4 lg:px-12 xl:px-36 my-24 flex items-start flex-wrap-reverse xl:flex-nowrap justify-center gap-12">
+    <div className="px-4 lg:px-12 xl:px-36 my-24 flex items-start flex-wrap xl:flex-nowrap justify-center gap-12">
       {/* Left Content */}
       <div className="w-full xl:w-[75%]">
         <div className="flex flex-col gap-6">
@@ -46,7 +46,7 @@ export default function ServiceCityContent({ serviceName, cityName }) {
           </p>
           <p className="text-md text-gray-700">{blog.description}</p>
 
-          <div className="grid grid-cols-1 mt-4 h-80">
+          <div className="grid grid-cols-1 mt-4 h-auto ">
             {/* {blog.images.map((img, i) => ( */}
               <Image
                 // key={i}

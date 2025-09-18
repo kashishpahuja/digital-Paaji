@@ -1,6 +1,7 @@
 import { SERVICES, CITIES } from "../../../../public/lib/constants";
 import { serviceSlug, pageSlug } from "../../../../public/lib/slug";
 import ServiceCityContent from "../../components/ServiceCities"; // client component (below)
+import { BLOGS } from "../../../../public/lib/content"; // import data
 
 // Pre-generate all combinations at build time (SSG)
 export async function generateStaticParams() {
@@ -19,15 +20,35 @@ export async function generateStaticParams() {
 // Optional: metadata for SEO for each generated page
 export async function generateMetadata({ params }) {
   const { service, page } = params;
+
+
+  // find matching blog entry
+  const blog = BLOGS.find(
+    (b) =>
+      b.service === service.toLowerCase() &&
+      b.slug === page
+  );
+
+  if (!blog || !blog.meta) {
+    return {
+      title: "Digital Paaji",
+      description: "Best Digital Marketing Services",
+    };
+  } 
+
   const citySlug = page.replace(`${service}-agency-`, "");
   const cityName = citySlug.split("-").map(w => w[0]?.toUpperCase() + w.slice(1)).join(" ");
   const serviceName = service.split("-").map(w => w[0]?.toUpperCase() + w.slice(1)).join(" ");
 
   return {
-    title: `${serviceName} Agency in ${cityName} | Digital Paaji`,
-    description: `Top ${serviceName} agency in ${cityName} — tailored services and results-driven marketing.`,
-    alternates: { canonical: `https://digitalpaaji.com/${service}/${page}` },
-    openGraph: { title: `${serviceName} Agency in ${cityName}`, description: `...`, url: `https://digitalpaaji.com/${service}/${page}` },
+    title: blog.meta.title,
+    description: blog.meta.description,
+    alternates:  { canonical: `https://digitalpaaji.com/${service}/${page}` },
+      openGraph: {
+      title: blog.meta.title,
+      description: blog.meta.description,
+      url: `https://digitalpaaji.com/${service}/${page}`,
+    },
   };
 }
 
