@@ -87,9 +87,9 @@ export default function ServiceCityContent({ serviceName, cityName }) {
       <div className="xl:sticky xl:top-[100px] w-full xl:w-[25%]">
         {/* Tags */}
         <div>
-          <h1 className="text-xl font-medium servicePara text-[#3f3230]">
+          <h4 className="text-xl font-medium servicePara text-[#3f3230]">
             Services
-          </h1>
+          </h4>
           <div className="flex items-center flex-wrap gap-2 rounded-lg mt-4">
             <Link
               href={"/digital-marketing"}
@@ -130,9 +130,9 @@ export default function ServiceCityContent({ serviceName, cityName }) {
           </div>
         </div>
 
-        <h1 className="mt-8 text-xl font-medium servicePara text-[#3f3230]">
+        <h4 className="mt-8 text-xl font-medium servicePara text-[#3f3230]">
           Frequently Asked Questions
-        </h1>
+        </h4>
         <div className=" w-full mt-8">
           {blog.faqs?.map((faq, index) => (
             <div key={index}>
