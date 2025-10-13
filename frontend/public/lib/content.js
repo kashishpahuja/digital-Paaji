@@ -3350,7 +3350,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Chandigarh, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Chandigarh, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services in chandigarh.",
   "meta": {
     "title": "Best Video Production Agency in Chandigarh | Digital Paaji",
     "description": "Digital Paaji, the best video production agency in Chandigarh, delivers professional videos with affordable video production services in Chandigarh."
@@ -3471,7 +3471,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Patiala, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Patiala, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services in Patiala.",
   "meta": {
     "title": "Best Video Production Agency in Patiala | Digital Paaji",
     "description": "Digital Paaji, the best video production agency in Patiala, offers creative videos with affordable video production services in Patiala."
@@ -3592,7 +3592,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Mohali, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Mohali, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services in Mohali.",
   "meta": {
     "title": "Best Video Production Agency in Mohali | Digital Paaji",
     "description": "Want engaging videos? Digital Paaji is the best video production agency in Mohali with affordable video production services in Mohali."
@@ -3713,7 +3713,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Ludhiana, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Ludhiana, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services in Ludhiana.",
   "meta": {
     "title": "Best Video Production Agency in Ludhiana | Digital Paaji",
     "description": "Trusted by brands, Digital Paaji is the best video production agency in Ludhiana, offering affordable video production services in Ludhiana."
@@ -3834,7 +3834,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Nabha, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Nabha, helping businesses create professional videos that boost visibility, engagement, and conversions with affordable video production services in Nabha.",
   "meta": {
     "title": "Best Video Production Agency in Nabha | Digital Paaji",
     "description": "Boost your business with Digital Paaji, the best video production agency in Nabha, delivering affordable video production services in Nabha."
@@ -3955,7 +3955,7 @@ export const BLOGS = [
   ],
   "date": "September 19, 2025",
   "tag": "Video Production",
-  "description": "Digital Paaji is recognized as the best video production agency in Rajpura, delivering professional videos that enhance brand visibility, engagement, and conversions with affordable video production services.",
+  "description": "Digital Paaji is recognized as the best video production agency in Rajpura, delivering professional videos that enhance brand visibility, engagement, and conversions with affordable video production services in Rajpura.",
   "meta": {
     "title": "Best Video Production Agency in Rajpura | Digital Paaji",
     "description": "Digital Paaji helps brands shine as the best video production agency in Rajpura with affordable video production services in Rajpura."
@@ -4198,7 +4198,7 @@ export const BLOGS = [
   date: "September 19, 2025",
   tag: "Video Production",
   description:
-    "Digital Paaji is recognized as the best video production agency in Bathinda, helping businesses create a strong digital presence through impactful videos. We combine creativity, strategy, and technology to deliver professional video campaigns that attract the right audience and build lasting connections.",
+    "Best video production agency in Bathinda, Digital Paaji is known for helping businesses strengthen their digital presence through powerful and engaging videos. By combining creativity, strategy, and technology, we craft professional video campaigns that connect with the right audience and leave a lasting impact. Along with our expertise in visual storytelling, we also offer affordable digital marketing services in Bathinda, providing brands with complete, cost-effective solutions to enhance visibility and drive growth online.",
 
   meta: {
     title: "Best Video Production Agency in Bathinda | Digital Paaji",
@@ -4319,7 +4319,7 @@ export const BLOGS = [
   date: "September 20, 2025",
   tag: "Video Production",
   description:
-    "Digital Paaji is recognized as the best video production agency in Panchkula, helping businesses create a strong digital presence through impactful videos. We combine creativity, strategy, and technology to deliver professional video campaigns that attract the right audience and build lasting connections.",
+    "Best video production agency in Panchkula, Digital Paaji helps businesses build a strong digital presence through impactful and creative videos. By blending creativity, strategy, and technology, we deliver professional video campaigns that engage the right audience and foster lasting connections. With our commitment to quality and innovation, we also offer Affordable Video Production Services in Bathinda, providing brands with high-quality, budget-friendly visual solutions that drive growth and engagement.",
 
   meta: {
     title: "Best Video Production Agency in Panchkula | Digital Paaji",
