@@ -101,7 +101,7 @@ const schemaData = {
 
 export default function Page() {
   return (
-    <Fragment>
+    <>
       {/* JSON-LD Schema.org */}
       <script
         type="application/ld+json"
@@ -112,6 +112,6 @@ export default function Page() {
       <main>
         <Home />
       </main>
-    </Fragment>
+    </>
   );
 }

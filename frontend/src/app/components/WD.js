@@ -12,6 +12,7 @@ import Choose from '../components/web/Choose'
 
 import Select from '../components/web/Select'
 import Faq from '../components/web/Faq'
+import Websites from './web/Websites';
 
 
 
@@ -23,6 +24,9 @@ export default function About() {
   return (
     <main>
         <Header/>
+   <div className="my-16">
+        <Websites />
+      </div>
    <div className="my-16">
         <Services />
       </div>
