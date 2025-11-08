@@ -97,7 +97,7 @@ function Banner({
               </div>
               <div>
                 <p
-                  className="merriHead text-xs text-gray-800"
+                  className="merriHead text-xs text-gray-600"
                   style={{ fontWeight: 100 }}
                 >
                   Hover Me

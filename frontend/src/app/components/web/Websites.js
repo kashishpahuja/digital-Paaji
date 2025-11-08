@@ -4,50 +4,79 @@ import Link from 'next/link';
 
 const cardsData = [
   {
-    title: 'Credit / Debit Cards',
-    description: 'Premium metal cards designed for your lifestyle — durable, elegant, and unique.',
-    image:
-      'https://images.unsplash.com/photo-1479660656269-197ebb83b540?auto=compress&fit=crop&w=1000&q=80',
-    link: '/credit-debit',
+    title: 'Creekside Car Wash',
+    description:
+      'A full-stack MERN website featuring an online appointment booking system, gift card purchasing, and service management for a modern car wash experience.',
+    image: '/Images/wd/creekside.webp',
+    link: 'https://creekside-jet.vercel.app/',
   },
   {
-    title: 'Business Metal Cards',
-    description: 'Make a lasting impression with custom metal business cards for your brand.',
-    image:
-      'https://images.unsplash.com/photo-1479659929431-4342107adfc1?auto=compress&fit=crop&w=1000&q=80',
-    link: '/business-metal',
+    title: 'Hammer Experts',
+    description:
+      'A professional home improvement and renovation service website built on the MERN stack — offering seamless booking and project showcasing.',
+    image: '/Images/wd/hammer.webp',
+    link: 'https://hammerexperts.ca/',
   },
   {
-    title: 'Tap to Pay Cards',
-    description: 'Experience effortless transactions with tap-to-pay-enabled metal cards.',
-    image:
-      'https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?auto=compress&fit=crop&w=1000&q=80',
-    link: '/tap-to-pay',
+    title: 'The SMS World',
+    description:
+      'A custom-built digital marketing and bulk messaging platform designed to deliver high-performance SMS campaigns with a user-friendly dashboard.',
+    image: '/Images/wd/smsworld.webp',
+    link: 'https://thesmsworld.com/',
   },
   {
-    title: 'Card Holders',
-    description: 'Keep your cards safe and stylish with our premium metal card holders.',
-    image:
-      'https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?auto=compress&fit=crop&w=1000&q=80',
-    link: '/card-holders',
+    title: 'Digital Paaji Academy',
+    description:
+      'An educational platform built for Digital Paaji Academy — offering professional marketing and design courses with a sleek, interactive Next.js frontend.',
+    image: '/Images/wd/academy.webp',
+    link: 'https://digitalpaajiacademy.com/',
+  },
+  {
+    title: 'DigiMagnifiko',
+    description:
+      'A PHP-based marketing website focused on brand strategy, creative campaigns, and digital growth for businesses.',
+    image: '/Images/wd/magnifiko.webp',
+    link: 'https://www.digimagnifiko.com/',
+  },
+  {
+    title: 'Kaushalya Records',
+    description:
+      'A creative music production and artist management website for Kaushalya Records, designed to showcase new releases, artists, and studio services.',
+    image: '/Images/wd/kaushalya.webp',
+    link: 'https://kaushalyarecords.com/',
+  },
+  {
+    title: 'Property Profiles',
+    description:
+      'A real estate website for listing and showcasing premium properties with dynamic search and user-friendly layouts.',
+    image: '/Images/wd/property.webp',
+    link: 'https://propertyprofiles.in/',
   },
 ];
 
+
 function Cards() {
   return (
-    <section className="px-4 md:px-12 xl:px-24 2xl:px-40 py-32 w-full">
-       <div className="w-full text-center mb-8 md:mb-12 lg:mb-16">
-        <h1 className="font-serif text-3xl md:text-4xl xl:text-5xl  text-[#bc861a] font-medium mb-3 md:mb-4 bg-clip-text">
-          Our Collection
-        </h1>
-        <p className="text-[#eee] text-md md:text-md xl:text-lg mx-auto">
-          Explore our most popular products in a stunning 3D coverflow carousel
-        </p>
-      </div>
+    <section className="px-4 md:px-12 xl:px-24 2xl:px-52 py-32 w-full">
+<div className="w-full text-center mb-8 md:mb-12 lg:mb-16">
+  <h3 className="bungeeHead text-[#cc5f4d] text-[30px] xl:text-[40px]">
+    Projects We&apos;ve Built for Our Clients
+  </h3>
+  <p className="text-md md:text-md xl:text-lg mx-auto max-w-2xl mb-6">
+    Take a look at some of the creative and custom-made projects we&apos;ve developed.  
+    From sleek business websites to interactive platforms — we bring ideas to life!
+  </p>
+  <Link href={'/contact'} className=" px-6 py-4 border rounded-xl border-black bg-[#f8cb2e] hover:bg-[#cc5f4d] text-black font-medium text-lg">
+    Get Yours Customized
+  </Link>
+</div>
+
 
       <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-6">
         {cardsData.map((card, index) => (
-          <Link href={card.link} key={index} className="card-wrap w-full">
+          <Link target="_blank"
+    rel="noopener noreferrer"
+     href={card.link} key={index} className="card-wrap w-full">
             <div className="card w-full h-[280px] md:h-[400px]">
               <div
                 className="card-bg"

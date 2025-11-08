@@ -6,7 +6,7 @@ function Work() {
     { src: "/Images/work/2.webp", alt: "Creative Creatives", title: "Creative Creatives" },
     { src: "/Images/work/1.gif", alt: "Viral Reels", title: "VIRAL REELS" },
     { src: "/Images/work/3.webp", alt: "Results", title: "RESULTS" },
-    { src: "/Images/work/4.gif", alt: "Performing Videos", title: "PERFORMING VIDEOS" },
+    { src: "/Images/work/4.webp", alt: "Performing Videos", title: "PERFORMING VIDEOS" },
     { src: "/Images/work/5.webp", alt: "Performing Posts", title: "PERFORMING POSTS" },
     { src: "/Images/work/6.webp", alt: "Satisfied Clients", title: "SATISFIED CLIENTS" },
   ];
