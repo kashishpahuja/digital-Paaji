@@ -11,7 +11,7 @@ import Zoom from '../components/graphic/Zoom'
 import Why from '../components/graphic/Why'
 import Process from '../components/graphic/Process'
 import Faq from '../components/graphic/Faq'
-
+import Creatives from '../components/graphic/Creatives'
 
 
 export default function About() {
@@ -22,6 +22,9 @@ export default function About() {
   return (
     <main>
         <Header title="Graphic Designing Agency In India" content="We won't let good design go extinct!" button="Call Us"/>
+        <div className="my-16">
+        <Creatives />
+      </div>
         <div className="my-16">
         <Zoom />
       </div>
