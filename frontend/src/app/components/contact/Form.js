@@ -80,21 +80,21 @@ const handleCheckoxChange = (service)=>{
   const updatedFormData = { ...formData, service: selectedServices };
 
   setFormData(updatedFormData); // Update state
-
+     
     const isValid = validate();
     if (!isValid) return;
 
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://digital-paaji.onrender.com/send-mail', {
-      // const response = await fetch('http://localhost:8000/send-mail', {
+      // const response = await fetch('https://digital-paaji-backend.zerobugs.cloud/send-mail', {
+      const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(updatedFormData),
       });
 
       const data = await response.json();
@@ -310,7 +310,7 @@ const handleCheckoxChange = (service)=>{
         </div>
 
         {/* Submit Button */}
-        <div className="md:col-span-2 mx-auto flex flex-col gap-4 items-center">
+        <div className="md:col-span-2 mx-auto">
           <button
             type="submit"
             disabled={isSubmitting}

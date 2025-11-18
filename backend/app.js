@@ -19,19 +19,23 @@ app.post("/send-mail", async (req, res) => {
   const { fname, lname, email, phone, company, website, business, service, message, recaptchaToken } = req.body;
 
   // Verify reCAPTCHA Token
-
-
-
-
-
+  
   const secretKey = process.env.RECAPTCHA_SECRET_KEY;
-  const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
+  // const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaToken}`;
 
   try {
-    const recaptchaResponse = await fetch(recaptchaUrl, {
-      method: "POST",
-    });
+   const recaptchaResponse = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  body: `secret=${secretKey}&response=${recaptchaToken}`
+});
+
     const recaptchaData = await recaptchaResponse.json();
+    console.log("reCAPTCHA response:", recaptchaData);
+console.log("Received Token:", recaptchaToken);
+
     const { success } = recaptchaData;
 
     if (!success) {
