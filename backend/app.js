@@ -9,7 +9,19 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+// CORS FIX
+app.use(cors({
+  origin: [
+    "https://digitalpaaji.com",
+    "http://localhost:3000"
+  ],
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
+
+// Handle preflight requests
+app.options("*", cors());
+
 app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(bodyParser.json());
