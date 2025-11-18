@@ -110,9 +110,9 @@ app.post("/send-mail", async (req, res) => {
     const whatsappPayload = {
       country_code: "91",
       mobile: phone,
-      wid: "6351",
+      wid: "19455",
       type: "interactive",
-      template_name: "website11",
+      template_name: "paajiwebsite",
       language: { policy: "deterministic", code: "en" },
       bodyValues: { "1": fname },
     };
