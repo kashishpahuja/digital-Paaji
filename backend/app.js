@@ -11,10 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 // CORS FIX
 app.use(cors({
-  origin: [
-    "https://digitalpaaji.com",
-    "http://localhost:3000"
-  ],
+  origin: "*",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 }));
