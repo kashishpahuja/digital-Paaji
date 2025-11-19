@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -87,8 +87,8 @@ const handleCheckoxChange = (service)=>{
     setIsSubmitting(true);
 
     try {
-      // const response = await fetch('http://digital-paaji-backend.zerobugs.cloud/send-mail', {
-      const response = await fetch('http://localhost:8000/send-mail', {
+      const response = await fetch('https://dpbackend.zerobugs.cloud/send-mail', {
+      // const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
         headers: {
@@ -151,6 +151,14 @@ const handleCheckoxChange = (service)=>{
       setIsSubmitting(false);
     }
   };
+
+  const fetchdata= async()=>{
+    const response = await fetch("https://dpbackend.zerobugs.cloud");
+    const data = await response.json()
+    console.log(data)
+  }
+
+  useEffect(()=>{fetchdata()},[])
 
   return (
     <div className="mx-4 md:mx-12 xl:mx-60">

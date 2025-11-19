@@ -10,6 +10,28 @@ import Script from "next/script";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
+    const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadingTimeout = setTimeout(() => setIsLoading(false), 100);
+    return () => clearTimeout(loadingTimeout);
+  }, []);
+
+  useEffect(() => {
+    const updateFavicon = (href) => {
+      const existingLink = document.querySelector("link[rel='icon']");
+      if (existingLink) {
+        existingLink.href = href;
+      } else {
+        const newLink = document.createElement("link");
+        newLink.rel = "icon";
+        newLink.href = href;
+        document.head.appendChild(newLink);
+      }
+    };
+
+    updateFavicon("/Images/favicon.ico");
+  }, []);
   return (
     <html lang="en">
       <Head>
@@ -93,13 +115,23 @@ export default function RootLayout({ children }) {
             title="GTM"
           ></iframe>
         </noscript>
-
+ {isLoading ? (
+          <div className="flex items-center justify-center h-screen">
+            <Image
+              width={200}
+              height={200}
+              src="/Images/Preloader.gif"
+              alt="Loading..."
+            />
+          </div>
+        ) : ( 
         <>
           <Navbar />
           <main>{children}</main>
           <Footer />
           <Icons />
         </>
+           )} 
       </body>
     </html>
   );
