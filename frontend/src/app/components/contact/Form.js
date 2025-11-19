@@ -87,8 +87,8 @@ const handleCheckoxChange = (service)=>{
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://digital-paaji-backend.zerobugs.cloud/send-mail', {
-      // const response = await fetch('http://localhost:8000/send-mail', {
+      // const response = await fetch('http://digital-paaji-backend.zerobugs.cloud/send-mail', {
+      const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
         headers: {

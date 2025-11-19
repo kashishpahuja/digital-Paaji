@@ -1,29 +1,24 @@
 require("dotenv").config();
 const express = require("express");
-// const bodyParser = require("body-parser");
+
 const nodemailer = require("nodemailer");
 const cors = require("cors");
-const fetch = require("node-fetch"); // <-- Import node-fetch
+const fetch = require("node-fetch"); 
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
-// CORS FIX
-app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-}));
+app.use(cors());
 
-// Handle preflight requests
-// app.options("*", cors());
 
 app.use(express.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.json());
 
-// Email sending route
+
+
+app.get("/",async(req,res)=>{
+  return res.json({success:true,message:"site is running"})
+})
+
 app.post("/send-mail", async (req, res) => {
   const { fname, lname, email, phone, company, website, business, service, message, recaptchaToken } = req.body;
 
