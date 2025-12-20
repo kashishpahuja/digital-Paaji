@@ -87,7 +87,7 @@ const handleCheckoxChange = (service)=>{
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://dpbackend.zerobugs.cloud/send-mail', {
+      const response = await fetch('https://dpbackend.zerobugs.cloud/paaji/send-mail', {
       // const response = await fetch('http://localhost:8000/send-mail', {
 
         method: 'POST',
